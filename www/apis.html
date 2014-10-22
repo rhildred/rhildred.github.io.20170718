@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Rich's API Examples</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="code examples, largely for my teaching at Conestoga">
+<meta name="author" content="Rich Hildred">
+<meta name="keywords" content="php java c#">
+<link rel="shortcut icon" href="YinYang.ico">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+</head>
+<body>
+<div class="container">
+<h1>Mail API Setup for <span id="emailid"></span></h1>
+    <form id="emailSetup">
+        <p>
+            <label for="password">Gmail Password</label><br />
+            <input type="password" name="password" placeholder="password"/>
+        </p>
+        <p>
+            <label for="recipient">Recipient of Information Requests</label><br />
+            <input type="email" name="recipient" placeholder="recipient" />
+        </p>
+        <p>
+            <label for="success">Success Landing Page</label><br />
+            <input type="text" name="success" placeholder="leave blank for JSON" />
+        </p>
+        <p>
+            <label for="failure">Failure Landing Page</label><br />
+            <input type="text" name="failure" placeholder="leave blank for JSON" />
+        </p>
+        <p>
+            <label for="service">Service URL</label><br />
+            <span id="service">This will be filled in after first update</span>
+        </p>
+        <button type="submit" class="btn btn-primary btn-lg">Update</button>
+    </form>
+</div>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script>
+    jQuery(document).ready(function(){
+       jQuery.ajax({url: "CurrentUser", dataType: "json"}).done(function(oUser){
+          jQuery("#emailid").html(oUser.email);
+           jQuery("#emailSetup").append('<input type="hidden" name="email" value="' + oUser.email + '" />');
+       }).fail(function(err){
+           console.log(err);
+           window.location.replace("index.html");
+       });
+
+        jQuery("#emailSetup").submit(function(){
+            var oFormVars = jQuery(this).serialize();
+            alert("recipient was " + oFormVars["recipient"]);
+            return false;
+        });
+    });
+    </script>
+</body>
+</html>

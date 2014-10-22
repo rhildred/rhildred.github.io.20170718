@@ -23,7 +23,7 @@ class LoginController extends AbstractController
         {
             $rc= $oOauth2->handleCode($request->parameters["code"]);
             $rc->since = date('l jS \of F Y h:i:s A');
-            $_SESSION["currentuser"]["id"] = $rc->id;
+            $_SESSION["currentuser"] = $rc;
             if(array_key_exists("redirect", $_SESSION))
             {
                 header("Location: " . $_SESSION["redirect"]);
@@ -38,6 +38,15 @@ class LoginController extends AbstractController
             }
             $oOauth2->redirect();
         }
+    }
+
+    public function delete($request)
+    {
+        session_start();
+        unset($_SESSION["currentuser"]);
+        $rc = new stdClass();
+        $rc->result = "success";
+        return $rc;
     }
 
 }
