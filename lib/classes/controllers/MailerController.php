@@ -1,5 +1,7 @@
 <?php
 
+error_reporting(E_ALL ^ E_STRICT);
+
 class MailerController extends AbstractController{
     public function get($request){
         // the get is going to actually send an email so that we can redirect afterwards
@@ -50,14 +52,19 @@ class MailerController extends AbstractController{
         // Send the message
         $mail = $smtp->send($recipient, $headers, $body);
 
+        $sReferer = dirname($_SERVER['HTTP_REFERER']);
         if (PEAR::isError($mail)) {
             $sResults = $mail->getMessage();
+            if($oUser->failure != '') header("Location: " . $sReferer . '/' . $oUser->failure);
+
         }
         else {
             $sResults = "thank-you for your inquiry";
+            if($oUser->success != '') header("Location: " . $sReferer . '/' . $oUser->success);
         }
         $rc = new stdClass();
         $rc->result = $sResults;
+        $rc->referrer = $sReferer;
         return($rc);
     }
 
@@ -85,4 +92,6 @@ class MailerController extends AbstractController{
         $rc->url = "https://rich-hildred.rhcloud.com/Mailer/" . $sGuid;
         return $rc;
     }
+
+
 }
