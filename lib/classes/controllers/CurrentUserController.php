@@ -10,6 +10,7 @@ class CurrentUserController extends AbstractController
 	public function get($request)
 	{
         session_start();
+        if(!isset($_SESSION["currentuser"])) throw new Exception('no user logged in');
 		return $_SESSION["currentuser"];
 	}
 

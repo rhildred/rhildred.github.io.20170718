@@ -14,8 +14,8 @@
 <h1>Mail API Setup for <span id="emailid"></span></h1>
     <form id="emailSetup">
         <p>
-            <label for="password">Gmail Password</label><br />
-            <input type="password" name="password" placeholder="password"/>
+            <label for="secret">Gmail Password</label><br />
+            <input type="password" name="secret" placeholder="password"/>
         </p>
         <p>
             <label for="recipient">Recipient of Information Requests</label><br />
@@ -50,7 +50,14 @@
 
         jQuery("#emailSetup").submit(function(){
             var oFormVars = jQuery(this).serialize();
-            alert("recipient was " + oFormVars["recipient"]);
+            jQuery.ajax({
+                url: "Mailer",
+                data: oFormVars,
+                type: "post",
+                dataType: "json"
+            }).done(function(oRc){
+                jQuery("#service").html(oRc.url);
+            });
             return false;
         });
     });
