@@ -30,7 +30,6 @@ CREATE TABLE IF NOT EXISTS `accounts` (
   `id` varchar(32) NOT NULL,
   `name` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
-  `secret` varchar(255) NOT NULL,
   `recipient` varchar(255) NOT NULL,
   `success` varchar(255) NOT NULL,
   `failure` varchar(255) NOT NULL,
