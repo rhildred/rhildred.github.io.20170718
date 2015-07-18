@@ -13,7 +13,7 @@ class MailerController extends AbstractController{
         // then we actually need to send the email
 
         // Identify the sender, recipient, mail subject, and body
-        $oCreds = json_decode(file_get_contents('../../data/creds/sendgrid.json'));
+        $oCreds = json_decode(file_get_contents('../data/creds/sendgrid.json'));
         $sender    = $oCreds->from;
         $recipient = $oUser->recipient;
         $subject   = $request->parameters["subject"];
