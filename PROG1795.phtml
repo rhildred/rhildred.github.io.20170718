@@ -1,0 +1,36 @@
+<?php
+require_once 'lib/template.php';
+$Viewbag->title = "Rich: PROG1795";
+layout("_layout.phtml");
+?>
+<?php renderMarkdown("courses/PROG1795/schedule.md");
+?>
+<hr />
+<div class="bookmark" id="staticFramework">
+<?php renderMarkdown("articles/staticFramework.md");
+?>
+</div>
+<hr />
+<div class="bookmark" id="js-toolbox">
+<?php renderMarkdown("articles/js-toolbox.md");
+?>
+</div>
+<hr />
+<div class="bookmark" id="javascriptEvents">
+<?php renderMarkdown("articles/javascriptEvents.md");
+?>
+</div>
+<hr />
+<div class="bookmark" id="ConsumingAPI">
+<?php renderMarkdown("articles/ConsumingAPI.md");
+?>
+<hr />
+<div class="bookmark" id="tdd">
+<?php renderMarkdown("courses/PROG1795/tdd.md");
+?>
+</div>
+<hr />
+<div class="bookmark" id="final">
+<?php renderMarkdown("courses/PROG1795/final.md");
+?>
+</div>

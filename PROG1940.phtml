@@ -1,0 +1,34 @@
+<?php
+require_once 'lib/template.php';
+$Viewbag->title = "Rich: PROG1940";
+layout("_layout.phtml");
+?>
+<?php renderMarkdown("courses/PROG1940/PROG1940.md");
+?>
+<hr />
+<?php renderMarkdown("articles/BuildingBlocks.md");
+?>
+<hr />
+<div id="database" class="bookmark">
+<?php renderMarkdown("articles/Database.md");
+?>
+</div>
+<hr />
+<div id="parameters" class="bookmark">
+<?php renderMarkdown("articles/Parameters.md");
+?>
+</div>
+<hr />
+<div id="slim" class="bookmark">
+<?php renderMarkdown("courses/PROG1940/slim.md");
+?>
+</div><hr />
+<div id="migrations" class="bookmark">
+<?php renderMarkdown("courses/PROG1940/migrations.md");
+?>
+</div><hr />
+<div id="final" class="bookmark">
+<?php renderMarkdown("courses/PROG1940/final.md");
+?>
+</div>
+

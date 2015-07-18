@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz</title>
+
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="css/impress-demo.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <div class="fallback-message">
+        <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+        <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+    </div>
+    <div id="impress">
+        <div id="os_fs" class="step slide" data-x="500" data-y="-1400">
+            <img src="http://upload.wikimedia.org/wikipedia/commons/6/6e/LAN_WAN_scheme.svg" style="height:80%;width:auto;margin: 0 auto;display:block">
+            <h1>Local Area Networks</h1>
+            <p>Rich Hildred - rhildred@wlu.ca - 519-594-0900</p>
+        </div>
+        <div id="BB10" class="step slide" data-x="500" data-y="-700">
+            <iframe style="height:90%;width:100%" src="http://www.youtube.com/embed/dY1ecfWT3GQ" frameborder="0" allowfullscreen></iframe>
+            <h1>BlackBerry Super Bowl Ad</h1>
+        </div>
+
+        <div id="QNX" class="step slide" data-x="500" data-y="0">
+            <h1>BB10</h1>
+            <img src="http://crackberry.com/sites/crackberry.com/files/blackberry-10-review/qnx_microkernel_wheel.jpg" style="height:80%;width:auto;margin: 0 auto;display:block">
+        </div>
+
+        <div id="BBW" class="step slide" data-x="500" data-y="700">
+            <h1>Blackberry World</h1>
+            <img src="http://goinfront.com/var/ezdemo_site/storage/images/goinfront/support-downloads/infront-mobile/blackberry-world/372-1-eng-GB/Blackberry-World.png" style="height:auto;width:100%;margin: 0 auto;display:block" />
+        </div>
+
+
+        <div id="IOS" class="step slide" data-x="500" data-y="1400">
+            <h1>ITunes</h1>
+            <img src="http://upload.wikimedia.org/wikipedia/commons/5/55/Download_on_iTunes.svg" style="height:auto;width:100%;margin: 0 auto;display:block" />
+        </div>
+
+
+        <div id="ANDROID" class="step slide" data-x="500" data-y="2100">
+<h1>Google Play</h1>
+            <img src="http://upload.wikimedia.org/wikipedia/commons/c/cd/Get_it_on_Google_play.svg" style="height:auto;width:100%;margin: 0 auto;display:block" />
+        </div>
+
+       <div id="WINDOWS" class="step slide" data-x="500" data-y="2800">
+<h1>Windows Phone Store</h1>
+           <img src="http://winblog.blob.core.windows.net/win/sites/3/2012/10/4401.WindowsStore_5F00_blk_5F00_1192D142.png" style="height:auto;width:100%;margin: 0 auto;display:block" />
+        </div>
+
+        <div id="conclusion" class="step slide" data-x="500" data-y="3500">
+
+            <a href="https://build.phonegap.com/"><img src="http://front-endmagazine.com/wp-content/uploads/2012/09/adobe-phonegap-build.jpg" style="width:auto;height:80%;margin: 0 auto;display:block" /></a>
+            <h1>It is the time for mobile</h1>
+                <p>And OS is very much part of that time.</p>
+
+        </div>
+
+
+    </div>
+    <div class="hint">
+        <p>Use a spacebar or arrow keys to navigate</p>
+    </div>
+    <script>
+        if ("ontouchstart" in document.documentElement) {
+            document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+        }
+    </script>
+
+
+    <script src="js/impress.js"></script>
+    <script>
+        impress().init();
+    </script>
+
+</body>
+
+</html>

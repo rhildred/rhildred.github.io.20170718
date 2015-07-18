@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz</title>
+
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="../../css/impress-demo.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <div class="fallback-message">
+        <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+        <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+    </div>
+    <div id="impress">
+        <div id="slide1" class="step slide" data-x="500" data-y="-2800">
+            <img alt="Jessica Rossi" src="http://upload.wikimedia.org/wikipedia/commons/c/c8/Chocolate_Milkshake_at_Bobs_Big_Boy.jpg" style="height:80%;width:auto;margin: 0 auto;display:block" />
+            <h1>BUS3140 - Customer's Job for your product</h1>
+            <p>Rich Hildred - rhildred@conestogac.on.ca - 519-594-0900</p>
+        </div>
+        <div id="slide1.5" class="step slide" data-x="500" data-y="-2100">
+            <h1>Objectives</h1>
+            <ul>
+                <li>Define and explain the importance of segmenting the market and defining the target market for a product
+</li>
+                <li>Define and explain the importance of differentiation in the market</li>
+                <li>Define and explain the importance of being focussed on one market in the early phases of a companies life
+</li>
+            </ul>
+        </div>
+
+        <div id="slide2" class="step slide" data-x="500" data-y="-1400">
+            <h1>Identify, define, and be able to defend the product or service's value proposition, including:</h1>
+            <ul>
+                <li>Who will pay for their product or service</li>
+                <li>How does the competition succeed
+</li>
+                <li>How are potential customers currently solving the problem</li>
+                <li>Is the problem large truly enough to drive the customer to purchase</li>
+                <li>Are any developing trends going to cause disruption in coming years</li>
+            </ul>
+
+        </div>
+        <div id="slide2.5" class="step slide" data-x="500" data-y="-700">
+             <h1>Objectives (cont)</h1>
+            <ul>
+                <li style="color: #CCC">Define and explain the process of customer discovery & development</li>
+                <li>Define and quantify customer acquisition costs
+</li>
+                <li>Describe the process of obtaining feedback from customers, why it is important, and how this feedback can be fed back into business and product development processes
+</li>
+                <li>Describe how cost drivers, market strategies, ramp up times, and other challenges can affect the starting of the business</li>
+            </ul>
+        </div>
+
+
+        <div id="slide3" class="step slide" data-x="500" data-y="0">
+           <img src="http://upload.wikimedia.org/wikipedia/commons/d/d3/Technology-Adoption-Lifecycle.png" alt="private communication with Craig Chelius" style="height:auto;width:100%;margin: 0 auto;display:block"/>
+        </div>
+
+        <div id="slide4" class="step slide" data-x="500" data-y="700">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/qDrMAzCHFUU" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div id="slide5" class="step slide" data-x="500" data-y="1400">
+           <iframe width="100%" height="100%" src="https://www.youtube.com/embed/f84LymEs67Y" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+
+        <div id="conclusion" class="step slide" data-x="500" data-y="2100">
+            <img src="https://farm1.staticflickr.com/1/1246523_2194d6ca17_o_d.jpg" style="height:80%;width:auto;margin: 0 auto;display:block" />
+            <p>Better a Big Fish in a little Sea</p>
+        </div>
+
+
+    </div>
+    <div class="hint">
+        <p>Use a spacebar or arrow keys to navigate</p>
+    </div>
+    <script>
+        if ("ontouchstart" in document.documentElement) {
+            document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+        }
+    </script>
+
+
+    <script src="../../js/impress.js"></script>
+    <script>
+        impress().init();
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,605 @@
+.sprite {
+  background: url( 'sprite.png' ) no-repeat;
+  background-size: 5920px 5200px;
+}
+
+.sprite.tumble46 {
+  width: 740px;
+  height: 400px;
+  background-position: 0px 0px;
+}
+
+.sprite.tumble00 {
+  width: 740px;
+  height: 400px;
+  background-position: -740px 0px;
+}
+
+.sprite.tumble00rep2 {
+  width: 740px;
+  height: 400px;
+  background-position: 0px -400px;
+}
+
+.sprite.tumble00rep3 {
+  width: 740px;
+  height: 400px;
+  background-position: -740px -400px;
+}
+
+.sprite.tumble00rep4 {
+  width: 740px;
+  height: 400px;
+  background-position: 0px -800px;
+}
+
+.sprite.tumble01 {
+  width: 740px;
+  height: 400px;
+  background-position: -740px -800px;
+}
+
+.sprite.tumble02 {
+  width: 740px;
+  height: 400px;
+  background-position: -1480px 0px;
+}
+
+.sprite.tumble03 {
+  width: 740px;
+  height: 400px;
+  background-position: -1480px -400px;
+}
+
+.sprite.tumble04 {
+  width: 740px;
+  height: 400px;
+  background-position: -1480px -800px;
+}
+
+.sprite.tumble05 {
+  width: 740px;
+  height: 400px;
+  background-position: 0px -1200px;
+}
+
+.sprite.tumble06 {
+  width: 740px;
+  height: 400px;
+  background-position: -740px -1200px;
+}
+
+.sprite.tumble07 {
+  width: 740px;
+  height: 400px;
+  background-position: -1480px -1200px;
+}
+
+.sprite.tumble08 {
+  width: 740px;
+  height: 400px;
+  background-position: 0px -1600px;
+}
+
+.sprite.tumble09 {
+  width: 740px;
+  height: 400px;
+  background-position: -740px -1600px;
+}
+
+.sprite.tumble10 {
+  width: 740px;
+  height: 400px;
+  background-position: -1480px -1600px;
+}
+
+.sprite.tumble11 {
+  width: 740px;
+  height: 400px;
+  background-position: -2220px 0px;
+}
+
+.sprite.tumble12 {
+  width: 740px;
+  height: 400px;
+  background-position: -2220px -400px;
+}
+
+.sprite.tumble13 {
+  width: 740px;
+  height: 400px;
+  background-position: -2220px -800px;
+}
+
+.sprite.tumble14 {
+  width: 740px;
+  height: 400px;
+  background-position: -2220px -1200px;
+}
+
+.sprite.tumble15 {
+  width: 740px;
+  height: 400px;
+  background-position: -2220px -1600px;
+}
+
+.sprite.tumble16 {
+  width: 740px;
+  height: 400px;
+  background-position: 0px -2000px;
+}
+
+.sprite.tumble17 {
+  width: 740px;
+  height: 400px;
+  background-position: -740px -2000px;
+}
+
+.sprite.tumble18 {
+  width: 740px;
+  height: 400px;
+  background-position: -1480px -2000px;
+}
+
+.sprite.tumble19 {
+  width: 740px;
+  height: 400px;
+  background-position: -2220px -2000px;
+}
+
+.sprite.tumble20 {
+  width: 740px;
+  height: 400px;
+  background-position: 0px -2400px;
+}
+
+.sprite.tumble21 {
+  width: 740px;
+  height: 400px;
+  background-position: -740px -2400px;
+}
+
+.sprite.tumble22 {
+  width: 740px;
+  height: 400px;
+  background-position: -1480px -2400px;
+}
+
+.sprite.tumble23 {
+  width: 740px;
+  height: 400px;
+  background-position: -2220px -2400px;
+}
+
+.sprite.tumble24 {
+  width: 740px;
+  height: 400px;
+  background-position: -2960px 0px;
+}
+
+.sprite.tumble25 {
+  width: 740px;
+  height: 400px;
+  background-position: -2960px -400px;
+}
+
+.sprite.tumble26 {
+  width: 740px;
+  height: 400px;
+  background-position: -2960px -800px;
+}
+
+.sprite.tumble27 {
+  width: 740px;
+  height: 400px;
+  background-position: -2960px -1200px;
+}
+
+.sprite.tumble28 {
+  width: 740px;
+  height: 400px;
+  background-position: -2960px -1600px;
+}
+
+.sprite.tumble29 {
+  width: 740px;
+  height: 400px;
+  background-position: -2960px -2000px;
+}
+
+.sprite.tumble30 {
+  width: 740px;
+  height: 400px;
+  background-position: -2960px -2400px;
+}
+
+.sprite.tumble31 {
+  width: 740px;
+  height: 400px;
+  background-position: 0px -2800px;
+}
+
+.sprite.tumble32 {
+  width: 740px;
+  height: 400px;
+  background-position: -740px -2800px;
+}
+
+.sprite.tumble33 {
+  width: 740px;
+  height: 400px;
+  background-position: -1480px -2800px;
+}
+
+.sprite.tumble34 {
+  width: 740px;
+  height: 400px;
+  background-position: -2220px -2800px;
+}
+
+.sprite.tumble35 {
+  width: 740px;
+  height: 400px;
+  background-position: -2960px -2800px;
+}
+
+.sprite.tumble36 {
+  width: 740px;
+  height: 400px;
+  background-position: 0px -3200px;
+}
+
+.sprite.tumble37 {
+  width: 740px;
+  height: 400px;
+  background-position: -740px -3200px;
+}
+
+.sprite.tumble38 {
+  width: 740px;
+  height: 400px;
+  background-position: -1480px -3200px;
+}
+
+.sprite.tumble39 {
+  width: 740px;
+  height: 400px;
+  background-position: -2220px -3200px;
+}
+
+.sprite.tumble40 {
+  width: 740px;
+  height: 400px;
+  background-position: -2960px -3200px;
+}
+
+.sprite.tumble41 {
+  width: 740px;
+  height: 400px;
+  background-position: -3700px 0px;
+}
+
+.sprite.tumble42 {
+  width: 740px;
+  height: 400px;
+  background-position: -3700px -400px;
+}
+
+.sprite.tumble43 {
+  width: 740px;
+  height: 400px;
+  background-position: -3700px -800px;
+}
+
+.sprite.tumble44 {
+  width: 740px;
+  height: 400px;
+  background-position: -3700px -1200px;
+}
+
+.sprite.tumble45 {
+  width: 740px;
+  height: 400px;
+  background-position: -3700px -1600px;
+}
+
+.sprite.tumble00rep1 {
+  width: 740px;
+  height: 400px;
+  background-position: -3700px -2000px;
+}
+
+.sprite.tumble47 {
+  width: 740px;
+  height: 400px;
+  background-position: -3700px -2400px;
+}
+
+.sprite.tumble48 {
+  width: 740px;
+  height: 400px;
+  background-position: -3700px -2800px;
+}
+
+.sprite.tumble49 {
+  width: 740px;
+  height: 400px;
+  background-position: -3700px -3200px;
+}
+
+.sprite.tumble50 {
+  width: 740px;
+  height: 400px;
+  background-position: 0px -3600px;
+}
+
+.sprite.tumble51 {
+  width: 740px;
+  height: 400px;
+  background-position: -740px -3600px;
+}
+
+.sprite.tumble52 {
+  width: 740px;
+  height: 400px;
+  background-position: -1480px -3600px;
+}
+
+.sprite.tumble53 {
+  width: 740px;
+  height: 400px;
+  background-position: -2220px -3600px;
+}
+
+.sprite.tumble54 {
+  width: 740px;
+  height: 400px;
+  background-position: -2960px -3600px;
+}
+
+.sprite.tumble55 {
+  width: 740px;
+  height: 400px;
+  background-position: -3700px -3600px;
+}
+
+.sprite.tumble56 {
+  width: 740px;
+  height: 400px;
+  background-position: 0px -4000px;
+}
+
+.sprite.tumble57 {
+  width: 740px;
+  height: 400px;
+  background-position: -740px -4000px;
+}
+
+.sprite.tumble58 {
+  width: 740px;
+  height: 400px;
+  background-position: -1480px -4000px;
+}
+
+.sprite.tumble59 {
+  width: 740px;
+  height: 400px;
+  background-position: -2220px -4000px;
+}
+
+.sprite.tumble60 {
+  width: 740px;
+  height: 400px;
+  background-position: -2960px -4000px;
+}
+
+.sprite.tumble61 {
+  width: 740px;
+  height: 400px;
+  background-position: -3700px -4000px;
+}
+
+.sprite.tumble62 {
+  width: 740px;
+  height: 400px;
+  background-position: -4440px 0px;
+}
+
+.sprite.tumble63 {
+  width: 740px;
+  height: 400px;
+  background-position: -4440px -400px;
+}
+
+.sprite.tumble64 {
+  width: 740px;
+  height: 400px;
+  background-position: -4440px -800px;
+}
+
+.sprite.tumble65 {
+  width: 740px;
+  height: 400px;
+  background-position: -4440px -1200px;
+}
+
+.sprite.tumble66 {
+  width: 740px;
+  height: 400px;
+  background-position: -4440px -1600px;
+}
+
+.sprite.tumble67 {
+  width: 740px;
+  height: 400px;
+  background-position: -4440px -2000px;
+}
+
+.sprite.tumble68 {
+  width: 740px;
+  height: 400px;
+  background-position: -4440px -2400px;
+}
+
+.sprite.tumble69 {
+  width: 740px;
+  height: 400px;
+  background-position: -4440px -2800px;
+}
+
+.sprite.tumble70 {
+  width: 740px;
+  height: 400px;
+  background-position: -4440px -3200px;
+}
+
+.sprite.tumble71 {
+  width: 740px;
+  height: 400px;
+  background-position: -4440px -3600px;
+}
+
+.sprite.tumble72 {
+  width: 740px;
+  height: 400px;
+  background-position: -4440px -4000px;
+}
+
+.sprite.tumble73 {
+  width: 740px;
+  height: 400px;
+  background-position: 0px -4400px;
+}
+
+.sprite.tumble74 {
+  width: 740px;
+  height: 400px;
+  background-position: -740px -4400px;
+}
+
+.sprite.tumble75 {
+  width: 740px;
+  height: 400px;
+  background-position: -1480px -4400px;
+}
+
+.sprite.tumble76 {
+  width: 740px;
+  height: 400px;
+  background-position: -2220px -4400px;
+}
+
+.sprite.tumble76rep1 {
+  width: 740px;
+  height: 400px;
+  background-position: -2960px -4400px;
+}
+
+.sprite.tumble76rep10 {
+  width: 740px;
+  height: 400px;
+  background-position: -3700px -4400px;
+}
+
+.sprite.tumble76rep11 {
+  width: 740px;
+  height: 400px;
+  background-position: -4440px -4400px;
+}
+
+.sprite.tumble76rep12 {
+  width: 740px;
+  height: 400px;
+  background-position: -5180px 0px;
+}
+
+.sprite.tumble76rep13 {
+  width: 740px;
+  height: 400px;
+  background-position: -5180px -400px;
+}
+
+.sprite.tumble76rep14 {
+  width: 740px;
+  height: 400px;
+  background-position: -5180px -800px;
+}
+
+.sprite.tumble76rep15 {
+  width: 740px;
+  height: 400px;
+  background-position: -5180px -1200px;
+}
+
+.sprite.tumble76rep16 {
+  width: 740px;
+  height: 400px;
+  background-position: -5180px -1600px;
+}
+
+.sprite.tumble76rep17 {
+  width: 740px;
+  height: 400px;
+  background-position: -5180px -2000px;
+}
+
+.sprite.tumble76rep18 {
+  width: 740px;
+  height: 400px;
+  background-position: -5180px -2400px;
+}
+
+.sprite.tumble76rep19 {
+  width: 740px;
+  height: 400px;
+  background-position: -5180px -2800px;
+}
+
+.sprite.tumble76rep2 {
+  width: 740px;
+  height: 400px;
+  background-position: -5180px -3200px;
+}
+
+.sprite.tumble76rep3 {
+  width: 740px;
+  height: 400px;
+  background-position: -5180px -3600px;
+}
+
+.sprite.tumble76rep4 {
+  width: 740px;
+  height: 400px;
+  background-position: -5180px -4000px;
+}
+
+.sprite.tumble76rep5 {
+  width: 740px;
+  height: 400px;
+  background-position: -5180px -4400px;
+}
+
+.sprite.tumble76rep6 {
+  width: 740px;
+  height: 400px;
+  background-position: 0px -4800px;
+}
+
+.sprite.tumble76rep7 {
+  width: 740px;
+  height: 400px;
+  background-position: -740px -4800px;
+}
+
+.sprite.tumble76rep8 {
+  width: 740px;
+  height: 400px;
+  background-position: -1480px -4800px;
+}
+
+.sprite.tumble76rep9 {
+  width: 740px;
+  height: 400px;
+  background-position: -2220px -4800px;
+}
+

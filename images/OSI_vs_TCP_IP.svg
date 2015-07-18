@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+
+ <g>
+  <title>OSI vs TCP/IP</title>
+  <text fill="#000000" stroke="#000000" stroke-width="0" x="160" y="36" id="svg_1" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve">OSI 7 Layer Model</text>
+  <rect fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="65" y="71" width="226" height="350" id="svg_10"/>
+  <!-- The layer text -->
+  <text fill="#000000" stroke="#000000" stroke-width="0" x="175" y="100" id="svg_1" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve">Application</text>
+  <text id="svg_9" fill="#000000" stroke="#000000" stroke-width="0" x="175" y="150" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve">Presentation</text>
+  <text id="svg_9" fill="#000000" stroke="#000000" stroke-width="0" x="175" y="200" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve">Session</text>
+  <text id="svg_9" fill="#000000" stroke="#000000" stroke-width="0" x="175" y="250" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve">Transport</text>
+  <text id="svg_9" fill="#000000" stroke="#000000" stroke-width="0" x="175" y="300" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve">Network</text>
+  <text id="svg_9" fill="#000000" stroke="#000000" stroke-width="0" x="175" y="350" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve">Data Link</text>
+  <text id="svg_9" fill="#000000" stroke="#000000" stroke-width="0" x="175" y="400" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve">Physical</text>
+  <!-- Separators -->
+  <line fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="66" y1="121" x2="290" y2="121" id="svg_15"/>
+  <line fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="65.5" y1="171" x2="289.5" y2="171" id="svg_17"/>
+  <line fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="67.5" y1="221" x2="291.5" y2="221" id="svg_18"/>
+  <line fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="66" y1="271" x2="290" y2="271" id="svg_15"/>
+  <line fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="65.5" y1="321" x2="289.5" y2="321" id="svg_17"/>
+  <line fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="67.5" y1="371" x2="291.5" y2="371" id="svg_18"/>
+  <!-- the numbers -->
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_2" y="100" x="40" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">7</text>
+  <text id="svg_3" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" y="150" x="40" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">6</text>
+  <text id="svg_4" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" y="200" x="40" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">5</text>
+  <text id="svg_5" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" y="250" x="40" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">4</text>
+  <text id="svg_6" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" y="300" x="40" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">3</text>
+  <text id="svg_7" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" y="350" x="40" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">2</text>
+  <text id="svg_8" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" y="400" x="40" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">1</text>
+  <!-- TCP -->
+  <text id="svg_12" fill="#000000" stroke="#000000" stroke-width="0" x="416.5" y="36" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve">TCP/IP</text>
+  <line id="svg_16" y2="366" x2="425" y1="299" x1="324" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#c6c2c2" fill="none"/>
+  <line id="svg_22" y2="302" x2="425" y1="235" x1="324" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#c6c2c2" fill="none"/>
+  <rect fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="324" y="70" width="226" height="350" id="svg_11"/>
+  <line fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="324" y1="221" x2="550" y2="221" id="svg_18"/>
+  <text id="svg_13" fill="#000000" stroke="#000000" stroke-width="0" x="430" y="146" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve">Application</text>
+  <line fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="324" y1="271" x2="550" y2="271" id="svg_18"/>
+  <text id="svg_13" fill="#000000" stroke="#000000" stroke-width="0" x="483" y="250" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve">Transport</text>
+  <line fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="324" y1="321" x2="550" y2="321" id="svg_18"/>
+  <text id="svg_13" fill="#000000" stroke="#000000" stroke-width="0" x="483" y="300" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve">Internet</text>
+  <text id="svg_13" fill="#000000" stroke="#000000" stroke-width="0" x="483" y="360" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve">Network</text>
+  <text id="svg_13" fill="#000000" stroke="#000000" stroke-width="0" x="483" y="390" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve">Interface</text>
+  <line fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="425" y1="421" x2="425" y2="221" id="svg_14"/>
+  <line fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="381" y1="271" x2="381" y2="321" id="svg_19"/>
+  <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="353" y="292" id="svg_20" font-size="18" font-family="serif" text-anchor="middle" xml:space="preserve">Source</text>
+  <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="353" y="310" id="svg_20" font-size="18" font-family="serif" text-anchor="middle" xml:space="preserve">IP</text>
+  <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="403" y="292" id="svg_21" font-size="18" font-family="serif" text-anchor="middle" xml:space="preserve">Dest.</text>
+  <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="403" y="310" id="svg_21" font-size="18" font-family="serif" text-anchor="middle" xml:space="preserve">IP</text>
+ </g>
+</svg>

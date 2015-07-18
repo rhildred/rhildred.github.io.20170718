@@ -1,0 +1,46 @@
+<?php
+require_once 'lib/template.php';
+$Viewbag->title = "Rich's interests";
+layout("_layout.phtml");
+?>
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+	<div class="container">
+		<h1>Rich Hildred</h1>
+		<p>"Creative Active Individuals can only grow up in a society that
+			emphasizes learning instead of teaching." - Chris Alexander</p>
+		<p>Read more about my learning interests below or proceed to a
+			current course by clicking one of the buttons.</p>
+		<p>
+                <a class="btn btn-primary btn-lg"
+				role="button" href="BUS3140#lecture2">BUS3140&nbsp;&nbsp;
+				<i class="icon-arrow-right"></i></a>
+                <a class="btn btn-primary btn-lg"
+				role="button" href="COMP2280">COMP2280&nbsp;&nbsp;
+				<i class="icon-arrow-right"></i></a>
+                <a class="btn btn-primary btn-lg"
+				role="button" href="INFO3160">INFO3160&nbsp;&nbsp;
+				<i class="icon-arrow-right"></i></a>
+                <a class="btn btn-primary btn-lg"
+				role="button" href="PROG1940">PROG1940&nbsp;&nbsp;
+				<i class="icon-arrow-right"></i></a>
+		</p>
+	</div>
+</div>
+<?php renderMarkdown('articles/SplitTesting.md') ?>
+<hr />
+<?php renderMarkdown('articles/Hactivism.md') ?>
+<hr />
+<?php renderMarkdown('articles/openSource.md') ?>
+<hr />
+<?php renderMarkdown('articles/webDevelopment.md') ?>
+<hr />
+<?php renderMarkdown('articles/brackets.md') ?>
+<hr />
+<?php renderMarkdown('articles/javascriptEvents.md') ?>
+<hr />
+<?php renderMarkdown('articles/assert-runner.md') ?>
+<hr />
+<?php renderMarkdown('articles/js-toolbox.md') ?>
+<hr />
+<?php renderMarkdown('articles/WebRTC.md') ?>

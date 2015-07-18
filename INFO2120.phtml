@@ -1,0 +1,56 @@
+<?php
+require_once 'lib/template.php';
+$Viewbag->title = "Rich: INFO2120";
+layout("_layout.phtml");
+?>
+<?php
+renderMarkdown("articles/INFO2120.md");
+?>
+
+<hr />
+<div class="bookmark"><?php
+renderMarkdown("articles/INFO2120WhyCMS.md");
+?></div>
+
+<hr />
+<div id="links" class="bookmark"><?php
+renderMarkdown("articles/INFO2120Links.md");
+?>
+</div>
+
+<hr />
+<div id="pages" class="bookmark">
+    <?php
+renderMarkdown("articles/INFO2120Pages.md");
+?></div>
+
+<hr />
+<div class="bookmark">
+    <?php
+renderMarkdown("articles/INFO2120Permissions.md");
+?></div>
+
+<hr />
+<div id="home" class="bookmark">
+        <?php
+renderMarkdown("articles/INFO2120Home.md");
+?></div>
+
+<hr />
+<div id="theming" class="bookmark">
+            <?php
+renderMarkdown("articles/INFO2120Theming.md");
+?></div>
+
+<hr />
+<div id="paypal" class="bookmark">
+        <?php
+renderMarkdown("articles/PayPal.md");
+?></div>
+
+<hr />
+<div id="forms" class="bookmark">
+            <?php
+renderMarkdown("articles/INFO2120WebForms.md");
+?></div>
+

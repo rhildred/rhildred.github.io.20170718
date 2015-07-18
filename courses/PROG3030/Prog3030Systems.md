@@ -1,0 +1,41 @@
+This is a case study course. The idea is that by looking at artifacts from successful and possibly unsuccessful projects you will get some ideas that you can use in your own project. You will be given examples to study each week, and need to come prepared to discuss them in class the following week. There will also be 3 student lead classes. The student led classes will be on topics chosen from 3 sets that you will prepare in your project teams. Overall the course is divided into 5 areas:
+
+1. Project Initiation
+1. Object-Oriented Analysis
+1. Design
+1. Implementation
+1. Business and Legal Issues
+
+We will look at these 5 areas from the perspective of lean product development, with the idea that the ideas of lean product development don't make the Unified Process irrelevant. In fact, UML, the unified process and design patterns form a pattern language that developers can use to communicate about the technical details of systems. This communication is especially important as a system grows and changes over time. This is a week by week breakdown of topics:
+
+Week|Topic|Resources/Case
+----|-----|--------------
+*Project Initiation*|
+1|introduction to intellectual property in a project|[Ted Talk by Lawrence Lessig](http://www.ted.com/talks/larry_lessig_says_the_law_is_strangling_creativity.html)
+2|Project Charter|[sample contract that deals with the IP issue](http://www.techrepublic.com/blog/it-consultant/customizable-it-consultant-sample-contract/253/) ... [example project charter from OHIO State](http://www.ohio.edu/sisrfp/OHIOSISProjectCharter.pdf) ... [example offer letter (scroll down a bit to see)](http://syndicateme.net/DSGN1210.js.html#PhotoshopProject)  ... [Center for Disease Control .... Project Charter Guide](http://www2.cdc.gov/cdcup/library/practices_guides/CDC_UP_Project_Charter_Practices_Guide.pdf)
+|Requirements| [lesson from the F-16 Fighting Falcon](http://97things.oreilly.com/wiki/index.php/Seek_the_value_in_requested_capabilities) ... [companion website for an amazing book about requirements](http://specificationbyexample.com/key_ideas.html) ... [wikipedia article on the same topic](http://en.wikipedia.org/wiki/Specification_by_example)
+*Object-Oriented Analysis*|**Quiz 1**
+3|use cases that users actually do|[Eric Ries Building a Product Nobody Wants](http://ecorner.stanford.edu/authorMaterialInfo.html?mid=2293) ... [Case Study: Implementing a Web Based Auction System using UML and Component-Based Programming](http://www.researchgate.net/publication/3974634_Case_study_implementing_a_web_based_auction_system_using_UML_and_component-based_programming/file/72e7e5261082fea2eb.pdf?origin=publication_detail) ... [Black Hat Misuse Cases](http://www.blackhat.com/presentations/bh-federal-03/bh-fed-03-peterson-up.pdf)
+|use cases continued|[Wikipedia article on Use Cases](http://ben-hildred.blogspot.ca/) ... [Fowler on Use Cases and User Stories](http://martinfowler.com/bliki/UseCasesAndStories.html) ... [Cockburn on Use Cases and User Stories](http://alistair.cockburn.us/A+user+story+is+to+a+use+case+as+a+gazelle+is+to+a+gazebo)
+*Design*|**Quiz 2**
+4|design patterns|[Domain Model Martin Fowler](http://martinfowler.com/eaaCatalog/domainModel.html) ... [Enterprise Integration Using Rest](http://martinfowler.com/articles/enterpriseREST.html) ... [Lean Software Architecture](http://www.leansoftwarearchitecture.com/home/lean-and-agile-architecture-techniques)
+5 (Feb. 3)|**A Presentations**|use and properly attribute resources appropriate to your topic
+6 (Feb. 10)|prototype show and tell|[companion site from book I used for lecture](http://www.paperprototyping.com/)
+*(Agile) Implementation*|
+7|test driven implementation|[Agile Manifesto](http://agilemanifesto.org/) ... [Wikipedia Article on Test Driven Development](http://en.wikipedia.org/wiki/Test-driven_development) ... [Extreme Programming](http://www.computerworld.com/s/article/66192/Extreme_Programming) ... [Alistair Cockburn - Software as cooperative game](http://alistair.cockburn.us/Cooperative+game+manifesto+for+software+development) ... [Transforming the World of Work - Scrum Alliance](http://www.scrumalliance.org/)
+8|**midterm**|references above plus notes from lectures
+9|test driven deployment|[Eric Ries on Continuous deployment](http://ecorner.stanford.edu/authorMaterialInfo.html?mid=2294) ... [Facebook's deployment process](http://arstechnica.com/business/2012/04/exclusive-a-behind-the-scenes-look-at-facebook-release-engineering/) ... [tomcat parallel deployment](http://architects.dzone.com/articles/release-engineering-parallel) ... [wikipedia article on release engineering](http://en.wikipedia.org/wiki/Release_engineering) ... [article that I based my demo on](http://viget.com/extend/split-test-traffic-distribution-with-nginx)
+*Business and Legal Issues*|**Quiz 3**
+10|Business Issues from developer's point of view|[Wikipedia article on Crossing the Chasm](http://en.wikipedia.org/wiki/Crossing_the_Chasm) ... [customizable sample contract](http://www.techrepublic.com/blog/it-consultant/customizable-it-consultant-sample-contract/253/) ... [letter of understanding](DSGN1210.js.html#PhotoshopProject)	
+11|**B Presentations**|tbd
+12|Business Issues from customer's point of view|[Steven Blank's huge resource on customer development](http://steveblank.com/category/customer-development/)
+13|Documentation|[apache documentation project](http://httpd.apache.org/docs/)
+14|**C Presentations**|tbd
+15|**final**|references from A Presentations Onwards
+
+Your mark will be calculated from 10% for each of the presentations, 10% each for 3 quizzes,  20% for the multiple choice question midterm and final. The midterm and final will each be 1 hours. I will use the remaining time in those classes to cover an extra topic of interest from the material. The quizes will be given at the start of weeks 3, 4, 8 and 10 to get you thinking about your current knowledge of Object-Oriented Analysis, Design, Implementation and Business and Legal Issues respectively.
+  
+Hopefully you will find that these readings do a good job of showing how object-oriented analysis compliments development of highly useful software products by providing a powerful way to communicate about software. So powerful in fact that I was able to use object-oriented analysis patterns to avoid losing a consulting job. 
+
+Banks have powerful software architects. Their power is based on a problem that banks and many large companies have. A plethora of departmental solutions can each have their own support and integration needs until at an enterprise level there is such a hodge podge that nothing is integrated and everything is supported in fire fighting mode. The Mondex card management system that we were consulting about was one of those departmental solutions, built-in the bank and with a rate of problem discovery that was a bit higher than the rate of problem fixing. No wonder the asset management architects were concerned about supporting it. We were trying to build a replacement system, partly to get the bank out of the current one, but we also wanted to build something that could be used by other banks in the Mondex Consortium. We had meetings to talk about how the new system was an enterprise solution that could fit in to the bank's infrastructure. Those meetings were the turning point for the project, because I spoke the same language as the software architects. Pattern language. Pattern language was the only language that could describe these systems in a way that they could be understood at an aggregate enterprise level. More importantly pattern language was the only way that we could describe the enterprise so that solutions to new problems could be fit in. In our enterprise banking case, when we could speak the same language we could generate a solution that everyone was happy with. That solution was also described in the same pattern language that the developers were fluent in and was built in a record amount of time, getting my banking buddy a trip to Australia to implement it. 
+ 

@@ -1,0 +1,8 @@
+<?php
+require_once 'lib/template.php';
+$Viewbag->title = "Rich: Courses";
+layout("_layout.phtml");
+?>
+<?php
+renderMarkdown("courses/courses.md");
+?>

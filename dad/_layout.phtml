@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title><?php echo $Viewbag->title ?></title>
+<!-- Bootstrap core CSS -->
+<link href="css/lavish-bootstrap.css" rel="stylesheet">
+<link href="../css/slideshow.css" rel="stylesheet">
+<link href="css/dad.css" rel="stylesheet">
+</head>
+<body>
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div id="<?php echo $Viewbag->sPage ?>" class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target=".navbar-collapse">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand active" href=".">John Hildred 1933-2013</a>
+			</div>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="mypick">My Pick</a></li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+	<div class="container">
+		<!-- Example row of columns -->
+		<?php renderBody() ?>
+
+	</div>
+	<!-- /container -->
+
+</body>
+<script type="text/javascript"
+	src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script
+	src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="../js/toolbox.js"></script>
+<script type="text/javascript" src="../js/slideshow.js"></script>
+<script>
+jQuery("document").ready(function(){
+	jQuery(".slideshow").slideshow();
+});
+</script>
+</html>

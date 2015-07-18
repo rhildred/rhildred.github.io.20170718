@@ -1,0 +1,38 @@
+.pictureLinks {
+	display: inline-block;
+}
+
+.slideshow {
+	position: relative;
+}
+
+.swapImage {
+	position: absolute;
+	max-width: 100%;
+}
+
+.pictureLinks {
+	position: absolute;
+	/* needs to be below picture */
+	top: 500px;
+}
+
+.pictureLinks button {
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	font-size: 20px;
+	color: #666;
+	line-height: 100px;
+	text-align: center;
+	background: #969D60;
+	margin-left: 7px;
+}
+
+.pictureLinks button.active {
+	background: #656752;
+}
+
+img {
+	max-width: 100%;
+}

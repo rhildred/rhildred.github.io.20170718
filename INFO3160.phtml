@@ -1,0 +1,13 @@
+<?php
+require_once 'lib/template.php';
+$Viewbag->title = "Rich: INFO3160";
+layout("_layout.phtml");
+?>
+<?php
+renderMarkdown("courses/INFO3160/intro.md");
+?>
+<hr />
+<div class="bookmark" id="references">
+<?php
+renderMarkdown("courses/INFO3160/references.md");
+?></div>

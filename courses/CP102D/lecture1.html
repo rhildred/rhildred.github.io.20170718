@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz</title>
+
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="css/impress-demo.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <div class="fallback-message">
+        <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+        <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+    </div>
+    <div id="impress">
+        <div id="baby" class="step slide" data-x="500" data-y="-2800">
+            <img src="EveryBaby.png" />
+            <h1>CP102D Introduction</h1>
+            <p>Rich Hildred - rhildred@wlu.ca - 519-594-0900</p>
+        </div>
+        <div id="dynamic" class="step slide" data-x="500" data-y="-2100">
+            <img src="Decision_CLD.svg" style="display:block;width100%" />
+            <h1>Computer is a tool that can reinforce learning, using the scientific method.</h1>
+        </div>
+        <div id="video" class="step slide" data-x="500" data-y="-1400">
+            <iframe src="https://embed-ssl.ted.com/talks/laura_snyder_the_philosophical_breakfast_club.html" style="width:100%;height:100%" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        </div>
+        <div id="scientific" class="step slide" data-x="500" data-y="-700">
+            <img src="scientificmethod__92804.1405401363.1280.1280.jpg" style="height:80%;width:auto;margin: 0 auto;display:block" />
+            <p><strong><a href="http://www.nerdybaby.com/every-baby-knows-the-scientific-method-mini-poster-11x17/">Buy this poster!!</a></strong> and keep it by where you study/work. It is a reminder that we should always have in front of us.</p>
+        </div>
+
+        <div id="observation" class="step slide" data-x="1200" data-y="0">
+            <img src="Observation.png" style="height:auto;width:100%;display:block" />
+        </div>
+
+        <div id="hypothesis" class="step slide" data-x="500" data-y="700">
+            <img src="Hypothesis.png" style="height:auto;width:100%;display:block" />
+        </div>
+
+        <div id="experiment" class="step slide" data-x="500" data-y="1400">
+            <img src="Experiment.png" style="height:auto;width:100%;display:block" />
+        </div>
+
+        <div id="analyze" class="step slide" data-x="1200" data-y="2100">
+            <img src="Analyze.png" style="height:auto;width:100%;display:block" />
+        </div>
+
+        <div id="report" class="step slide" data-x="500" data-y="2800">
+            <img src="Report.png" style="height:auto;width:100%;display:block" />
+        </div>
+
+        <div id="reproduce" class="step slide" data-x="500" data-y="3500">
+            <img src="Reproduce.png" style="height:auto;width:100%;display:block" />
+        </div>
+
+        <div id="conclusion" class="step slide" data-x="500" data-y="4200">
+            <a href="http://www.amazon.ca/Mindstorms-Children-Computers-Powerful-Ideas/dp/0465046746"><img src="mindstorms.svg" style="height:60%;display:block;margin:0 auto" /></a>
+            <h1>Computer is a Tool for Learning about Learning ...</h1>
+            <p>Exactly the tool we need to be continuously learning careers.</p>
+            <h1>Next ... <a href="lecture2.html">Data vs Information</a></h1>
+        </div>
+
+
+    </div>
+    <div class="hint">
+        <p>Use a spacebar or arrow keys to navigate</p>
+    </div>
+    <script>
+        if ("ontouchstart" in document.documentElement) {
+            document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+        }
+    </script>
+
+
+    <script src="js/impress.js"></script>
+    <script>
+        impress().init();
+    </script>
+
+</body>
+
+</html>

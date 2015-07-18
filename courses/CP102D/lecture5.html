@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz</title>
+
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="css/impress-demo.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <div class="fallback-message">
+        <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+        <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+    </div>
+    <div id="impress">
+        <div id="os_fs" class="step slide" data-x="500" data-y="-1400">
+            <img src="http://upload.wikimedia.org/wikipedia/commons/1/1d/Metcalfe-Network-Effect.svg" style="height:80%;width:auto;margin: 0 auto;display:block">
+            <h1>OS as systems of reproducibility</h1>
+            <p>Rich Hildred - rhildred@wlu.ca - 519-594-0900</p>
+        </div>
+        <div id="Metcalfe" class="step slide" data-x="500" data-y="-700">
+            <iframe style="height:90%;width:100%" src="//www.youtube.com/embed/m_agCPNGOzU" frameborder="0" allowfullscreen></iframe>
+            <h1>From the man himself</h1>
+        </div>
+
+        <div id="step1" class="step slide" data-x="500" data-y="0">
+            <h1>1. Telephones</h1>
+            <img src="http://upload.wikimedia.org/wikipedia/commons/1/1d/Metcalfe-Network-Effect.svg" style="height:80%;width:auto;margin: 0 auto;display:block">
+        </div>
+
+        <div id="step2" class="step slide" data-x="500" data-y="700">
+            <h1>2. VHS and Beta</h1>
+            <img src="http://upload.wikimedia.org/wikipedia/commons/f/f0/VHS_diagram.svg" style="height:90%;width:auto;margin: 0 auto;display:block" />
+        </div>
+
+
+        <div id="step3" class="step slide" data-x="500" data-y="1400">
+            <h1>3. Desktop OS's</h1>
+            <img src="http://combineoverwiki.net/images/2/26/Apple_logo.svg" style="height:90%;width:auto;margin: 0 auto;display:block" />
+        </div>
+
+
+        <div id="step4" class="step slide" data-x="500" data-y="2100">
+<h1>4. Mobile OS's</h1>
+            <img src="http://upload.wikimedia.org/wikipedia/commons/d/d7/Android_robot.svg" style="height:90%;width:auto;margin: 0 auto;display:block" />
+        </div>
+
+       <div id="step5" class="step slide" data-x="500" data-y="2800">
+<h1>5. Social Networks</h1>
+           <iframe style="height:90%;width:100%" src="//www.youtube.com/embed/yZ0WrmpSKX0" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div id="conclusion" class="step slide" data-x="500" data-y="3500">
+
+            <iframe src="http://www.imvu.com/" style="width:auto;height:80%;margin: 0 auto;display:block"></iframe>
+            <h1>Software makes it Reproducible</h1>
+                <p>In more ways than 1.</p>
+                <h1>Next ... <a href="lecture6.html">OS as systems of reproducibility: Part 2</a></h1>
+        </div>
+
+
+    </div>
+    <div class="hint">
+        <p>Use a spacebar or arrow keys to navigate</p>
+    </div>
+    <script>
+        if ("ontouchstart" in document.documentElement) {
+            document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+        }
+    </script>
+
+
+    <script src="js/impress.js"></script>
+    <script>
+        impress().init();
+    </script>
+
+</body>
+
+</html>

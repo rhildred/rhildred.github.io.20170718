@@ -1,0 +1,22 @@
+<?php
+require_once 'lib/template.php';
+$Viewbag->title = "Rich: PROG1700";
+layout("_layout.phtml");
+?>
+<?php renderMarkdown("courses/PROG1700/schedule.md");
+?>
+<hr />
+<div class="bookmark" id="ResponsiveTruth">
+<?php renderMarkdown("articles/ResponsiveTruth.md");
+?>
+</div>
+<hr />
+<div class="bookmark" id="paypal">
+<?php renderMarkdown("articles/PayPal.md");
+?>
+</div>
+<hr />
+<div class="bookmark" id="exam">
+<?php renderMarkdown("courses/PROG1700/exam.md");
+?>
+</div>

@@ -1,0 +1,50 @@
+<?php
+require_once 'lib/template.php';
+$Viewbag->title = "Filmstrip Demo";
+$Viewbag->author = "Rich Hildred";
+$Viewbag->description = "A little program that runs a demo of pngs exported from pivot, knitted together with ImageMagick";
+$Viewbag->keywords = "html5 canvas animation javascript pivot imagemagick";
+layout("_layout.phtml");
+?>
+<h1>SpriteSheet Demo</h1>
+<!-- need to set height and width to height of individual sprite. (only in one place) -->
+<canvas id="myCanvas" width="555" height="300">
+    <img id="myImage" src="images/filmstrip.png" />
+
+    </canvas>
+<script>
+	var canvas = document.getElementById('myCanvas');
+	var context = canvas.getContext('2d');
+	var imageObj = document.getElementById('myImage');
+	// the canvas may later be resized so still need size of sprite
+	var nSpriteWidth = canvas.width;
+	var nSpriteHeight = canvas.height;
+
+	jQuery(document).ready(function() {
+		//need to reset width if it is more than jQuery('body').width
+		var nBodyWidth = jQuery('body').width();
+		if(canvas.width > nBodyWidth)
+		{
+			canvas.width = nBodyWidth;
+			canvas.height = nBodyWidth * nSpriteHeight/nSpriteWidth;
+		}
+	});
+
+	jQuery(document).ready(
+			function() {
+				y = 0;
+				setInterval(function() {
+					if (y >= 100 * nSpriteHeight) {
+						//I have 100 frames in my animation so will loop
+						y = 0;
+					}
+					context.clearRect(0, 0, canvas.width, canvas.height);
+					// draw starting at offset y on spritesheet
+					context.drawImage(imageObj, 0, y, nSpriteWidth,
+							nSpriteHeight, 0, 0, canvas.width, canvas.height);
+					y += nSpriteHeight;
+				}, 50);
+			});
+
+	//imageObj.src = "images/filmstrip.png";
+</script>

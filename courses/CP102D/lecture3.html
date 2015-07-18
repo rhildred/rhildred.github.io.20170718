@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz</title>
+
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="css/impress-demo.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <div class="fallback-message">
+        <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+        <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+    </div>
+    <div id="impress">
+        <div id="hardware" class="step slide" data-x="500" data-y="-1400">
+            <a href="http://reprap.org/"><img src="http://reprap.org/mediawiki/images/4/4a/Assembled-prusa-mendel.jpg" style="height:70%;width:auto;margin: 0 auto;display:block"></a>
+            <h1>Hardware connects the computer with the carbon units (and the rest of the world)</h1>
+            <p>Rich Hildred - rhildred@wlu.ca - 519-594-0900</p>
+        </div>
+        <div id="derailleur" class="step slide" data-x="500" data-y="-700">
+            <img src="http://upload.wikimedia.org/wikipedia/commons/c/ca/Derailleur_Bicycle_Drivetrain.svg" style="height:100%;width:auto;margin: 0 auto;display:block" />
+        </div>
+
+        <div id="powermeter" class="step slide" data-x="500" data-y="0">
+            <img src="http://sciencelearn.org.nz/var/sciencelearn/storage/images/science-stories/cycling-aerodynamics/sci-media/images/cycling-power-meter/366620-4-eng-NZ/Cycling-power-meter.jpg" style="width:100%;height:auto;margin: 0 auto;display:block" />
+        </div>
+
+        <div id="babbage" class="step slide" data-x="500" data-y="700">
+            <iframe src="//www.youtube.com/embed/B8tmfcOg8l8" frameborder="0" style="width:100%;height:100%"></iframe>
+        </div>
+
+
+        <div id="transistor" class="step slide" data-x="500" data-y="1400">
+            <a href="https://www.google.ca/patents/US2524035?dq=transistor+Bardeen+2524035&hl=en&sa=X&ei=UbmzVL3HCMSXyAS8i4GADA&ved=0CBwQ6AEwAA"><img src="https://patentimages.storage.googleapis.com/pages/US2524035-0.png" style="height:100%;width:auto;margin: 0 auto;display:block" /></a>
+        </div>
+
+
+        <div id="cpu" class="step slide" data-x="500" data-y="2100">
+<img src="http://upload.wikimedia.org/wikipedia/commons/0/0a/Intel_A80386DX-20_CPU_Die_Image.jpg" style="height:100%;width:auto;margin: 0 auto;display:block" />
+        </div>
+
+        <div id="reprap" class="step slide" data-x="500" data-y="2800">
+           <iframe src="//player.vimeo.com/video/5202148" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="width:100%;height:90%"></iframe> <p><a href="http://vimeo.com/5202148">RepRap</a> from <a href="http://vimeo.com/user403878">Adrian Bowyer</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+        </div>
+
+       <div id="neuron" class="step slide" data-x="500" data-y="3500">
+<img src="http://i.dailymail.co.uk/i/pix/2013/08/08/article-2386762-1B3318F1000005DC-189_634x409.jpg" style="width:100%;height:auto;margin: 0 auto;display:block" />
+        </div>
+
+        <div id="dynamic" class="step slide" data-x="500" data-y="4200">
+            <img src="Decision_CLD.svg" style="display:block;width100%" />
+        </div>
+
+
+        <div id="muse" class="step slide" data-x="500" data-y="4900">
+           <iframe src="//www.youtube.com/embed/-74Va2cX3o4" frameborder="0" allowfullscreen style="width:100%;height:100%"></iframe>
+        </div>
+
+
+
+        <div id="conclusion" class="step slide" data-x="500" data-y="5600">
+
+            <img src="http://upload.wikimedia.org/wikipedia/commons/c/ca/Derailleur_Bicycle_Drivetrain.svg" style="height:70%;width:auto;margin: 0 auto;display:block" />
+            <h1>Hardware makes it Interesting</h1>
+                <p>In more ways than 1.</p>
+                <h1>Next ... <a href="lecture4.html">Software Makes it Reproducible</a></h1>
+        </div>
+
+
+    </div>
+    <div class="hint">
+        <p>Use a spacebar or arrow keys to navigate</p>
+    </div>
+    <script>
+        if ("ontouchstart" in document.documentElement) {
+            document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+        }
+    </script>
+
+
+    <script src="js/impress.js"></script>
+    <script>
+        impress().init();
+    </script>
+
+</body>
+
+</html>

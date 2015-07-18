@@ -1,0 +1,12 @@
+<?php
+require_once 'lib/template.php';
+$Viewbag->title = "Rich: BUS1180";
+layout("_layout.phtml");
+?>
+<?php renderMarkdown("courses/BUS1180/schedule.md");
+?>
+<hr />
+<div class="bookmark" id="test">
+<?php renderMarkdown("courses/BUS1180/test.md");
+?>
+</div>

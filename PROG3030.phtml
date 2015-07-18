@@ -1,0 +1,54 @@
+<?php
+require_once 'lib/template.php';
+$Viewbag->title = "Rich: PROG3030";
+layout("_layout.phtml");
+?>
+<h1>Systems Development: Project Evaluation &amp; Control</h1>
+<script>
+var nWidth = document.body.clientWidth;
+if(nWidth > 500) nWidth = 500;
+document.write("<script src=\"http://ecorner.stanford.edu/embeddedPlayer.html?mid=2292&width=" + nWidth + "&language=English\"><\/script>");
+</script>
+<br />
+<?php
+renderMarkdown("courses/PROG3030/Prog3030Systems.md");
+?>
+<hr />
+<?php
+renderMarkdown("courses/PROG3030/Prog3030Assignments.md");
+?>
+<hr />
+<div id="initiationquiz" class="bookmark">
+<?php
+renderMarkdown("courses/PROG3030/InitiationQuiz.md");
+?></div>
+<hr />
+<div id="analysisquiz" class="bookmark">
+<?php
+renderMarkdown("courses/PROG3030/AnalysisQuiz.md");
+?></div>
+<hr />
+<div id="designquiz" class="bookmark">
+<?php
+renderMarkdown("courses/PROG3030/DesignQuiz.md");
+?></div>
+<hr />
+<div class="bookmark" id="tdd">
+<?php renderMarkdown("courses/PROG1795/tdd.md");
+?>
+</div>
+<hr />
+<div id="midterm" class="bookmark">
+<?php
+renderMarkdown("courses/PROG3030/midterm.md");
+?></div>
+<hr />
+<div id="quiz3" class="bookmark">
+<?php
+renderMarkdown("courses/PROG3030/businessquiz.md");
+?></div>
+<hr />
+<div id="final" class="bookmark">
+<?php
+renderMarkdown("courses/PROG3030/final.md");
+?></div>

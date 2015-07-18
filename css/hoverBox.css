@@ -1,0 +1,52 @@
+.hoverbox {
+	cursor: default;
+	height: 140px;
+	list-style: none outside none;
+	margin-left: 22px;
+}
+
+.hoverbox a {
+	cursor: default;
+}
+
+.hoverbox a .preview {
+	display: none;
+}
+
+.hoverbox a:hover .preview {
+	display: block;
+	left: -45px;
+	position: absolute;
+	top: -33px;
+	z-index: 1;
+}
+
+.hoverbox img {
+	background: none repeat scroll 0 0 #737373;
+	border-color: #F5DEB3;
+	border-style: solid;
+	border-width: 1px;
+	color: inherit;
+	/*height: 100px;*/
+	padding: 2px;
+	vertical-align: top;
+	/*width: 100px;*/
+}
+
+.hoverbox a {
+	background: none repeat scroll 0 0 #737373;
+	border-color: #F5DEB3;
+	border-style: solid;
+	border-width: 1px;
+	color: inherit;
+	display: inline;
+	float: left;
+	margin: 3px;
+	padding: 5px;
+	position: relative;
+}
+
+.hoverbox .preview {
+	border-color: #222222;
+	/*width: 200px;*/
+}

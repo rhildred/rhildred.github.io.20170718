@@ -1,0 +1,40 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body,.bookmark {
+	padding-top: 3.5em;
+	padding-bottom: 1em;
+}
+
+.pictureLinks {
+	display: none;
+}
+
+@media all and (min-width : 1024px) {
+	/* Styles */
+	.pictureLinks {
+		display: inline-block;
+	}
+}
+
+.pictureLinks {
+	position: relative;
+	/* needs to be above picture */
+	top: 0px;
+	margin-top: 2.5em;
+	float: right;
+}
+
+.pictureLinks button {
+	color: #666;
+	background: #969D60;
+}
+
+.pictureLinks button.active {
+	background: #656752;
+}
+
+div#mypick a[href$="mypick"],div#index a[href$="."]
+	{
+	color: white;
+	pointer-events: none;
+	cursor: default;
+}

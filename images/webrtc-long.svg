@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Fireworks 10, Export SVG Extension by Aaron Beall (http://fireworks.abeall.com) . Version: 0.6.1  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="customLogo.gif-Page%201"
+   viewBox="0 0 600.70911 108.19897"
+   version="1.1"
+   xml:space="preserve"
+   x="0px"
+   y="0px"
+   width="600.70911"
+   height="108.19897"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="webrtc-long.svg"><metadata
+   id="metadata3960"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs3958" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1053"
+   inkscape:window-height="762"
+   id="namedview3956"
+   showgrid="false"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0"
+   inkscape:zoom="1.3004115"
+   inkscape:cx="276.56437"
+   inkscape:cy="116.12002"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Layer%201" />
+	<g
+   id="Layer%201"
+   transform="translate(183.66753,22.277395)">
+		<path
+   d="m 149.05086,-0.17523416 c 0,0.9608012 0,0.9608012 -0.48693,0.9608012 -3.89547,0.96106786 -8.76508,3.36347086 -12.66082,8.16827686 l -23.37389,0 C 109.12041,4.6295718 103.27694,0.78556704 98.894265,0.30529977 l 0,-1.44160177 c 2.434935,-13.933884 14.608815,-21.141093 24.834965,-21.141093 11.20001,0 25.32163,9.129078 25.32163,22.10216084 z"
+   id="path3926"
+   inkscape:connector-curvature="0"
+   style="fill:#a3290f" />
+		<path
+   d="m 180.70317,25.290131 c 0,7.207209 -5.35654,18.258423 -14.60882,22.102161 -2.43467,-4.324272 -8.76508,-10.090146 -12.17388,-10.570413 l 0,-23.543763 c -0.97387,-1.441335 -2.92161,-3.3632042 -4.86961,-4.3242721 0.48693,-2.402403 0.97414,-5.2853399 0.97414,-8.16827686 1.4608,0 3.89547,-0.48026727 4.86933,-0.48026727 14.60882,0 25.80884,12.01201523 25.80884,24.98483123 z"
+   id="path3928"
+   inkscape:connector-curvature="0"
+   style="fill:#f1cc2a" />
+		<path
+   d="m 169.01622,59.404307 c 0,14.894952 -12.66082,24.985098 -25.3219,24.985098 -0.97387,0 -6.33041,-0.961068 -8.76508,-1.921869 -1.948,-0.480534 -10.22614,-5.28534 -10.22614,-7.207209 0,-2.882937 8.27814,-9.129078 5.35654,-17.777889 0.48693,-0.480534 1.4608,-0.480534 17.04349,-0.480534 3.89573,-0.960801 6.3304,-3.363204 6.81734,-7.207209 2.43493,0.480534 8.27841,-0.960801 11.68694,-2.402403 1.94801,1.921869 3.40881,9.129078 3.40881,12.012015 z"
+   id="path3930"
+   inkscape:connector-curvature="0"
+   style="fill:#55943c" />
+		<path
+   d="m 91.589989,48.833894 c -1.947736,3.843738 5.843474,9.609612 10.226151,7.687476 l -5.356545,15.85602 0.486934,0.480534 22.400031,-10.57068 c 0.48693,4.324272 1.4608,8.648811 5.84347,12.973083 -5.84347,6.246141 -14.12162,8.648544 -19.47816,8.648544 -15.095749,0 -24.834961,-12.492549 -24.834961,-24.984831 0,-3.844005 1.460802,-8.648811 2.92187,-12.012282 2.43467,0.961068 5.35654,1.441602 7.79121,1.922136 z"
+   id="path3932"
+   inkscape:connector-curvature="0"
+   style="fill:#da6f1c" />
+		<path
+   d="m 99.381199,-0.17523416 c 0,2.40240296 0,4.80480596 0.4872,8.16827686 -0.974134,-0.4805339 -8.27841,1.9218691 -8.27841,5.2850733 l 0,25.465632 c -2.921604,2.402403 -5.843474,5.28534 -7.79121,8.16801 -10.71308,-4.804806 -15.095757,-14.894685 -15.095757,-23.062962 0,-14.8949521 12.173887,-24.5045641 25.321903,-24.5045641 1.460802,0 3.895472,0.48053394 5.356274,0.48053394 z"
+   id="path3934"
+   inkscape:connector-curvature="0"
+   style="fill:#4a83c6" />
+		<path
+   d="m 149.53779,5.5906397 c -0.48693,0.9608012 -0.48693,1.9218691 -0.97386,2.8826703 -0.48694,-0.4802673 -1.4608,-0.4802673 -11.68695,-0.4802673 3.4088,-4.3245387 8.27841,-6.7269417 12.66081,-7.68774293 l 0,5.28533993 z"
+   id="path3936"
+   inkscape:connector-curvature="0"
+   style="fill:#d13419" />
+		<path
+   d="m 166.09435,46.911758 c -0.48694,0 -5.84348,2.882937 -8.27814,2.882937 l -3.40881,0 0,-12.492549 c 2.92187,0.961068 9.25228,4.804806 11.68695,9.609612 z"
+   id="path3938"
+   inkscape:connector-curvature="0"
+   style="fill:#75c722" />
+		<path
+   d="m 100.35533,-0.17523416 c 3.40854,1.44133516 7.79121,2.88293696 11.68695,7.68774296 l -13.148015,0 c 0.486934,-0.9610679 0.486934,-1.9218691 0,-7.68774296 l 1.461065,0 z"
+   id="path3940"
+   inkscape:connector-curvature="0"
+   style="fill:#581204" />
+		<path
+   d="m 130.54657,57.482438 c 0.48694,5.28534 -1.4608,12.012015 -5.35654,18.258423 -1.94773,-1.441602 -5.84347,-9.129345 -5.84347,-12.012015 0,-1.922136 9.73921,-6.246408 10.71308,-6.246408 5.84347,0 12.17388,0 18.01735,0 l -17.53042,0 z"
+   id="path3942"
+   inkscape:connector-curvature="0"
+   style="fill:#3e6c0f" />
+		<path
+   d="m 90.616121,48.833894 -1.947736,0 c -1.461068,-0.480534 -3.408804,-0.961068 -5.35654,-1.922136 1.947736,-2.402403 4.382406,-5.285073 7.304276,-7.207209 l 0,9.129345 z"
+   id="path3944"
+   inkscape:connector-curvature="0"
+   style="fill:#315a82" />
+		<path
+   d="m 148.57913,6.9493081 c 2.024,0.5008006 6.07174,2.0037358 6.07174,4.5088059 l 0,40.578717 c -0.50587,1.001868 -3.54187,4.508806 -5.56561,4.508806 l -17.70935,0 -35.418449,17.032821 5.059739,-17.032821 c -2.024002,0 -11.13148,0.5008 -11.13148,-6.011741 l 0,-38.073914 c 0,-2.5048035 3.541871,-6.5128085 6.071741,-5.5106739 l 52.621669,0 z"
+   id="path3946"
+   inkscape:connector-curvature="0"
+   style="fill:#ffffff" />
+		<text
+   x="-191.81207"
+   y="80.29657"
+   width="101"
+   style="font-size:120.00015259px;text-align:left;color:#000000;fill:#000000;font-family:Arial Rounded MT Bold"
+   id="text3948"><tspan
+     id="tspan3950"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Comic Sans MS;-inkscape-font-specification:Comic Sans MS">Web</tspan></text>
+
+
+		<text
+   x="189.52174"
+   y="80.29657"
+   width="97"
+   style="font-size:120.00015259px;text-align:left;color:#000000;fill:#000000;font-family:Arial Rounded MT Bold"
+   id="text3952"><tspan
+     id="tspan3954"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Comic Sans MS;-inkscape-font-specification:Comic Sans MS">RTC</tspan></text>
+
+
+	</g>
+</svg>
