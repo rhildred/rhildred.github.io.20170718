@@ -68,6 +68,7 @@
 	<div class="container">
 		<!-- Example row of columns -->
 		<div class="row"><div id="results"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.js"></script>
 <script src="js/hilitor.js"></script>
 <script type="text/javascript">
 	var QueryString = function() {
@@ -97,10 +98,14 @@
 	myHilitor.setMatchType("open");
     sQuery = QueryString.q.replace('+', ' ');
     jQuery("#search").attr("placeholder", sQuery);
-    jQuery.ajax("https://rich-hildred.rhcloud.com/Results?q=" + QueryString.q).done(function(aResults){
+    jQuery.ajax({url: "https://rich-hildred.rhcloud.com/Results?q=" + QueryString.q, dataType: "json"}).done(function(aResults){
+        var nLeft = aResults.length;
         for(var n = 0; n < aResults.length; n++){
-            jQuery("#search").append(aResults[n].id);
-            myHilitor.apply(sQuery);
+            var sUrl = aResults[n].id;
+            jQuery.ajax(sUrl).done(function(sMd){
+                jQuery("#results").append(marked(sMd));
+                if(--nLeft == 0)myHilitor.apply(sQuery);
+            });
         }
 
     });
