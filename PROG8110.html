@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="google-site-verification" content="dvUQ2S0TOifnI9P2ARoTiE_c6Bvfk6vS_zDJaQebe9o" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="keywords" content="">
+<link rel="shortcut icon" href="YinYang.ico">
+
+<title>Rich: PROG8110</title>
+
+<!-- Bootstrap core CSS -->
+<link
+	href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+	rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+	<link href="//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="css/main.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.js"></script>
+    <![endif]-->
+	<script
+		src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+</head>
+
+<body>
+
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container PROG8110">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse"
+				data-target=".navbar-collapse">
+				<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+					class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" class="active" href=".">Faculty Page</a>
+		</div>
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="calendar.html">Calendar</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="pastcourses.html">Courses</a></li>
+			</ul>
+			<form class="navbar-form navbar-right" action="searchResults"
+				method="get">
+				<div class="form-group">
+					<input id="search" type="text" placeholder="search"
+						class="form-control" autocomplete="off"
+						name="q" />
+				</div>
+				<button type="submit" class="btn btn-success">
+					<i class="icon-search"></i>&nbsp;&nbsp;Search
+				</button>
+			</form>
+		</div>
+		<!--/.navbar-collapse -->
+	</div>
+</div>
+
+	<div class="container">
+		<!-- Example row of columns -->
+		<div class="row"><div class="editable" id="courses/PROG8110/schedule_md"><h1>Programming: Mobile Application Development</h1>
+
+<p>When we started <a href="PROG8020">Programming: Web Design and Development</a>, I mentioned that a number of students had done their capstones in phonegap with php back-ends. In this course we will focus on the front end development of mobile application development. We will also take a brief look at the node.js javascript back end. This is not to replace the php back-end approach, but to supplement it with engine.io which enables instant messaging between devices and web apps.</p>
+
+<table>
+<thead>
+<tr>
+  <th>Week</th>
+  <th>Topic</th>
+  <th>Resources</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>1</td>
+  <td>Hello Phonegap Build and Web Works</td>
+  <td><a href="https://build.phonegap.com/">Phonegap Build Account</a> ... <a href="https://developer.blackberry.com/html5/downloads/">WebWorks SDK 2.2</a></td>
+</tr>
+<tr>
+  <td>2-3</td>
+  <td>Node.js and engine.io</td>
+  <td><a href="https://github.com/rhildred/updatedsocketiochat">project on github</a></td>
+</tr>
+<tr>
+  <td>4-5</td>
+  <td>jQuery mobile/ app-stores</td>
+  <td><a href="http://www.w3schools.com/jquerymobile/">w3 schools tutorial</a></td>
+</tr>
+<tr>
+  <td>6-7</td>
+  <td>ember.js, <strong>25% midterm</strong> on Friday February 27th at 4:30 pm in class</td>
+  <td>[tbd]</td>
+</tr>
+<tr>
+  <td>8-9</td>
+  <td>angular bootstrap UI, and qunit,  <strong>20% assignment due midnight March 6th</strong></td>
+  <td><a href="http://www.w3schools.com/angular/">w3 schools angular</a></td>
+</tr>
+<tr>
+  <td>10-11</td>
+  <td>android sdk <strong>25% final</strong> on Monday March 31</td>
+  <td>Smashing Mobile Web Development</td>
+</tr>
+<tr>
+  <td>12-15</td>
+  <td>final project <strong>30% Team project due April 24</strong></td>
+  <td>resources are up to you!</td>
+</tr>
+</tbody>
+</table>
+
+<p>The assignment and final project are of your choice. For the assignment, my main goal is to see everyone in class get something on their phone. For the final project, I am looking for something that reaches off of the device to some sort of webservice for information. This <em>does not</em> need to be a webservice of your own construction.</p>
+</div><hr />
+<div id="phonegapbuild" class="bookmark">
+<div class="editable" id="courses/PROG8110/Phonegap_md"><h1>Phonegap Build</h1>
+
+<p><a href="https://msdn.microsoft.com/en-us/hh771462.aspx"><img src="images/hh771462.HowToCreateHTML5AppsWindowsPhoneGap-2.png" alt="Phonegap, from MSDN" title="Phonegap, from MSDN" />
+</a></p>
+
+<p>Phonegap build is an amazing way to make apps for smartphones!!!!! With cordova/phonegap, the underlying bridge between native device code and html5/javascript, the same codebase can be used on BB10, Android, IOS and Windows Phone. There is one small gotcha that I discovered later, but a <a href="https://github.com/rhildred/hellophonegapbuild">basic app</a> looks like this:</p>
+
+<pre><code><br />&lt;!DOCTYPE html&gt;
+&lt;!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+    http://www.apache.org/licenses/LICENSE-2.0
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+--&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;meta charset="utf-8" /&gt;
+        &lt;meta name="format-detection" content="telephone=no" /&gt;
+        &lt;meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" /&gt;
+        &lt;link rel="stylesheet" type="text/css" href="css/index.css" /&gt;
+        &lt;title&gt;Hello World&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div class="app"&gt;
+            &lt;h1&gt;PhoneGap&lt;/h1&gt;
+            &lt;div id="deviceready" class="blink"&gt;
+                &lt;p class="event listening"&gt;Connecting to Device&lt;/p&gt;
+                &lt;p class="event received"&gt;Device is Ready&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!-- BB10, seems to prefer cordova.js here to phonegap.js --&gt;
+        &lt;script type="text/javascript" src="cordova.js"&gt;&lt;/script&gt;
+        &lt;script type="text/javascript" src="js/index.js"&gt;&lt;/script&gt;
+        &lt;script type="text/javascript"&gt;
+            app.initialize();
+        &lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+
+</code></pre>
+
+<p>This is pretty straightforward html 5. Some people would put the javascript app object right into the script tags, before the <code>app.initialize</code>. In this example it is in a seperate file `js/index.js':</p>
+
+<pre><code><br />/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+var app = {
+    // Application Constructor
+    initialize: function() {
+        this.bindEvents();
+    },
+    // Bind Event Listeners
+    //
+    // Bind any events that are required on startup. Common events are:
+    // 'load', 'deviceready', 'offline', and 'online'.
+    bindEvents: function() {
+        document.addEventListener('deviceready', this.onDeviceReady, false);
+    },
+    // deviceready Event Handler
+    //
+    // The scope of 'this' is the event. In order to call the 'receivedEvent'
+    // function, we must explicity call 'app.receivedEvent(...);'
+    onDeviceReady: function() {
+        app.receivedEvent('deviceready');
+    },
+    // Update DOM on a Received Event
+    receivedEvent: function(id) {
+        var parentElement = document.getElementById(id);
+        var listeningElement = parentElement.querySelector('.listening');
+        var receivedElement = parentElement.querySelector('.received');
+
+        listeningElement.setAttribute('style', 'display:none;');
+        receivedElement.setAttribute('style', 'display:block;');
+
+        console.log('Received Event: ' + id);
+    }
+};
+
+</code></pre>
+
+<p>Finally a config.xml is used to version the app, provide the location of file assets, and describe the permissions required by the app.</p>
+
+<pre><code>&lt;?xml version="1.0" encoding="UTF-8" ?&gt;
+&lt;widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.salesucation.hello" version="0.0.1"&gt;
+
+    &lt;name&gt;Hello Phonegap Build&lt;/name&gt;
+
+    &lt;description&gt;
+        Example from phonegap build
+    &lt;/description&gt;
+
+    &lt;author href="https://rhildred.github.io" email="rhildred@gmail.com"&gt;
+        Rich Hildred and various Web Development Classes
+    &lt;/author&gt;
+    &lt;gap:config-file platform="ios" parent="CFBundleVersion"&gt;
+        &lt;string&gt;1.0.1&lt;/string&gt;
+    &lt;/gap:config-file&gt;
+    &lt;gap:config-file platform="ios" parent="CFBundleShortVersionString"&gt;
+        &lt;string&gt;1.0&lt;/string&gt;
+    &lt;/gap:config-file&gt;
+    &lt;!-- We'll include the Barcode plugin as an example --&gt;
+    &lt;gap:plugin name="com.phonegap.plugins.barcodescanner" /&gt;
+    &lt;gap:plugin name="de.appplant.cordova.plugin.badge" /&gt;
+&lt;/widget&gt;
+
+
+</code></pre>
+
+<p>One can test this "app" in the chrome browser using the <a href="https://chrome.google.com/webstore/search/ripple%20emulator%20beta?hl=en-US">ripple emulator beta</a> from the chrome store. Finally you can get your app in an android IOS or Windows phone device using phonegap build service from adobe. Phonegap build, doesn't support BB10 anymore, but phonegap/cordova itself does. Your codebase can be built and put on a bb10 device using Blackberry HTML5 Webworks.</p>
+</div></div>
+<hr />
+<div id="webworks" class="bookmark">
+<div class="editable" id="courses/PROG8110/Webworks_md"><h1>BlackBerry 10 WebWorks SDK</h1>
+
+<p>We spent some time trying to get this to work in our lab environment and were thwarted, by a combination of factors. I think that it is still worth knowing webworks, because BB10 is a platform that you and your customers/employers can use to show that you have a well rounded app that works on all platforms. The first step with WebWorks is to <a href="https://developer.blackberry.com/html5/downloads/">download the sdk from this link.</a></p>
+
+<p>Once downloaded and installed you are presented with this:</p>
+
+<p><img src="courses/PROG8110/webworkscommand.png" alt="command prompt running node.js" /></p>
+
+<p>If you have installed on a portable device or without adding a menu item you can run <code>BB10 WebWorks SDK 2.2.0.15/webworks-ui/bin/start-ui</code> to start the web app.</p>
+
+<p>You saw something like this before when you ran node.js. Webworks runs on top of node.js on your machine. The actual application is a web application that looks like this.</p>
+
+<p><img src="courses/PROG8110/webworksscreen.png" alt="webworks app screen" /></p>
+
+<p>The screens in the web app are fairly straightforward. You follow the certificates menu item to set up your system:</p>
+
+<p><img src="courses/PROG8110/certificates.png" alt="webworks app screen" /></p>
+
+<p>To actually make an app, you add a project and copy in the www folder from your phonegap build project. The project settings contribute to a config.xml in the root folder of your project, leaving the config.xml in your www folder untouched. As well as the project settings, you will also want to edit the plugins for your project, which again live outside of the www folder so your phonegap build code remains unchanged.</p>
+
+<p>For my epic network app, I tried to commit the webworks project to the repository. I could, but I think that I needed a better .gitignore file, because I was never really satisfied with the outcome, and had to start with a new webworks project and copy in the www folder whenever I did a new build anyways. Was my customer ever excited when she could run her app on her Q10!!!!</p>
+</div></div>
+<hr />
+<div id="node.js" class="bookmark">
+<div class="editable" id="courses/PROG8110/Node_md"><h1>Node.js and engine.io</h1>
+
+<p>As I mentioned, if you have used webworks you have used node.js. Webworks uses node.js to host the backend pieces that actually assemble your app, and copy it to the phone, basically phonegap build for your local machine. Ember-cli and Adobe Brackets also uses node.js as a live update/push server and a way of building the asset chain for your webapp. Linked In <a href="http://engineering.linkedin.com/nodejs/blazing-fast-nodejs-10-performance-tips-linkedin-mobile">uses these best practices with node.js</a> to do push notifications to their mobile apps. Although linkedin mentions specifically that it is a bad idea, I am going to start with <a href="https://github.com/rhildred/hellonodeexpress">serving static content from node.js</a>. This file is <code>index.js</code>.</p>
+
+<pre><code><br />var express = require("express"),
+    app = express(),
+    server = require('http').createServer(app),
+    port = process.env.PORT || 8080;
+
+server.listen(port, function(){
+    console.log("Server listening at port %d", port);
+});
+
+app.use(express.static(__dirname + '/www/'));
+
+</code></pre>
+
+<p>This server depends on express middleware. Express middleware is a npm (node dependency manager) module. We signal that the dependency is required with a <code>package.json</code> file in the same folder as index.js:</p>
+
+<pre><code>{
+    "name": "chatapp",
+    "dependencies":{
+        "express": "*",
+        "debug": "*"
+
+    }
+}
+
+</code></pre>
+
+<p>To run a node program:</p>
+
+<ol>
+<li>run <code>npm install</code> from the folder containing your index.js to install any dependencies.</li>
+<li>run <code>node index.js</code> in this case to start the server.</li>
+</ol>
+
+<p>I included the debug dependency so that you can also start your process with:</p>
+
+<p><code>DEBUG=* node index.js</code></p>
+
+<p>Of course, serving static files is <em>not</em> a good use case for node.js. To do something really useful, a programmatic endpoint should be defined, in this case /student/:id:</p>
+
+<pre><code><br />var express = require("express"),
+    app = express(),
+    server = require('http').createServer(app),
+    port = process.env.PORT || 8080;
+
+server.listen(port, function(){
+    console.log("Server listening at port %d", port);
+});
+
+app.get("/student/:id", function(req, res){
+    res.end(req.params.id + " rocks!");
+});
+
+app.use(express.static(__dirname + '/www/'));
+
+</code></pre>
+
+<p>Where node.js is really great though is push notifications. In this case we will <a href="https://github.com/rhildred/updatedsocketiochat">use engine.io to make a chat app</a>. Additional dependencies:</p>
+
+<pre><code><br />{
+    "name": "chatapp",
+    "main": "index.js",
+    "dependencies":{
+        "express": "*",
+        "engine.io": "*",
+        "socket.io": "*",
+        "debug": "*",
+        "underscore":"*"
+    }
+}
+
+</code></pre>
+
+<p>The server uses sockets for push communications between clients:</p>
+
+<pre><code><br />var express = require("express"),
+    app = express(),
+    server = require('http').createServer(app),
+    io = require('socket.io')(server),
+    _ = require('underscore'),
+    debug=require("debug")("index.js");
+
+var ipaddr = process.env.OPENSHIFT_NODEJS_IP || "127.0.0.1";
+var port = process.env.OPENSHIFT_NODEJS_PORT || parseInt(process.argv.pop()) || 8080;
+
+debug(ipaddr, port);
+
+server.listen(port, ipaddr, function(){
+    console.log("Server listening at port %d", port);
+});
+
+io.on('connection', function (socket) {
+  // when the client emits 'receive message', this listens and executes
+  socket.on('receive message', function (data) {
+      var oOut = {
+          from: _.escape(data.from),
+          message: _.escape(data.message)
+      };
+      socket.broadcast.emit("receive message", oOut);
+  });
+});
+
+app.use(express.static(__dirname + '/www/'));
+
+</code></pre>
+
+<p>There is one really important piece in here that I want to draw your attention to. <strong>Never</strong>, <em>never</em> trust data taken from the web. Data from the web <strong>will</strong> contain attempts at both html and sql injection. Here we use <code>_.escape(data.message)</code> to make sure that there is no html in our message. If we were using this with a database we would also use bind variables to prevent sql injection. I don't want to focus too much on node.js as it isn't mobile development per se, but node.js is still a valuable tool for building and doing push notifications. Also some of you are using this technology for your capstone projects.</p>
+</div></div>
+<hr />
+<div id="jqm" class="bookmark">
+<div class="editable" id="courses/PROG8110/jqm_md"><h1>JQuery Mobile</h1>
+
+<p>Possibly the simplest way to make a useful mobile web-app is using jQuery mobile. jQuery mobile, combines the pages of a wizard like app into one file. I have set up a simple app, <a href="https://github.com/rhildred/jQuerymobileForms">on my github.</a>. You can <a href="http://rhildred.github.io/jQuerymobileForms/www/">see it in action here.</a>.</p>
+
+<p>To construct this app, I started out with a fairly basic html containing 2 pages.</p>
+
+<pre><code><br />&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+
+&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+    &lt;title&gt;Multi-page template&lt;/title&gt;
+    &lt;link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.css" /&gt;
+    &lt;script src="https://code.jquery.com/jquery-1.11.2.min.js"&gt;&lt;/script&gt;
+    &lt;script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"&gt;&lt;/script&gt;
+    &lt;script src="cordova.js"&gt;&lt;/script&gt;
+    &lt;script src="js/index.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+
+
+&lt;body&gt;
+
+    &lt;!-- Start of first page: #one --&gt;
+    &lt;div data-role="page" id="one"&gt;
+
+        &lt;div data-role="header"&gt;
+            &lt;h1&gt;Multi-page&lt;/h1&gt;
+        &lt;/div&gt;
+        &lt;!-- /header --&gt;
+
+        &lt;div data-role="content"&gt;
+            &lt;p&gt;&lt;a href="#two" data-role="button"&gt;Show page "two"&lt;/a&gt;
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div data-role="footer" data-theme="d"&gt;
+            &lt;h4&gt;Page Footer&lt;/h4&gt;
+        &lt;/div&gt;
+        &lt;!-- /footer --&gt;
+    &lt;/div&gt;
+    &lt;!-- /page one --&gt;
+
+
+    &lt;!-- Start of second page: #two --&gt;
+    &lt;div data-role="page" id="two" data-theme="a"&gt;
+
+        &lt;div data-role="header"&gt;
+            &lt;h1&gt;Two&lt;/h1&gt;
+        &lt;/div&gt;
+        &lt;!-- /header --&gt;
+        &lt;div data-role="content"&gt;
+            &lt;p&gt;&lt;a href="#one" data-role="button"&gt;Show page "one"&lt;/a&gt;
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+
+        &lt;div data-role="footer"&gt;
+            &lt;h4&gt;Page Footer&lt;/h4&gt;
+        &lt;/div&gt;
+        &lt;!-- /footer --&gt;
+    &lt;/div&gt;
+    &lt;!-- /page two --&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;
+
+</code></pre>
+
+<p>I didn't like the way that <code>data-role="footer"</code> was repeated on both pages so I deleted the footers and added this to the existing initialize method in my javascript:</p>
+
+<pre><code><br />    initialize: function() {
+        this.bindEvents();
+        jQuery(document).on("pagecreate", jQuery.proxy(this.headerAndFooter, this));
+    },
+   headerAndFooter: function (event) {
+        var sId = event.target.id;
+        jQuery("#" + sId).append('&lt;footer&gt;&lt;p&gt;&amp;copy;&amp;nbsp;Copyright ' + new Date().getFullYear() + '&amp;nbsp;Rich Hildred.&lt;/p&gt;&lt;/footer&gt;');
+    },
+
+</code></pre>
+
+<p>Finally I added a form to the html (Note the way that the checkbox and radio buttons are).</p>
+
+<pre><code><br />&lt;form id="purchase"&gt;
+    &lt;label&gt;
+        &lt;input id="allowgps" type="checkbox" name="GPS" value="GPS" /&gt;Allow GPS access&lt;/label&gt;
+    &lt;input id="amount" type="number" required="required" step=".01" name="amount" placeholder=" ($) Total Amount Before Tax and Gratuity:"&gt;
+
+    &lt;div data-role="fieldcontain"&gt;
+        &lt;fieldset data-role="controlgroup"&gt;
+            &lt;legend&gt;Promotion Type:&lt;/legend&gt;
+            &lt;input type="radio" name="promotioncode" id="radio-choice-1" value="Everyday Discount" checked="checked" /&gt;
+            &lt;label for="radio-choice-1"&gt;Everyday Discount&lt;/label&gt;
+
+            &lt;input type="radio" name="promotioncode" id="radio-choice-2" value="Epic Promotion" /&gt;
+            &lt;label for="radio-choice-2"&gt;Epic Promotion&lt;/label&gt;
+
+        &lt;/fieldset&gt;
+    &lt;/div&gt;
+    &lt;p&gt;
+        &lt;button type="submit" data-role="button"&gt;Next&lt;/button&gt;
+    &lt;/p&gt;
+&lt;/form&gt;
+
+
+</code></pre>
+
+<p>To deal with the form submit, I added the following code to my index.js:</p>
+
+<pre><code>    initialize: function() {
+
+        jQuery(document).on("submit", "#purchase", jQuery.proxy(this.purchase, this));
+    },
+    purchase: function(){
+        jQuery.mobile.changePage("#two", {
+            transition: 'none',
+            changeHash: true
+        });
+        jQuery("#confirmamount").html(jQuery("#amount").val());
+        return false;
+    }
+
+
+</code></pre>
+
+<p><strong>Notice:</strong> how the purchase method returns false. With jQuery mobile, we can use a standard jQuery coding style to create small apps that have a few related screens, very quickly.</p>
+</div></div>
+<hr />
+<div id="midterm" class="bookmark">
+<div class="editable" id="courses/PROG8110/midterm_md"><h1>Programming: Mobile Application Development - midterm</h1>
+
+<p><img src="http://i.ytimg.com/vi/szhJzX0UgDM/hqdefault.jpg" alt="Happy birthday Cindy Wilson" title="Happy birthday Cindy Wilson (rock lobster)" /></p>
+
+<p>This test is intended to draw your attention to some gotcha's and other interesting points for the first part of our time together. The <a href="tests/mobilemidterm.htm">test is here.</a> Good luck!</p>
+</div></div>
+<hr />
+<div id="angular" class="bookmark">
+<div class="editable" id="courses/PROG8110/angular_md"><h1>Angular.js</h1>
+
+<p>Angular has an, I think, unfair reputation as having a steep learning curve. I view it more as a fresh start on html5 programming. Consider this html <code>body</code> snippet</p>
+
+<pre><code><br />    &lt;body ng-app="myApp" ng-controller="myCtrl"&gt;
+        &lt;h1&gt;The Magic Puppy&lt;/h1&gt;
+        &lt;figure&gt;
+            &lt;img src="{{currentPicture}}" alt="picture of puppy"/&gt;
+            &lt;figcaption&gt;Picture by {{currentAuthor}}&lt;/figcaption&gt;
+        &lt;/figure&gt;
+        &lt;button ng-click="nextPicture()"&gt;Next&lt;/button&gt;
+    &lt;/body&gt;
+
+</code></pre>
+
+<p>In it, we have a couple of variables with nice descriptive names <code>currentPicture</code> and <code>currentAuthor</code>. The context for the <code>currentPicture</code> is an img src=. Likewise the context for <code>currentAuthor</code> starts with the phrase "Picture by". Hopefully you can see from this context how both variables are used.</p>
+
+<p>The variables in angular have a scope, that is, a range of view. In fact the range of view is the <code>body</code> of the html5 page. The scope is defined by the <code>ng-controller</code> directive, which itself has a context defined by the <code>ng-app</code> directive to be an angular module named "myApp". This architecture is refered to as model view view-model (mvvm).</p>
+
+<p>HTML5 elements like forms and buttons can also have interactive behaviour. For instance when the button is clicked the <code>nextPicture()</code> behaviour is triggered. Consider now the scope for the body of our html5 page:</p>
+
+<pre><code>            angular.module("myApp", []).controller("myCtrl", function ($scope) {
+                $scope.aPictures = [{ url: "https://farm4.staticflickr.com/3088/2688916488_1a125cd0e7_z_d.jpg", author: "Ângela Antunes" },
+                 { url: "https://farm4.staticflickr.com/3626/3390027827_56ca221e12_z_d.jpg?zz=1", author: "Jelene Morris"}];
+                $scope.nextPicture = function () {
+                    $scope.n = $scope.n + 1;
+                    if ($scope.n &gt;= $scope.aPictures.length) $scope.n = 0;
+                    $scope.currentPicture = $scope.aPictures[$scope.n].url;
+                    $scope.currentAuthor = $scope.aPictures[$scope.n].author;
+                };
+                $scope.n = -1;
+                $scope.nextPicture();
+            });
+
+
+</code></pre>
+
+<p>If we start with the behaviour <code>$scope.nextPicture()</code> we can see the currentPicture and currentAuthor variables being updated. The context of the update is the array containing our data <code>$scope.aPictures</code>. You can see the <a href="https://github.com/rhildred/simpleangular">complete example here</a>, or <a href="https://rhildred.github.io/simpleangular">view a demo here</a>. Hopefully you will agree that this is a very straightforward way to add behaviour to html5.</p>
+</div></div>
+<hr />
+<div id="tdd" class="bookmark">
+<div class="editable" id="courses/PROG8110/tdd_md"><h1>Test Driven Development With Angular</h1>
+
+<p>Software development has been compared by Alistair Cockburn to a resource constrained cooperative game like rock-climbing. Test driven development helps you to make the next move in this game before you get too tired and fall off the wall.</p>
+
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Rock_Climbing_Owens_River_Gorge.jpg/360px-Rock_Climbing_Owens_River_Gorge.jpg" alt="rock climbing by Jonathan Fox" title="by Jonathan Fox" /></p>
+
+<p>Test driven development helps you to make your next move in 3 ways</p>
+
+<ol>
+<li>it keeps your batch size small, you make a failing test for an incremental functionality, make the test pass and move on to the next challenge</li>
+<li>it lets you climb with confidence that your next move won't break your last move, or if it does you will know</li>
+<li>it prevents waste by making the work possibly seem less overwhelming ... just make the test pass, don't work out all of the possibilities ahead of time.</li>
+</ol>
+
+<p>Angular supports test driven development by separating logic from the document object markup. Controllers or view models can be tested in isolation from the view. For example, lets look at a <a href="https://rhildred.github.io/jasmineangulartdd/">simple adding machine that calculates HST</a>. Like the magic puppy example it can be easily broken in to 2 parts. The html5 view:</p>
+
+<pre><code>&lt;body ng-app="myApp" ng-controller="hstController"&gt;
+    &lt;div id="tape"&gt;
+        &lt;p ng-repeat="amount in amounts" ng-bind="amount"&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;form id="addingmachine"&gt;
+        &lt;table&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;input ng-model="amount" /&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td ng-bind="subtotal"&gt;&lt;/td&gt;
+                &lt;td&gt;subtotal&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td ng-bind="hst()"&gt;&lt;/td&gt;
+                &lt;td&gt;hst&lt;/td&gt;
+                &lt;td&gt;
+                    &lt;select ng-model="province"&gt;
+                        &lt;option value="ON"&gt;Ontario
+                        &lt;/option&gt;
+                        &lt;option value="AB"&gt;Alberta
+                        &lt;/option&gt;
+                        &lt;option value="QC"&gt;Quebec
+                        &lt;/option&gt;
+
+                    &lt;/select&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td ng-bind="grandtotal"&gt;&lt;/td&gt;
+                &lt;td&gt;
+                    &lt;input ng-click="addAmount()" type="submit" value="Total" /&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
+    &lt;/form&gt;
+&lt;/body&gt;
+</code></pre>
+
+<p>As I might have said of the previous example, it is thrilling to me how the logic of the form is declared with the html. In this case we have 2 behavioural bits <code>addAmount()</code> and <code>hst()</code>. It is also thrilling to know that we can test these behavioural bits independent of the declarative markup. Lets have a look at the view-model or controller in its own file hstcontroller.js.</p>
+
+<pre><code>angular.module("myApp", []).controller("hstController", function ($scope) {
+    $scope.amounts = [];
+    $scope.subtotal = 0;
+    $scope.grandtotal = 0;
+    $scope.province = "ON";
+    $scope.addAmount = function (nAmount) {
+        $scope.amounts.push($scope.amount);
+        $scope.subtotal += Number($scope.amount);
+        $scope.grandtotal = $scope.subtotal + $scope.hst();
+        $scope.amount = "";
+    };
+    $scope.hst = function () {
+        var nRc = 0;
+        switch($scope.province){
+            case 'AB':
+                nRc = Number($scope.subtotal) * .05;
+                break;
+            case 'QC':
+                nRc = Number($scope.subtotal) * .14975;
+                break;
+            default:
+                nRc = Number($scope.subtotal) * .13;
+
+        }
+        return nRc;
+    }
+
+});
+
+</code></pre>
+
+<p>All of <a href="https://github.com/rhildred/jasmineangulartdd">the source is here</a>.</p>
+
+<p>Because the controller is in it's own file we can include it from a <code>hstTestRunner.html</code>. The actual tests set the province and amount, calls <code>addAmount()</code> and then <code>hst()</code></p>
+
+<pre><code>            describe('$scope.hst', function () {
+                var $scope, controller;
+                beforeEach(function () {
+                    $scope = {};
+                    controller = $controller('hstController', {
+                        $scope: $scope
+                    });
+                });
+                it('sets the province to on and calculates hst', function () {
+                    $scope.province = 'ON';
+                    $scope.amount = "10";
+                    $scope.addAmount();
+                    expect($scope.hst()).toEqual(1.3);
+                });
+                it('sets the province to ab and calculates hst', function () {
+                    $scope.province = 'AB';
+                    $scope.amount = "10";
+                    $scope.addAmount();
+                    expect($scope.hst()).toEqual(0.5);
+                });
+                it('sets the province to qc and calculates hst', function () {
+                    $scope.province = 'QC';
+                    $scope.amount = "10";
+                    $scope.addAmount();
+                    expect($scope.hst()).toEqual(1.4975);
+                });
+            });
+        });
+</code></pre>
+
+<p>By using 10 for each amount we can easily see in the results what the HST rate is. This is important because when I gave this example I said that <code>//sales tax in Ontario is 7% + 8%</code>. If I had a comment in my code like this and fixed the code to have the new rate without fixing the comment my comment has "decayed". The <a href="https://rhildred.github.io/jasmineangulartdd/hstTestRunner.html">tests in this case</a> form reliable documentation along with the code itself.</p>
+</div></div>
+<hr />
+<div id="youarehere" class="bookmark">
+<div class="editable" id="courses/PROG8110/youarehere_md"><h1>You are Here</h1>
+
+<p>The second place team in the CAD capstones a couple of years ago made a google maps app that was based loosely on GRT routes and waypoints. They used jQuery mobile for their UI and produced something that looked really good. They also used localStorage and a WEB SQL database. I also had a student do a Christmas tree finder app using Google Maps. Google Maps are great fun. You may remember from last term, how we used Google maps with require.js.</p>
+
+<p><img src="courses/PROG8110/googleMap.png" alt="map from project" title="map from project" /></p>
+
+<pre><code><br />define(["jquery", "async!//maps.google.com/maps/api/js?sensor=false"], function(jQuery){
+    return function(){
+        var myOptions = {
+            zoom: 14,
+            center: new google.maps.LatLng(43.4531855, -80.55331509999996),
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            scrollwheel: false
+        };
+        map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
+        marker = new google.maps.Marker({
+            map: map,
+            position: new google.maps.LatLng(43.4531855, -80.55331509999996)
+        });
+        infowindow = new google.maps.InfoWindow({
+            content: "&lt;b&gt;Salesucation.com Inc.&lt;/b&gt;&lt;br/&gt;5-420 Erb St . W&lt;br/&gt;N2L6K6 Waterloo"
+        });
+        google.maps.event.addListener(marker, "click", function () {
+            infowindow.open(map, marker);
+        });
+        infowindow.open(map, marker);
+    };
+});
+
+</code></pre>
+
+<p>Note the async require.js reference. Google maps javascript bootstraps itself asynchronously so require.js needs to not wait for the dependency to be satisfied ... hence the use of async. Angular, likewise, has to deal with the asynchronous nature of google maps. As well as including the google maps with a script tag <code>&lt;script src='js/angular-google-maps.min.js'&gt;&lt;/script&gt;</code> and making a place in our document for the map <code>&lt;ui-gmap-google-map center='map.center' zoom='map.zoom'&gt;&lt;/ui-gmap-google-map&gt;</code> we need to activate them in the code:</p>
+
+<pre><code><br />var app = angular.module("myapp", [
+    'mobile-angular-ui',
+
+    // touch/drag feature: this is from 'mobile-angular-ui.gestures.js'
+    // it is at a very beginning stage, so please be careful if you like to use
+    // in production. This is intended to provide a flexible, integrated and and
+    // easy to use alternative to other 3rd party libs like hammer.js, with the
+    // final pourpose to integrate gestures into default ui interactions like
+    // opening sidebars, turning switches on/off ..
+    'mobile-angular-ui.gestures',
+    'uiGmapgoogle-maps'
+])
+
+app.config(function (uiGmapGoogleMapApiProvider) {
+    uiGmapGoogleMapApiProvider.configure({
+        //    key: 'your api key',
+        v: '3.17',
+        libraries: 'weather,geometry,visualization'
+    });
+});
+
+app.controller("mycontroller", function ($scope, uiGmapGoogleMapApi) {
+    angular.extend($scope, {
+        init: function () {
+            uiGmapGoogleMapApi.then($scope.mapsReady);
+            $scope.setCurrentPosition();
+        },
+        mapsReady: function (maps) {
+         // could do any initialization here like setting a marker
+        },
+        map: { center: { latitude: 45, longitude: -73 }, zoom: 12 },
+        positionReady: function(position){
+            $scope.map.center.latitude = position.coords.latitude;
+            $scope.map.center.longitude = position.coords.longitude;
+            $scope.$apply();
+        },
+        setCurrentPosition: function(){
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition($scope.positionReady);
+            } else {
+                x.innerHTML = "Geolocation is not supported by this browser.";
+            }
+
+        }
+    }).init();
+
+
+});
+
+</code></pre>
+
+<p>At the end of the async loading of the maps api we have a callback to say that the maps are ready.</p>
+
+<p>Lets add a marker at this point, like we had in our require.js example last term. To add a marker, one adds a tag inside the <code>&lt;ui-gmap-google-map center='map.center' zoom='map.zoom'&gt;&lt;/ui-gmap-google-map&gt;</code>:</p>
+
+<pre><code><br />            &lt;ui-gmap-google-map center='map.center' zoom='map.zoom'&gt;
+                &lt;ui-gmap-markers models="map.markers" coords="'coords'" icon="'icon'"&gt;&lt;/ui-gmap-markers&gt;
+            &lt;/ui-gmap-google-map&gt;
+
+</code></pre>
+
+<p>Then to your model you need to add:</p>
+
+<pre><code><br />        map: { center: { latitude: 45, longitude: -73 }, zoom: 12, markers:[] },
+        positionReady: function(position){
+            $scope.map.center.latitude = position.coords.latitude;
+            $scope.map.center.longitude = position.coords.longitude;
+            $scope.map.markers.length = 0;
+            var oMarker = {id:0, data: "you are here", coords: position.coords};
+            $scope.map.markers.push(oMarker);
+            $scope.$apply();
+        },
+
+</code></pre>
+
+<p>I wasn't able to find a working example of infowindows on the internet, nor was I able to get my infowindow to work. There must be a way to hack this in using the underlying map object, but I didn't find that way.</p>
+
+<p>Along with the you are here example, I included the demo site. In fact I renamed the www folder from the dist folder in the <a href="https://github.com/mcasimir/mobile-angular-ui">angular mobile ui code.</a>. For the demo folder to keep working I needed to fix the links, but there was one other small change that I made:</p>
+
+<pre><code><br />&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset="utf-8" /&gt;
+    &lt;base href="/demo/" /&gt;
+    &lt;title&gt;Mobile Angular UI Demo&lt;/title&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /&gt;
+    &lt;meta name="apple-mobile-web-app-capable" content="yes" /&gt;
+    &lt;meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimal-ui" /&gt;
+    &lt;meta name="apple-mobile-web-app-status-bar-style" content="yes" /&gt;
+    &lt;link rel="shortcut icon" href="/favicon.png" type="image/x-icon" /&gt;
+    &lt;link rel="stylesheet" href="/dist/css/mobile-angular-ui-hover.min.css" /&gt;
+    &lt;link rel="stylesheet" href="/dist/css/mobile-angular-ui-base.min.css" /&gt;
+    &lt;link rel="stylesheet" href="/dist/css/mobile-angular-ui-desktop.min.css" /&gt;
+    &lt;link rel="stylesheet" href="demo.css" /&gt;
+    &lt;script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.0/angular.min.js"&gt;&lt;/script&gt;
+    &lt;script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.0/angular-route.min.js"&gt;&lt;/script&gt;
+    &lt;script src="/dist/js/mobile-angular-ui.min.js"&gt;&lt;/script&gt;
+    &lt;!-- Required to use $touch, $swipe, $drag and $translate services --&gt;
+    &lt;script src="/dist/js/mobile-angular-ui.gestures.min.js"&gt;&lt;/script&gt;
+    &lt;script src="demo.js"&gt;&lt;/script&gt;
+  &lt;/head&gt;
+
+</code></pre>
+
+<p>was changed to:</p>
+
+<pre><code><br />&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset="utf-8" /&gt;
+    &lt;title&gt;Mobile Angular UI Demo&lt;/title&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /&gt;
+    &lt;meta name="apple-mobile-web-app-capable" content="yes" /&gt;
+    &lt;meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimal-ui" /&gt;
+    &lt;meta name="apple-mobile-web-app-status-bar-style" content="yes" /&gt;
+    &lt;link rel="shortcut icon" href="favicon.png" type="image/x-icon" /&gt;
+    &lt;link rel="stylesheet" href="../www/css/mobile-angular-ui-hover.min.css" /&gt;
+    &lt;link rel="stylesheet" href="../www/css/mobile-angular-ui-base.min.css" /&gt;
+    &lt;link rel="stylesheet" href="../www/css/mobile-angular-ui-desktop.min.css" /&gt;
+    &lt;link rel="stylesheet" href="demo.css" /&gt;
+    &lt;script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.0/angular.min.js"&gt;&lt;/script&gt;
+    &lt;script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.0/angular-route.min.js"&gt;&lt;/script&gt;
+    &lt;script src="../www/js/mobile-angular-ui.min.js"&gt;&lt;/script&gt;
+    &lt;!-- Required to use $swipe, $drag and Translate services --&gt;
+    &lt;script src="../www/js/mobile-angular-ui.gestures.min.js"&gt;&lt;/script&gt;
+    &lt;script src="demo.js"&gt;&lt;/script&gt;
+  &lt;/head&gt;
+
+
+</code></pre>
+
+<p><em>Note:</em> the removal of <code>&lt;base href="/demo/" /&gt;</code>. For it to work on gh-pages <code>&lt;base href="/youarehere/demo/" /&gt;</code> could also be used. The other day I noticed that this was also in a file produced by ember.js. For this to work the file with the base line in it can't be in a subdirectory. This means that if a file on gh-pages contains this directive a <a href="https://help.github.com/articles/adding-a-cname-file-to-your-repository/">cname must be applied to get it into the root of the domain name space</a>.</p>
+
+<p>In the demo folder, we added a new page in class. In order to do this, there were 3 things that we had to touch:</p>
+
+<ol>
+<li>we had to add a new link in the sidebar.html <code>&lt;a class="list-group-item" href="#/richrocks"&gt;Rich Rocks &lt;i class="fa fa-chevron-right pull-right"&gt;&lt;/i&gt;&lt;/a&gt;</code>. Angular, like backbone, routes client side so we have a hash symbol at the start of the route.</li>
+<li>we had to add a new route to the demo.js file</li>
+</ol>
+
+<pre><code>    $routeProvider.when('/richrocks', {
+        templateUrl: 'richrocks.html',
+        reloadOnSearch: false
+    });
+</code></pre>
+
+<ol start="3">
+<li>we created the actual richrocks.html file. I had a little demo, where I used some radio buttons, so I included the demo:</li>
+</ol>
+
+<pre><code>&lt;form role="form"&gt;
+    &lt;fieldset&gt;
+        &lt;legend&gt;Rich Rocks Radio!&lt;/legend&gt;
+        &lt;div class="form-group"&gt;
+            &lt;input id="radio1" type="radio" ng-model="color.name" value="red"&gt;
+            &lt;label for="radio1"&gt;Red&lt;/label&gt;
+            &lt;br/&gt;
+            &lt;input id="radio2" type="radio" ng-model="color.name" ng-value="specialValue"&gt;
+            &lt;label for="radio2"&gt;Green&lt;/label&gt;
+            &lt;br/&gt;
+            &lt;input id="radio3" type="radio" ng-model="color.name" value="blue"&gt;
+            &lt;label for="radio3"&gt;Blue&lt;/label&gt;
+            &lt;br/&gt;
+        &lt;/div&gt;
+        &lt;tt&gt;color = {{color.name | json}}&lt;/tt&gt;
+        &lt;br/&gt;
+    &lt;/fieldset&gt;
+&lt;/form&gt;
+Note that `ng-value="specialValue"` sets radio item's value to be the value of `$scope.specialValue`.
+</code></pre>
+
+<ol start="4">
+<li>Finally for the demo to work, I made another little change to the demo.js file:</li>
+</ol>
+
+<pre><code>    //radio
+    $scope.color = {
+        name: 'blue'
+    };
+    $scope.specialValue = {
+        "id": "12345",
+        "value": "green"
+    };
+</code></pre>
+
+<p>This routing pattern, minus the radio buttons, is consistent across all mvc environments that I am aware of. We didn't need it in the actual you are here app because there was a single view. Despite the difficulty of using the info window, I think that angular with google maps is pretty neat. I really like the way that the latitude and longitude input fields are hot linked to the map. It is fun to be able to change the latitude, and see what's due east of here.... It is also neat the way the fields change as you scroll the map. Adding new markers, just by pushing them on to the array is also pretty cool.</p>
+</div></div>
+<hr />
+<div id="tellme" class="bookmark">
+<div class="editable" id="courses/PROG8110/tellme_md"><h1>Tellme</h1>
+
+<p><a href="http://whatchareading.com/knock-door-loot-treasure-stab-buddy-munchkin-1/"><img src="http://whatchareading.com/wp-content/uploads/2015/01/Munchkin_001_coverD-214x140.jpg" alt="munchkin game" title="munchkin game from watchareading.com" /></a></p>
+
+<p>A couple of years ago some of my students made a <a href="http://whatchareading.com/knock-door-loot-treasure-stab-buddy-munchkin-1/">Munchkin game</a>. I was reminded of their game when I saw the $scope pattern in Angular. With a socket.io server on the backend $scope can be shared among 4 players of a game. The pattern is, whenever the server hears about a change, he updates his shared scope and then broadcasts it to all of the listening client. I am interested in acceptance test driven development, so, rather than Munchkin I wrote <a href="https://rhildred.github.io/tellme/www">a little demo</a> of a team ticketing application. You can see <a href="https://github.com/rhildred/tellme">the source code here.</a></p>
+
+<p>On the server we have the following scope object:</p>
+
+<pre><code><br />var $scope = {
+    model: {issues:[]},
+    init: function () {
+        io.set('origins', '*:*');
+        io.on('connection', $scope.connection);
+    },
+...
+};
+$scope.init();
+
+</code></pre>
+
+<p>The client sends a message to add an issue:</p>
+
+<p><code>{"reporter":"Rob","title":"this is a test","id":"1eb5c404-d6c5-4f00-a3a6-c63081c0693b","comments":[]}</code></p>
+
+<p>or a comment:</p>
+
+<p><code>{"id":"1eb5c404-d6c5-4f00-a3a6-c63081c0693b","commenter":"Rob","comment":"this is a comment on a test"}</code></p>
+
+<p>When the server gets the message, it escapes any html, adds it in the correct place in the internal structure and sends the internal structure to all of the clients:</p>
+
+<pre><code><br />    newIssue: function(data) {
+        var oCleaned = {
+            reporter: _.escape(data.reporter),
+            title: _.escape(data.title),
+            id: _.escape(data.id),
+            comments:[]
+        }
+        $scope.model.issues.unshift(oCleaned);
+        io.emit("receive issue", $scope.model);
+    },
+
+</code></pre>
+
+<p>What happens next on the client is a beautiful thing ... thanks to Angular:</p>
+
+<pre><code><br />       update: function (data) {
+           angular.extend($scope.model, data);
+           $scope.$apply();
+       },
+
+</code></pre>
+
+<p>Amazing!!!!! when the client gets new data, it just extend's its model with it and does a $scope.apply. The angular markup takes care of the rest.</p>
+
+<h2>Making it Mobile</h2>
+
+<p>Tellme is set up as a hybrid, that either runs from the web or as a phonegap app. To make it a phonegap app, a config.xml was used. For this to work, from github as a free app,  with our node.js backend the config.xml was placed in the root of the project.</p>
+
+<pre><code>&lt;?xml version="1.0" encoding="UTF-8" ?&gt;
+&lt;widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.salesucation.youarehere" version="0.0.3"&gt;
+
+    &lt;name&gt;Issue Editor&lt;/name&gt;
+
+    &lt;description&gt;
+        Collaborative editing of issues
+    &lt;/description&gt;
+    &lt;content src="index.html" /&gt;
+    &lt;author href="https://rhildred.github.io" email="rhildred@gmail.com"&gt;
+        Rich Hildred and Mobile App Class of 2015
+    &lt;/author&gt;
+&lt;/widget&gt;
+
+</code></pre>
+
+<p>The config.xml itself is pretty basic. I was never completely sure why this config.xml is different from the config.xml in the <a href="https://github.com/rhildred/youarehere">youarehere app</a>.</p>
+
+<pre><code>&lt;?xml version="1.0" encoding="UTF-8" ?&gt;
+&lt;widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.salesucation.youarehere" version="0.0.3"&gt;
+
+    &lt;name&gt;You are here&lt;/name&gt;
+
+    &lt;description&gt;
+        You are here example
+    &lt;/description&gt;
+    &lt;content src="www/index.html" /&gt;
+    &lt;author href="https://rhildred.github.io" email="rhildred@gmail.com"&gt;
+        Rich Hildred and Mobile App Class of 2015
+    &lt;/author&gt;
+    &lt;!-- We'll include the Barcode plugin as an example --&gt;
+    &lt;gap:plugin name="de.appplant.cordova.plugin.badge" /&gt;
+    &lt;gap:plugin name="org.apache.cordova.geolocation" /&gt;
+    &lt;gap:plugin name="org.apache.cordova.device" /&gt;
+    &lt;feature name="Geolocation"&gt;
+        &lt;param name="ios-package" value="CDVLocation" /&gt;
+    &lt;/feature&gt;
+&lt;/widget&gt;
+
+</code></pre>
+
+<p>The youarehere app, also had a demo folder in it with an index.html in it, and if I made the config the same it would get the index in the demo folder rather than the www folder. I have also had a similar experience when I put a website in the public folder of my project and the phonegap build part in the www folder. When you just pull the whole thing from github it gives you the wrong folder. As well as a config.xml I included a <code>cordova.js</code> in the index. (<code>&lt;script src='cordova.js'&gt;&lt;/script&gt;</code>). That and one other tweak relating to the backend was all that I did to make it a mobile app.</p>
+
+<h2>Backend</h2>
+
+<p>The backend app is a node.js socket.io app, based on the chatapp. To run the backend app from brackets in your own environment:</p>
+
+<ol>
+<li>clone the project and open the folder in brackets.</li>
+<li>click on the <code>Open Bash Terminal/Console</code> (black icon with > sign)</li>
+<li>in the resulting console window type <code>npm install</code></li>
+<li>when that completes type <code>DEBUG=* node index.js</code>.</li>
+</ol>
+
+<p>To run the front end in your environment you need to modify it from the gh-pages version that came from github. <code>gh-pages</code> has no backend capability. The app is set up to work when served locally for debugging purposes and against a backend server on openshift (or heroku or azure) when on a device. It accomplishes this by making a new connection to the backend in the <code>deviceready</code> callback.</p>
+
+<pre><code>       // commented out to put on gh-pages branch ... for local testing un-comment this
+       //url: document.URL,
+       url: "https://tellme-hildred.rhcloud.com/",
+...
+
+       deviceReady: function () {
+           $scope.url = "https://tellme-hildred.rhcloud.com/";
+           $scope.socket = io($scope.url, {
+               'reconnection': true,
+               'force new connection': true
+           });
+
+
+</code></pre>
+
+<p>You will need to un-comment like so:</p>
+
+<pre><code>       // commented out to put on gh-pages branch ... for local testing un-comment this
+       url: document.URL,
+       //url: "https://tellme-hildred.rhcloud.com/",
+
+</code></pre>
+
+<p>Then when you surf to <code>http://localhost:8080</code> your front end and back-end will be communicating. You will be able to see this happening in the debug output in the console window. If you turn on ripple, the <code>deviceready</code> will fire and you will be communicating with my backend on openshift, unless you change the url:</p>
+
+<pre><code><br />       deviceReady: function () {
+           $scope.url = "https://tellme-hildred.rhcloud.com/";
+           $scope.socket = io($scope.url, {
+               'reconnection': true,
+               'force new connection': true
+           });
+
+
+</code></pre>
+
+<p>I had grand plans of also making a little card game using this technique. Perhaps I will still get time so that you can use this for a project.</p>
+</div></div>
+<hr />
+<div id="final" class="bookmark">
+<div class="editable" id="courses/PROG8110/final_md"><h1>PROG8110 Final exam</h1>
+
+<p>The intention of this exam is to draw your attention to some examples that primarily tell the story of Angular.js and mobile development. There is <a href="https://github.com/rhildred/tellme">one example</a> that is also intended to be an end to end app with shared state and push notifications of changes.</p>
+
+<p>The test is based on these examples from github:</p>
+
+<ol>
+<li><a href="https://github.com/rhildred/simpleangular">https://github.com/rhildred/simpleangular</a></li>
+<li><a href="https://github.com/rhildred/jasmineangulartdd">https://github.com/rhildred/jasmineangulartdd</a></li>
+<li><a href="https://github.com/rhildred/youarehere">https://github.com/rhildred/youarehere</a></li>
+<li><a href="https://github.com/rhildred/tellme">https://github.com/rhildred/tellme</a></li>
+</ol>
+
+<p>You will likely need to be able to run the examples to proceed. Please ask for help, if you can't run the examples. The <a href="tests/mobilefinal.htm">test is here.</a></p>
+</div></div>
+
+</div>
+
+		<hr>
+
+		<footer>
+			<p>&copy; Rich Hildred 2013-<script>document.write(new Date().getFullYear());</script></p>
+		</footer>
+	</div>
+	<!-- /container -->
+
+
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script
+		src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script
+		src="//code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	<script>
+		jQuery("#search").autocomplete({
+			source : "api/Words"
+		});
+	</script>
+	<script>
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script',
+				'//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-45546538-1', 'rhildred.users.sourceforge.net');
+		ga('send', 'pageview');
+	</script>
+</body>
+</html>

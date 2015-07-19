@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="google-site-verification" content="dvUQ2S0TOifnI9P2ARoTiE_c6Bvfk6vS_zDJaQebe9o" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="keywords" content="">
+<link rel="shortcut icon" href="YinYang.ico">
+
+<title>Rich: PROG3030</title>
+
+<!-- Bootstrap core CSS -->
+<link
+	href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+	rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+	<link href="//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="css/main.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.js"></script>
+    <![endif]-->
+	<script
+		src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+</head>
+
+<body>
+
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container PROG3030">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse"
+				data-target=".navbar-collapse">
+				<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+					class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" class="active" href=".">Faculty Page</a>
+		</div>
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="calendar.html">Calendar</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="pastcourses.html">Courses</a></li>
+			</ul>
+			<form class="navbar-form navbar-right" action="searchResults"
+				method="get">
+				<div class="form-group">
+					<input id="search" type="text" placeholder="search"
+						class="form-control" autocomplete="off"
+						name="q" />
+				</div>
+				<button type="submit" class="btn btn-success">
+					<i class="icon-search"></i>&nbsp;&nbsp;Search
+				</button>
+			</form>
+		</div>
+		<!--/.navbar-collapse -->
+	</div>
+</div>
+
+	<div class="container">
+		<!-- Example row of columns -->
+		<div class="row"><h1>Systems Development: Project Evaluation &amp; Control</h1>
+<script>
+var nWidth = document.body.clientWidth;
+if(nWidth > 500) nWidth = 500;
+document.write("<script src=\"http://ecorner.stanford.edu/embeddedPlayer.html?mid=2292&width=" + nWidth + "&language=English\"><\/script>");
+</script>
+<br />
+<div class="editable" id="courses/PROG3030/Prog3030Systems_md"><p>This is a case study course. The idea is that by looking at artifacts from successful and possibly unsuccessful projects you will get some ideas that you can use in your own project. You will be given examples to study each week, and need to come prepared to discuss them in class the following week. There will also be 3 student lead classes. The student led classes will be on topics chosen from 3 sets that you will prepare in your project teams. Overall the course is divided into 5 areas:</p>
+
+<ol>
+<li>Project Initiation</li>
+<li>Object-Oriented Analysis</li>
+<li>Design</li>
+<li>Implementation</li>
+<li>Business and Legal Issues</li>
+</ol>
+
+<p>We will look at these 5 areas from the perspective of lean product development, with the idea that the ideas of lean product development don't make the Unified Process irrelevant. In fact, UML, the unified process and design patterns form a pattern language that developers can use to communicate about the technical details of systems. This communication is especially important as a system grows and changes over time. This is a week by week breakdown of topics:</p>
+
+<table>
+<thead>
+<tr>
+  <th>Week</th>
+  <th>Topic</th>
+  <th>Resources/Case</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><em>Project Initiation</em></td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>1</td>
+  <td>introduction to intellectual property in a project</td>
+  <td><a href="http://www.ted.com/talks/larry_lessig_says_the_law_is_strangling_creativity.html">Ted Talk by Lawrence Lessig</a></td>
+</tr>
+<tr>
+  <td>2</td>
+  <td>Project Charter</td>
+  <td><a href="http://www.techrepublic.com/blog/it-consultant/customizable-it-consultant-sample-contract/253/">sample contract that deals with the IP issue</a> ... <a href="http://www.ohio.edu/sisrfp/OHIOSISProjectCharter.pdf">example project charter from OHIO State</a> ... <a href="http://syndicateme.net/DSGN1210.js.html#PhotoshopProject">example offer letter (scroll down a bit to see)</a>  ... <a href="http://www2.cdc.gov/cdcup/library/practices_guides/CDC_UP_Project_Charter_Practices_Guide.pdf">Center for Disease Control .... Project Charter Guide</a></td>
+</tr>
+<tr>
+  <td></td>
+  <td>Requirements</td>
+  <td><a href="http://97things.oreilly.com/wiki/index.php/Seek_the_value_in_requested_capabilities">lesson from the F-16 Fighting Falcon</a> ... <a href="http://specificationbyexample.com/key_ideas.html">companion website for an amazing book about requirements</a> ... <a href="http://en.wikipedia.org/wiki/Specification_by_example">wikipedia article on the same topic</a></td>
+</tr>
+<tr>
+  <td><em>Object-Oriented Analysis</em></td>
+  <td><strong>Quiz 1</strong></td>
+  <td></td>
+</tr>
+<tr>
+  <td>3</td>
+  <td>use cases that users actually do</td>
+  <td><a href="http://ecorner.stanford.edu/authorMaterialInfo.html?mid=2293">Eric Ries Building a Product Nobody Wants</a> ... <a href="http://www.researchgate.net/publication/3974634_Case_study_implementing_a_web_based_auction_system_using_UML_and_component-based_programming/file/72e7e5261082fea2eb.pdf?origin=publication_detail">Case Study: Implementing a Web Based Auction System using UML and Component-Based Programming</a> ... <a href="http://www.blackhat.com/presentations/bh-federal-03/bh-fed-03-peterson-up.pdf">Black Hat Misuse Cases</a></td>
+</tr>
+<tr>
+  <td></td>
+  <td>use cases continued</td>
+  <td><a href="http://ben-hildred.blogspot.ca/">Wikipedia article on Use Cases</a> ... <a href="http://martinfowler.com/bliki/UseCasesAndStories.html">Fowler on Use Cases and User Stories</a> ... <a href="http://alistair.cockburn.us/A+user+story+is+to+a+use+case+as+a+gazelle+is+to+a+gazebo">Cockburn on Use Cases and User Stories</a></td>
+</tr>
+<tr>
+  <td><em>Design</em></td>
+  <td><strong>Quiz 2</strong></td>
+  <td></td>
+</tr>
+<tr>
+  <td>4</td>
+  <td>design patterns</td>
+  <td><a href="http://martinfowler.com/eaaCatalog/domainModel.html">Domain Model Martin Fowler</a> ... <a href="http://martinfowler.com/articles/enterpriseREST.html">Enterprise Integration Using Rest</a> ... <a href="http://www.leansoftwarearchitecture.com/home/lean-and-agile-architecture-techniques">Lean Software Architecture</a></td>
+</tr>
+<tr>
+  <td>5 (Feb. 3)</td>
+  <td><strong>A Presentations</strong></td>
+  <td>use and properly attribute resources appropriate to your topic</td>
+</tr>
+<tr>
+  <td>6 (Feb. 10)</td>
+  <td>prototype show and tell</td>
+  <td><a href="http://www.paperprototyping.com/">companion site from book I used for lecture</a></td>
+</tr>
+<tr>
+  <td><em>(Agile) Implementation</em></td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>7</td>
+  <td>test driven implementation</td>
+  <td><a href="http://agilemanifesto.org/">Agile Manifesto</a> ... <a href="http://en.wikipedia.org/wiki/Test-driven_development">Wikipedia Article on Test Driven Development</a> ... <a href="http://www.computerworld.com/s/article/66192/Extreme_Programming">Extreme Programming</a> ... <a href="http://alistair.cockburn.us/Cooperative+game+manifesto+for+software+development">Alistair Cockburn - Software as cooperative game</a> ... <a href="http://www.scrumalliance.org/">Transforming the World of Work - Scrum Alliance</a></td>
+</tr>
+<tr>
+  <td>8</td>
+  <td><strong>midterm</strong></td>
+  <td>references above plus notes from lectures</td>
+</tr>
+<tr>
+  <td>9</td>
+  <td>test driven deployment</td>
+  <td><a href="http://ecorner.stanford.edu/authorMaterialInfo.html?mid=2294">Eric Ries on Continuous deployment</a> ... <a href="http://arstechnica.com/business/2012/04/exclusive-a-behind-the-scenes-look-at-facebook-release-engineering/">Facebook's deployment process</a> ... <a href="http://architects.dzone.com/articles/release-engineering-parallel">tomcat parallel deployment</a> ... <a href="http://en.wikipedia.org/wiki/Release_engineering">wikipedia article on release engineering</a> ... <a href="http://viget.com/extend/split-test-traffic-distribution-with-nginx">article that I based my demo on</a></td>
+</tr>
+<tr>
+  <td><em>Business and Legal Issues</em></td>
+  <td><strong>Quiz 3</strong></td>
+  <td></td>
+</tr>
+<tr>
+  <td>10</td>
+  <td>Business Issues from developer's point of view</td>
+  <td><a href="http://en.wikipedia.org/wiki/Crossing_the_Chasm">Wikipedia article on Crossing the Chasm</a> ... <a href="http://www.techrepublic.com/blog/it-consultant/customizable-it-consultant-sample-contract/253/">customizable sample contract</a> ... <a href="DSGN1210.js.html#PhotoshopProject">letter of understanding</a></td>
+</tr>
+<tr>
+  <td>11</td>
+  <td><strong>B Presentations</strong></td>
+  <td>tbd</td>
+</tr>
+<tr>
+  <td>12</td>
+  <td>Business Issues from customer's point of view</td>
+  <td><a href="http://steveblank.com/category/customer-development/">Steven Blank's huge resource on customer development</a></td>
+</tr>
+<tr>
+  <td>13</td>
+  <td>Documentation</td>
+  <td><a href="http://httpd.apache.org/docs/">apache documentation project</a></td>
+</tr>
+<tr>
+  <td>14</td>
+  <td><strong>C Presentations</strong></td>
+  <td>tbd</td>
+</tr>
+<tr>
+  <td>15</td>
+  <td><strong>final</strong></td>
+  <td>references from A Presentations Onwards</td>
+</tr>
+</tbody>
+</table>
+
+<p>Your mark will be calculated from 10% for each of the presentations, 10% each for 3 quizzes,  20% for the multiple choice question midterm and final. The midterm and final will each be 1 hours. I will use the remaining time in those classes to cover an extra topic of interest from the material. The quizes will be given at the start of weeks 3, 4, 8 and 10 to get you thinking about your current knowledge of Object-Oriented Analysis, Design, Implementation and Business and Legal Issues respectively.</p>
+
+<p>Hopefully you will find that these readings do a good job of showing how object-oriented analysis compliments development of highly useful software products by providing a powerful way to communicate about software. So powerful in fact that I was able to use object-oriented analysis patterns to avoid losing a consulting job.</p>
+
+<p>Banks have powerful software architects. Their power is based on a problem that banks and many large companies have. A plethora of departmental solutions can each have their own support and integration needs until at an enterprise level there is such a hodge podge that nothing is integrated and everything is supported in fire fighting mode. The Mondex card management system that we were consulting about was one of those departmental solutions, built-in the bank and with a rate of problem discovery that was a bit higher than the rate of problem fixing. No wonder the asset management architects were concerned about supporting it. We were trying to build a replacement system, partly to get the bank out of the current one, but we also wanted to build something that could be used by other banks in the Mondex Consortium. We had meetings to talk about how the new system was an enterprise solution that could fit in to the bank's infrastructure. Those meetings were the turning point for the project, because I spoke the same language as the software architects. Pattern language. Pattern language was the only language that could describe these systems in a way that they could be understood at an aggregate enterprise level. More importantly pattern language was the only way that we could describe the enterprise so that solutions to new problems could be fit in. In our enterprise banking case, when we could speak the same language we could generate a solution that everyone was happy with. That solution was also described in the same pattern language that the developers were fluent in and was built in a record amount of time, getting my banking buddy a trip to Australia to implement it.</p>
+</div><hr />
+<div class="editable" id="courses/PROG3030/Prog3030Assignments_md"><h1>Assignment Presentations .... Student Lead Classes</h1>
+
+<h2>A Assignments</h2>
+
+<table>
+<thead>
+<tr>
+  <th>Assn Number</th>
+  <th>Topic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>A1</td>
+  <td>Web Site Design</td>
+</tr>
+<tr>
+  <td>A2</td>
+  <td>Mobile Application Design</td>
+</tr>
+<tr>
+  <td>A3</td>
+  <td>Photoshop</td>
+</tr>
+<tr>
+  <td>A5</td>
+  <td>Sharepoint</td>
+</tr>
+<tr>
+  <td>A6</td>
+  <td>Crystal Reports</td>
+</tr>
+<tr>
+  <td>A7</td>
+  <td>Help Systems and User Tutorials</td>
+</tr>
+<tr>
+  <td>A8</td>
+  <td>Using audio and video in a user tutorial</td>
+</tr>
+<tr>
+  <td>A9</td>
+  <td>Deploying Projects to Server</td>
+</tr>
+<tr>
+  <td>A10</td>
+  <td>Cloud Technology</td>
+</tr>
+</tbody>
+</table>
+
+<h2>B Assignments</h2>
+
+<table>
+<thead>
+<tr>
+  <th>Assn Number</th>
+  <th>Topic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>B1</td>
+  <td>Web Search</td>
+</tr>
+<tr>
+  <td>B2</td>
+  <td>Project Strengths Document</td>
+</tr>
+<tr>
+  <td>B3</td>
+  <td>Possible Revenue Streams from IT systems and product</td>
+</tr>
+<tr>
+  <td>B4</td>
+  <td>IT Innovation</td>
+</tr>
+<tr>
+  <td>B5</td>
+  <td>Marketing</td>
+</tr>
+<tr>
+  <td>B6</td>
+  <td>Entrepreneurship</td>
+</tr>
+<tr>
+  <td>B7</td>
+  <td>Developing a Business Plan</td>
+</tr>
+<tr>
+  <td>B8</td>
+  <td>Copyright</td>
+</tr>
+<tr>
+  <td>B9</td>
+  <td>Sign off process</td>
+</tr>
+<tr>
+  <td>B10</td>
+  <td>Future IT Trends</td>
+</tr>
+</tbody>
+</table>
+
+<h2>C Assignments</h2>
+
+<table>
+<thead>
+<tr>
+  <th>Assn Number</th>
+  <th>Topic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>C1</td>
+  <td>Project Charter</td>
+</tr>
+<tr>
+  <td>C2</td>
+  <td>Use Cases</td>
+</tr>
+<tr>
+  <td>C3</td>
+  <td>Analysis Level Class Diagram, Design Level Class Diagram</td>
+</tr>
+<tr>
+  <td>C4</td>
+  <td>ERD's</td>
+</tr>
+<tr>
+  <td>C5</td>
+  <td>Sequence Diagrams</td>
+</tr>
+<tr>
+  <td>C6</td>
+  <td>State Chart Diagrams</td>
+</tr>
+<tr>
+  <td>C7</td>
+  <td>Prototyping</td>
+</tr>
+<tr>
+  <td>C8</td>
+  <td>Test Plans</td>
+</tr>
+<tr>
+  <td>C9</td>
+  <td>Deployment Plans</td>
+</tr>
+<tr>
+  <td>C10</td>
+  <td>System Documentation (Tools?)</td>
+</tr>
+</tbody>
+</table>
+
+<p>The idea of the Assignment is for the presenters to teach the class something about the technology or process. Because we are all programmers here, the way that I have thought about the project is as an extended use case. Cockburn is quoted in Wikipedia, (and I have annotated) as saying that a use case consists of:</p>
+
+<blockquote>
+  <p>Title: "an active-verb goal phrase that names the goal of the primary actor"</p>
+
+  <p>Primary Actor - who would this technology/process be useful to?</p>
+
+  <p>Goal in Context - what would be a likely goal for the actor using this technology/process?</p>
+
+  <p>Scope - what aspects of this technology/process make it a better choice for some things than others?</p>
+
+  <p>Level - what level of skill is required to use this technology/process, or what level of abstraction is assumed by the technology/process?</p>
+
+  <p>Stakeholders and Interests - who would the actor be trying to serve with this technology/process, and what are the interests that this technology/process would help the actor meet?</p>
+
+  <p>Precondition - what would already have to be in place for this technology/process to be useful?</p>
+
+  <p>Minimal Guarantees - what is a minimal result that an actor could expect from this?</p>
+
+  <p>Success Guarantees - what might be the actor's criteria for success in using this technology/process?</p>
+
+  <p>Trigger - what needs trigger the use of this technology/process?</p>
+
+  <p>Main Success Scenario - step by step breakdown of using technology/process or a demo?</p>
+
+  <p>Extensions - "a condition that results in different interactions from .. the main success scenario"</p>
+
+  <p>Technology &amp; Data Variations List - similar products, high level comparisons ....</p>
+
+  <p>Related Information.</p>
+</blockquote>
+
+<p>For instance if I were doing Future IT Trends from the B group of assignments, I might pick a systems architect as my actor. The actor s goal might be to select technologies that will continue to be supported in the future. The scope of the trends might be to inform choices among technologies, but not to aid in detailed design with a particular technology. ... For the main success scenario, I might enumerate some trends, but more importantly I would sell how I discovered the trend, and why I thought it was important. I might also stress the technology &amp; data variations in the context of similar technologies in the past.</p>
+</div><hr />
+<div id="initiationquiz" class="bookmark">
+<div class="editable" id="courses/PROG3030/InitiationQuiz_md"><h1>Project Initiation Pre-Quiz</h1>
+
+<p><img src="https://farm6.staticflickr.com/5204/5277995835_dabe7a0582_m_d.jpg" alt="Hoar Frost by Jessica Paterson" /></p>
+
+<p>This test is intended to draw your attention to the main ideas of project initiation. An example of these ideas is question 7 and 8, the difference between project plan and charter. The test is open everything (except collaboration). You will have time in class, but also feel free to do it now. The <a href="tests/projectiniriationquiz.htm">quiz is here.</a>. Good Luck!</p>
+</div></div>
+<hr />
+<div id="analysisquiz" class="bookmark">
+<div class="editable" id="courses/PROG3030/AnalysisQuiz_md"><h1>Analysis Quiz</h1>
+
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Macintosh_128k_transparency.png/205px-Macintosh_128k_transparency.png" alt="This day in 1984" /> Jan. 22, 1984</p>
+
+<p>The intention of this quiz is to show that we have given precise software meaning to some ordinary English words. This precision of meaning allows us to build on these terms to describe our software and how it responds in a particular problem space. The <a href="tests/quiz2.htm">test is here</a>. Good luck!</p>
+</div></div>
+<hr />
+<div id="designquiz" class="bookmark">
+<div class="editable" id="courses/PROG3030/DesignQuiz_md"><h1>Design Quiz</h1>
+
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/47/1967_Mantra-Rock_Dance_Avalon_poster.jpg/145px-1967_Mantra-Rock_Dance_Avalon_poster.jpg" alt="Mantra Rock Dance" /> today in history</p>
+
+<p>Today we are looking at design. My lecture is about a giant design fail that I had. The test is to draw your attention to some of the main ideas of design patterns. The <a href="tests/designquiz.htm">test is here</a>. Good Luck!</p>
+</div></div>
+<hr />
+<div class="bookmark" id="tdd">
+<div class="editable" id="courses/PROG1795/tdd_md"><h1>Javascript (Browser) Test Driven Development</h1>
+
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/IIHS_crash_test_dummy_in_Hyundai_Tucson.jpg/154px-IIHS_crash_test_dummy_in_Hyundai_Tucson.jpg" alt="Test Dummy - Brady Holt" title="Test Dummy - Brady Holt" /></p>
+
+<p>Test driven development is a hot topic right now. For good reason.</p>
+
+<ol>
+<li>It helps our people deal with a problem that some of us have called "procrastination" by breaking a problem into sub problems. </li>
+<li>It helps prevent us from breaking code that worked previously.</li>
+<li>It helps keep us from writing code that we don't use, by just writing the code we need to pass the test.</li>
+</ol>
+
+<p><a href="https://github.com/rhildred/tdd">tdd with qunit</a>. In this example we use the requirejs javascript loader to pull unit tests into our project, a simple adding machine with HST. The tests are loaded and accessed through <a href="https://rhildred.github.io/tdd/test.html">test.html</a>. The tests themselves are in the js/tests folder. The calculation of hst that is under test is in the js/lib folder. The actual adding machine is in <a href="https://rhildred.github.io/tdd">index.html</a>.</p>
+
+<p>Start by looking at the test.html:</p>
+
+<pre><code>&lt;div id="qunit"&gt;&lt;/div&gt;
+&lt;div id="qunit-fixture"&gt;&lt;/div&gt;
+&lt;script data-main="js/test" src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.15/require.min.js"&gt;&lt;/script&gt;
+</code></pre>
+
+<p>In this file we pull in require.min.js and tell it to start executing our code at <code>js/test</code>(.js). Require.js leaves off the .js. The <code>js/test</code> is where our code starts executing. This is an old convention from the c programming language.</p>
+
+<pre><code>int main(int argc, char** argv)
+{
+    printf("hello world");
+}
+</code></pre>
+
+<p>The require.js main is a little different:</p>
+
+<pre><code>"use strict";
+require.config({
+    paths: {
+        'QUnit': 'https://code.jquery.com/qunit/qunit-1.15.0'
+    },
+    shim: {
+        'QUnit': {
+            exports: 'QUnit',
+            init: function () {
+                QUnit.config.autoload = false;
+                QUnit.config.autostart = false;
+            }
+        }
+    }
+});
+// require the unit tests.
+require(
+['QUnit', 'tests/dummyTest', 'tests/hstTest'],
+    function (QUnit, dummyTest, hstTest) {
+        // run the tests.
+        dummyTest.run();
+        hstTest.run();
+        // start QUnit.
+        QUnit.load();
+        QUnit.start();
+    }
+);
+</code></pre>
+
+<p>The tests themselves are in <code>tests/hstTest</code>:</p>
+
+<pre><code>"use strict";
+define(
+["lib/hst"],
+    function (getHst) {
+        var run = function () {
+            test('hst for Ontario', function () {
+                equal(getHst(10), 1.30, 'HST for $10 should be $1.30');
+            });
+            test('hst for Manitoba', function () {
+                equal(getHst(10, 'MB'), 1.30, 'HST for $10 should be $1.30');
+            });
+            test('hst for New Brunswick', function () {
+                equal(getHst(10, 'NB'), 1.30, 'HST for $10 should be $1.30');
+            });
+            test('hst for Newfoundland and Labrador', function () {
+                equal(getHst(10, 'NL'), 1.30, 'HST for $10 should be $1.30');
+            });
+            test('gst for Alberta', function () {
+                equal(getHst(10, 'AB'), 0.50, 'HST for $10 should be $0.50');
+            });
+            test('hst for Nova Scotia', function () {
+                equal(getHst(10, 'NS'), 1.50, 'HST for $10 should be $1.50');
+            });
+        };
+        return {
+            run: run
+        }
+    }
+);
+</code></pre>
+
+<p>This code pulls in <code>lib/hst</code> and starts executing it as <code>getHst</code>:</p>
+
+<pre><code>"use strict";
+define([], function (getHst) {
+    return function (nIn, sProvince) {
+        switch (sProvince) {
+        case 'AB':
+            return (nIn * 0.05).toFixed(2);
+        case 'MB':
+        case 'NB':
+        case 'NL':
+        default:
+            return (nIn * 0.13).toFixed(2);
+
+        }
+    };
+
+});
+</code></pre>
+
+<p>In class we made the Nova Scotia test pass, made failing tests for the <a href="http://en.wikipedia.org/wiki/Sales_taxes_in_Canada">rest of the provinces and territories</a>. We made these tests pass, and then updated the select in the index.html with options for the rest of the provinces and territories.</p>
+
+<p>So .... stop procrastinating and write a failing test. Its easier than you think!</p>
+</div></div>
+<hr />
+<div id="midterm" class="bookmark">
+<div class="editable" id="courses/PROG3030/midterm_md"><h1>PROG3030 Midterm</h1>
+
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Gordon_French_%282013%29.jpg/320px-Gordon_French_%282013%29.jpg" alt="First meeting of the homebrew computer club this day in 1975, photo by Cromemco" title="First meeting of the homebrew computer club this day in 1975, photo by Cromemco" /></p>
+
+<p>This test is designed to draw your attention to the unified process as a pattern language that we can use to describe software in a way that other software people can understand it. This is a take-home test to be completed before class next Thursday. The <a href="tests/prog3030midterm.htm">test is here</a>. Good Luck!</p>
+</div></div>
+<hr />
+<div id="quiz3" class="bookmark">
+<div class="editable" id="courses/PROG3030/businessquiz_md"><h1>Business Issues from Developer's Perspective</h1>
+
+<p>The <a href="tests/businessandlegaldevelopers.htm">test is here</a>. Good Luck!</p>
+</div></div>
+<hr />
+<div id="final" class="bookmark">
+<div class="editable" id="courses/PROG3030/final_md"><h1>Final</h1>
+
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/e/e2/HMY_Britannia.jpg" alt="1953 – Queen Elizabeth II launches the Royal Yacht HMY Britannia." title="1953 – Queen Elizabeth II launches the Royal Yacht HMY Britannia." /></p>
+
+<p>This test is intended to draw your attention to some of the more customer related aspects of this course. It is open everything. The <a href="tests/prog3030final2.htm">test is here</a>. Good luck!</p>
+</div></div>
+</div>
+
+		<hr>
+
+		<footer>
+			<p>&copy; Rich Hildred 2013-<script>document.write(new Date().getFullYear());</script></p>
+		</footer>
+	</div>
+	<!-- /container -->
+
+
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script
+		src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script
+		src="//code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	<script>
+		jQuery("#search").autocomplete({
+			source : "api/Words"
+		});
+	</script>
+	<script>
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script',
+				'//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-45546538-1', 'rhildred.users.sourceforge.net');
+		ga('send', 'pageview');
+	</script>
+</body>
+</html>

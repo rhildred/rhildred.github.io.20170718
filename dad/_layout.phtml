@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title><?php echo $Viewbag->title ?></title>
+<title><?php echo $this->data['title'] ?></title>
 <!-- Bootstrap core CSS -->
 <link href="css/lavish-bootstrap.css" rel="stylesheet">
 <link href="../css/slideshow.css" rel="stylesheet">
@@ -28,7 +28,7 @@
 	</div>
 	<div class="container">
 		<!-- Example row of columns -->
-		<?php renderBody() ?>
+		<?php $this->renderBody() ?>
 
 	</div>
 	<!-- /container -->

@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="google-site-verification" content="dvUQ2S0TOifnI9P2ARoTiE_c6Bvfk6vS_zDJaQebe9o" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="<?php echo $Viewbag->description ?>">
-<meta name="author" content="<?php echo $Viewbag->author ?>">
-<meta name="keywords" content="<?php echo $Viewbag->keywords ?>">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="keywords" content="">
 <link rel="shortcut icon" href="YinYang.ico">
 
-<title><?php echo $this->data['title'] ?></title>
+<title>My Favourite</title>
 
 <!-- Bootstrap core CSS -->
 <link
@@ -32,11 +32,47 @@
 
 <body>
 
-	<?php include '_nav.phtml' ?>
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container dadmypick">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse"
+				data-target=".navbar-collapse">
+				<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+					class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" class="active" href=".">Faculty Page</a>
+		</div>
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="calendar.html">Calendar</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="pastcourses.html">Courses</a></li>
+			</ul>
+			<form class="navbar-form navbar-right" action="searchResults"
+				method="get">
+				<div class="form-group">
+					<input id="search" type="text" placeholder="search"
+						class="form-control" autocomplete="off"
+						name="q" />
+				</div>
+				<button type="submit" class="btn btn-success">
+					<i class="icon-search"></i>&nbsp;&nbsp;Search
+				</button>
+			</form>
+		</div>
+		<!--/.navbar-collapse -->
+	</div>
+</div>
 
 	<div class="container">
 		<!-- Example row of columns -->
-		<div class="row"><?php $this->renderBody() ?></div>
+		<div class="row"><div class="editable" id="dad/mypick_md"><h1>My Favorite Dad Picture</h1>
+
+<p><img src="http://farm3.staticflickr.com/2250/1524508774_93c0f4b027_z_d.jpg" alt="Dad and Bovas portaging" title="Dad and Bovas portaging" /></p>
+
+<p>Grant Birks and I wanted to take our buddy Bovas (on the right) for his first canoe trip. I asked Dad to go along as a 4th. We went to McRae lake, and I forgot about the little portage at the start. Grant and I carried the stuff while Dad and Bovas sat and enjoyed the perfect late August or early September weather.</p>
+</div></div>
 
 		<hr>
 

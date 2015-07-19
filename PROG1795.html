@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="google-site-verification" content="dvUQ2S0TOifnI9P2ARoTiE_c6Bvfk6vS_zDJaQebe9o" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="keywords" content="">
+<link rel="shortcut icon" href="YinYang.ico">
+
+<title>Rich: PROG1795</title>
+
+<!-- Bootstrap core CSS -->
+<link
+	href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+	rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+	<link href="//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="css/main.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.js"></script>
+    <![endif]-->
+	<script
+		src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+</head>
+
+<body>
+
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container PROG1795">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse"
+				data-target=".navbar-collapse">
+				<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+					class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" class="active" href=".">Faculty Page</a>
+		</div>
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="calendar.html">Calendar</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="pastcourses.html">Courses</a></li>
+			</ul>
+			<form class="navbar-form navbar-right" action="searchResults"
+				method="get">
+				<div class="form-group">
+					<input id="search" type="text" placeholder="search"
+						class="form-control" autocomplete="off"
+						name="q" />
+				</div>
+				<button type="submit" class="btn btn-success">
+					<i class="icon-search"></i>&nbsp;&nbsp;Search
+				</button>
+			</form>
+		</div>
+		<!--/.navbar-collapse -->
+	</div>
+</div>
+
+	<div class="container">
+		<!-- Example row of columns -->
+		<div class="row"><div class="editable" id="courses/PROG1795/schedule_md"><h1>PROG1795 - JavaScript</h1>
+
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/240px-Unofficial_JavaScript_logo_2.svg.png" alt="I love JavaScript" title="I love JavaScript" /></p>
+
+<p>Welcome to Javascript! The great thing about it is that javascript is ubiquitous. The other great thing about it is JavaScript wars between google and mozilla. Because it is everywhere and people are working on it, Javascript is a very useful programming language. Purists would say that it isn't a very good first programming language, but it <a href="http://javascript.crockford.com/">has good parts</a> and lots and lots of examples. In addition to the examples and the excellent Javascript and jQuery missing manual text I will be covering a javascript loader written, like jQuery, by John Resig. <a href="http://ejohn.org">John Resig</a> and Crockford are the personas of the language and an interesting read themselves.</p>
+
+<h2>Schedule</h2>
+
+<table>
+<thead>
+<tr>
+  <th>Dates</th>
+  <th>Content</th>
+  <th>Exercises</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>November 17-28</td>
+  <td>Missing Manual, <a href="https://authorsmhartung.ysaas.ca">The book grounded website</a>, <a href="http://www.nathandavison.com/article/17/using-qunit-and-requirejs-to-build-modular-unit-tests">Test Driven Development</a></td>
+  <td>work through examples in book and of interest online</td>
+</tr>
+<tr>
+  <td>November 24</td>
+  <td>Visit from Eleanor Parker</td>
+  <td></td>
+</tr>
+<tr>
+  <td>November 25</td>
+  <td>Visit from Taffy McLeod</td>
+  <td></td>
+</tr>
+<tr>
+  <td>December 1</td>
+  <td>Missing Manual</td>
+  <td>Final</td>
+</tr>
+<tr>
+  <td>December 1 - 12</td>
+  <td></td>
+  <td>Project</td>
+</tr>
+<tr>
+  <td>December 12</td>
+  <td>Project Demo</td>
+  <td></td>
+</tr>
+</tbody>
+</table>
+
+<p>The project is to be of your choosing. I am interested in doing a javascript shopping cart that works with Express Checkout. There is an opportunity to write some serious games for a learning disability, and we have 2 people coming to pitch to us. I also looked at this neat sliding div thing with Jon that would be fun to build a project around.
+December 1-12|project work|a project of your choosing</p>
+</div><hr />
+<div class="bookmark" id="staticFramework">
+<div class="editable" id="articles/staticFramework_md"><h1>Don't Repeat Yourself (DRY)</h1>
+
+<p><img src="images/Grounded.png" alt="Grounded, the new Book" title="Grounded, the new Book" /></p>
+
+<p>One of my students got a job working for a web design firm. They insisted that the student implement designs in plain html. For repeating things like menus, they used javascript with document.write to write the content. I took a couple of cracks at writing a framework that would express repeating elements as html.</p>
+
+<p>The first time I used a .htaccess to remove the file extension altogether. You can <a href="https://github.com/rhildred/phpassetchain">see my results here</a>. This worked well for the site which you are reading now. I have a reverse index based search which uses a sqlite database, and I have written my articles in markdown. Server side processing converts my markdown to html in time for processing by the google bots.</p>
+
+<p>The second time I stuck with browser side code. The big advantage of browser side code is that it can be hosted on github.io. Good for student portfolios as well as really simple demos. I used html5 <code>rel="import"</code> syntax. I found the results jerky as I did a complete page load everytime I switched pages.</p>
+
+<p>Finally in the <a href="https://github.com/rhildred/staticFramework">staticFramework</a>, I used jQuery and require.js with browser side code. On accessing a local link, I am only reloading the page contents, which makes for a flicker free experience without a page load. Loading the page contents only also gives me a chance to go full screen when a game is selected for a game project that I am working on. I also made a <a href="https://github.com/rhildred/singlePage">single page</a> static framework inspired by <a href="http://fullertonmedia.com/">Chad Fullerton</a>.</p>
+
+<h2>The Static Framework in Action</h2>
+
+<p>A student did a webpage for an author of a new book. The student graduated, got a job, and is too busy to provide support. I purchased the account from her, and will be providing support. <a href="https://authorsmhartung.ysaas.ca">The site</a> was formerly written in server side javascript to run on node.js. I think that the idea was a reasonable teaching idea, but a lousy idea as far as ongoing development operations. I took the student's code and moved it into the staticFramework github example, updating the staticFramework github example where necessary. This is what I learned:</p>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+
+&lt;head&gt;
+    &lt;title&gt;Contact Failure&lt;/title&gt;
+    &lt;meta charset="utf8" /&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+    &lt;meta name="google-site-verification" content="QzgKmB-CCGUS25H9omR9mH-wvv6PVv2uyuHa5djP6kU" /&gt;
+    &lt;link rel="stylesheet" href="css/main.css" /&gt;
+    &lt;link rel="shortcut icon" href="GroundedIco.ico" /&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;div id="nav" data-role="include"&gt;&lt;/div&gt;
+
+    &lt;div class="container" id="content"&gt;
+        &lt;h1&gt;Thank-you for your interest&lt;/h1&gt;
+        &lt;p&gt;Unfortunately your message was not sent properly. Please try again later, or call us at 519-570-4912.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div id="footer" data-role="include"&gt;&lt;/div&gt;
+
+    &lt;script data-main="js/app" src="js/lib/require.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+</code></pre>
+
+<p>... Is a basic page in the framework. We have one invocation of css, and one invocation of javascript. There are a couple of <code>head</code> items that are repetitive but when a google bot sees this it is pretty much just the things that are different about this page from others that it sees. The main.css imports all the rest of the css. The require.js loads all of the javascript dependencies. Repetitive html is loaded with <code>&lt;div id="footer" data-role="include"&gt;&lt;/div&gt;</code></p>
+
+<p>In the node.js server side site that my student did, there was some javascript mixed in with the html. This made the code look messy, but had the advantage of being right in the file that was using it. The static framework seperates the css from the javascript from the html. It puts common code in the main.js which loads when the application loads. For the .html pages there is a .html.js file which gets run whenever the page changes. You can think of this as a <code>jQuery(document).ready</code> replacement. We also want to run the google analytics javascript whenever a page changes. This is done in the nav with a call to <code>analytics()</code> which is defined in triggeranalytics.js as:</p>
+
+<pre><code>define(['ga'], function () {
+    // analytics number goes here
+    window.ga('create', 'UA-48714216-1');
+    return function () {
+        //this gets done everytime we load a new page
+        window.ga('send', 'pageview');
+    };
+});
+</code></pre>
+
+<p>This site took me a lot longer to use the new framework with than I thought it would. As well as the analytics the prettyphoto took a lot longer than I expected, because it took me a while to learn about the <code>deeplinking</code> option :</p>
+
+<pre><code>define(["jquery", "prettyphoto"], function (jQuery) {
+    return function () {
+        jQuery("a[rel^='prettyPhoto']").prettyPhoto({deeplinking:false});
+    };
+});
+</code></pre>
+
+<p>The main benefit to the author for this site is that it is now written in html and can be served from any web host. Shirley, the author, was concerned about her source code and now has it in a form that she can give to anyone to host. I also set her up with <a href="https://cloudflare.com">cloudflare</a> ssl, which Google says will temporarily improve her page rankings.</p>
+
+<p>Overall, it was good for me to actually implement a small website with my framework. Hopefully there are examples in there that will also be helpful to you!</p>
+</div></div>
+<hr />
+<div class="bookmark" id="js-toolbox">
+<div class="editable" id="articles/js-toolbox_md"><h1>Class Based Inheritance in the Style of BackBone.js</h1>
+
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Jungle_Book_Rudyard_Kipling_poster.jpeg/175px-Jungle_Book_Rudyard_Kipling_poster.jpeg" alt="Shere Khan" title="Shere Khan" />
+Suppose that I wanted to have a <a href="http://martinfowler.com/eaaCatalog/domainModel.html">domain model</a> that included different sorts of tigers!</p>
+
+<p>I might start out with something like this:</p>
+
+<pre><code>var Animal = Toolbox.Base.extend({
+    constructor: function (name) {
+        this._name = name;
+    },
+    sayName: function () {
+        return('Hi, my name is ' + this._name);
+    }
+});
+</code></pre>
+
+<p>Then I could make a Tiger sub-type of an animal something like this:</p>
+
+<pre><code>var Tiger = Animal.extend({
+    constructor: function () {
+        // all tigers are named Tony
+        this._name = "Tony";
+    }
+});
+</code></pre>
+
+<p>But you can't call a Bengal Tiger Tony, so we need something like this:</p>
+
+<pre><code>var BengalTiger = Tiger.extend({
+    constructor: function () {
+        // you can't name a Bengal tiger Tony
+        this._name = "Shere Khan";
+    },
+    sayName: function () {
+        return('Hi, my name is ' + this._name + ' and I am the true lord of the jungle!');
+    }
+});
+</code></pre>
+
+<p>Seems like a user story for inheritance and polymorphism to me! JavaScript
+implements prototypical inheritance, which is fine but in this case I would like
+to be able to have class based inheritance like I might find in the BackBone.js
+library.</p>
+
+<pre><code>  var Router = Backbone.Router.extend({
+    routes: {
+      'lists/:id': 'openList'
+    },
+
+    initialize: function() {
+    },
+
+    openList: function(id) {
+    }
+  });
+</code></pre>
+
+<p>In fact it was BackBone.js that I drew my inspiration from. I am working on a
+large project, where I have a domain model that doesn't map completely to
+BackBone models views and Router. I was looking for something to carry the same
+style but that wasn't one of these things and came across <a href="https://github.com/jimmydo/js-toolbox">this on the web</a>. That js-toolbox is fine for browser
+based code, but didn't work with node where I really want to keep some domain
+logic so I made a npm for it. To enable a domain model using the BackBone style in node.js simply use <code>npm install js-toolbox --save</code>.
+You can see the <a href="https://github.com/rhildred/js-toolbox">code at my github</a>.</p>
+</div></div>
+<hr />
+<div class="bookmark" id="javascriptEvents">
+<div class="editable" id="articles/javascriptEvents_md"><h1>JavaScript is events</h1>
+
+<p>Well of course JavaScript is a programming language, but it was designed for handling things that users do on web pages like filling out forms and clicking submit buttons.</p>
+
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/a/a4/Copyright_click.svg" alt="click me" title="click me" /></p>
+
+<p>As a result more things in JavaScript are events than in many other languages. My morning class and I thought of a good metaphor for events and handling them that I want to share here. Think of the event of a newspaper landing on the sidewalk leading up to your house. What do you need to do for that event to happen? You need to subscribe.</p>
+
+<p><a href="http://www.flickr.com/photos/quinnanya/5555454223"><img src="http://farm6.staticflickr.com/5030/5555454223_2b1e341655_n.jpg" alt="newspaper arrival event" title="newspaper arrival event" /></a></p>
+
+<p>JavaScript events are similar in that they are published and subscribed to. The subscriber is sometimes called a listener, sort of like the faithful dog that listens for the arrival of the paper, and handles it by running outside and bringing the paper in to his master. In JavaScript that might look like:</p>
+
+<pre><code>jQuery("#sidewalk").on("paper arrival", function(paper){
+    paper.bringToMaster();
+});
+</code></pre>
+
+<p>The first thing that is happening here is that we are subscribing or listening to an event. That is the <code>jQuery("#sidewalk").on("paper arrival"</code> part of our code. The second part of this snippet is what to do when the event happens. In JavaScript there is an overseer or event loop that calls the dog handler to bring the paper to it's master.</p>
+
+<pre><code>function(paper){
+    paper.bringToMaster();
+}
+</code></pre>
+
+<p>The event subscription is through <code>jQuery.on</code> which in this case is taking 2 parameters, the name of the event and the handler to call to deal with the event. Often in JavaScript we have made to order events. Think of this as more like the sandwich shop.</p>
+
+<p><img src="images/JavaScriptSandwich.svg" alt="sandwich" title="sandwich" /></p>
+
+<p>A common example in web application programming is getting something from a web server instead of a sandwich server.</p>
+
+<pre><code>jQuery.ajax({
+    url: "cornBeefOnRye"
+}).done(function(sandwich){
+    eatSandwich();
+}).fail(function(err){
+    starve();
+});
+</code></pre>
+
+<p>You might have noticed a problem with the handlers of both events. There is no reference to who eats the sandwich. If we have more than one sandwich eater or paper bringer we have a problem. The solution to this problem is to have sandwich eating objects, Tony in our diagram. Tony is a stomach with legs and exists in our example to eat sandwiches. He is also the context for the sandwich order. We can define a Tony Object like so:</p>
+
+<pre><code>var oTony = {
+    name: 'Tony',
+    state: 'famished`,
+    eatSandwich: function(){
+        this.state = 'replete for now';
+    },
+    starve: function(){
+        this.state = 'deceased';
+    }
+}
+</code></pre>
+
+<p>If we have more than one sandwich eater in a system, we don't know which one's state is replete ... a big problem for Tony our walking stomach. The solution is to establish a context for who we call when an event happens. We do this like so:</p>
+
+<pre><code>jQuery.ajax({
+    url: "cornBeefOnRye"
+})
+.done(jQuery.proxy(oTony.eatSandwich, oTony))
+.fail(jQuery.proxy(oTony.starve, oTony));
+</code></pre>
+
+<p>that way when the message comes in it comes with it's context. You can think of the proxy like the little stand they hand you at Williams that makes you get your right sandwich.</p>
+</div></div>
+<hr />
+<div class="bookmark" id="ConsumingAPI">
+<div class="editable" id="articles/ConsumingAPI_md"><h1>Consuming an API</h1>
+
+<h2>(And Displaying it in a template)</h2>
+
+<p>Today we had a really big day. We took the data that we served in our PHP page and used JavaScript to display it on the browser console and then on the screen.</p>
+
+<p><img src="images/ConsumingAPI0.png" alt="Consuming API" title="Consuming API" /></p>
+
+<p>To just retrieve the data from our API we did this:</p>
+
+<pre><code>jQuery.ajax({url:"cds/", dataType:"json"})
+.done(function(oCdList){
+    console.log(JSON.stringify(oCdList));
+})
+.fail(function(err){
+    console.log(err);
+});
+</code></pre>
+
+<p>Then we made a template in our index.html:</p>
+
+<pre><code>&lt;script id="cditem" type="text/template"&gt;
+&lt;div&gt;
+    &lt;a href="cds/&lt;%= id %&gt;" class="clickable" &gt;&lt;%= Title %&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/script&gt;
+</code></pre>
+
+<p>To use the template we did:</p>
+
+<pre><code>var fTemplate = _.template(jQuery('#cditem').html());
+// we go out and get the initial list of cds
+jQuery.ajax({url:"cds/", dataType:"json"})
+.done(function(oCdList){
+    oCdList.forEach(function(oCd){
+        // we append a single cd into the cdlist div
+        jQuery("#cdlist").append(fTemplate(oCd));
+    });
+</code></pre>
+
+<p>This was the basics of displaying data from our API in a web page.</p>
+
+<p>You will notice that in our template we displayed the cds as anchors. In class we went on to display the detail from the cds to the right of the list of cds <a href="#ConsumingAPI">(see screen above)</a>. To do this we created a second template:</p>
+
+<pre><code>&lt;script id="cditemdetails" type="text/template"&gt;
+&lt;table&gt;
+    &lt;tr&gt;&lt;td&gt;id:&lt;/td&gt;&lt;td&gt;&lt;%= id %&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;title:&lt;/td&gt;&lt;td&gt;&lt;%= Title %&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;arranger:&lt;/td&gt;&lt;td&gt;&lt;%= Arranger %&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;genre:&lt;/td&gt;&lt;td&gt;&lt;%= Genre %&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/script&gt;
+</code></pre>
+
+<p>The second template is made in to a function with underscore the same as the first: <code>var fDetailsTemplate = _.template(jQuery('#cditemdetails').html());</code> It is rendered when an anchor is clicked like so:</p>
+
+<pre><code>    // be done when we click a link with class clickable
+    jQuery(".clickable").click(function(evt){
+        // we go and get an individual cd
+        jQuery.ajax({url:this.href, dataType:"json"})
+        .done(function(oCd){
+            // we replace the html in the cditemview with the html from the cditemdetails template
+            jQuery("#cditemview").html(fDetailsTemplate(oCd));
+        })
+        .fail(function(err){
+            console.log(err);
+        });
+        // it is really important to return false here so that the event isn't passed on
+        return false;
+    });
+</code></pre>
+
+<p>What is happening here is that instead of following the link when an anchor is clicked on, we are retrieving the link with <code>jQuery.ajax</code>. It is really important to return false here or the link will still be followed per the default behaviour and the whole page will be refreshed. There are a couple of problems with our page however. The code is deeply nested in what some people call callback soup. If we hit the back button, we leave the page entirely rather than remembering where we were previously. In addition to jQuery and underscore, there is another JavaScript library, called BackBone that can help out here.</p>
+</div><hr />
+<div class="bookmark" id="tdd">
+<div class="editable" id="courses/PROG1795/tdd_md"><h1>Javascript (Browser) Test Driven Development</h1>
+
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/IIHS_crash_test_dummy_in_Hyundai_Tucson.jpg/154px-IIHS_crash_test_dummy_in_Hyundai_Tucson.jpg" alt="Test Dummy - Brady Holt" title="Test Dummy - Brady Holt" /></p>
+
+<p>Test driven development is a hot topic right now. For good reason.</p>
+
+<ol>
+<li>It helps our people deal with a problem that some of us have called "procrastination" by breaking a problem into sub problems. </li>
+<li>It helps prevent us from breaking code that worked previously.</li>
+<li>It helps keep us from writing code that we don't use, by just writing the code we need to pass the test.</li>
+</ol>
+
+<p><a href="https://github.com/rhildred/tdd">tdd with qunit</a>. In this example we use the requirejs javascript loader to pull unit tests into our project, a simple adding machine with HST. The tests are loaded and accessed through <a href="https://rhildred.github.io/tdd/test.html">test.html</a>. The tests themselves are in the js/tests folder. The calculation of hst that is under test is in the js/lib folder. The actual adding machine is in <a href="https://rhildred.github.io/tdd">index.html</a>.</p>
+
+<p>Start by looking at the test.html:</p>
+
+<pre><code>&lt;div id="qunit"&gt;&lt;/div&gt;
+&lt;div id="qunit-fixture"&gt;&lt;/div&gt;
+&lt;script data-main="js/test" src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.15/require.min.js"&gt;&lt;/script&gt;
+</code></pre>
+
+<p>In this file we pull in require.min.js and tell it to start executing our code at <code>js/test</code>(.js). Require.js leaves off the .js. The <code>js/test</code> is where our code starts executing. This is an old convention from the c programming language.</p>
+
+<pre><code>int main(int argc, char** argv)
+{
+    printf("hello world");
+}
+</code></pre>
+
+<p>The require.js main is a little different:</p>
+
+<pre><code>"use strict";
+require.config({
+    paths: {
+        'QUnit': 'https://code.jquery.com/qunit/qunit-1.15.0'
+    },
+    shim: {
+        'QUnit': {
+            exports: 'QUnit',
+            init: function () {
+                QUnit.config.autoload = false;
+                QUnit.config.autostart = false;
+            }
+        }
+    }
+});
+// require the unit tests.
+require(
+['QUnit', 'tests/dummyTest', 'tests/hstTest'],
+    function (QUnit, dummyTest, hstTest) {
+        // run the tests.
+        dummyTest.run();
+        hstTest.run();
+        // start QUnit.
+        QUnit.load();
+        QUnit.start();
+    }
+);
+</code></pre>
+
+<p>The tests themselves are in <code>tests/hstTest</code>:</p>
+
+<pre><code>"use strict";
+define(
+["lib/hst"],
+    function (getHst) {
+        var run = function () {
+            test('hst for Ontario', function () {
+                equal(getHst(10), 1.30, 'HST for $10 should be $1.30');
+            });
+            test('hst for Manitoba', function () {
+                equal(getHst(10, 'MB'), 1.30, 'HST for $10 should be $1.30');
+            });
+            test('hst for New Brunswick', function () {
+                equal(getHst(10, 'NB'), 1.30, 'HST for $10 should be $1.30');
+            });
+            test('hst for Newfoundland and Labrador', function () {
+                equal(getHst(10, 'NL'), 1.30, 'HST for $10 should be $1.30');
+            });
+            test('gst for Alberta', function () {
+                equal(getHst(10, 'AB'), 0.50, 'HST for $10 should be $0.50');
+            });
+            test('hst for Nova Scotia', function () {
+                equal(getHst(10, 'NS'), 1.50, 'HST for $10 should be $1.50');
+            });
+        };
+        return {
+            run: run
+        }
+    }
+);
+</code></pre>
+
+<p>This code pulls in <code>lib/hst</code> and starts executing it as <code>getHst</code>:</p>
+
+<pre><code>"use strict";
+define([], function (getHst) {
+    return function (nIn, sProvince) {
+        switch (sProvince) {
+        case 'AB':
+            return (nIn * 0.05).toFixed(2);
+        case 'MB':
+        case 'NB':
+        case 'NL':
+        default:
+            return (nIn * 0.13).toFixed(2);
+
+        }
+    };
+
+});
+</code></pre>
+
+<p>In class we made the Nova Scotia test pass, made failing tests for the <a href="http://en.wikipedia.org/wiki/Sales_taxes_in_Canada">rest of the provinces and territories</a>. We made these tests pass, and then updated the select in the index.html with options for the rest of the provinces and territories.</p>
+
+<p>So .... stop procrastinating and write a failing test. Its easier than you think!</p>
+</div></div>
+<hr />
+<div class="bookmark" id="final">
+<div class="editable" id="courses/PROG1795/final_md"><h1>PROG1795 Final</h1>
+
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Gray_Thursday_KF_Walmart.jpeg/320px-Gray_Thursday_KF_Walmart.jpeg" alt="Black Friday Sale" title="Black Friday Sale" /></p>
+
+<p>This test is intended to draw your attention to the basics of javascript and jQuery. There are 20 questions, mostly with snippets of code that you need to run. The <a href="tests/prog1795.htm">test is here</a>. Good Luck!</p>
+</div></div>
+</div>
+
+		<hr>
+
+		<footer>
+			<p>&copy; Rich Hildred 2013-<script>document.write(new Date().getFullYear());</script></p>
+		</footer>
+	</div>
+	<!-- /container -->
+
+
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script
+		src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script
+		src="//code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	<script>
+		jQuery("#search").autocomplete({
+			source : "api/Words"
+		});
+	</script>
+	<script>
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script',
+				'//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-45546538-1', 'rhildred.users.sourceforge.net');
+		ga('send', 'pageview');
+	</script>
+</body>
+</html>

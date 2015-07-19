@@ -1,8 +1,7 @@
 <?php
-require_once 'lib/template.php';
-$Viewbag->title = "Rich: Courses";
-layout("_layout.phtml");
+$this->data['title'] = "Rich: Courses";
+$this->layout("_layout.phtml");
 ?>
 <?php
-renderMarkdown("courses/courses.md");
+\RHildred\Editable\Markdown::render("courses/courses.md");
 ?>

@@ -1,17 +1,16 @@
 <?php
-require_once 'lib/template.php';
-$Viewbag->title = "Rich: INFO3130";
-layout("_layout.phtml");
+$this->data['title'] = "Rich: INFO3130";
+$this->layout("_layout.phtml");
 ?>
 <h1>IT Innovation</h1>
 <p>
 Check out:</p>
 <iframe width="560" height="315" src="//www.youtube.com/embed/d5_h1VuwD6g" frameborder="0" allowfullscreen></iframe>
 <?php
-renderMarkdown("courses/INFO3130/intro.md");
+\RHildred\Editable\Markdown::render("courses/INFO3130/intro.md");
 ?>
 <hr />
 <div class="bookmark" id="liveontheinternet">
 <?php
-renderMarkdown("articles/GitEnvironment.md");
+\RHildred\Editable\Markdown::render("articles/GitEnvironment.md");
 ?></div>

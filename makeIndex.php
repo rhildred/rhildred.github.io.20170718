@@ -23,6 +23,7 @@ function autoload_class($class_name) {
  * Register autoloader functions.
  */
 spl_autoload_register('autoload_class');
-ReverseIndex::CreateIndex(".", "md");
+//ReverseIndex::CreateIndex(".", "md");
+StaticPages::generate(".", "phtml");
 
 ?>

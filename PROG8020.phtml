@@ -1,51 +1,50 @@
 <?php
-require_once 'lib/template.php';
-$Viewbag->title = "Rich: PROG8020";
-layout("_layout.phtml");
+$this->data['title'] = "Rich: PROG8020";
+$this->layout("_layout.phtml");
 ?>
-<?php renderMarkdown("courses/PROG8020/schedule.md");
+<?php \RHildred\Editable\Markdown::render("courses/PROG8020/schedule.md");
 ?>
 <hr />
-<?php renderMarkdown("articles/BuildingBlocks.md");
+<?php \RHildred\Editable\Markdown::render("articles/BuildingBlocks.md");
 ?>
 <hr />
 <div id="database" class="bookmark">
-<?php renderMarkdown("articles/Database.md");
+<?php \RHildred\Editable\Markdown::render("articles/Database.md");
 ?>
 </div>
 <hr />
 <div id="parameters" class="bookmark">
-<?php renderMarkdown("articles/Parameters.md");
+<?php \RHildred\Editable\Markdown::render("articles/Parameters.md");
 ?>
 </div>
 <hr />
 <div id="midterm" class="bookmark">
-<?php renderMarkdown("courses/PROG8020/midterm.md");
+<?php \RHildred\Editable\Markdown::render("courses/PROG8020/midterm.md");
 ?>
 </div>
 <hr />
 <div class="bookmark" id="staticFramework">
-<?php renderMarkdown("articles/staticFramework.md");
+<?php \RHildred\Editable\Markdown::render("articles/staticFramework.md");
 ?>
 </div>
 <hr />
 <div class="bookmark" id="js-toolbox">
-<?php renderMarkdown("articles/js-toolbox.md");
+<?php \RHildred\Editable\Markdown::render("articles/js-toolbox.md");
 ?>
 </div>
 <hr />
 <div class="bookmark" id="javascriptEvents">
-<?php renderMarkdown("articles/javascriptEvents.md");
+<?php \RHildred\Editable\Markdown::render("articles/javascriptEvents.md");
 ?>
 </div>
 <hr />
 <div class="bookmark" id="ConsumingAPI">
-<?php renderMarkdown("articles/ConsumingAPI.md");
+<?php \RHildred\Editable\Markdown::render("articles/ConsumingAPI.md");
 ?>
 </div>
 <hr />
 <div id="final" class="bookmark">
-<?php renderMarkdown("courses/PROG8020/final.md");
+<?php \RHildred\Editable\Markdown::render("courses/PROG8020/final.md");
 ?>
 </div>
 

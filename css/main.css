@@ -18,11 +18,13 @@ body, .bookmark {
 	}
 }
 
-div#contact a[href$="contact.js.html"],div#calendar a[href$="calendar.js.html"],div#index a[href$="."]
+div.contact a[href$="contact.html"],div.calendar a[href$="calendar.html"],div.pastcourses a[href$="pastcourses.html"],div.index a[href$="."]
 	{
 	color: white;
 	pointer-events: none;
 	cursor: default;
+    background-color: #080808;
+
 }
 
 img, iframe {

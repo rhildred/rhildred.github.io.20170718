@@ -1,10 +1,9 @@
 <?php
-require_once 'lib/template.php';
-$Viewbag->title = "Filmstrip Demo";
-$Viewbag->author = "Rich Hildred";
-$Viewbag->description = "A little program that runs a demo of pngs exported from pivot, knitted together with ImageMagick";
-$Viewbag->keywords = "html5 canvas animation javascript pivot imagemagick";
-layout("_layout.phtml");
+$this->data['title'] = "Filmstrip Demo";
+$this->data['author'] = "Rich Hildred";
+$this->data['description'] = "A little program that runs a demo of pngs exported from pivot, knitted together with ImageMagick";
+$this->data['keywords'] = "html5 canvas animation javascript pivot imagemagick";
+$this->layout("_layout.phtml");
 ?>
 <h1>SpriteSheet Demo</h1>
 <!-- need to set height and width to height of individual sprite. (only in one place) -->

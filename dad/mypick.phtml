@@ -1,6 +1,5 @@
 <?php
-require_once 'lib/template.php';
-$Viewbag->title = "My Favourite";
-layout("_layout.phtml");
+$this->data['title'] = "My Favourite";
+$this->layout("_layout.phtml");
 ?>
-<?php renderMarkdown("dad/mypick.md") ?>
+<?php \RHildred\Editable\Markdown::render("dad/mypick.md") ?>

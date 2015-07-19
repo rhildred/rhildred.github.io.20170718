@@ -1,7 +1,6 @@
 <?php
-require_once 'lib/template.php';
-$Viewbag->title = "Rich's interests";
-layout("_layout.phtml");
+$this->data['title'] = "Rich's interests";
+$this->layout("_layout.phtml");
 ?>
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
@@ -13,34 +12,34 @@ layout("_layout.phtml");
 			current course by clicking one of the buttons.</p>
 		<p>
                 <a class="btn btn-primary btn-lg"
-				role="button" href="BUS3140#lecture2">BUS3140&nbsp;&nbsp;
+				role="button" href="BUS3140.html#lecture2">BUS3140&nbsp;&nbsp;
 				<i class="icon-arrow-right"></i></a>
                 <a class="btn btn-primary btn-lg"
-				role="button" href="COMP2280">COMP2280&nbsp;&nbsp;
+				role="button" href="COMP2280.html">COMP2280&nbsp;&nbsp;
 				<i class="icon-arrow-right"></i></a>
                 <a class="btn btn-primary btn-lg"
-				role="button" href="INFO3160">INFO3160&nbsp;&nbsp;
+				role="button" href="INFO3160.html">INFO3160&nbsp;&nbsp;
 				<i class="icon-arrow-right"></i></a>
                 <a class="btn btn-primary btn-lg"
-				role="button" href="PROG1940">PROG1940&nbsp;&nbsp;
+				role="button" href="PROG1940.html">PROG1940&nbsp;&nbsp;
 				<i class="icon-arrow-right"></i></a>
 		</p>
 	</div>
 </div>
-<?php renderMarkdown('articles/SplitTesting.md') ?>
+<?php \RHildred\Editable\Markdown::render('articles/SplitTesting.md') ?>
 <hr />
-<?php renderMarkdown('articles/Hactivism.md') ?>
+<?php \RHildred\Editable\Markdown::render('articles/Hactivism.md') ?>
 <hr />
-<?php renderMarkdown('articles/openSource.md') ?>
+<?php \RHildred\Editable\Markdown::render('articles/openSource.md') ?>
 <hr />
-<?php renderMarkdown('articles/webDevelopment.md') ?>
+<?php \RHildred\Editable\Markdown::render('articles/webDevelopment.md') ?>
 <hr />
-<?php renderMarkdown('articles/brackets.md') ?>
+<?php \RHildred\Editable\Markdown::render('articles/brackets.md') ?>
 <hr />
-<?php renderMarkdown('articles/javascriptEvents.md') ?>
+<?php \RHildred\Editable\Markdown::render('articles/javascriptEvents.md') ?>
 <hr />
-<?php renderMarkdown('articles/assert-runner.md') ?>
+<?php \RHildred\Editable\Markdown::render('articles/assert-runner.md') ?>
 <hr />
-<?php renderMarkdown('articles/js-toolbox.md') ?>
+<?php \RHildred\Editable\Markdown::render('articles/js-toolbox.md') ?>
 <hr />
-<?php renderMarkdown('articles/WebRTC.md') ?>
+<?php \RHildred\Editable\Markdown::render('articles/WebRTC.md') ?>

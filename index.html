@@ -1,43 +1,509 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Rich On Github</title>
+<meta charset="utf-8">
+<meta name="google-site-verification" content="dvUQ2S0TOifnI9P2ARoTiE_c6Bvfk6vS_zDJaQebe9o" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="code examples, largely for my teaching at Conestoga">
-<meta name="author" content="Rich Hildred">
-<meta name="keywords" content="php java c#">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="keywords" content="">
 <link rel="shortcut icon" href="YinYang.ico">
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+
+<title>Rich's interests</title>
+
+<!-- Bootstrap core CSS -->
+<link
+	href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+	rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+	<link href="//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="css/main.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.js"></script>
+    <![endif]-->
+	<script
+		src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 </head>
+
 <body>
-<div class="container">
-<!-- Main jumbotron for a primary marketing message or call to action -->
+
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container index">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse"
+				data-target=".navbar-collapse">
+				<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+					class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" class="active" href=".">Faculty Page</a>
+		</div>
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="calendar.html">Calendar</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="pastcourses.html">Courses</a></li>
+			</ul>
+			<form class="navbar-form navbar-right" action="searchResults"
+				method="get">
+				<div class="form-group">
+					<input id="search" type="text" placeholder="search"
+						class="form-control" autocomplete="off"
+						name="q" />
+				</div>
+				<button type="submit" class="btn btn-success">
+					<i class="icon-search"></i>&nbsp;&nbsp;Search
+				</button>
+			</form>
+		</div>
+		<!--/.navbar-collapse -->
+	</div>
+</div>
+
+	<div class="container">
+		<!-- Example row of columns -->
+		<div class="row"><!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
 	<div class="container">
-		<h1>Rich Hildred - Developer/Professor</h1>
+		<h1>Rich Hildred</h1>
 		<p>"Creative Active Individuals can only grow up in a society that
 			emphasizes learning instead of teaching." - Chris Alexander</p>
-		<p>Read more about my learning interests <a href="http://rhildred.users.sourceforge.net">on sourceforge</a> or proceed to my code examples by clicking one of the buttons.</p>
+		<p>Read more about my learning interests below or proceed to a
+			current course by clicking one of the buttons.</p>
 		<p>
-			<a class="btn btn-primary btn-lg"
-				role="button" href="http://rhildred.users.sourceforge.net">My Sourceforge Page&nbsp;&nbsp;
+                <a class="btn btn-primary btn-lg"
+				role="button" href="BUS3140.html#lecture2">BUS3140&nbsp;&nbsp;
 				<i class="icon-arrow-right"></i></a>
-			<a class="btn btn-primary btn-lg"
-				role="button" href="https://github.com/rhildred">Github Code Examples&nbsp;&nbsp;
+                <a class="btn btn-primary btn-lg"
+				role="button" href="COMP2280.html">COMP2280&nbsp;&nbsp;
+				<i class="icon-arrow-right"></i></a>
+                <a class="btn btn-primary btn-lg"
+				role="button" href="INFO3160.html">INFO3160&nbsp;&nbsp;
+				<i class="icon-arrow-right"></i></a>
+                <a class="btn btn-primary btn-lg"
+				role="button" href="PROG1940.html">PROG1940&nbsp;&nbsp;
 				<i class="icon-arrow-right"></i></a>
 		</p>
 	</div>
 </div>
-</div>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<div class="editable" id="articles/SplitTesting_md"><h1>Split Testing</h1>
 
-  ga('create', 'UA-45546538-3', 'auto');
-  ga('send', 'pageview');
+<p>Programming, no matter how technically excellent isn't really excellent at all unless you are building the right thing. As Steve Blank says, “in a startup no facts exist inside the building, only opinions.” We need to verify the hypothesis in our code with customers. You also need to build the thing right. Take, for example, a change to the user interface that makes the "buy now" button render with white text on a white background. Really bad for sales!</p>
 
-</script>
+<p>Split testing is sending a small cohort of customers to a new change, while keeping the bulk of customers on the old faithful. We compare the behaviours of the 2 cohorts, and decide if the changed software is better than the classic software, if the vista is better than the 2000. In our white on white example we notice a sudden decrease in sales. We start sending all of the customers back to the classic, and manually test the "improved." We possibly stop all development on the new and improved so that we don't compound whatever mistake that was made.</p>
+
+<p><strong>It is really important that when we discover the issue and make a new and improved version, we also add an automated test to make sure that white on white doesn't creep back in.</strong></p>
+
+<p>When we have found the issue and made an automated test to keep it from recurring we try it again, (and again if necessary) with a small cohort of customers. When we are finally happy we ramp the number of users until it is the predominant software. Luckily it is very easy to run <a href="http://viget.com/extend/split-test-traffic-distribution-with-nginx">this type of experiment</a> with web application software using a load balancer like nginx. This easy:</p>
+
+<pre><code>    upstream appServer {
+        ip_hash;
+        server old.app.com weight=9;
+        server new.app.com;
+    }
+    server {
+        listen 80;
+        location / {
+            proxy_pass http://appServer;
+        }
+    }
+
+</code></pre>
+
+<p>If this is copied into the <code>/etc/nginx/sites-available</code> folder and soft linked in to the <code>/etc/nginx/sites-enabled</code> folder as the first entry alphabetically 9 times the requests will go to old.app.com and the other time the request will go to new.app.com. When I talked about this in class, one of my students made the point that this could frustrate some customers by showing them an intermittent problem. This is partly addressed with the <code>ip_hash</code> directive. The rest of addressing the possibility of customer frustration is by letting customers self select at first to see the latest and greatest, possibly by giving them a different url. Even your early adopter/beta customers can be further split into cohorts for testing changes.</p>
+</div><hr />
+<div class="editable" id="articles/Hactivism_md"><h1>Hacktivism</h1>
+
+<blockquote>
+  <p>working toward social change by combining programming skills with critical thinking
+  <a href="http://en.wikipedia.org/wiki/Hacktivism">Wikipedia</a></p>
+</blockquote>
+
+<p>If you send an email to the <a href="&#109;&#x61;&#105;&#x6c;&#116;&#x6f;:&#47;&#x2f;&#111;&#x6e;&#119;&#x61;r&#100;&#x77;&#105;&#x6c;&#108;&#x6f;w&#64;&#x6e;&#101;&#x74;&#115;&#x63;a&#112;&#x65;&#46;&#x6e;&#101;&#x74;">email address</a> at the bottom of Lorri Sauve's web page it will bounce! Yet the program she directs ... Better Beginnings, Better Futures, Guelph is still going strong. Lorri has a pain that she is trying to cure. She needs to be able to have a website that accurately reflects the vibrant nature of her program that she and her team can update.</p>
+
+<p><img src="http://bbbf.ca/Portals/_default/Skins/Nukeville.Morpheus/nv_ipi/r2/1.png" alt="Happy Kids" title="image from front page of bbbf.ca" /></p>
+
+<p>The current website, like those of many volunteer organizations was made by a volunteer. It was updated by an admin assistant. Both of these people are no longer available to the organization and now Better Beginnings are stuck with outdated information on their site. I have been thinking (I hope critically) about this problem and my approach to web development as an instructor at Conestoga College, whom Lorri approached to solve her problem.</p>
+
+<p>I love my trade. I love that it is a learning trade, and I love to learn and work with new things. I don't want the new website to be the same old, hard to update, story though. So how can the Conestoga team make sure? Is there still a role for my students and I to apply what we are learning to a site that can be maintained by someone without the same background? There is. Our role as hactivists is to apply the best of our abilities in making the site look exactly the way that Lorri and her team want it to. To apply our skills to making the site responsive and accessible. Yet to deploy the site using common denominator technology.</p>
+
+<p>Common denominator is <a href="https://wordpress.com/">Wordpress</a>. According to Wordpress they power 23% of the internet. Even after we are long done getting Lorri's site working she should be easily able to find people that know Wordpress. Better yet, there may be someone that is already involved with the program with an apptitude for doing this kind of work. So let's just set the site up as https://bbbfGuelph.wordpress.com and be done with it. Not so fast. Lorri already has a domain name, email addresses .... The free https://bbbfGuelph.wordpress.com doesn't quite meet her needs. We could pay for a wordpress.com site with a custom domain address, or there is another way that should be as maintainable, but provides lots more control.</p>
+
+<p>The other way that I am describing is http://pagodabox.com. Pagodabox is a cloud provider that specializes in PHP, the language that Wordpress is written in. It probably isn't an issue for Better Beginnings, Better Futures Guelph, but there is <a href="https://pagodabox.com/case-studies/scale-wordpress-case-study">an article on their homepage</a> about them scaling to 500,000 page views a day. They are a serious cloud provider that has been around for a while and at .1% of the volume of requests host for free. As well as scaling they provide sftp access to the code, which is helpful for portability or debugging. Combining pagodabox hosting with Cloudflare content delivery network gives a performance boost and also free ssl.</p>
+
+<p>SSL is important, because currently Google is page ranking SSL pages higher than insecure pages. This will have immediate impact on the people that need the services of Better Beginnings, Better Futures being able to find them. A free secure website that can be easily changed, easily found and is free at these service levels is a way to get the word out about the real social change agent, Better Beginnings, Better Futures and their 2.5 to 1 payback. By giving them a new website like this, we are just moving technology out of the way of the social change that they provide.</p>
+</div><hr />
+<div class="editable" id="articles/openSource_md"><h1>Open Source</h1>
+
+<p>This is my 4th time doing web development at Conestoga, and I feel like I am getting to know a few things. One of these things that I am constantly reminded of is just how fun it is to develop software. A big part of the fun for me is open source. A big part of open source is <a href="https://github.com">https://github.com</a>. As someone who is helping others to learn his trade at Community College github is absolutely perfect. I can help students with examples on Github, while retaining the right to use the examples in my own work with an open source license.</p>
+
+<p>A very cool thing about github is that if those examples are javascript and html based, they can also be hosted on github pages. My repositories <a href="https://github.com/rhildred/slideShowExample">https://github.com/rhildred/slideShowExample</a>, <a href="https://github.com/rhildred/staticFramework">https://github.com/rhildred/staticFramework</a> and <a href="https://github.com/rhildred/Pong]">https://github.com/rhildred/Pong</a> are like that. The even cooler thing about github pages is that every user gets one special github page to use as an entry point to their work on github. You can see mine at <a href="https://rhildred.github.io">https://rhildred.github.io</a>.</p>
+
+<p>As I was setting this up and working on a course outline for a web development program for at risk teens for a social entrepreneurship club at Wilfrid Laurier, I got to wondering whether it was possible to do Web development using nothing but open source. I am already using quite a bit of open source, but to only use open source there would be 2 major hurdles to overcome. I have been using photoshop to introduce the idea of mobile first and mockup production. I originally thougt I would have to switch from PhotoShop to Gimp, but lately on my Mac and Linux machine I installed pinta, a paint.net clone. Pinta is written in C# and runs on Mono on the MAC and on Linux. To do .net web development I would also need to use mono. I have had some success with Mono and MVC using <a href="https://github.com/wshearn/openshift-community-cartridge-mono">https://github.com/wshearn/openshift-community-cartridge-mono</a>. I have had 0 luck trying to get web matrix like asp.net web pages going.</p>
+
+<p>The reason that i tried to use mono was to do c# on my mac without sparking up windows, but now I am trying to take it a little further. I have a lightweight (lubuntu) installation. On top of that I have <a href="https://github.com/adobe/brackets/releases/download/release-0.44/Brackets.Release.0.44.64-bit.deb">installed adobe brackets from here.</a> This installation was painless ... <code>dpkg -i Brackets.Release.0.44.64-bit.deb</code>. Then I also <a href="http://downloads.sourceforge.net/project/xampp/XAMPP%20Linux/1.8.3/xampp-linux-x64-1.8.3-5-installer.run">installed xampp from here.</a>. Installing it was a matter of:</p>
+
+<pre><code>chmod u+x xampp-linux-x64-1.8.3-5-installer.run
+
+sudo ./xampp-linux-x64-1.8.3-5-installer.run
+</code></pre>
+
+<p>Then when that was installed I made a shortcut for the xampp control panel in <code>/usr/share/applications/xampp.desktop</code>. The shortcut looks like this:</p>
+
+<pre><code>[Desktop Entry]
+Name=XAMPP Control
+Type=Application
+Categories=Development
+Exec=gksudo /opt/lampp/manager-linux-x64.run
+Icon=xampp
+MimeType=text/html;
+Keywords=apache mysql
+</code></pre>
+
+<p>After adding Brackets git, Beautify and spell-check, I was able to clone my projects from bitbucket and github and I am writing this article on a completely open source software stack.</p>
+</div><hr />
+<div class="editable" id="articles/webDevelopment_md"><h1>Web Development 2014-2015 Class Schedule</h1>
+
+<p>I have put the <a href="courses/Schedule.pdf">new schedule here.</a> We have moved the job search forward in the schedule to the first week in June, so that you have some time to look for a job before the summer sets in.</p>
+</div><hr />
+<div class="editable" id="articles/brackets_md"><h1>Goodbye Eclipse ... Hello Brackets</h1>
+
+<p>Eclipse used to be my friend. Then, on our last project together in a year-long intensive program, it started to hang on my students when you typed an equal/assignment sign in Javascript. At first this happened when we ran Eclipse from a USB key, but eventually it started happening on OSX and Windows fixed drives as well. My students and I were using a git based workflow, so for a while we used eclipse to avoid using git from the command line. We edited our files in a number of editors, old and new. After trying a number of editors I started to like Adobe Brackets more and more. Martin Zagora's Brackets Git was the deciding factor for me:</p>
+
+<p><img src="images/BracketsGit.png" alt="Brackets Git" title="Brackets Git" /></p>
+
+<p>Other than for cloning it gives a non-command line interface to our private Bitbucket repository. For cloning we need to use the command line to be prompted for the password. To install Brackets on a USB key:</p>
+
+<ol>
+<li>Download and install portable Brackets.</li>
+<li>Use the extension manager to install Brackets Git, Beautifier and spell-checker</li>
+<li>Use help/Show Extensions folder to copy the extensions to the www/extensions/dev folder</li>
+<li>When you restart brackets after a reboot, the extensions should still be there</li>
+<li>Configure the place for the Git Executable:</li>
+</ol>
+
+<p><img src="images/GitSettings.png" alt="Git settings" title="Git Settings" /></p>
+
+<p>So far Brackets is usable with xampp running on my slow USB drive. Eclipse, except maybe for Java Development, your time is up!</p>
+
+<h2>Note: Installing Development environment on OSX (or Linux)</h2>
+
+<p>There are some prerequisites that I found useful when I installed on my MAC and Linux machine.</p>
+
+<ol>
+<li><em>Google Chrome</em> (you can get this on ubuntu by running <code>sudo apt-get install google-chrome-stable</code>) or on OS X by <a href="https://www.google.com/chrome/browser/?platform=mac">surfing here</a></li>
+<li><em>Git</em> (ubuntu <code>sudo apt-get install git</code>) or OS X <a href="http://git-scm.com/download/mac">surfing here</a></li>
+</ol>
+
+<p>When you have those prerequisites, you can use the extension manager to install Brackets Git, Beautifier and spell-checker. You won't need to configure git settings as git will be in your path.</p>
+</div><hr />
+<div class="editable" id="articles/javascriptEvents_md"><h1>JavaScript is events</h1>
+
+<p>Well of course JavaScript is a programming language, but it was designed for handling things that users do on web pages like filling out forms and clicking submit buttons.</p>
+
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/a/a4/Copyright_click.svg" alt="click me" title="click me" /></p>
+
+<p>As a result more things in JavaScript are events than in many other languages. My morning class and I thought of a good metaphor for events and handling them that I want to share here. Think of the event of a newspaper landing on the sidewalk leading up to your house. What do you need to do for that event to happen? You need to subscribe.</p>
+
+<p><a href="http://www.flickr.com/photos/quinnanya/5555454223"><img src="http://farm6.staticflickr.com/5030/5555454223_2b1e341655_n.jpg" alt="newspaper arrival event" title="newspaper arrival event" /></a></p>
+
+<p>JavaScript events are similar in that they are published and subscribed to. The subscriber is sometimes called a listener, sort of like the faithful dog that listens for the arrival of the paper, and handles it by running outside and bringing the paper in to his master. In JavaScript that might look like:</p>
+
+<pre><code>jQuery("#sidewalk").on("paper arrival", function(paper){
+    paper.bringToMaster();
+});
+</code></pre>
+
+<p>The first thing that is happening here is that we are subscribing or listening to an event. That is the <code>jQuery("#sidewalk").on("paper arrival"</code> part of our code. The second part of this snippet is what to do when the event happens. In JavaScript there is an overseer or event loop that calls the dog handler to bring the paper to it's master.</p>
+
+<pre><code>function(paper){
+    paper.bringToMaster();
+}
+</code></pre>
+
+<p>The event subscription is through <code>jQuery.on</code> which in this case is taking 2 parameters, the name of the event and the handler to call to deal with the event. Often in JavaScript we have made to order events. Think of this as more like the sandwich shop.</p>
+
+<p><img src="images/JavaScriptSandwich.svg" alt="sandwich" title="sandwich" /></p>
+
+<p>A common example in web application programming is getting something from a web server instead of a sandwich server.</p>
+
+<pre><code>jQuery.ajax({
+    url: "cornBeefOnRye"
+}).done(function(sandwich){
+    eatSandwich();
+}).fail(function(err){
+    starve();
+});
+</code></pre>
+
+<p>You might have noticed a problem with the handlers of both events. There is no reference to who eats the sandwich. If we have more than one sandwich eater or paper bringer we have a problem. The solution to this problem is to have sandwich eating objects, Tony in our diagram. Tony is a stomach with legs and exists in our example to eat sandwiches. He is also the context for the sandwich order. We can define a Tony Object like so:</p>
+
+<pre><code>var oTony = {
+    name: 'Tony',
+    state: 'famished`,
+    eatSandwich: function(){
+        this.state = 'replete for now';
+    },
+    starve: function(){
+        this.state = 'deceased';
+    }
+}
+</code></pre>
+
+<p>If we have more than one sandwich eater in a system, we don't know which one's state is replete ... a big problem for Tony our walking stomach. The solution is to establish a context for who we call when an event happens. We do this like so:</p>
+
+<pre><code>jQuery.ajax({
+    url: "cornBeefOnRye"
+})
+.done(jQuery.proxy(oTony.eatSandwich, oTony))
+.fail(jQuery.proxy(oTony.starve, oTony));
+</code></pre>
+
+<p>that way when the message comes in it comes with it's context. You can think of the proxy like the little stand they hand you at Williams that makes you get your right sandwich.</p>
+</div><hr />
+<div class="editable" id="articles/assert-runner_md"><h1>Test Driven Development</h1>
+
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/IIHS_crash_test_dummy_in_Hyundai_Tucson.jpg/154px-IIHS_crash_test_dummy_in_Hyundai_Tucson.jpg" alt="Test Dummy - Brady Holt" title="Test Dummy - Brady Holt" /></p>
+
+<p>Test driven development is a powerful idea for a number of reasons. The first reason I talked about when I spoke on specification by example. As a system grows and evolves over time, the tests and the code itself become the only reliable indication of its behavior. Consider the following code:</p>
+
+<pre><code>var getOntarioTax = function(nAmt){
+    // Ontario tax is 7% sales tax plus 8% GST
+    return (nAmt * 1.13).toFixed(2);
+}
+</code></pre>
+
+<p>What has happened here? Likely this code was written a few years ago, and the tax rate has been adjusted since then, while the comment in the code remains from before. The following test:</p>
+
+<pre><code>var nIn = 10;
+var nWithTax = getOntarioTax(nIn);
+assert(nWithTax == 11.30);
+</code></pre>
+
+<p>makes sure that the tax rate is up to date, but also quickly tells us that the Ontario tax rate is not 15% as we would conclude from the comment.</p>
+
+<p>The second reason that test driven development is important is because it leads to writing just enough code to do the job, which is important from a waste elimination perspective when writing code for a system but also when maintaining code for a system. If we make our getOntarioTax method be a getCanadianTax method by taking a second parameter for the province that defaults to Ontario, then we would start with the Ontario test that we have already written. To do another province we would add a second test:</p>
+
+<pre><code>var tests = {
+    "Test of getTax with no province": function(){
+        var nIn = 10;
+        var nWithTax = getCanadianTax(nIn);
+        assert(nWithTax == 11.30);
+    },
+    "Test of getTax for PEI": function(){
+        var nIn = 10;
+        var nWithTax = getCanadianTax(nIn, 'PEI');
+        assert(nWithTax == 11.40);
+    }
+}
+</code></pre>
+
+<p>When we implemented, just that additional functionality, we might do something like this:</p>
+
+<pre><code>var getCanadianTax = function(nIn, sProv){
+    if(sProv == 'PEI'){
+        return (nIn * 1.14).toFixed(2);
+    }
+    return (nIn * 1.13).toFixed(2);
+};
+</code></pre>
+
+<p>Then as we implemented more provinces we would discover that there are a number of provinces that have a 13% tax rate and we might end up with code like this:</p>
+
+<pre><code>var getCanadianTax = function(nIn, sProv){
+    if(typeof sProv == "undefined") sProv = 'ON';
+    if(sProv == 'PEI'){
+        return (nIn * 1.14).toFixed(2);
+    }else if(sProv == 'NB' || sProv == 'NL' || sProv == 'ON'){
+        return (nIn * 1.13).toFixed(2);
+    }else if(sProv == 'NS'){
+        return (nIn * 1.15).toFixed(2);
+    }
+    return (nIn * 1.05).toFixed(2);
+};
+</code></pre>
+
+<p>which would be pretty much the minimum that is needed.</p>
+
+<p>Finally test driven development makes sure that later changes don't break things that were working previously. For instance if we were to omit the test for an undefined second parameter in the previous method, the "Test of getTax with no province" will start failing. We can have confidence that we will write code that doesn't break something else.</p>
+
+<p>To use the <code>assert-runner</code> npm module that I wrote to do test driven development myself you simply add the dependency to the package.json file in the root directory of your node project.</p>
+
+<pre><code>"dependencies": {
+    "assert-runner": "*"
+},
+</code></pre>
+
+<p>A simple passing first test requires the following code:</p>
+
+<pre><code>var assert = require('assert');
+var TestRunner = require('assert-runner');
+
+var tests = {
+    "Test of assert": function(){
+        assert(true == true);
+    }
+};
+
+new TestRunner(tests).again(0);
+</code></pre>
+
+<p>You say the test didn't pass???? Starting with a failing test is sometimes easier than you think. After you add the dependency to the package.json file, you will need to run a <code>npm install</code> inside your project directory.</p>
+
+<p>So the basic pattern is</p>
+
+<ol>
+<li>Write a failing test (or a trivial passing one)</li>
+<li>Write the code under test and get the test to pass.</li>
+<li>Write another failing test ... write more code ....</li>
+</ol>
+
+<p>You can see a <a href="https://github.com/rhildred/PROG1250Javascript">complete example here</a>.</p>
+</div><hr />
+<div class="editable" id="articles/js-toolbox_md"><h1>Class Based Inheritance in the Style of BackBone.js</h1>
+
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Jungle_Book_Rudyard_Kipling_poster.jpeg/175px-Jungle_Book_Rudyard_Kipling_poster.jpeg" alt="Shere Khan" title="Shere Khan" />
+Suppose that I wanted to have a <a href="http://martinfowler.com/eaaCatalog/domainModel.html">domain model</a> that included different sorts of tigers!</p>
+
+<p>I might start out with something like this:</p>
+
+<pre><code>var Animal = Toolbox.Base.extend({
+    constructor: function (name) {
+        this._name = name;
+    },
+    sayName: function () {
+        return('Hi, my name is ' + this._name);
+    }
+});
+</code></pre>
+
+<p>Then I could make a Tiger sub-type of an animal something like this:</p>
+
+<pre><code>var Tiger = Animal.extend({
+    constructor: function () {
+        // all tigers are named Tony
+        this._name = "Tony";
+    }
+});
+</code></pre>
+
+<p>But you can't call a Bengal Tiger Tony, so we need something like this:</p>
+
+<pre><code>var BengalTiger = Tiger.extend({
+    constructor: function () {
+        // you can't name a Bengal tiger Tony
+        this._name = "Shere Khan";
+    },
+    sayName: function () {
+        return('Hi, my name is ' + this._name + ' and I am the true lord of the jungle!');
+    }
+});
+</code></pre>
+
+<p>Seems like a user story for inheritance and polymorphism to me! JavaScript
+implements prototypical inheritance, which is fine but in this case I would like
+to be able to have class based inheritance like I might find in the BackBone.js
+library.</p>
+
+<pre><code>  var Router = Backbone.Router.extend({
+    routes: {
+      'lists/:id': 'openList'
+    },
+
+    initialize: function() {
+    },
+
+    openList: function(id) {
+    }
+  });
+</code></pre>
+
+<p>In fact it was BackBone.js that I drew my inspiration from. I am working on a
+large project, where I have a domain model that doesn't map completely to
+BackBone models views and Router. I was looking for something to carry the same
+style but that wasn't one of these things and came across <a href="https://github.com/jimmydo/js-toolbox">this on the web</a>. That js-toolbox is fine for browser
+based code, but didn't work with node where I really want to keep some domain
+logic so I made a npm for it. To enable a domain model using the BackBone style in node.js simply use <code>npm install js-toolbox --save</code>.
+You can see the <a href="https://github.com/rhildred/js-toolbox">code at my github</a>.</p>
+</div><hr />
+<div class="editable" id="articles/WebRTC_md"><h1>Web Real Time Communications</h1>
+
+<p>Is your team more distracted together than working together? Web Real Time
+Communications (WebRTC) will turn group distraction ware into team learning
+ware. WebRTC, a technology for voice video and data communications in a browser
+and some recent studies on team learning and flow have the potential to send
+groupware products like Outlook and Notes the way of the rotary dial phone and
+the cubby-hole.</p>
+
+<p>In 1990 I wrote an email client/MUA that was part of a groupware
+product that ran on Novell Netware. It was a character based interface, but had
+the metaphor of cubby-holes;</p>
+
+<p><img src="http://farm4.staticflickr.com/3177/2575078239_b3849c1d55_d.jpg" alt="cubby-holes" title="cubby-holes at the smithsoninan" /></p>
+
+<p>to show whether a logged in user had mail, and to show if other users were out
+of the office. You don't hear much about cubby-holes anymore, but the basic
+premise of the most used groupware products, Outlook and Notes hasn't really
+changed since computers became standard on everyone's desk and pc based
+communications products took over from the previous generation of terminal based
+products. Other office tools like phones and conference bridges, while possibly
+having screen sharing haven't changed all that much in quite a while either.</p>
+
+<p>The recent release of Web Real Time communications in the chrome and firefox
+browsers and a beef that I have about current offerings like Outlook, Notes and
+the Hub being too distracting from real life has drawn me to a new vision for
+teamware. To inform my vision with the most recent research about teamwork, team
+learning and the opposite of distraction, team flow I did a final MBA
+independent study project on the subject. I have learned some things writing
+that paper that will bring me closer to my dream of inventing something that
+will make our real lives as engaging as a video game.</p>
+
+<p>Web real time communications is the enabling technology that can make a
+teamware that couldn't have existed until now and will make our online life an
+extension rather than a distraction from our real lives.</p>
+</div></div>
+
+		<hr>
+
+		<footer>
+			<p>&copy; Rich Hildred 2013-<script>document.write(new Date().getFullYear());</script></p>
+		</footer>
+	</div>
+	<!-- /container -->
+
+
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script
+		src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script
+		src="//code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	<script>
+		jQuery("#search").autocomplete({
+			source : "api/Words"
+		});
+	</script>
+	<script>
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script',
+				'//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-45546538-1', 'rhildred.users.sourceforge.net');
+		ga('send', 'pageview');
+	</script>
 </body>
 </html>

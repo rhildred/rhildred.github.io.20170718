@@ -1,12 +1,11 @@
 <?php
-require_once 'lib/template.php';
-$Viewbag->title = "Rich: COMP2280";
-layout("_layout.phtml");
+$this->data['title'] = "Rich: COMP2280";
+$this->layout("_layout.phtml");
 ?>
-<?php renderMarkdown("courses/COMP2280/COMP2280.md");
+<?php \RHildred\Editable\Markdown::render("courses/COMP2280/COMP2280.md");
 ?>
 <hr />
 <div class="bookmark" id="lecture1">
-<?php renderMarkdown("courses/COMP2280/COMP2280Assignments.md");
+<?php \RHildred\Editable\Markdown::render("courses/COMP2280/COMP2280Assignments.md");
 ?>
 </div>

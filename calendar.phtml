@@ -1,7 +1,6 @@
 <?php
-require_once 'lib/template.php';
-$Viewbag->title = "Rich's Calendar";
-layout("_layout.phtml");
+$this->data['title'] = "Rich's Calendar";
+$this->layout("_layout.phtml");
 ?>
 <br />
 <iframe

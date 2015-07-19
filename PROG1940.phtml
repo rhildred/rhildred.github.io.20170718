@@ -1,34 +1,33 @@
 <?php
-require_once 'lib/template.php';
-$Viewbag->title = "Rich: PROG1940";
-layout("_layout.phtml");
+$this->data['title'] = "Rich: PROG1940";
+$this->layout("_layout.phtml");
 ?>
-<?php renderMarkdown("courses/PROG1940/PROG1940.md");
+<?php \RHildred\Editable\Markdown::render("courses/PROG1940/PROG1940.md");
 ?>
 <hr />
-<?php renderMarkdown("articles/BuildingBlocks.md");
+<?php \RHildred\Editable\Markdown::render("articles/BuildingBlocks.md");
 ?>
 <hr />
 <div id="database" class="bookmark">
-<?php renderMarkdown("articles/Database.md");
+<?php \RHildred\Editable\Markdown::render("articles/Database.md");
 ?>
 </div>
 <hr />
 <div id="parameters" class="bookmark">
-<?php renderMarkdown("articles/Parameters.md");
+<?php \RHildred\Editable\Markdown::render("articles/Parameters.md");
 ?>
 </div>
 <hr />
 <div id="slim" class="bookmark">
-<?php renderMarkdown("courses/PROG1940/slim.md");
+<?php \RHildred\Editable\Markdown::render("courses/PROG1940/slim.md");
 ?>
 </div><hr />
 <div id="migrations" class="bookmark">
-<?php renderMarkdown("courses/PROG1940/migrations.md");
+<?php \RHildred\Editable\Markdown::render("courses/PROG1940/migrations.md");
 ?>
 </div><hr />
 <div id="final" class="bookmark">
-<?php renderMarkdown("courses/PROG1940/final.md");
+<?php \RHildred\Editable\Markdown::render("courses/PROG1940/final.md");
 ?>
 </div>
 

@@ -1,36 +1,22 @@
 <?php
+
 $Viewbag = new stdClass();
 $Viewbag->bInLayout = false;
 
 function layout($sLayout){
 	global $Viewbag;
 	if(!$Viewbag->bInLayout){
+        $Viewbag->sScript = __FILE__;
 		$Viewbag->bInLayout = true;
 		//don't want to output anything from sScript the first time
-		if(isset($Viewbag->sScript)){
-			$Viewbag->sPage = str_replace('.phtml','',basename($Viewbag->sScript));
-			include_once dirname($Viewbag->sScript) . '/' . $sLayout;
-			$Viewbag->sOut = ob_get_contents();
-		}else{
-			$Viewbag->sPage = str_replace('.phtml','',basename($_SERVER['PHP_SELF']));
-			include_once $sLayout;
-			exit;
-		}
+        include_once $sLayout;
+		throw new Exception("Don't print twice");
 	}
 }
 
 function renderBody(){
 	global $Viewbag;
-	if(isset($Viewbag->sScript)){
-		include($Viewbag->sScript . ".phtml");
-	}else{
-		if(file_exists($Viewbag->sPage)){
-			include($Viewbag->sPage);
-		}else{
-			include($Viewbag->sPage . ".phtml");
-		}
-
-	}
+    include($Viewbag->sScript);
 }
 
 require_once(dirname(__FILE__) . '/php-markdown-lib/Michelf/MarkdownExtra.inc.php');

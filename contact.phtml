@@ -1,4 +1,7 @@
-<?php require_once 'lib/template.php'; $Viewbag->title = "Rich's contact info"; layout("_layout.phtml"); ?>
+<?php
+$this->data['title'] = "Rich's contact info";
+$this->layout("_layout.phtml");
+?>
 <h2>Contact</h2>
 <div class="row">
     <div class="col-md-8">
@@ -52,6 +55,6 @@
             <img src="images/Envelope_email.svg" alt="linkedin" title="linkedin" height="100" />
             </a>
         </p>
-        <?php renderMarkdown( "articles/contact.md"); ?>
+        <?php \RHildred\Editable\Markdown::render( "articles/contact.md"); ?>
     </div>
 </div>

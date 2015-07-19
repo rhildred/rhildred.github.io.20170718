@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="google-site-verification" content="dvUQ2S0TOifnI9P2ARoTiE_c6Bvfk6vS_zDJaQebe9o" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="<?php echo $Viewbag->description ?>">
-<meta name="author" content="<?php echo $Viewbag->author ?>">
-<meta name="keywords" content="<?php echo $Viewbag->keywords ?>">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="keywords" content="">
 <link rel="shortcut icon" href="YinYang.ico">
 
-<title><?php echo $this->data['title'] ?></title>
+<title>Rich: PROG1750</title>
 
 <!-- Bootstrap core CSS -->
 <link
@@ -32,11 +32,47 @@
 
 <body>
 
-	<?php include '_nav.phtml' ?>
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container PROG1750">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse"
+				data-target=".navbar-collapse">
+				<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+					class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" class="active" href=".">Faculty Page</a>
+		</div>
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="calendar.html">Calendar</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="pastcourses.html">Courses</a></li>
+			</ul>
+			<form class="navbar-form navbar-right" action="searchResults"
+				method="get">
+				<div class="form-group">
+					<input id="search" type="text" placeholder="search"
+						class="form-control" autocomplete="off"
+						name="q" />
+				</div>
+				<button type="submit" class="btn btn-success">
+					<i class="icon-search"></i>&nbsp;&nbsp;Search
+				</button>
+			</form>
+		</div>
+		<!--/.navbar-collapse -->
+	</div>
+</div>
 
 	<div class="container">
 		<!-- Example row of columns -->
-		<div class="row"><?php $this->renderBody() ?></div>
+		<div class="row"><div class="editable" id="courses/PROG1750/test_md"><h1>Data Visualization</h1>
+
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Colorful_spring_garden.jpg/320px-Colorful_spring_garden.jpg" alt="Happy Spring" title="Happy Spring" /></p>
+
+<p>The test is designed to draw your attention to some common problems with easeljs as well as the $scope pattern from angular.js. The <a href="tests/dataVisualization.htm">test is here</a>. Good Luck!</p>
+</div></div>
 
 		<hr>
 

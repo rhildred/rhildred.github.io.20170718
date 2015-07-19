@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="google-site-verification" content="dvUQ2S0TOifnI9P2ARoTiE_c6Bvfk6vS_zDJaQebe9o" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="keywords" content="">
+<link rel="shortcut icon" href="YinYang.ico">
+
+<title>Rich: PROG8020</title>
+
+<!-- Bootstrap core CSS -->
+<link
+	href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+	rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+	<link href="//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="css/main.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.js"></script>
+    <![endif]-->
+	<script
+		src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+</head>
+
+<body>
+
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container PROG8020">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse"
+				data-target=".navbar-collapse">
+				<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+					class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" class="active" href=".">Faculty Page</a>
+		</div>
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="calendar.html">Calendar</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="pastcourses.html">Courses</a></li>
+			</ul>
+			<form class="navbar-form navbar-right" action="searchResults"
+				method="get">
+				<div class="form-group">
+					<input id="search" type="text" placeholder="search"
+						class="form-control" autocomplete="off"
+						name="q" />
+				</div>
+				<button type="submit" class="btn btn-success">
+					<i class="icon-search"></i>&nbsp;&nbsp;Search
+				</button>
+			</form>
+		</div>
+		<!--/.navbar-collapse -->
+	</div>
+</div>
+
+	<div class="container">
+		<!-- Example row of columns -->
+		<div class="row"><div class="editable" id="courses/PROG8020/schedule_md"><h1>Programming: Web Design and Development</h1>
+
+<p>A number of CAD teams implemented their CAPSTONE projects in phonegap with a php/mysql backend. This is an attractive platform, because php and mysql are readily available on the internet for free. When the teams chose this technology combination they were able to get something that they could show to their customers very quickly.</p>
+
+<p>In this course, last year, I spent way too long on environment. This time I am going to start with a simpler environment and build up to puting it live on the internet. We have 16 weeks together by my calculation, loosely broken down as follows:</p>
+
+<table>
+<thead>
+<tr>
+  <th>week</th>
+  <th>content</th>
+  <th>references</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>1</td>
+  <td>building blocks of PHP</td>
+  <td>notes</td>
+</tr>
+<tr>
+  <td>2</td>
+  <td>mysql</td>
+  <td>notes</td>
+</tr>
+<tr>
+  <td>3-4</td>
+  <td>parameters</td>
+  <td>notes</td>
+</tr>
+<tr>
+  <td>5-6</td>
+  <td>php api</td>
+  <td></td>
+</tr>
+<tr>
+  <td>6</td>
+  <td>midterm ... October 9th, 3-4</td>
+  <td></td>
+</tr>
+<tr>
+  <td>7</td>
+  <td>javascript primitives</td>
+  <td></td>
+</tr>
+<tr>
+  <td>8</td>
+  <td>jQuery</td>
+  <td></td>
+</tr>
+<tr>
+  <td>9</td>
+  <td>javascript framework</td>
+  <td></td>
+</tr>
+<tr>
+  <td>10</td>
+  <td>openshift/git</td>
+  <td></td>
+</tr>
+<tr>
+  <td>11</td>
+  <td>phonegap build</td>
+  <td></td>
+</tr>
+<tr>
+  <td>12</td>
+  <td>final</td>
+  <td></td>
+</tr>
+<tr>
+  <td>13-16</td>
+  <td>project work</td>
+  <td></td>
+</tr>
+</tbody>
+</table>
+</div><hr />
+<div class="editable" id="articles/BuildingBlocks_md"><h1>Building Blocks of PHP</h1>
+
+<p>PHP is a server-side scripting language designed for web development but also used as a general-purpose programming language. PHP is now installed on more than 244 million websites and 2.1 million web servers. Originally created by Rasmus Lerdorf in 1995, the reference implementation of PHP is now produced by The PHP Group. While PHP originally stood for Personal Home Page, it now stands for PHP: Hypertext Preprocessor, a recursive acronym. http://en.wikipedia.org/wiki/PHP</p>
+
+<p>PHP can be included in web pages. So that it can easily be parsed with web pages PHP is delimited by <code>&lt;?php</code> and <code>?&gt;</code>. The closing <code>?&gt;</code> isn't strictly necessary at the end of a file. A "hello world" program in PHP looks like this:</p>
+
+<pre><code>&lt;?php
+
+    echo "Rich Rocks!";
+
+?&gt;
+</code></pre>
+
+<p><code>echo</code> in this case writes what follows it into the output stream. Following the <code>echo</code> can be a list of things to be output as we shall see in the next example on variables.</p>
+
+<p>PHP variables begin with a <code>$</code> dollar sign. For instance:</p>
+
+<pre><code>&lt;?php
+    $nOriginalPrice = 12.53;
+
+    echo ($nOriginalPrice * 1.13), " is the price of ", $nOriginalPrice, " with 13% HST added\n";
+?&gt;
+</code></pre>
+
+<p>A student showed me the "if this then that" iPhone app the other day. This is the PHP equivalent:</p>
+
+<pre><code>&lt;?php
+$nTestScore = 65;
+
+if($nTestScore &lt; 55)
+{
+    echo "You failed \n";
+}
+elseif ($nTestScore &gt; 79)
+{
+    echo "You got an A \n";
+}
+else
+{
+    echo "You passed \n";
+}
+</code></pre>
+
+<p>There is another decision making structure called a switch statement. A switch statement is useful for choosing from a number of discrete options.</p>
+
+<p>To continue on with our test score idea:</p>
+
+<pre><code>&lt;?php
+
+$nTestScore = 'A';
+
+switch($nTestScore)
+{
+    case 'A':
+        echo "You got an a";
+
+    case 'B':
+        echo "Solid effort";
+        break;
+
+    case 'C':
+        echo "You should have studied more";
+        break;
+    default:
+        echo "You failed";
+        break;
+}
+</code></pre>
+
+<p>Doing things over and over is what computers do best! We looked at a couple of iterative or looping constructs:</p>
+
+<pre><code>&lt;?php
+for($i = 0; $i &lt; 10; $i++)
+{
+    echo $i, " is the next number \n";
+}
+
+?&gt;
+</code></pre>
+
+<p>While:</p>
+
+<pre><code>&lt;?php
+$i = 0;
+
+while($i &lt; 0)
+{
+    echo $i, " was the next number for while \n";
+    $i++;
+}
+
+
+$i = 0;
+
+do
+{
+    echo $i, " was the next number for do while \n";
+    $i++;
+
+}
+while($i &lt; 0);
+
+?&gt;
+</code></pre>
+
+<p>We looked at simple PHP array literals, where we also learned about the <code>print_r</code> for outputting more complex structures:</p>
+
+<pre><code>&lt;?php
+
+$aStrings = ["string1", "string2", "string3"];
+
+print_r($aStrings);
+</code></pre>
+
+<p>Then our attention turned to associative arrays. To create an associative array, both the key and the value are defined:</p>
+
+<pre><code>&lt;?php
+$aAssociative = [1 =&gt; "August", 0 =&gt; "March", 4 =&gt; "April", 256 =&gt; "May"];
+
+print_r($aAssociative);
+
+echo "\n";
+
+echo "the month with the short-form 'ap' is ", $aAssociative[0];
+
+echo "\n";
+
+print_r(array_keys($aAssociative));
+</code></pre>
+
+<p>We finished up with objects, where we also looked at functions. Following is a simple class hierarchy:</p>
+
+<pre><code>&lt;?php
+
+
+class Animal
+{
+    public $sSound = "";
+    public $sMethodOfReproduction = "";
+
+    public function Animal()
+    {
+
+    }
+
+}
+
+
+class Sheep extends Animal
+{
+    public $sMethodOfReproduction = "live birth";
+    public function Sheep()
+    {
+        $this-&gt;sSound = "baah";
+    }
+}
+
+
+$oAnimal = new Animal();
+
+print_r($oAnimal);
+
+echo " was oAnimal \n";
+
+$oDolly = new Sheep();
+
+print_r($oDolly);
+
+echo " was oDolly \n";
+</code></pre>
+
+<p>One thing that I forgot to talk about, that I will mention here is the idea of defining constants to improve the readability of your code. Here is an internationalization example from my github:</p>
+
+<pre><code>&lt;?php
+
+define("CHARACTERSET", "ISO-8859-1");
+define("HELLO", "Localized Hello");
+define("EXPLANATION", "This is an application that can change languages");
+
+?&gt;
+</code></pre>
+
+<p>And en francais:</p>
+
+<pre><code>&lt;?php
+
+define("CHARACTERSET", "ISO-8859-1");
+define("HELLO", "Bonjour localis&amp;eacute;e");
+define("EXPLANATION", "Il s'agit d'une application qui permet de changer de langue");
+
+?&gt;
+</code></pre>
+
+<p>Then in my web page I have:</p>
+
+<pre><code>...
+switch ($lang)
+{
+case "fr":
+include("strings_fr.php");
+break;
+
+default: //default to english
+include("strings_en.php");
+break;
+}
+
+header("Content-Type: text/html;charset= " .CHARACTERSET);
+header("Content-Language: " .$lang);
+...
+</code></pre>
+
+<p>A simpler use case for a define is:</p>
+
+<pre><code>&lt;?php
+define("HSTRATE", .13);
+
+$nPriceBefore = 12.95;
+
+echo $nPriceBefore, " with HST is ", (HSTRATE + 1) * $nPriceBefore;
+</code></pre>
+
+<p>This concludes the basics of PHP. Next database!</p>
+</div><hr />
+<div id="database" class="bookmark">
+<div class="editable" id="articles/Database_md"><h1>PHP Database</h1>
+
+<p>The database we will be accessing with PHP and, through PHP, with JavaScript is MySQL.
+MySQL is included as part of the Xampp. The MySQL server is started from the Xampp control panel.
+To work with MySQL databases, we will use a web app called phpmyadmin. You get to phpmyadmin by surfing to
+http://localhost/phpmyadmin.  You are faced with a page like this:</p>
+
+<p><img src="images/phpMyAdmin.png" alt="phpMyAdmin" title="phpMyAdmin" /></p>
+
+<p>phpMyAdmin is a GUI to perform the basic CRUD operations on a MySQL database. phpMyadmin can also import and export .sql files which is important.</p>
+
+<h2>Connecting to a Database</h2>
+
+<p>MySQL is a database server. To get at the data contained within it is necessary to form a connection to the server by providing a host name, port username and password.</p>
+
+<p>PhpMyadmin uses some defaults to list the available databases down the left side of the screen. Programmatically, to connect to a database one does something like this:</p>
+
+<pre><code>function getConnection() {
+    $dbhost="127.0.0.1";
+    $dbuser="root";
+    $dbpass="";
+    $dbname="directory";
+    $dbh = new PDO("mysql:host=$dbhost;dbname=$dbname", $dbuser, $dbpass);
+    $dbh-&gt;setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    return $dbh;
+}
+</code></pre>
+
+<p>Once connected we use the resulting $dbh to build and execute queries. Following is an example of a select (Read) query:</p>
+
+<pre><code>function getModifiedEmployees($modifiedSince = "1000-01-01") {
+    $sql = "select * from employee WHERE lastModified &gt; :modifiedSince";
+    try {
+        $db = getConnection();
+        $stmt = $db-&gt;prepare($sql);
+        $stmt-&gt;bindParam("modifiedSince", $modifiedSince);
+        $stmt-&gt;execute();
+        $employees = $stmt-&gt;fetchAll(PDO::FETCH_OBJ);
+
+        echo json_encode($employees);
+
+    } catch(PDOException $e) {
+        echo '{"error":{"text":'. $e-&gt;getMessage() .'}}';
+    } finally {
+        $db = null;
+    }
+}
+</code></pre>
+
+<p>There are a couple of interesting new things in here. We replaced our print_r statements with json_encode in anticipation of database work, so that our database output could be read programmatically.</p>
+
+<p>The really interesting part of this from a programmer's perspective is the <code>try</code> and <code>catch</code>. This construct is called structured exception handling. The basic idea is that we code the non-exceptional case in a block preceded by a try statement.
+If an exception occurs then the catch code is executed, which in this case does some JSON formatted error reporting.</p>
+
+<p>Try and catch also has a third verb <code>finally</code>, which happens when the try and possible catch are complete.</p>
+
+<p>The select case is the most complex of the queries to deal with in PHP. Following is an example of a delete statement:</p>
+
+<pre><code>&lt;?php
+    /* Delete all rows from the FRUIT table */
+    $del = $dbh-&gt;prepare('DELETE FROM fruit');
+    try{
+        $del-&gt;execute();
+
+        /* Return number of rows that were deleted */
+        print("Return number of rows that were deleted:\n");
+        $count = $del-&gt;rowCount();
+        echo '{"delete":{"rows":'. $count .'}}';
+    } catch(PDOException $e) {
+        echo '{"error":{"text":'. $e-&gt;getMessage() .'}}';
+    } finally {
+        $db = null;
+    }
+?&gt;
+</code></pre>
+
+<p>There is a pretty good <a href="http://php.net/manual/en/book.pdo.php">reference on PHP Data Objects (PDO) here.</a></p>
+</div></div>
+<hr />
+<div id="parameters" class="bookmark">
+<div class="editable" id="articles/Parameters_md"><h1>Parameters in PHP</h1>
+
+<p>In our examples we were very careful to not parse parameters in SQL. The reason for this was:</p>
+
+<p><img src="images/RedLight.jpg" alt="Red Light Camera SQL Injection" title="Red Light Camera SQL Injection" /></p>
+
+<p>Rather than take parameters directly into our SQL using string concatenation we
+prepared our SQL with <code>?</code> placeholders and used <code>$stmt-&gt;execute</code> with parameters
+to complete the work. Our example is a little contrived however because we
+didn't cover how to get parameters from the internet. Parameters come from the
+internet in PHP in special variables <code>$_GET</code> and <code>$_POST</code> . $_GET and $_POST are arrays of name value parameter pairs. Following is an example that uses the $_GET array. Note the use of the <code>isset()</code> built-in PHP function to check for the existence of the key <code>Genre</code>.</p>
+
+<pre><code>&lt;?php
+
+//print_r($_GET);
+
+$sGenre = '%';
+
+if(isset($_GET['Genre']))
+{
+    $sGenre = $_GET['Genre'];
+}
+
+$db = new PDO("mysql:host=localhost;dbname=cds", "root", "");
+
+
+
+$stmt = $db-&gt;prepare("SELECT * FROM cds WHERE genre LIKE CONCAT('%', ?, '%')");
+
+$stmt-&gt;execute(array($sGenre));
+
+$results = $stmt-&gt;fetchAll(PDO::FETCH_OBJ);
+
+echo json_encode($results);
+
+
+?&gt;
+</code></pre>
+
+<p>We can pass parameters to our php programs <code>$_GET</code> or <code>$_POST</code> array with a javascript program. We can also pass parameters to the <code>$_GET</code> array using the URL. For example, in our case, http://localhost:8000/buildingblocksofphp/php/goodparametersConcat.php?Genre=POP will retrieve all of the POP cds from the above script. Parameters can be used likewise to insert data into the database, although we are about to learn that <code>$_GET</code> isn't normally used for inserts.</p>
+
+<pre><code>&lt;?php
+
+try {
+    if(!isset($_GET['title']) || !isset($_GET['arranger']) || !isset($_GET['genre']))
+    {
+        throw new Exception("missing information");
+    }
+    $sTitle = $_GET['title'];
+    $sArranger = $_GET['arranger'];
+    $sGenre = $_GET['genre'];
+    $db = new PDO("mysql:host=localhost;dbname=cds", "root", "");
+
+
+    $stmt = $db-&gt;prepare("INSERT INTO cds(title, arranger, genre) VALUES (?,?,?)");
+
+
+
+    $stmt-&gt;execute(array($sTitle, $sArranger, $sGenre));
+
+    $count = $stmt-&gt;rowCount();
+    echo '{"insert":{"rows":'. $count .'}}';
+}
+catch(Exception $e)
+{
+    echo "{\"error\" : \"", $e-&gt;getMessage(), "\"}";
+}
+
+?&gt;
+</code></pre>
+
+<p>In this example we use exception handling to deal with missing parameters. First we <code>try</code> to just execute our code. If we don't have a title, arranger and genre to insert, we <code>throw</code> an error message. The error message is <code>caught</code> and we echo the error message in the same way that we would have echoed the count of rows inserted had we successfully inserted.</p>
+</div></div>
+<hr />
+<div id="midterm" class="bookmark">
+<div class="editable" id="courses/PROG8020/midterm_md"><h1>Midterm</h1>
+
+<p><img src="images/2TurkeyBirds.svg" alt="Happy Thanksgiving!" title="Happy Thanksgiving!" /></p>
+
+<p>This midterm is designed to draw your attention to the basics of PHP. The 15 question <a href="tests/prog8020midterm.htm">midterm is here</a>. Good Luck!</p>
+</div></div>
+<hr />
+<div class="bookmark" id="staticFramework">
+<div class="editable" id="articles/staticFramework_md"><h1>Don't Repeat Yourself (DRY)</h1>
+
+<p><img src="images/Grounded.png" alt="Grounded, the new Book" title="Grounded, the new Book" /></p>
+
+<p>One of my students got a job working for a web design firm. They insisted that the student implement designs in plain html. For repeating things like menus, they used javascript with document.write to write the content. I took a couple of cracks at writing a framework that would express repeating elements as html.</p>
+
+<p>The first time I used a .htaccess to remove the file extension altogether. You can <a href="https://github.com/rhildred/phpassetchain">see my results here</a>. This worked well for the site which you are reading now. I have a reverse index based search which uses a sqlite database, and I have written my articles in markdown. Server side processing converts my markdown to html in time for processing by the google bots.</p>
+
+<p>The second time I stuck with browser side code. The big advantage of browser side code is that it can be hosted on github.io. Good for student portfolios as well as really simple demos. I used html5 <code>rel="import"</code> syntax. I found the results jerky as I did a complete page load everytime I switched pages.</p>
+
+<p>Finally in the <a href="https://github.com/rhildred/staticFramework">staticFramework</a>, I used jQuery and require.js with browser side code. On accessing a local link, I am only reloading the page contents, which makes for a flicker free experience without a page load. Loading the page contents only also gives me a chance to go full screen when a game is selected for a game project that I am working on. I also made a <a href="https://github.com/rhildred/singlePage">single page</a> static framework inspired by <a href="http://fullertonmedia.com/">Chad Fullerton</a>.</p>
+
+<h2>The Static Framework in Action</h2>
+
+<p>A student did a webpage for an author of a new book. The student graduated, got a job, and is too busy to provide support. I purchased the account from her, and will be providing support. <a href="https://authorsmhartung.ysaas.ca">The site</a> was formerly written in server side javascript to run on node.js. I think that the idea was a reasonable teaching idea, but a lousy idea as far as ongoing development operations. I took the student's code and moved it into the staticFramework github example, updating the staticFramework github example where necessary. This is what I learned:</p>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+
+&lt;head&gt;
+    &lt;title&gt;Contact Failure&lt;/title&gt;
+    &lt;meta charset="utf8" /&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+    &lt;meta name="google-site-verification" content="QzgKmB-CCGUS25H9omR9mH-wvv6PVv2uyuHa5djP6kU" /&gt;
+    &lt;link rel="stylesheet" href="css/main.css" /&gt;
+    &lt;link rel="shortcut icon" href="GroundedIco.ico" /&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;div id="nav" data-role="include"&gt;&lt;/div&gt;
+
+    &lt;div class="container" id="content"&gt;
+        &lt;h1&gt;Thank-you for your interest&lt;/h1&gt;
+        &lt;p&gt;Unfortunately your message was not sent properly. Please try again later, or call us at 519-570-4912.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div id="footer" data-role="include"&gt;&lt;/div&gt;
+
+    &lt;script data-main="js/app" src="js/lib/require.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+</code></pre>
+
+<p>... Is a basic page in the framework. We have one invocation of css, and one invocation of javascript. There are a couple of <code>head</code> items that are repetitive but when a google bot sees this it is pretty much just the things that are different about this page from others that it sees. The main.css imports all the rest of the css. The require.js loads all of the javascript dependencies. Repetitive html is loaded with <code>&lt;div id="footer" data-role="include"&gt;&lt;/div&gt;</code></p>
+
+<p>In the node.js server side site that my student did, there was some javascript mixed in with the html. This made the code look messy, but had the advantage of being right in the file that was using it. The static framework seperates the css from the javascript from the html. It puts common code in the main.js which loads when the application loads. For the .html pages there is a .html.js file which gets run whenever the page changes. You can think of this as a <code>jQuery(document).ready</code> replacement. We also want to run the google analytics javascript whenever a page changes. This is done in the nav with a call to <code>analytics()</code> which is defined in triggeranalytics.js as:</p>
+
+<pre><code>define(['ga'], function () {
+    // analytics number goes here
+    window.ga('create', 'UA-48714216-1');
+    return function () {
+        //this gets done everytime we load a new page
+        window.ga('send', 'pageview');
+    };
+});
+</code></pre>
+
+<p>This site took me a lot longer to use the new framework with than I thought it would. As well as the analytics the prettyphoto took a lot longer than I expected, because it took me a while to learn about the <code>deeplinking</code> option :</p>
+
+<pre><code>define(["jquery", "prettyphoto"], function (jQuery) {
+    return function () {
+        jQuery("a[rel^='prettyPhoto']").prettyPhoto({deeplinking:false});
+    };
+});
+</code></pre>
+
+<p>The main benefit to the author for this site is that it is now written in html and can be served from any web host. Shirley, the author, was concerned about her source code and now has it in a form that she can give to anyone to host. I also set her up with <a href="https://cloudflare.com">cloudflare</a> ssl, which Google says will temporarily improve her page rankings.</p>
+
+<p>Overall, it was good for me to actually implement a small website with my framework. Hopefully there are examples in there that will also be helpful to you!</p>
+</div></div>
+<hr />
+<div class="bookmark" id="js-toolbox">
+<div class="editable" id="articles/js-toolbox_md"><h1>Class Based Inheritance in the Style of BackBone.js</h1>
+
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Jungle_Book_Rudyard_Kipling_poster.jpeg/175px-Jungle_Book_Rudyard_Kipling_poster.jpeg" alt="Shere Khan" title="Shere Khan" />
+Suppose that I wanted to have a <a href="http://martinfowler.com/eaaCatalog/domainModel.html">domain model</a> that included different sorts of tigers!</p>
+
+<p>I might start out with something like this:</p>
+
+<pre><code>var Animal = Toolbox.Base.extend({
+    constructor: function (name) {
+        this._name = name;
+    },
+    sayName: function () {
+        return('Hi, my name is ' + this._name);
+    }
+});
+</code></pre>
+
+<p>Then I could make a Tiger sub-type of an animal something like this:</p>
+
+<pre><code>var Tiger = Animal.extend({
+    constructor: function () {
+        // all tigers are named Tony
+        this._name = "Tony";
+    }
+});
+</code></pre>
+
+<p>But you can't call a Bengal Tiger Tony, so we need something like this:</p>
+
+<pre><code>var BengalTiger = Tiger.extend({
+    constructor: function () {
+        // you can't name a Bengal tiger Tony
+        this._name = "Shere Khan";
+    },
+    sayName: function () {
+        return('Hi, my name is ' + this._name + ' and I am the true lord of the jungle!');
+    }
+});
+</code></pre>
+
+<p>Seems like a user story for inheritance and polymorphism to me! JavaScript
+implements prototypical inheritance, which is fine but in this case I would like
+to be able to have class based inheritance like I might find in the BackBone.js
+library.</p>
+
+<pre><code>  var Router = Backbone.Router.extend({
+    routes: {
+      'lists/:id': 'openList'
+    },
+
+    initialize: function() {
+    },
+
+    openList: function(id) {
+    }
+  });
+</code></pre>
+
+<p>In fact it was BackBone.js that I drew my inspiration from. I am working on a
+large project, where I have a domain model that doesn't map completely to
+BackBone models views and Router. I was looking for something to carry the same
+style but that wasn't one of these things and came across <a href="https://github.com/jimmydo/js-toolbox">this on the web</a>. That js-toolbox is fine for browser
+based code, but didn't work with node where I really want to keep some domain
+logic so I made a npm for it. To enable a domain model using the BackBone style in node.js simply use <code>npm install js-toolbox --save</code>.
+You can see the <a href="https://github.com/rhildred/js-toolbox">code at my github</a>.</p>
+</div></div>
+<hr />
+<div class="bookmark" id="javascriptEvents">
+<div class="editable" id="articles/javascriptEvents_md"><h1>JavaScript is events</h1>
+
+<p>Well of course JavaScript is a programming language, but it was designed for handling things that users do on web pages like filling out forms and clicking submit buttons.</p>
+
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/a/a4/Copyright_click.svg" alt="click me" title="click me" /></p>
+
+<p>As a result more things in JavaScript are events than in many other languages. My morning class and I thought of a good metaphor for events and handling them that I want to share here. Think of the event of a newspaper landing on the sidewalk leading up to your house. What do you need to do for that event to happen? You need to subscribe.</p>
+
+<p><a href="http://www.flickr.com/photos/quinnanya/5555454223"><img src="http://farm6.staticflickr.com/5030/5555454223_2b1e341655_n.jpg" alt="newspaper arrival event" title="newspaper arrival event" /></a></p>
+
+<p>JavaScript events are similar in that they are published and subscribed to. The subscriber is sometimes called a listener, sort of like the faithful dog that listens for the arrival of the paper, and handles it by running outside and bringing the paper in to his master. In JavaScript that might look like:</p>
+
+<pre><code>jQuery("#sidewalk").on("paper arrival", function(paper){
+    paper.bringToMaster();
+});
+</code></pre>
+
+<p>The first thing that is happening here is that we are subscribing or listening to an event. That is the <code>jQuery("#sidewalk").on("paper arrival"</code> part of our code. The second part of this snippet is what to do when the event happens. In JavaScript there is an overseer or event loop that calls the dog handler to bring the paper to it's master.</p>
+
+<pre><code>function(paper){
+    paper.bringToMaster();
+}
+</code></pre>
+
+<p>The event subscription is through <code>jQuery.on</code> which in this case is taking 2 parameters, the name of the event and the handler to call to deal with the event. Often in JavaScript we have made to order events. Think of this as more like the sandwich shop.</p>
+
+<p><img src="images/JavaScriptSandwich.svg" alt="sandwich" title="sandwich" /></p>
+
+<p>A common example in web application programming is getting something from a web server instead of a sandwich server.</p>
+
+<pre><code>jQuery.ajax({
+    url: "cornBeefOnRye"
+}).done(function(sandwich){
+    eatSandwich();
+}).fail(function(err){
+    starve();
+});
+</code></pre>
+
+<p>You might have noticed a problem with the handlers of both events. There is no reference to who eats the sandwich. If we have more than one sandwich eater or paper bringer we have a problem. The solution to this problem is to have sandwich eating objects, Tony in our diagram. Tony is a stomach with legs and exists in our example to eat sandwiches. He is also the context for the sandwich order. We can define a Tony Object like so:</p>
+
+<pre><code>var oTony = {
+    name: 'Tony',
+    state: 'famished`,
+    eatSandwich: function(){
+        this.state = 'replete for now';
+    },
+    starve: function(){
+        this.state = 'deceased';
+    }
+}
+</code></pre>
+
+<p>If we have more than one sandwich eater in a system, we don't know which one's state is replete ... a big problem for Tony our walking stomach. The solution is to establish a context for who we call when an event happens. We do this like so:</p>
+
+<pre><code>jQuery.ajax({
+    url: "cornBeefOnRye"
+})
+.done(jQuery.proxy(oTony.eatSandwich, oTony))
+.fail(jQuery.proxy(oTony.starve, oTony));
+</code></pre>
+
+<p>that way when the message comes in it comes with it's context. You can think of the proxy like the little stand they hand you at Williams that makes you get your right sandwich.</p>
+</div></div>
+<hr />
+<div class="bookmark" id="ConsumingAPI">
+<div class="editable" id="articles/ConsumingAPI_md"><h1>Consuming an API</h1>
+
+<h2>(And Displaying it in a template)</h2>
+
+<p>Today we had a really big day. We took the data that we served in our PHP page and used JavaScript to display it on the browser console and then on the screen.</p>
+
+<p><img src="images/ConsumingAPI0.png" alt="Consuming API" title="Consuming API" /></p>
+
+<p>To just retrieve the data from our API we did this:</p>
+
+<pre><code>jQuery.ajax({url:"cds/", dataType:"json"})
+.done(function(oCdList){
+    console.log(JSON.stringify(oCdList));
+})
+.fail(function(err){
+    console.log(err);
+});
+</code></pre>
+
+<p>Then we made a template in our index.html:</p>
+
+<pre><code>&lt;script id="cditem" type="text/template"&gt;
+&lt;div&gt;
+    &lt;a href="cds/&lt;%= id %&gt;" class="clickable" &gt;&lt;%= Title %&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/script&gt;
+</code></pre>
+
+<p>To use the template we did:</p>
+
+<pre><code>var fTemplate = _.template(jQuery('#cditem').html());
+// we go out and get the initial list of cds
+jQuery.ajax({url:"cds/", dataType:"json"})
+.done(function(oCdList){
+    oCdList.forEach(function(oCd){
+        // we append a single cd into the cdlist div
+        jQuery("#cdlist").append(fTemplate(oCd));
+    });
+</code></pre>
+
+<p>This was the basics of displaying data from our API in a web page.</p>
+
+<p>You will notice that in our template we displayed the cds as anchors. In class we went on to display the detail from the cds to the right of the list of cds <a href="#ConsumingAPI">(see screen above)</a>. To do this we created a second template:</p>
+
+<pre><code>&lt;script id="cditemdetails" type="text/template"&gt;
+&lt;table&gt;
+    &lt;tr&gt;&lt;td&gt;id:&lt;/td&gt;&lt;td&gt;&lt;%= id %&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;title:&lt;/td&gt;&lt;td&gt;&lt;%= Title %&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;arranger:&lt;/td&gt;&lt;td&gt;&lt;%= Arranger %&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;genre:&lt;/td&gt;&lt;td&gt;&lt;%= Genre %&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/script&gt;
+</code></pre>
+
+<p>The second template is made in to a function with underscore the same as the first: <code>var fDetailsTemplate = _.template(jQuery('#cditemdetails').html());</code> It is rendered when an anchor is clicked like so:</p>
+
+<pre><code>    // be done when we click a link with class clickable
+    jQuery(".clickable").click(function(evt){
+        // we go and get an individual cd
+        jQuery.ajax({url:this.href, dataType:"json"})
+        .done(function(oCd){
+            // we replace the html in the cditemview with the html from the cditemdetails template
+            jQuery("#cditemview").html(fDetailsTemplate(oCd));
+        })
+        .fail(function(err){
+            console.log(err);
+        });
+        // it is really important to return false here so that the event isn't passed on
+        return false;
+    });
+</code></pre>
+
+<p>What is happening here is that instead of following the link when an anchor is clicked on, we are retrieving the link with <code>jQuery.ajax</code>. It is really important to return false here or the link will still be followed per the default behaviour and the whole page will be refreshed. There are a couple of problems with our page however. The code is deeply nested in what some people call callback soup. If we hit the back button, we leave the page entirely rather than remembering where we were previously. In addition to jQuery and underscore, there is another JavaScript library, called BackBone that can help out here.</p>
+</div></div>
+<hr />
+<div id="final" class="bookmark">
+<div class="editable" id="courses/PROG8020/final_md"><h1>Final</h1>
+
+<p><img src="http://calendar.wincalendar.net/when_is/great-american-smokeout.jpg" alt="Happy Smokeout!" title="Happy Smokeout!" /></p>
+
+<p>This test is designed to draw your attention to the basics of Javascript and jQuery. The 30 question <a href="tests/prog8020final.htm">final is here</a>. Good Luck!</p>
+</div></div>
+
+</div>
+
+		<hr>
+
+		<footer>
+			<p>&copy; Rich Hildred 2013-<script>document.write(new Date().getFullYear());</script></p>
+		</footer>
+	</div>
+	<!-- /container -->
+
+
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script
+		src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script
+		src="//code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	<script>
+		jQuery("#search").autocomplete({
+			source : "api/Words"
+		});
+	</script>
+	<script>
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script',
+				'//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-45546538-1', 'rhildred.users.sourceforge.net');
+		ga('send', 'pageview');
+	</script>
+</body>
+</html>

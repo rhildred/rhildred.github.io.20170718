@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="google-site-verification" content="dvUQ2S0TOifnI9P2ARoTiE_c6Bvfk6vS_zDJaQebe9o" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="keywords" content="">
+<link rel="shortcut icon" href="YinYang.ico">
+
+<title>Rich: PROG1700</title>
+
+<!-- Bootstrap core CSS -->
+<link
+	href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+	rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+	<link href="//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="css/main.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.js"></script>
+    <![endif]-->
+	<script
+		src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+</head>
+
+<body>
+
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container PROG1700">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse"
+				data-target=".navbar-collapse">
+				<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+					class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" class="active" href=".">Faculty Page</a>
+		</div>
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="calendar.html">Calendar</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="pastcourses.html">Courses</a></li>
+			</ul>
+			<form class="navbar-form navbar-right" action="searchResults"
+				method="get">
+				<div class="form-group">
+					<input id="search" type="text" placeholder="search"
+						class="form-control" autocomplete="off"
+						name="q" />
+				</div>
+				<button type="submit" class="btn btn-success">
+					<i class="icon-search"></i>&nbsp;&nbsp;Search
+				</button>
+			</form>
+		</div>
+		<!--/.navbar-collapse -->
+	</div>
+</div>
+
+	<div class="container">
+		<!-- Example row of columns -->
+		<div class="row"><div class="editable" id="courses/PROG1700/schedule_md"><h1>Web Design</h1>
+
+<p>At the end of these 6 weeks, you will put a project up on the internet either for your own portfolio, a digital media student's portfolio or a customer. We will cover 2 methods of doing this:</p>
+
+<ol>
+<li>Wordpress</li>
+<li>More traditional web layouts with static html content</li>
+</ol>
+
+<table>
+<thead>
+<tr>
+  <th>Date</th>
+  <th>topic</th>
+  <th>resources</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Oct. 6-10</td>
+  <td>Wordpress</td>
+  <td><a href="http://ithemes.com/wp-content/uploads/downloads/2012/04/Getting-Started-with-WordPress-eBook.pdf">Getting Started with WordPress eBook</a>, Head First Web Design, <a href="http://www.w3schools.com/html/">W3 Schools HTML tutorial</a></td>
+</tr>
+<tr>
+  <td>Oct. 9</td>
+  <td>Meeting with Santa's favourite</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Oct. 14</td>
+  <td>Portfolio Meeting</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Oct. 14-17</td>
+  <td>Twitter Bootstrap with More Traditional Layouts</td>
+  <td><a href="http://www.tutorialspoint.com/bootstrap/bootstrap_tutorial.pdf">Bootstrap Tutorial</a>, Responsive Design</td>
+</tr>
+<tr>
+  <td>Oct. 20-24</td>
+  <td>Integration with Blogger, Paypal ....</td>
+  <td>Notes, HTML and CSS pocket guides</td>
+</tr>
+<tr>
+  <td>Oct. 24</td>
+  <td>Exam</td>
+  <td>See Course Outline for Objectives, and above resources</td>
+</tr>
+<tr>
+  <td>Oct. 27 - Nov. 14</td>
+  <td>Project</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Nov. 14</td>
+  <td>Project Demos</td>
+  <td></td>
+</tr>
+</tbody>
+</table>
+</div><hr />
+<div class="bookmark" id="ResponsiveTruth">
+<div class="editable" id="articles/ResponsiveTruth_md"><h1>The "Truth" About Responsive</h1>
+
+<p>When we started, I said that your big opportunity is Mobile. Of course the details are where the fun is, but the actual principles of a mobile/responsive design are very simple. In the following examples you can see Lets say that I have an ugly <a href="uglyMobile/uglyMobile1.html">website like this</a>:</p>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset="ISO-8859-1" /&gt;
+&lt;title&gt;This is an ugly html file&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;This is an ugly html file&lt;/h1&gt;
+&lt;img src="images/gitEnvironment1.svg" /&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>This site doesn't look good no matter how big the display is. On mobile, only a corner of the graphic is visible. The other thing that you may notice on mobile is that the text looks overly small. The reason for the text being small on mobile is that some mobile devices scale their viewports to try to fit more on. On your mobile device you can see this on an <a href="uglyMobile/uglyMobile2.html">unscaled viewport here</a>:</p>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+&lt;meta charset="ISO-8859-1" /&gt;
+&lt;title&gt;This is an ugly html file&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;This is an ugly html file&lt;/h1&gt;
+&lt;img src="images/gitEnvironment1.svg" /&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>The image still doesn't fit, but now at least the text looks like it belongs on a mobile device. Let's try <a href="uglyMobile/uglyMobile3.html">using CSS to set the size of the image</a>:</p>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset="ISO-8859-1" /&gt;
+&lt;title&gt;This is an ugly html file&lt;/title&gt;
+&lt;style&gt;
+img {
+    width: 320px;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;This is an ugly html file&lt;/h1&gt;
+    &lt;img src="images/gitEnvironment1.svg" /&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>Now the image is smaller but it is too small but for only the smallest of screens if we use the firefox developer tools plugin and select <code>resize</code> and <code>view responsive layouts</code> to see it on differently sized screens. If we look on an actual device with a 320 px screen we see that even there the image doesn't use the whole screen. The <a href="uglyMobile/uglyMobile4.html">meta viewport tag fixes that however</a>.</p>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+&lt;meta charset="ISO-8859-1" /&gt;
+&lt;title&gt;This is an ugly html file&lt;/title&gt;
+&lt;style&gt;
+img {
+    width: 320px;
+}
+
+@media screen and (min-width: 480px) {
+    img {
+        width: 480px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    img {
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    img {
+        width: 768px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    img {
+        width: 800px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    img {
+        width: 1024px;
+    }
+}
+
+
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;This is an ugly html file&lt;/h1&gt;
+    &lt;img src="images/gitEnvironment1.svg" /&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>Using media queries and the meta viewport tag, we can get a page that displays the image correctly on <a href="uglyMobile/uglyMobile5.html">all of the differently sized screens</a> in the <code>view responsive layouts</code> page. In a desktop browser, though the image never gets bigger than 1024 pixels wide. The following code solves the image problem in another way that is also less code!</p>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+&lt;meta charset="ISO-8859-1" /&gt;
+&lt;title&gt;This is an ugly html file&lt;/title&gt;
+&lt;style&gt;
+img {
+    max-width: 100%;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;This is an ugly html file&lt;/h1&gt;
+    &lt;img src="images/gitEnvironment1.svg" /&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>Notice also the use of <code>max-width</code> as opposed to <code>width</code> in <a href="uglyMobile/uglyMobile6.html">this example</a>.</p>
+</div></div>
+<hr />
+<div class="bookmark" id="paypal">
+<div class="editable" id="articles/PayPal_md"><h1>Getting Paid!</h1>
+
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/64/I_Like_a_Little_Competition.jpg/179px-I_Like_a_Little_Competition.jpg" alt="I like a little Competition!" title="I like a little competition" /></p>
+
+<p>A lot of people, when they think of having a web presence, think of selling things with that web presence. Especially when starting out, PayPal is a very good choice as there is no monthly fee. Instead of a monthly fee there is a per transaction fee as well as a percentage. Like most payment tools PayPal has a sandbox that can be used to experiment with and code a user interface, without spending real money. To use the sandbox, you <a href="https://www.paypal.com/ca/webapps/mpp/home">sign up for a merchant account here.</a>.</p>
+
+<p>Once you have a merchant account, you can go <a href="https://developer.paypal.com/">here to set up a sandbox buyer and seller.</a></p>
+
+<ol>
+<li>Follow the <code>Applications</code> hyperlink.</li>
+<li>Go to the <code>sandbox accounts</code> hyperlink.</li>
+<li><code>Create account</code>(s) by clicking on the button.</li>
+<li>Make sure to give the buyer a $1000 paypal balance.</li>
+</ol>
+
+<p>When you have buyer and seller accounts, you can <a href="https://www.sandbox.paypal.com/ca/webapps/mpp/home">go here to create product buttons</a>. Login as the seller that you just created. Creating product buttons isn't as straightforward as one might think. The easiest way that I have found is to click on the <code>profile</code> hyperlink:</p>
+
+<p><img src="images/PayPalOptions.png" alt="profile" title="profile" /></p>
+
+<p>Once on the profile screen, you can create product buttons by clicking on the <code>My Saved Buttons</code> hyperlink:</p>
+
+<p><img src="images/PaypalProfileChoices.png" alt="saved buttons" title="saved buttons" />.</p>
+
+<p>When you have created a product button, you can get a short url for the button by switching to the email tab while viewing the code for your button:</p>
+
+<p><img src="images/PayPalEmailTab.png" alt="email code" title="email tab" /></p>
+
+<p>Please also note the hyperlink to create a <code>View Cart</code> button on this screen. You only need to create one view cart button that you can use anywhere in your "store". Again the view cart button hyperlink can be accessed through the email tab. For goods that can be fulfilled electronically there is also an opportunity to set a success page:</p>
+
+<p><img src="images/PayPalAdvanced.png" alt="success page" title="success page" /></p>
+
+<p>To keep your electronic goods from being stolen this should be a dynamic page that at least checks the referrer page, before giving a link to download the electronic goods.</p>
+
+<p>Once I have created product buttons on paypal it is up to me to link them with descriptions and pictures of items for sale: <img src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" alt="a sunny morning" title="a sunny morning" /></p>
+
+<pre><code>&lt;form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post"&gt;
+&lt;input type="hidden" name="cmd" value="_s-xclick"&gt;
+&lt;input type="hidden" name="hosted_button_id" value="SM2GNBLAULSMQ"&gt;
+&lt;input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"&gt;
+&lt;img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1"&gt;
+&lt;/form&gt;
+</code></pre>
+
+<p>As you can see the paypal version of the button can really clash with your color theme. To put your own button in you replace:</p>
+
+<pre><code>&lt;input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"&gt;
+&lt;img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1"&gt;
+</code></pre>
+
+<p>With your bootstrap or other button like this:</p>
+
+<pre><code>&lt;form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post"&gt;
+&lt;input type="hidden" name="cmd" value="_s-xclick"&gt;
+&lt;input type="hidden" name="hosted_button_id" value="SM2GNBLAULSMQ"&gt;
+
+&lt;button class="btn btn-lg btn-primary" type="submit" name="submit"&gt;Add To Cart&lt;/button&gt;
+
+&lt;/form&gt;
+</code></pre>
+
+<p>Under the email tab for the same form there is a url  <code>https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=SM2GNBLAULSMQ</code> There is a neater integration in many ways that can be done using the url like this:</p>
+
+<pre><code>&lt;a class="btn btn-primary" href="https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=SM2GNBLAULSMQ"&gt;Add To Cart&lt;/a&gt;
+</code></pre>
+
+<p>There is an email tab under view cart too that makes for this easier to style type of integration.</p>
+</div></div>
+<hr />
+<div class="bookmark" id="exam">
+<div class="editable" id="courses/PROG1700/exam_md"><h1>Web Design Exam</h1>
+
+<p>Happy belated Diwali!</p>
+
+<p><img src="https://farm4.staticflickr.com/3010/2982624226_c45a6b145c_z_d.jpg" alt="Happy Diwali" title="photo by Jean-Etienne Minh-Duy Poirrier" /></p>
+
+<p>CSS and HTML are at the core of web development, and you will revisit them as we proceed through the other topics of this course. This test is designed to draw your attention to the basic truth about css and html. The <a href="tests/webdesignexam.htm">test is here</a>. Good Luck!</p>
+</div></div>
+</div>
+
+		<hr>
+
+		<footer>
+			<p>&copy; Rich Hildred 2013-<script>document.write(new Date().getFullYear());</script></p>
+		</footer>
+	</div>
+	<!-- /container -->
+
+
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script
+		src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script
+		src="//code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	<script>
+		jQuery("#search").autocomplete({
+			source : "api/Words"
+		});
+	</script>
+	<script>
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script',
+				'//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-45546538-1', 'rhildred.users.sourceforge.net');
+		ga('send', 'pageview');
+	</script>
+</body>
+</html>

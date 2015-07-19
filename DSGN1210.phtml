@@ -1,31 +1,30 @@
 <?php
-require_once 'lib/template.php';
-$Viewbag->title = "Rich: DSGN1210";
-layout("_layout.phtml");
+$this->data['title'] = "Rich: DSGN1210";
+$this->layout("_layout.phtml");
 ?>
 <?php
-renderMarkdown("courses/DSGN1210/Photoshop.md");
+\RHildred\Editable\Markdown::render("courses/DSGN1210/Photoshop.md");
 ?>
 <div class="bookmark">
 <?php
-renderMarkdown("articles/MobileFirst.md");
+\RHildred\Editable\Markdown::render("articles/MobileFirst.md");
 ?>
 </div
 <hr />
 <div class="bookmark">
 <?php
-renderMarkdown("articles/PhotoshopProject.md");
+\RHildred\Editable\Markdown::render("articles/PhotoshopProject.md");
 ?>
 </div>
 <hr />
 <div class="bookmark">
 <?php
-renderMarkdown("articles/Vectors.md");
+\RHildred\Editable\Markdown::render("articles/Vectors.md");
 ?>
 </div>
 <hr />
 <div class="bookmark" id="test">
 <?php
-renderMarkdown("courses/DSGN1210/test.md");
+\RHildred\Editable\Markdown::render("courses/DSGN1210/test.md");
 ?>
 </div>

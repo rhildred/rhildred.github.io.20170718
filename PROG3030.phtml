@@ -1,7 +1,6 @@
 <?php
-require_once 'lib/template.php';
-$Viewbag->title = "Rich: PROG3030";
-layout("_layout.phtml");
+$this->data['title'] = "Rich: PROG3030";
+$this->layout("_layout.phtml");
 ?>
 <h1>Systems Development: Project Evaluation &amp; Control</h1>
 <script>
@@ -11,44 +10,44 @@ document.write("<script src=\"http://ecorner.stanford.edu/embeddedPlayer.html?mi
 </script>
 <br />
 <?php
-renderMarkdown("courses/PROG3030/Prog3030Systems.md");
+\RHildred\Editable\Markdown::render("courses/PROG3030/Prog3030Systems.md");
 ?>
 <hr />
 <?php
-renderMarkdown("courses/PROG3030/Prog3030Assignments.md");
+\RHildred\Editable\Markdown::render("courses/PROG3030/Prog3030Assignments.md");
 ?>
 <hr />
 <div id="initiationquiz" class="bookmark">
 <?php
-renderMarkdown("courses/PROG3030/InitiationQuiz.md");
+\RHildred\Editable\Markdown::render("courses/PROG3030/InitiationQuiz.md");
 ?></div>
 <hr />
 <div id="analysisquiz" class="bookmark">
 <?php
-renderMarkdown("courses/PROG3030/AnalysisQuiz.md");
+\RHildred\Editable\Markdown::render("courses/PROG3030/AnalysisQuiz.md");
 ?></div>
 <hr />
 <div id="designquiz" class="bookmark">
 <?php
-renderMarkdown("courses/PROG3030/DesignQuiz.md");
+\RHildred\Editable\Markdown::render("courses/PROG3030/DesignQuiz.md");
 ?></div>
 <hr />
 <div class="bookmark" id="tdd">
-<?php renderMarkdown("courses/PROG1795/tdd.md");
+<?php \RHildred\Editable\Markdown::render("courses/PROG1795/tdd.md");
 ?>
 </div>
 <hr />
 <div id="midterm" class="bookmark">
 <?php
-renderMarkdown("courses/PROG3030/midterm.md");
+\RHildred\Editable\Markdown::render("courses/PROG3030/midterm.md");
 ?></div>
 <hr />
 <div id="quiz3" class="bookmark">
 <?php
-renderMarkdown("courses/PROG3030/businessquiz.md");
+\RHildred\Editable\Markdown::render("courses/PROG3030/businessquiz.md");
 ?></div>
 <hr />
 <div id="final" class="bookmark">
 <?php
-renderMarkdown("courses/PROG3030/final.md");
+\RHildred\Editable\Markdown::render("courses/PROG3030/final.md");
 ?></div>

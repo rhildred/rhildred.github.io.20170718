@@ -1,0 +1,15 @@
+{
+    "require": {
+        "slim/slim": "2.*",
+        "rhildred/slimphpviews": "dev-master",
+        "rhildred/mailer": "dev-master",
+        "rhildred/editable": "dev-master",
+        "brtriver/dbup": "*",
+        "michelf/php-markdown": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "PHPView": ""
+        }
+    }
+}

@@ -1,22 +1,21 @@
 <?php
-require_once 'lib/template.php';
-$Viewbag->title = "Rich: PROG1700";
-layout("_layout.phtml");
+$this->data['title'] = "Rich: PROG1700";
+$this->layout("_layout.phtml");
 ?>
-<?php renderMarkdown("courses/PROG1700/schedule.md");
+<?php \RHildred\Editable\Markdown::render("courses/PROG1700/schedule.md");
 ?>
 <hr />
 <div class="bookmark" id="ResponsiveTruth">
-<?php renderMarkdown("articles/ResponsiveTruth.md");
+<?php \RHildred\Editable\Markdown::render("articles/ResponsiveTruth.md");
 ?>
 </div>
 <hr />
 <div class="bookmark" id="paypal">
-<?php renderMarkdown("articles/PayPal.md");
+<?php \RHildred\Editable\Markdown::render("articles/PayPal.md");
 ?>
 </div>
 <hr />
 <div class="bookmark" id="exam">
-<?php renderMarkdown("courses/PROG1700/exam.md");
+<?php \RHildred\Editable\Markdown::render("courses/PROG1700/exam.md");
 ?>
 </div>
