@@ -40,6 +40,8 @@ $this->layout("_layout.phtml");
             jQuery.ajax(sUrl).done(function(sMd){
                 jQuery("#results").append(marked(sMd));
                 if(--nLeft == 0)myHilitor.apply(sQuery);
+            }).fail(function(){
+                if(--nLeft == 0)myHilitor.apply(sQuery);
             });
         }
 
