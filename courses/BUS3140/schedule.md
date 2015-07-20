@@ -16,6 +16,6 @@ New enterprises turn ideas into products, discover whether they solve problems t
 |July 20|**Assignment 3**||
 |8 July 13|Technology|[Coca-Cola and intellectual property](http://zvulony.ca/2010/articles/intellectual-property-law/understanding-intellectual-property-law/) ... [protecting intellectual property](http://ubiquity.acm.org/article.cfm?id=1008537) ... [strategies for facility management](http://www.facilities.ac.uk/j/free-cpd/154-strategies-for-facilities-management) |
 |August 3|**Assignment 4**||
-|9,10 July 20, July 27|Taxation and other funding matters||
+|9,10 July 20, July 27|Taxation and other funding matters|[Option pool](http://venturehacks.com/articles/option-pool-shuffle) ... [shares](http://www.lsuc.on.ca/For-Lawyers/Manage-Your-Practice/Practice-Area/Business-Law/How-to-Structure-the-Share-Provisions-of-a-Corporation/) ... [Company Valuation](http://vtknowledgeworks.com/sites/all/themes/vtknowledgeworks/files/Valuation_Models_for_Pre-Revenue_Companies.pdf)|
 |11,12 August 3, 10|Exit Strategies||
 |August 17|**Final Exam**||
