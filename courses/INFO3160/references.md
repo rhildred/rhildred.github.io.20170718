@@ -16,3 +16,19 @@ New Accessibility Technologies, Standards and Opportunities
 [Markup for a real-estate property](https://productforums.google.com/forum/#!topic/webmasters/ODx5TJozahk)
 
 [Kitchener Open Data](http://app.kitchener.ca/opendata/catalogue.aspx)
+
+Wearable computing
+--
+
+[Steve Mann video, the inventor of wearable computing at UofT and MIT](https://www.youtube.com/watch?v=1aKcOH8acIM)
+
+[Pebble Time Kick Start](https://www.youtube.com/watch?v=ycPjktP8rjg)
+
+[Communitech on Eric Migicovsky](http://news.communitech.ca/news/small-to-mid/dont-blink-and-other-lessons-from-pebbles-eric-migicovsky/)
+
+[Interview with fitbit James Park](https://www.youtube.com/watch?v=xMZ4rgYjKvc)
+
+[Publishing light blue bean wearable sensor interface to the cloud](https://www.youtube.com/watch?v=TWZ8CE9Zkxg)
+
+[Or using phonegap](http://iceddev.com/blog/beanbots-rise-of-the-swarm/)
+
