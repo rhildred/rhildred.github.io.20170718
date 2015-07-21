@@ -20,7 +20,7 @@ New Accessibility Technologies, Standards and Opportunities
 Wearable computing
 --
 
-[Steve Mann video, the inventor of wearable computing at UofT and MIT](https://www.youtube.com/watch?v=1aKcOH8acIM)
+[Steve Mann video, the inventor of wearable computing at UofT and MIT](https://www.youtube.com/watch?v=DiFtmrpuwNY)
 
 [Pebble Time Kick Start](https://www.youtube.com/watch?v=ycPjktP8rjg)
 
@@ -31,4 +31,6 @@ Wearable computing
 [Publishing light blue bean wearable sensor interface to the cloud](https://www.youtube.com/watch?v=TWZ8CE9Zkxg)
 
 [Or using phonegap](http://iceddev.com/blog/beanbots-rise-of-the-swarm/)
+
+[Quantified Self ... the big picture](http://quantifiedself.com/)
 

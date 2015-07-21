@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c242cd6741a4b6e57130d81e9f817fe8",
+    "hash": "4d05850f0b94f9349d3db371b3483b83",
     "packages": [
         {
             "name": "brtriver/dbup",
@@ -682,12 +682,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rhildred/slimphpviews.git",
-                "reference": "7e07a59fe7b7b21199c5888c90177584c6637271"
+                "reference": "2c51a2ddbf46c20d0f33f75dcbc7392291ff47be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rhildred/slimphpviews/zipball/7e07a59fe7b7b21199c5888c90177584c6637271",
-                "reference": "7e07a59fe7b7b21199c5888c90177584c6637271",
+                "url": "https://api.github.com/repos/rhildred/slimphpviews/zipball/2c51a2ddbf46c20d0f33f75dcbc7392291ff47be",
+                "reference": "2c51a2ddbf46c20d0f33f75dcbc7392291ff47be",
                 "shasum": ""
             },
             "require": {
@@ -700,7 +700,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2015-06-08 12:59:19"
+            "time": "2015-07-19 20:44:51"
         },
         {
             "name": "sebastian/comparator",
