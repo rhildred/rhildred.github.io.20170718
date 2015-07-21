@@ -88,8 +88,12 @@ class MailerController extends AbstractController{
             $nRows = Database::open()->prepare("INSERT INTO accounts(id, name, email, recipient, success, failure, guid, created) VALUES(?,?,?,?,?,?,?, CURDATE())")
 			->execute(array($sId, $sName, $sEmail, $sRecipient, $sSuccess, $sFailure, $sGuid));
         }catch(Exception $e){
-            $nRows = Database::open()->prepare("UPDATE accounts SET name = ?, email = ?, recipient = ?, success = ?, failure = ?, guid = ? WHERE id = ?")
-			->execute(array($sName, $sEmail, $sRecipient, $sSuccess, $sFailure, $sGuid, $sId));
+            $sth = Database::open()->prepare("SELECT guid FROM accounts WHERE id = ?");
+            $sth->execute(array($sId));
+            $oAccount = $sth->fetch(PDO::FETCH_OBJ);
+            $sGuid = $oAccount->guid;
+            $nRows = Database::open()->prepare("UPDATE accounts set recipient = ?, success = ?, failure = ? WHERE id = ?")
+			->execute(array($sRecipient, $sSuccess, $sFailure, $sId));
 
         }
         $rc = new stdClass();

@@ -16,19 +16,20 @@
     <form id="emailSetup">
         <p>
             <label for="recipient">Recipient of Information Requests</label><br />
-            <input type="email" name="recipient" placeholder="recipient" />
+            <input type="email" name="recipient" id="recipient" placeholder="recipient" />
         </p>
         <p>
             <label for="success">Success Landing Page</label><br />
-            <input type="text" name="success" placeholder="leave blank for JSON" />
+            <input type="text" name="success" id="success" placeholder="leave blank for JSON" />
         </p>
         <p>
             <label for="failure">Failure Landing Page</label><br />
-            <input type="text" name="failure" placeholder="leave blank for JSON" />
+            <input type="text" name="failure" id="failure" placeholder="leave blank for JSON" />
         </p>
         <p>
             <label for="service">Service URL</label><br />
             <span id="service">This will be filled in after first update</span>
+            &nbsp;<span id="resultsstring" style="color:green"></span>
         </p>
         <button type="submit" class="btn btn-primary btn-lg">Update</button>
     </form>
@@ -40,6 +41,14 @@
        jQuery.ajax({url: "CurrentUser", dataType: "json"}).done(function(oUser){
           jQuery("#emailid").html(oUser.email);
            jQuery("#emailSetup").append('<input type="hidden" name="email" value="' + oUser.email + '" />');
+           jQuery.ajax({url: "GetInfo/" + oUser.id, dataType: "json"}).done(function(oInfo){
+               if(oInfo != false){
+                   jQuery("#service").html("https://rich-hildred.rhcloud.com/Mailer/" + oInfo.guid);
+                   jQuery("#recipient").val(oInfo.recipient);
+                   jQuery("#success").val(oInfo.success);
+                   jQuery("#failure").val(oInfo.failure);
+               }
+           });
        }).fail(function(err){
            console.log(err);
            window.location.replace("index.html");
@@ -47,6 +56,7 @@
 
         jQuery("#emailSetup").submit(function(){
             var oFormVars = jQuery(this).serialize();
+            jQuery("#resultsstring").html("");
             jQuery.ajax({
                 url: "Mailer",
                 data: oFormVars,
@@ -54,6 +64,7 @@
                 dataType: "json"
             }).done(function(oRc){
                 jQuery("#service").html(oRc.url);
+                jQuery("#resultsstring").html("updated");
             });
             return false;
         });
