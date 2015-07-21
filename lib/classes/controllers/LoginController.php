@@ -27,6 +27,8 @@ class LoginController extends AbstractController
             if(array_key_exists("redirect", $_SESSION))
             {
                 header("Location: " . $_SESSION["redirect"]);
+            }else{
+                header("Location: apis.html");
             }
             return $rc;
         }
