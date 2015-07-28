@@ -34,3 +34,17 @@ Wearable computing
 
 [Quantified Self ... the big picture](http://quantifiedself.com/)
 
+Big Data and Intelligent Vehicles ...
+---
+
+[hacking a jeep](https://www.youtube.com/watch?v=-FqsW5IodkM)
+
+[hacking a ship](https://www.youtube.com/watch?v=WGi-_7HP3Hg)
+
+[complex event processing](https://www.youtube.com/watch?v=PyuTVnxwNww)
+
+[IBM predictive Maintenance](https://www.youtube.com/watch?v=mlaXbGuMV00)
+
+[Ajusto insurance monitoring](http://www.cbc.ca/news/business/ajusto-app-that-watches-your-driving-habits-leads-to-privacy-concerns-1.3019787)
+
+[Lava Boom Secure Email](https://lavaboom.com/tech-info)
