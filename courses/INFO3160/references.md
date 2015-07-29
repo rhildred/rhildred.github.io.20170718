@@ -48,3 +48,5 @@ Big Data and Intelligent Vehicles ...
 [Ajusto insurance monitoring](http://www.cbc.ca/news/business/ajusto-app-that-watches-your-driving-habits-leads-to-privacy-concerns-1.3019787)
 
 [Lava Boom Secure Email](https://lavaboom.com/tech-info)
+
+[Dark Internet Mail Environment Spec. ](https://darkmail.info/downloads/dark-internet-mail-environment-march-2015.pdf)
