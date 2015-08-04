@@ -50,3 +50,24 @@ Big Data and Intelligent Vehicles ...
 [Lava Boom Secure Email](https://lavaboom.com/tech-info)
 
 [Dark Internet Mail Environment Spec. ](https://darkmail.info/downloads/dark-internet-mail-environment-march-2015.pdf)
+
+Quantum Computing
+------
+
+[Moore on Moore's Law](http://www.computerworld.com/video/52364/intels-gordon-moore-amazed-at-legacy-of-moores-law)
+
+[Moore's Law](http://techland.time.com/2012/05/01/the-collapse-of-moores-law-physicist-says-its-already-happening/)
+
+[Quantum Computing](https://www.youtube.com/watch?v=3BKIJCTLy-s)
+
+[Quantum Computer in a diamond](http://techland.time.com/2012/04/10/meet-the-quantum-computer-inside-a-diamond-does-it-run-forever/)
+
+[Heisenberg Uncertainty Principle](https://www.youtube.com/watch?v=TQKELOE9eY4)
+
+[Double Slit Experiment](https://www.youtube.com/watch?v=ayvbKafw2g0)
+
+[University of Calgary Quantum Encryption](https://www.youtube.com/watch?v=lkgP5GCbZxM)
+
+[Quantum Key Distribution Wikipedia](https://en.wikipedia.org/wiki/Quantum_key_distribution)
+
+[Made in Waterloo](https://www.youtube.com/watch?v=cWpqlgF7uEA)
