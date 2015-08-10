@@ -17,5 +17,5 @@ New enterprises turn ideas into products, discover whether they solve problems t
 |8 July 13|Technology|[Coca-Cola and intellectual property](http://zvulony.ca/2010/articles/intellectual-property-law/understanding-intellectual-property-law/) ... [protecting intellectual property](http://ubiquity.acm.org/article.cfm?id=1008537) ... [strategies for facility management](http://www.facilities.ac.uk/j/free-cpd/154-strategies-for-facilities-management) |
 |August 3|**Assignment 4**||
 |9,10 July 20, July 27|Taxation and other funding matters|[video on valuation](https://www.youtube.com/watch?v=1aKcOH8acIM) ... [Option pool](http://venturehacks.com/articles/option-pool-shuffle) ... [shares](http://www.lsuc.on.ca/For-Lawyers/Manage-Your-Practice/Practice-Area/Business-Law/How-to-Structure-the-Share-Provisions-of-a-Corporation/) ... [Company Valuation](http://vtknowledgeworks.com/sites/all/themes/vtknowledgeworks/files/Valuation_Models_for_Pre-Revenue_Companies.pdf)|
-|11,12 August 3, 10|Exit Strategies||
+|11,12 August 3, 10|Exit Strategies|[Consultant's Report on exit strategies](http://www.pwc.com/en_US/us/advisory/business-strategy-consulting/assets/acquiring-innovation.pdf) .... [Will Apple's next innovation be fueled by an acquisition](http://www.pcmag.com/article2/0,2817,2426070,00.asp)|
 |August 17|**Final Exam**||
