@@ -7,15 +7,27 @@ New Accessibility Technologies, Standards and Opportunities
 
 [Accessibility guidelines](http://www.w3.org/WAI/WCAG20/quickref/)
 
-[Voice user interface design](http://ldt.stanford.edu/~ejbailey/02_FALL/ED_147X/Readings/CohenExcerpt.Winograd.pdf)
-
 [Goals of w3c](http://www.w3.org/Consortium/Points/)
 
 [Brief History of Web Standards movement (scroll down)](http://www.motive.co.nz/glossary/web-standards.php)
 
+
+Semantic Web
+--------
+
 [Markup for a real-estate property](https://productforums.google.com/forum/#!topic/webmasters/ODx5TJozahk)
 
 [Kitchener Open Data](http://app.kitchener.ca/opendata/catalogue.aspx)
+
+UI Design
+-----
+
+[Voice user interface design](http://ldt.stanford.edu/~ejbailey/02_FALL/ED_147X/Readings/CohenExcerpt.Winograd.pdf)
+
+[A list apart ... for web designers](http://alistapart.com/)
+
+[Making a Comp to sell to a customer](https://www.youtube.com/watch?v=KRwFo4L2CLo)
+
 
 Wearable computing
 --
