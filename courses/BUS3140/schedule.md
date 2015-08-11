@@ -15,7 +15,7 @@ New enterprises turn ideas into products, discover whether they solve problems t
 |July 6|**Midterm**|
 |July 20|**Assignment 3**||
 |8 July 13|Technology|[Coca-Cola and intellectual property](http://zvulony.ca/2010/articles/intellectual-property-law/understanding-intellectual-property-law/) ... [protecting intellectual property](http://ubiquity.acm.org/article.cfm?id=1008537) ... [rational decision making](http://2012books.lardbucket.org/books/strategic-management-evaluation-and-execution/s14-03-understanding-thought-patterns.html) ... [rational decision making process applied to buying a car](http://catalog.flatworldknowledge.com/bookhub/5?e=carpenter-ch11_s01) ... [strategies for facility management](http://www.facilities.ac.uk/j/free-cpd/154-strategies-for-facilities-management) |
-|August 3|**Assignment 4**||
 |9,10 July 20, July 27|Taxation and other funding matters|[video on valuation](https://www.youtube.com/watch?v=1aKcOH8acIM) ... [Option pool](http://venturehacks.com/articles/option-pool-shuffle) ... [shares](http://www.lsuc.on.ca/For-Lawyers/Manage-Your-Practice/Practice-Area/Business-Law/How-to-Structure-the-Share-Provisions-of-a-Corporation/) ... [Company Valuation](http://vtknowledgeworks.com/sites/all/themes/vtknowledgeworks/files/Valuation_Models_for_Pre-Revenue_Companies.pdf) ... [Descartes financial Report](https://www.descartes.com/content/financial/reports/fy2014_q4_1.pdf)|
-|11,12 August 3, 10|Exit Strategies||
-|August 17|**Final Exam**||
+|11,12 August 3, 10|Exit Strategies|[Consultant's Report on exit strategies](http://www.pwc.com/en_US/us/advisory/business-strategy-consulting/assets/acquiring-innovation.pdf) .... [Will Apple's next innovation be fueled by an acquisition](http://www.pcmag.com/article2/0,2817,2426070,00.asp)|
+|August 10|**Final Exam**||
+|August 17|**Assignment 4**||

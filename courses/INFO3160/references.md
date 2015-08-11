@@ -46,6 +46,8 @@ Wearable computing
 
 [Quantified Self ... the big picture](http://quantifiedself.com/)
 
+[benefits, limitations and abuse](https://www.priv.gc.ca/information/research-recherche/2014/wc_201401_e.asp)
+
 Big Data and Intelligent Vehicles ...
 ---
 
