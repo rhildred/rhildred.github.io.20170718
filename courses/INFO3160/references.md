@@ -51,6 +51,8 @@ Wearable computing
 Big Data and Intelligent Vehicles ...
 ---
 
+[Marketing to a segment of 1](https://www.bcgperspectives.com/content/Classics/strategy_segment_of_one_marketing/)
+
 [hacking a jeep](https://www.youtube.com/watch?v=-FqsW5IodkM)
 
 [hacking a ship](https://www.youtube.com/watch?v=WGi-_7HP3Hg)
@@ -64,6 +66,8 @@ Big Data and Intelligent Vehicles ...
 [Lava Boom Secure Email](https://lavaboom.com/tech-info)
 
 [Dark Internet Mail Environment Spec. ](https://darkmail.info/downloads/dark-internet-mail-environment-march-2015.pdf)
+
+
 
 Quantum Computing
 ------
