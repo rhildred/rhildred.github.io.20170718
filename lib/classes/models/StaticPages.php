@@ -20,7 +20,7 @@ class StaticPages{
         //if($nTime2 < $nTime){
             ob_start();
             $sPage = preg_replace("/[\.\/]/", "", $sOutfile);
-            $app->render($filename, array(page=>$sPage));
+            $app->render($filename, array("page"=>$sPage));
             file_put_contents($sOutfile . "html", ob_get_contents());
           ob_end_clean();
         //}
