@@ -70,24 +70,161 @@
 		<h1>Rich Hildred</h1>
 		<p>"Creative Active Individuals can only grow up in a society that
 			emphasizes learning instead of teaching." - Chris Alexander</p>
-		<p>Read more about my learning interests below or proceed to a
-			current course by clicking one of the buttons.</p>
-		<p>
-                <a class="btn btn-primary btn-lg"
-				role="button" href="BUS3140.html#lecture2">BUS3140&nbsp;&nbsp;
-				<i class="icon-arrow-right"></i></a>
-                <a class="btn btn-primary btn-lg"
-				role="button" href="COMP2280.html">COMP2280&nbsp;&nbsp;
-				<i class="icon-arrow-right"></i></a>
-                <a class="btn btn-primary btn-lg"
-				role="button" href="INFO3160.html">INFO3160&nbsp;&nbsp;
-				<i class="icon-arrow-right"></i></a>
-                <a class="btn btn-primary btn-lg"
-				role="button" href="PROG1940.html">PROG1940&nbsp;&nbsp;
-				<i class="icon-arrow-right"></i></a>
-		</p>
+		<p>Read more about my learning interests below.</p>
 	</div>
 </div>
+<div class="editable" id="articles/phplite/PHPLite_md"><h1>Light-weight, multi-platform, free and open-source software PHP development environment</h1>
+
+<p>Just start coding and testing on your local machine. Well ... after these simple steps.</p>
+
+<h2>Git</h2>
+
+<p>The first thing that you will need will be the git software configuration management system. If you are on windows you will need the 1.9.x version of git which you <a href="https://github.com/msysgit/msysgit/releases">can get here</a>. Git keeps your local machine testing environment consistent with your cloud based deployment environment. You can install it according to the instructions on the site, unless you are working in a portable usb-drive environment.</p>
+
+<p>In the case of a <strong>usb-drive environment</strong> you will make a <code>brackets+git</code> folder that will serve as the root folder of your environment. You will install git in <code>bracket+git/git</code>. If you get portable 7zip first you can get the portable <code>PortableGit-1.9.5-preview20150319.7z</code> version and extract it to the <code>bracket+git/git</code> folder.</p>
+
+<p><img src="articles/phplite/bracketsgit.svg" alt="brackets+git" title="brackets+git" /></p>
+
+<p>In windows git provides a <code>Git Bash.vbs</code> that we will use to run php command line tools from.</p>
+
+<h2>Brackets</h2>
+
+<p>The next thing that you will need to install is adobe brackets. You <a href="http://brackets.io/">can get it here</a>. I picked the one without extract.</p>
+
+<p>If you are running from a usb stick you will need portable brackets, which you <a href="https://github.com/sagiegurari/brackets-portable/releases">can get here</a></p>
+
+<p>Brackets has quite a number of extensions built for it. There are 4 that I use for PHP:</p>
+
+<ol>
+<li>Brackets Git</li>
+<li>Indentator</li>
+<li>PHP Debugger</li>
+<li>PHP Smarthints</li>
+</ol>
+
+<p>You can install them by searching for them in file/extension manager.</p>
+
+<h2>PHP</h2>
+
+<p>With PHP things get a little more complicated. If you are on windows you can get a <a href="http://windows.php.net/download/">zip of php here</a> . You want the 64 bit threadsafe one.</p>
+
+<p>If you are on windows you will unzip that file into the folder that git is in ... in the example <code>bracket+git/git/php</code>:</p>
+
+<p><img src="articles/phplite/bracketsgitphp.svg" alt="brackets+git+php" title="brackets+git+php" /></p>
+
+<p>If you are on OSX you can install php with <code>curl -s http://php-osx.liip.ch/install.sh | bash -s 5.6</code>. You will need to change your path by editing <code>~/.bash_profile</code> in your home folder and adding the following line at the end <code>export PATH=/usr/local/php5/bin:$PATH</code>.</p>
+
+<p>Likewise in windows you will also need to put php in your path. You can do this, using brackets, by adding to <code>brackets+git/git/etc/profile</code> the line:
+<code>export PATH=/php:$PATH</code></p>
+
+<p>Now if all is well on windows or OSX you can click the git icon on the right hand edge of your brackets, click the > sign in the black rectangle, type <code>php --version</code> in the resulting shell window and see these results:</p>
+
+<pre><code><br />PHP 5.6.11 (cli) (built: Jul 10 2015 21:46:48)
+Copyright (c) 1997-2015 The PHP Group
+Zend Engine v2.6.0, Copyright (c) 1998-2015 Zend Technologies
+    with Zend OPcache v7.0.6-dev, Copyright (c) 1999-2015, by Zend Technologies
+    with Xdebug v2.2.5, Copyright (c) 2002-2014, by Derick Rethans
+
+</code></pre>
+
+<p>You can give php some code to execute by starting a new file in brackets called index.php.</p>
+
+<pre><code>&lt;?php
+phpinfo()
+?&gt;
+</code></pre>
+
+<p>If you type in <code>php -S localhost:8000</code> you will be running a web server listening on localhost port 8000. Surfing to http://localhost:8000 in your favourite browser should yield an informational screen, similar to the above but with more detail.</p>
+
+<h2>Downloading the xdebug debugger</h2>
+
+<p>Many people work with PHP incrementally, starting with something that is working and adding code to it a bit at a time. PHP also has a debugger, like the inspect element debugger in chrome or firebug. On OSX, I discovered that xdebug was included. For windows xdebug php <a href="http://xdebug.org/download.php">debugger is here</a>. You will want to download the correct dll into your <code>brackets+git/git/php/ext</code> folder. In my case I downloaded: <code>php_xdebug-2.3.3-5.6-vc11-x86_64.dll</code>. In the <code>ext</code> folder it was with a number of other .dll files for other php extensions.</p>
+
+<h2>Enabling the php debugger and other extensions</h2>
+
+<p>PHP is controlled by a php.ini file. You may notice the location of the file from the phpinfo() index.php above:</p>
+
+<table>
+<thead>
+<tr>
+  <th></th>
+  <th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Loaded Configuration File</td>
+  <td>/usr/local/php5/lib/php.ini</td>
+</tr>
+</tbody>
+</table>
+
+<p>In windows, you won't have a php.ini file yet. Using brackets you can load the file <code>php.ini-development</code>. Do a file/Save as and save the file as php.ini. The file has all of the lines that you need but 2. You just delete the <code>;</code> in front of something to enable it:</p>
+
+<pre><code>; Directory in which the loadable extensions (modules) reside.
+; http://php.net/extension-dir
+; extension_dir = "./"
+; On windows:
+extension_dir = "ext"
+</code></pre>
+
+<p>You will also enable extensions:</p>
+
+<pre><code>extension=php_curl.dll
+;extension=php_fileinfo.dll
+;extension=php_gd2.dll
+;extension=php_gettext.dll
+;extension=php_gmp.dll
+;extension=php_intl.dll
+;extension=php_imap.dll
+;extension=php_interbase.dll
+;extension=php_ldap.dll
+;extension=php_mbstring.dll
+;extension=php_exif.dll      ; Must be after mbstring as it depends on it
+;extension=php_mysql.dll
+;extension=php_mysqli.dll
+;extension=php_oci8_12c.dll  ; Use with Oracle Database 12c Instant Client
+extension=php_openssl.dll
+;extension=php_pdo_firebird.dll
+;extension=php_pdo_mysql.dll
+;extension=php_pdo_oci.dll
+;extension=php_pdo_odbc.dll
+;extension=php_pdo_pgsql.dll
+extension=php_pdo_sqlite.dll
+</code></pre>
+
+<p>Finally you will need to add 2 lines to your php.ini</p>
+
+<pre><code>zend_extension=php_xdebug-2.3.3-5.6-vc11-x86_64.dll
+xdebug.remote_enable=1
+</code></pre>
+
+<h2>Composer</h2>
+
+<p>Like all modern programming languages, PHP includes dependency management. Microsoft has nuget, java has maven and php has composer. To get composer, press <code>ctrl-c</code> in the shell window where you were running <code>php -S localhost:8000</code>. At the prompt type:</p>
+
+<pre><code>php -r "readfile('https://getcomposer.org/installer');" | php
+</code></pre>
+
+<p>then if you are on windows type:</p>
+
+<pre><code>mv composer.phar /php/composer
+</code></pre>
+
+<p>If you are on OSX type:</p>
+
+<pre><code>sudo mv composer.phar /usr/local/bin/composer
+</code></pre>
+
+<p>Then type <code>composer --version</code>. If you were succesful, you should see something like this:</p>
+
+<pre><code>Composer version 1.0-dev (417516098edb9b3c9d433c9b6527b0f1492362f4) 2015-07-16 09:51:31
+</code></pre>
+
+<h1>Conclusion</h1>
+
+<p>If you were able to get all of this working you have a good solid sandbox for full stack web development with php. Your web development stack is .5 gb in size, and possibly on your usb stick. Hopefully it will open up a whole new world to you.</p>
+</div><hr />
 <div class="editable" id="articles/SplitTesting_md"><h1>Split Testing</h1>
 
 <p>Programming, no matter how technically excellent isn't really excellent at all unless you are building the right thing. As Steve Blank says, “in a startup no facts exist inside the building, only opinions.” We need to verify the hypothesis in our code with customers. You also need to build the thing right. Take, for example, a change to the user interface that makes the "buy now" button render with white text on a white background. Really bad for sales!</p>

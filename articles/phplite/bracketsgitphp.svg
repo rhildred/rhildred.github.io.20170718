@@ -1,0 +1,15 @@
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+    <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+    <g>
+        <title>Layer 1</title>
+        <line fill="none" stroke="#000000" stroke-width="5" x1="124" y1="95" x2="124" y2="323" id="svg_1"/>
+        <line id="svg_2" y2="170" x2="230" y1="170" x1="124" stroke-width="5" stroke="#000000" fill="none"/>
+        <line id="svg_3" y2="320" x2="230" y1="320" x1="124" stroke-width="5" stroke="#000000" fill="none"/>
+        <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_4" y="73" x="183" stroke-width="0" stroke="#000000" fill="#000000">brackets+git</text>
+        <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_5" y="176" x="284" stroke-width="0" stroke="#000000" fill="#000000">brackets</text>
+        <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_6" y="327" x="256" stroke-width="0" stroke="#000000" fill="#000000">git</text>
+        <line stroke="#000000" id="svg_7" y2="427" x2="232" y1="318" x1="230" stroke-width="5" fill="none"/>
+        <line id="svg_8" y2="426" x2="376" y1="425" x1="231" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="none"/>
+        <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_9" y="432" x="409" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">php</text>
+    </g>
+</svg>
