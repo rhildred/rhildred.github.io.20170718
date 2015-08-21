@@ -11,7 +11,7 @@ week|content|references
 2|slim microframework|notes, [Slim Microframework Documentation](https://www.slimframework.com/), Lockhart text Chapters 1-4
 3|views|[github project on views](https://github.com/rhildred/slimphpviews)
 4|database|notes, Lockhart text Chapter 5, [PDO documentation](http://php.net/manual/en/book.pdo.php)
-5|paypal integration with curl|notes, [Paypal developer site](https://developer.paypal.com/)
+5|paypal integration with curl|notes, [Paypal developer site](https://developer.paypal.com/) see also [storing a credit card for later payment](https://developer.paypal.com/docs/integration/direct/store-a-credit-card/)
 6|parameters| notes, [Postman Docs](https://www.getpostman.com/docs)
 6|midterm|php ... with above resources
 7|javascript primitives|notes
