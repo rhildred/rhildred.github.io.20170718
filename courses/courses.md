@@ -3,6 +3,11 @@ Courses
 
 When a course was over, there was no way to easily access its content on my faculty page. There aren't so many courses, that a simple table of descriptions and links wouldn't work:
 
+PROG8020 - Programming: Web Design and Development
+-------
+
+This course introduces the student to web applications development. Students apply best practices of user interface design to the
+development of web sites. Assignments illustrate the use of client side scripting to validate web forms. A server side scripting language is used together with a database to implement business solutions that save and process data. [... goto course](PROG8020.html)
 
 INFO3130 - Systems Development: IT Innovation
 -------

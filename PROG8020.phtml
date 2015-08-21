@@ -5,6 +5,9 @@ $this->layout("_layout.phtml");
 <?php \RHildred\Editable\Markdown::render("courses/PROG8020/schedule.md");
 ?>
 <hr />
+<?php \RHildred\Editable\Markdown::render("articles/phplite/PHPLite.md");
+?>
+<hr />
 <?php \RHildred\Editable\Markdown::render("articles/BuildingBlocks.md");
 ?>
 <hr />
@@ -15,11 +18,6 @@ $this->layout("_layout.phtml");
 <hr />
 <div id="parameters" class="bookmark">
 <?php \RHildred\Editable\Markdown::render("articles/Parameters.md");
-?>
-</div>
-<hr />
-<div id="midterm" class="bookmark">
-<?php \RHildred\Editable\Markdown::render("courses/PROG8020/midterm.md");
 ?>
 </div>
 <hr />
@@ -43,8 +41,3 @@ $this->layout("_layout.phtml");
 ?>
 </div>
 <hr />
-<div id="final" class="bookmark">
-<?php \RHildred\Editable\Markdown::render("courses/PROG8020/final.md");
-?>
-</div>
-
