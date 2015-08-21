@@ -11,7 +11,8 @@ week|content|references
 2|slim microframework|notes, [Slim Microframework Documentation](https://www.slimframework.com/), Lockhart text Chapters 1-4
 3|views|[github project on views](https://github.com/rhildred/slimphpviews)
 4|database|notes, Lockhart text Chapter 5, [PDO documentation](http://php.net/manual/en/book.pdo.php)
-5-6|parameters| notes, [Postman Docs](https://www.getpostman.com/docs)
+5|paypal integration with curl|notes, [Paypal developer site](https://developer.paypal.com/)
+6|parameters| notes, [Postman Docs](https://www.getpostman.com/docs)
 6|midterm|php ... with above resources
 7|javascript primitives|notes
 8-9|Angular|notes, Seshadri and Green chapters 1-4, 6, 10, [Simple Angular Example on Github](https://github.com/rhildred/simpleangular) ... see also my other github angular examples especially [a tree example](https://github.com/rhildred/angular-tree-repeat), [svg charts](http://crudbetter.github.io/angular-charts/) and [canvas charts](http://jtblin.github.io/angular-chart.js/)
