@@ -631,12 +631,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rhildred/BitBucketBugReport.git",
-                "reference": "983afa66820a01826b0ebdb1e4841851ca3086a9"
+                "reference": "8ef8da21b7ef4b77a5477d89d4b99df2a818e852"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rhildred/BitBucketBugReport/zipball/983afa66820a01826b0ebdb1e4841851ca3086a9",
-                "reference": "983afa66820a01826b0ebdb1e4841851ca3086a9",
+                "url": "https://api.github.com/repos/rhildred/BitBucketBugReport/zipball/8ef8da21b7ef4b77a5477d89d4b99df2a818e852",
+                "reference": "8ef8da21b7ef4b77a5477d89d4b99df2a818e852",
                 "shasum": ""
             },
             "type": "library",
@@ -646,7 +646,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2015-09-28 17:54:17"
+            "time": "2015-10-02 03:51:35"
         },
         {
             "name": "rhildred/editable",
