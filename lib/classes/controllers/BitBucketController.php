@@ -11,7 +11,7 @@ class BitBucketController extends AbstractController
 	 */
 	public function post($request)
 	{
-        return BitBucket::submitBug($request->parameters['title'], $request->parameters['content'], $request->parameters['user'], $request->parameters['component'], "", $request->parameters['bbAccount']);
+        return Bitbucket::submitBug($request->parameters['title'], $request->parameters['content'], $request->parameters['user'], $request->parameters['component'], "", $request->parameters['bbAccount']);
 	}
 
 
