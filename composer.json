@@ -4,6 +4,7 @@
         "rhildred/slimphpviews": "dev-master",
         "rhildred/mailer": "dev-master",
         "rhildred/editable": "dev-master",
+        "rhildred/bitbucket-bug-report": "dev-master",
         "brtriver/dbup": "*",
         "michelf/php-markdown": "*"
     },
