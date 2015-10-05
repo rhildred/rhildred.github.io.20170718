@@ -10,7 +10,7 @@ The first thing that you will need will be the git software configuration manage
 
 In the case of a **usb-drive environment** you will make a `brackets+git` folder that will serve as the root folder of your environment. You will install git in `bracket+git/git`. If you get portable 7zip first you can get the portable `PortableGit-1.9.5-preview20150319.7z` version and extract it to the `bracket+git/git` folder.
 
-![brackets+git](articles/phplite/bracketsgit.svg "brackets+git")
+![brackets+git](https://rhildred.github.io/articles/phplite/bracketsgit.svg "brackets+git")
 
 In windows git provides a `Git Bash.vbs` that we will use to run php command line tools from.
 
@@ -37,7 +37,7 @@ With PHP things get a little more complicated. If you are on windows you can get
 
 If you are on windows you will unzip that file into the folder that git is in ... in the example `bracket+git/git/php`:
 
-![brackets+git+php](articles/phplite/bracketsgitphp.svg "brackets+git+php")
+![brackets+git+php](https://rhildred.github.io/articles/phplite/bracketsgitphp.svg "brackets+git+php")
 
 If you are on OSX you can install php with `curl -s http://php-osx.liip.ch/install.sh | bash -s 5.6`. You will need to change your path by editing `~/.bash_profile` in your home folder and adding the following line at the end `export PATH=/usr/local/php5/bin:$PATH`.
 
