@@ -79,6 +79,8 @@ PHP is controlled by a php.ini file. You may notice the location of the file fro
 |-|-|
 |Loaded Configuration File|	/usr/local/php5/lib/php.ini|
 
+In OSX, a php.ini file is provided for you. All of the dependencies that we require are built in.
+
 In windows, you won't have a php.ini file yet. Using brackets you can load the file `php.ini-development`. Do a file/Save as and save the file as php.ini. The file has all of the lines that you need but 2. You just delete the `; ` in front of something to enable it:
 
 ```
