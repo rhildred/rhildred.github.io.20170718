@@ -1,10 +1,10 @@
 We will be using an embedded database, SQLite with PHP this time. SQLite is contained within someting called a PHP Data Object (PDO). This is unlike databases like mysql where the database object simply connects to a database engine that is running in another process or even on another machine. To access SQLIte we will use the firefox sqlite extension. If you are running on a USB stick or network drive in "portable" mode, you will need to install [firefox portable from here.](http://portableapps.com/apps/internet/firefox_portable). Once installed you can go to addons and get sqlite:
 
-![sqlite addon](sqlite.png "sqlite addon")
+![sqlite addon](https://rhildred.github.io/courses/PROG8020/sqlite.png "sqlite addon")
 
 In this example we see SQLite manager operating on the database file `test.sqlite` with a table cds.
 
-![manager in action](cdsTable.png "manager in action")
+![manager in action](https://rhildred.github.io/courses/PROG8020/cdsTable.png "manager in action")
 
 Generally when we have an app with the slim framework we make a single connection to the database and reuse it in the different methods.
 
