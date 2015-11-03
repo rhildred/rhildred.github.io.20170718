@@ -1,7 +1,7 @@
 Starting Points with Openshift
 ==============================
 
-An amazing thing about a virtual private server (VPS) is that it can be "whatever you want it to be." The value that OpenShift adds is that it provides some structure and starting points for "whatever you want it to be." If you look at the OpenShift create application screen:
+An amazing thing about platform as a service (PAAS) is that it can be "whatever you want it to be." The value that OpenShift adds is that it provides some structure and starting points for "whatever you want it to be." If you look at the OpenShift create application screen:
 
 ![Open Shift Starting Points](images/OpenShiftStartingPoints.png "Open Shift Starting Points")
 
