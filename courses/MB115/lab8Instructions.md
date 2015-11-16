@@ -19,6 +19,7 @@ is of particular interest to us, because it allows a presenter to place things o
 !["click update"](https://rhildred.github.io/courses/MB115/clickUpdate.png "click update")
 
 ![Yes I'm sure](https://rhildred.github.io/courses/MB115/yesImSure.png "Yes I'm sure!")
+
 7. Go back to the repository and click the plus sign to add a new file
 ![Go back to repository](https://rhildred.github.io/courses/MB115/controlStructures.png "Go back to repository")
 
