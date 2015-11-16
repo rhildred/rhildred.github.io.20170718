@@ -33,3 +33,40 @@ is of particular interest to us, because it allows a presenter to place things o
 ![commit new file](https://rhildred.github.io/courses/MB115/commitNewFile.png "commit new file")
 11. You can view your new presentation at https://`<your github username>`.github.io/`<your project name>`
 ![view presentation](https://rhildred.github.io/courses/MB115/yourPresentationIsHere.png "view presentation")
+
+##To Edit your presentation
+
+You will be making a presentation of about 6 slides in length on the 3 control structures from panel 10.15 in your text, You can find some images to use in your presentation by doing a google images search:
+
+![control structures image search](https://rhildred.github.io/courses/MB115/3ControlStructures.png "control structures image search")
+
+to include an image in your presentation you will need to use an `<img` tag. If your image is wider than it is tall:
+
+```
+
+<img src="http://cnx.org/resources/e10b6f07f77a2597795e20b3e43544669ddf9d9c/graphics2.jpg" alt="case control structure" title="case control structure" style="width:100%" />
+
+```
+
+If your image is taller than it is wide:
+
+```
+
+<img src="http://photos1.blogger.com/blogger/1040/1790/320/c01-while.0.jpg" alt="while control structure" title="while control structure" style="height:80%;width:auto;margin:0 auto;display:block" />
+
+```
+
+You can edit your presentation by clicking on the pencil in github:
+
+![click pencil](https://rhildred.github.io/courses/MB115/clickpencil.png "click pencil")
+
+You would edit the presentation by finding and changing/deleting individual slides
+
+![editing a slide](https://rhildred.github.io/courses/MB115/editingFirstSlide.png "editing a slide")
+
+##Handing in the assignment
+
+To hand in the assignment you will need to open a word document and put the url to your presentation in it. Once you upload the file, please also put the url in the comment.
+
+There are lots of steps to this project which will be marked out of 2. 1 mark for getting anything at all on github, the second for getting a presentation about control structures up there.
+
