@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>The Turing Test</title>
+
+    <meta name="description" content='Our brains are connection machines. So is Excel' />
+    <meta name="author" content="Rich Hildred" />
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="https://impress.github.io/impress.js/css/impress-demo.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <div class="fallback-message">
+        <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+        <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+    </div>
+    <div id="impress">
+        <div id="slide0" class="step slide" data-x="500" data-y="-7800">
+            <iframe width="100%" height="80%" src="https://www.youtube.com/embed/fDR3hSeQ8pk" frameborder="0" allowfullscreen></iframe>
+            <h1>The Turing Test (In a way that Turing probably couldn't have imagined)</h1>
+        </div>
+
+
+    </div>
+    <div class="hint">
+        <p>Use a spacebar or arrow keys to navigate</p>
+    </div>
+    <script>
+        if ("ontouchstart" in document.documentElement) {
+            document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+        }
+    </script>
+
+
+    <script src="https://impress.github.io/impress.js/js/impress.js"></script>
+    <script>
+        impress().init();
+    </script>
+
+</body>
+
+</html>

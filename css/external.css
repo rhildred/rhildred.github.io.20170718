@@ -1,0 +1,16 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
+
+img, iframe {
+	max-width: 100%;
+}
+
+table td, table th {
+    padding-right: 3em; /* cellpadding */
+	padding-bottom: .5em;
+}
+
+table{
+	margin-bottom: 1em;
+}
+
+
