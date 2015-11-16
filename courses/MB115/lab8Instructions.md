@@ -28,7 +28,7 @@ is of particular interest to us, because it allows a presenter to place things o
 
 ![click on the raw button](https://rhildred.github.io/courses/MB115/rawButton.png "click on the raw button")
 9. Hold command on the mac or cntrl on a pc and press the "a" key and then command or cntrl and the "c" key
-[command or ctrl a and c](https://rhildred.github.io/courses/MB115/ctrlActrlC.png "command or control a and c")
+![command or ctrl a and c](https://rhildred.github.io/courses/MB115/ctrlActrlC.png "command or control a and c")
 10. Go back into your new file page and paste the index.html, enter the name and press commit
 ![commit new file](https://rhildred.github.io/courses/MB115/commitNewFile.png "commit new file")
 11. You can view your new presentation at https://`<your github username>`.github.io/`<your project name>`
