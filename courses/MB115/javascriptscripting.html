@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Scripting with Javascript</title>
+
+    <meta name="description" content='Our brains are connection machines. So is Excel' />
+    <meta name="author" content="Rich Hildred" />
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="https://impress.github.io/impress.js/css/impress-demo.css" rel="stylesheet" />
+    <style>
+        .chart path {
+            fill-opacity: 1;
+            stroke:black;
+            stroke-width: 1;
+        }
+        .blueone {
+            color: blue;
+        }
+        .chart rect {
+            fill: steelblue;
+        }
+        .chart text {
+            fill: white;
+            font: 10px sans-serif;
+            text-anchor: end;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="fallback-message">
+        <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+        <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+    </div>
+    <div id="impress">
+        <div id="slide0" class="step slide" data-x="500" data-y="-7800">
+     <svg class="chart" width="400" height="400" style="display:block;margin:0 auto">
+        <!-- Pie chart sample -->
+        <path d="M200,200 L200,20 A180,180 0 0,1 377,231 z" style="fill:#ff0000" />
+        <path d="M200,200 L377,231 A180,180 0 0,1 138,369 z" style="fill:#00ff00" />
+        <path d="M200,200 L138,369 A180,180 0 0,1 20,194 z" style="fill:#0000ff" />
+        <path d="M200,200 L20,194 A180,180 0 0,1 75,71 z" style="fill:#ff00ff" />
+        <path d="M200,200 L75,71 A180,180 0 0,1 200,20 z" style="fill:#ffff00" />
+    </svg>
+
+            <h1>Scripting with Javascript</h1>
+            <p>Rich Hildred - rhildred@wlu.ca - 519-594-0900</p>
+
+        </div>
+        <div id="slide1" class="step slide" data-x="500" data-y="-6400">
+            <img src="stackedit.png" style="width:100%;height:auto;margin:0 auto;display:block" />
+            <h1>until now we have been making static presentations with markup ... we call this declarative programming</h1>
+
+        </div>
+        <div id="slide3" class="step slide" data-x="500" data-y="-5700">
+            <iframe src="https://jtblin.github.io/angular-chart.js/" width="100%" height="80%"></iframe>
+            <h1>today we will be making presentations with behaviour ... we call this imperative programming</h1>
+        </div>
+        <div id="slide4" class="step slide" data-x="500" data-y="-5000">
+            <img src="http://i0.wp.com/www.lifengadget.com/lifengadget/wp-content/uploads/2014/03/Selection_204.png" alt="sequence - from lifeandgadger.com" style="height:80%;display:block;margin: 0 auto" />
+            <h1>I made the lab about control structures on purpose</h1>
+        </div>
+        <div id="slide5" class="step slide" data-x="500" data-y="-4300">
+            <img src="http://photos1.blogger.com/blogger/1040/1790/320/c01-while.0.jpg" alt="while" style="height:80%;display:block;margin: 0 auto" />
+            <h1>if sarcasm is the lowest, repetition must be the highest form of humour</h1>
+        </div>
+        <div id="slide6" class="step slide" data-x="500" data-y="-3600">
+            <img src="http://photos1.blogger.com/blogger/1040/1790/320/if-else.gif" alt="if else" style="height:80%;display:block;margin: 0 auto" />
+            <h1>if this then that</h1>
+        </div>
+
+        <div id="slide7" class="step slide" data-x="500" data-y="-2900">
+   <svg class="chart" width="420" height="420" style="display:block;margin:0 auto">
+        <g transform="translate(0,0)">
+            <rect width="40" height="19"></rect>
+            <text x="37" y="9.5" dy=".35em">4</text>
+        </g>
+        <g transform="translate(0,20)">
+            <rect width="80" height="19"></rect>
+            <text x="77" y="9.5" dy=".35em">8</text>
+        </g>
+        <g transform="translate(0,40)">
+            <rect width="150" height="19"></rect>
+            <text x="147" y="9.5" dy=".35em">15</text>
+        </g>
+        <g transform="translate(0,60)">
+            <rect width="160" height="19"></rect>
+            <text x="157" y="9.5" dy=".35em">16</text>
+        </g>
+        <g transform="translate(0,80)">
+            <rect width="230" height="19"></rect>
+            <text x="227" y="9.5" dy=".35em">23</text>
+        </g>
+        <g transform="translate(0,100)">
+            <rect width="420" height="19"></rect>
+            <text x="417" y="9.5" dy=".35em">42</text>
+        </g>
+    </svg>
+            <h1>Thursday we will use this to make a dashboard</h1>
+
+        </div>
+
+
+    </div>
+    <div class="hint">
+        <p>Use a spacebar or arrow keys to navigate</p>
+    </div>
+    <script>
+        if ("ontouchstart" in document.documentElement) {
+            document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+        }
+    </script>
+
+
+    <script src="https://impress.github.io/impress.js/js/impress.js"></script>
+    <script>
+        impress().init();
+    </script>
+
+</body>
+
+</html>
