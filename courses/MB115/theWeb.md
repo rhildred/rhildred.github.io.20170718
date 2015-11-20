@@ -56,4 +56,23 @@ can also be done with html. Take for instance the ui for our simple little app t
 You can see tags with content nested as content of other tags, you can also see an example of a self-closing tag without any content. That user interface is kind of "high schooley" though. The world wide web has become so sophisticated, and people's expectations of it are so high. That is where something like:
 
 ##impress.js ....
-comes in. Impress.js is a framework that places html in the context of a presentation.
+comes in. Impress.js is a framework that places html in the context of a presentation. To understand impress.js, you need a new tag `<div></div>`. The `div` tag is used to **div**ide content on a page. `div`s can be nested within each other. An impress.js presentation is basically:
+
+```
+<div id="impress">
+
+	<!-- slide 1 -->
+    <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
+        <q>Aren't you just <b>bored</b> with all those slides-based presentations?</q>
+    </div>
+
+	<!-- slide 2 -->
+	<div class="step slide" data-x="0" data-y="-1500">
+        <q>Don't you think that presentations given <strong>in modern browsers</strong> shouldn't <strong>copy the limits</strong> of 'classic' slide decks?</q>
+    </div>    
+</div>
+```
+
+You make a presentation, by starting with the [sample presentation](https://rhildred.github.io/impress.js) and changing those `class="slide"` divs to contain your content. You can also use zooming in and out and rotation to show things on an infinite canvas.
+
+Making a presentation was the assignment this past week. Since some people really struggled, I will make this week's lab be on html as well.
