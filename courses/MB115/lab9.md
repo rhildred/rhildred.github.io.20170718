@@ -5,7 +5,7 @@ In lab 8 we tried to edit the html in an impress.js presentation. In discussion 
 The lab is out of 5 (5% of your total mark)
 
 |element|mark|
-|--|--|
+|-----|------|
 |heading(s)|1|
 |anchor(s)|1|
 |comment(s)|1|
