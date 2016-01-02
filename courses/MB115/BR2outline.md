@@ -131,6 +131,10 @@ any changes and to be prepared for each class. Key information will be posted My
 |5|Feb. 3|Input and Output|Ch 5|Lab 4 - excel|
 ||Feb. 5|More on excel; Review|mylearningspace notes|
 |6|Feb. 10|**Midterm**|Ch 1-5 + 7|Lab 5 - excel|
+
+
+|Week|Date|Topic|Readings|Lab|
+|---|---|---|---|---|
 ||Feb. 12|Communications and Networks|Ch 6|
 |**Reading Week**|
 |7|Feb. 24|Challenges of the Digital Age|Ch 9|Lab 6 - hardware|
