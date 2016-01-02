@@ -142,6 +142,5 @@ any changes and to be prepared for each class. Key information will be posted My
 |10|Mar. 16|Scripting||Lab 9 - scripting Impress.js
 ||Mar. 18|Introduce the Project|
 |11|Mar. 23|Scripting - CSS||Lab 10 - work on projects
-||Mar. 25|Scripting|
 |12, 13|Mar. 30||Project Presentations - Note: the makeup for Good Friday will be during lab times on the 30th to allow for everyone to have a chance to present their projects|
 ||Apr. 1|Review for final|Ch 1-10||
