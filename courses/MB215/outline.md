@@ -14,7 +14,7 @@
 |**Office Hours:**|Wednesday/Friday 4-5:00 pm|
 
 ##Services for Students with Disabilities
-Students with disabilities or special needs are advised to contact Laurier’s Special Needs Office for information regarding its services and resources. Students are encouraged to review the Calendar for information regarding all services available on campus.
+Students with disabilities or special needs are advised to contact Laurier's Special Needs Office for information regarding its services and resources. Students are encouraged to review the Calendar for information regarding all services available on campus.
 
 ##Required Text
 
