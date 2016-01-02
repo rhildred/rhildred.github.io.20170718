@@ -62,7 +62,7 @@ A series of exercises will be provided to students at the beginning of class, an
 The 20% of the course grade assigned to lab exercises will be spread out over the semester. Some labs may be worth more marks, others less, but on average each lab will be worth 2% of your final grade. If you miss ONE lab class over the course of the semester it will not affect your lab exercise grade. Any lab classes missed beyond the first one will be assigned a mark of 0. You cannot make up lab classes outside of our regularly scheduled class time.
 
 ##Mid-term Examination
-The mid-term examination will be held on Wednesday, February 10th during class time. It will cover chapters 1 through 7 of the textbook, and all lecture and lab material up to, and including, Friday, February, 5th.
+The mid-term examination will be held on Wednesday, February 10th during class time. It will cover chapters 1 through 5 and 7 of the textbook, and all lecture and lab material up to, and including, Friday, February, 5th.
 
 The mid-term examination will not be offered at any other time. If you miss the mid-term for health or bereavement reasons you must provide appropriate documentation as per the academic calendar. If appropriate documentation is provided, the weighting of the final examination will be increased to 55% in consideration of the missed mid-term. If the mid-term is missed for any other reason, a mark of 0 will be given.
 
