@@ -7,7 +7,7 @@
 
 |&nbsp;|&nbsp;|
 |---|---|---|
-||**Instructor:**|Rich Hildred |
+|**Instructor:**|Rich Hildred |
 |**Office:**|SCJ 311 |
 |**Phone:**|519-594-0900|
 |**Email:**|rhildred@wlu.ca|
