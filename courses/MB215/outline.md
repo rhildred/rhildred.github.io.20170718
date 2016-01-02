@@ -46,17 +46,24 @@ You are expected to be in class, but I understand that situations, such as illne
 |Midterm|Feb 26 in class|20%|
 |Final|To Be Scheduled|30%|
 
-Mid-term Examination
-The mid-term examination will be held on Tuesday, October 27th during class time. It will cover chapters 1 through 7 of the textbook, and all lecture and lab material up to, and including, Thursday, October 22nd.
+##Mid-term Examination
+The mid-term examination will be held on Friday, February 26th during class time. It will cover all material up to software development models and methodologies (expected to be material covered by start of reading week).
+
 The mid-term examination will not be offered at any other time. If you miss the mid-term for health or bereavement reasons you must provide appropriate documentation as per the academic calendar. If appropriate documentation is provided, the weighting of the final examination will be increased to 55% in consideration of the missed mid-term. If the mid-term is missed for any other reason, a mark of 0 will be given.
-Final Examination
-The final exam will cover all of the material in the course, including the textbook, the lectures, the lab exercises and the student presentations. The final exam will be held during the final exam period, December 12th to December 23rd, 2015, and will be scheduled by the Registrar’s Office. You are expected to be available during the entire exam period. If you have more than one exam scheduled for the same time, or if you have three or more exams scheduled to start and end within a 24-hour period, the university will defer one of your exams to Slip Day. The university chooses which exam will be deferred. No other alternate arrangements will be made for exams. If you miss an exam for any reason, including weather, health issues, or a death in the family, you will be required to submit a petition to the Brantford Faculty Petitions Committee in order to write the exam at a later date. If your petition is successful, the exam will be written at some point during the two following semesters.
+
+##Final Examination
+The final exam will cover all of the material in the course. The final exam will be held during the final exam period, Apr 7 - Apr 23, 2016, and will be scheduled by the Registrar’s Office. You are expected to be available during the entire exam period. If you have more than one exam scheduled for the same time, or if you have three or more exams scheduled to start and end within a 24-hour period, the university will defer one of your exams to Slip Day. The university chooses which exam will be deferred. No other alternate arrangements will be made for exams. If you miss an exam for any reason, including weather, health issues, or a death in the family, you will be required to submit a petition to the Brantford Faculty Petitions Committee in order to write the exam at a later date. If your petition is successful, the exam will be written at some point during the two following semesters.
+
 For complete university policy and procedure information regarding final examinations please see the Undergraduate Academic Calendar.
-MyLearningSpace
+
+##MyLearningSpace
 The course has a MyLearningSpace area. It will be used for posting the course outline, assignments, groups, etc, as well as any announcements such as new or revised readings or class cancellations. Written assignments will be submitted through MyLearningSpace, and grades will be posted there as well.
-Do not email me through MyLearningSpace. Emails sent through MyLearningSpace do not go to the recipient’s Laurier email account, and I cannot guarantee that I will check MyLearningSpace regularly.
-Contacting the Instructor
-The best option for contacting me is to drop by my office or to set up an appointment, between 9:00 am and 10:00 am Tuesdays and Thursdays. I am always happy to meet with you if you have questions or concerns. I will only be on campus this semester mornings on Tuesdays, and Thursdays.
+
+**Do not email me through MyLearningSpace.** Emails sent through MyLearningSpace do not go to the recipient’s Laurier email account, and I cannot guarantee that I will check MyLearningSpace regularly.
+
+##Contacting the Instructor
+The best option for contacting me is to drop by my office or to set up an appointment, between 4:00 pm and 5:00 pm Wednesdays and Fridays. I am always happy to meet with you if you have questions or concerns.
+
 Do not expect responses to email on the weekends or after 5:00 pm during the week. If you have questions about assignments or the exam, you need to be organized enough that you can ask them during regular business hours.
 
 ##Electronic Hardware Policy
