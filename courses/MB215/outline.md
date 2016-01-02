@@ -95,6 +95,8 @@ A confidential listening, referral, and information line available during evenin
 ###The Wellness Centre | 519-756-8228, x5803
 Students have access to support for all their health and counselling needs at the Wellness Centre. Located in the Student Centre, 2nd floor. Hours: 8:30am to 4:30pm Monday-Friday. After hours crisis support available 24/7 - "Good 2 Talk" 1-866-925-5454. 
 
+
+
 ##Course Schedule and Readings
 It is expected that the assigned readings have been read before class. You are responsible for the content of all of the assigned readings, even if we do not cover the content in class.
 
