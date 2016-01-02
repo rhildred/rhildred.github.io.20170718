@@ -100,7 +100,7 @@ The objective of this course is to familiarize students with software applicatio
 ##object oriented analysis and design, 
 |Week|Topic|Reference|
 |---|---|---|
-|January 4|Introduction to objects with java Greenfoot Game engine|[Greenfoot.org](http://www.greenfoot.org/)|
+|January 4|Introduction to objects with java Greenfoot Game engine|[Greenfoot.org](http://www.greenfoot.org/), [Software Development As a Cooperative game](http://alistair.cockburn.us/Cooperative+game+manifesto+for+software+development)|
 |January 11|Deployment with Droidfoot and Android studio|[Droidfoot Manual](http://www.programmierkurs-java.de/droidfoot/download/manual-2.0.pdf), Instructors notes and demo|
 
 ##software development life cycles, 
