@@ -84,16 +84,16 @@ Please note that students involved in academic dishonesty may receive a zero gra
 ![Wilfrid Laurier University Student's Union Services](https://res.cloudinary.com/salesucation-com-inc/image/upload/c_scale,w_350/v1451701127/6354fc95-9543-4ccc-b729-dbe23d585ebd-large_thygaz.png "Wilfrid Laurier University Student's Union Services")
 
 ###Student Food Bank | [www.wlusu.com/food-bank/](http://www.wlusu.com/food-bank/)
-All students are eligible to use this service to ensure they’re eating healthy when overwhelmed, stressed or financially strained. Anonymously request a package online 24-7. All dietary restrictions accommodated.
+All students are eligible to use this service to ensure they're eating healthy when overwhelmed, stressed or financially strained. Anonymously request a package online 24-7. All dietary restrictions accommodated.
 
 ###Foot Patrol |  519-751-PTRL (7875)
 A volunteer operated safe walk program, available Fall and Winter, Monday-Thursday 6:30pm-1am and Friday-Sunday 6:30-11pm. Radio dispatched teams are available upon call to escort students to and from campus as well as off-campus destinations either by foot or by van. [http://www.wlusu.com/foot-patrol/](http://www.wlusu.com/foot-patrol/) 
 
 ###Peer Connect | 1.866.281.PEER (7337)
-A confidential listening, referral, and information line available during evening hours to provide support and resources.  Sunday to Thursday, 12pm – 2am | Friday-Saturday 12pm – 3am [http://www.wlusu.com/peer-help-line/](http://www.wlusu.com/peer-help-line/)
+A confidential listening, referral, and information line available during evening hours to provide support and resources.  Sunday to Thursday, 12pm - 2am | Friday-Saturday 12pm - 3am [http://www.wlusu.com/peer-help-line/](http://www.wlusu.com/peer-help-line/)
 
 ###The Wellness Centre | 519-756-8228, x5803
-Students have access to support for all their health and counselling needs at the Wellness Centre. Located in the Student Centre, 2nd floor. Hours: 8:30am to 4:30pm Monday-Friday. After hours crisis support available 24/7 - “Good 2 Talk” 1-866-925-5454. 
+Students have access to support for all their health and counselling needs at the Wellness Centre. Located in the Student Centre, 2nd floor. Hours: 8:30am to 4:30pm Monday-Friday. After hours crisis support available 24/7 - "Good 2 Talk" 1-866-925-5454. 
 
 ##Course Schedule and Readings
 It is expected that the assigned readings have been read before class. You are responsible for the content of all of the assigned readings, even if we do not cover the content in class.
