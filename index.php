@@ -82,7 +82,9 @@ else {
 /**
  * Send the response to the client.
  */
-$sContentType='application/json';
-if(array_key_exists('HTTP_ACCEPT', $_SERVER)) $sContentType = $_SERVER['HTTP_ACCEPT'];
-$response_obj = Response::create($response_str, $sContentType);
-echo $response_obj->render();
+if($response_str != null){
+    $sContentType='application/json';
+    if(array_key_exists('HTTP_ACCEPT', $_SERVER)) $sContentType = $_SERVER['HTTP_ACCEPT'];
+    $response_obj = Response::create($response_str, $sContentType);
+    echo $response_obj->render();
+}
