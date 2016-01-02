@@ -59,7 +59,7 @@ For complete university policy and procedure information regarding final examina
 ##MyLearningSpace
 The course has a MyLearningSpace area. It will be used for posting the course outline, assignments, groups, etc, as well as any announcements such as new or revised readings or class cancellations. Written assignments will be submitted through MyLearningSpace, and grades will be posted there as well.
 
-**Do not email me through MyLearningSpace.** Emails sent through MyLearningSpace do not go to the recipient’s Laurier email account, and I cannot guarantee that I will check MyLearningSpace regularly.
+**Do not email me through MyLearningSpace.** Emails sent through MyLearningSpace do not go to the recipient's Laurier email account, and I cannot guarantee that I will check MyLearningSpace regularly.
 
 ##Contacting the Instructor
 The best option for contacting me is to drop by my office or to set up an appointment, between 4:00 pm and 5:00 pm Wednesdays and Fridays. I am always happy to meet with you if you have questions or concerns.
