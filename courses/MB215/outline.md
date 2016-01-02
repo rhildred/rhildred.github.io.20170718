@@ -80,7 +80,7 @@ If I see a cell phone, laptop, iPad, mp3 player, or any other similar device in 
 ##Academic Integrity
 Please note that students involved in academic dishonesty may receive a zero grade on the course and even notation of academic dishonesty on their transcripts. In this course, academic dishonesty includes copying or use of unauthorized aids in all written work; plagiarism; submission of work generated for another course without prior clearance by the instructor of this course or aiding and abetting another student's dishonesty. Wilfrid Laurier uses software that can check for plagiarism. You will be required to submit your work in electronic form and have it checked for plagiarism
 
-##Wilfrid Laurier University Student's Union Services
+![Wilfrid Laurier University Student's Union Services](http://image-store.slidesharecdn.com/6354fc95-9543-4ccc-b729-dbe23d585ebd-large.png "Wilfrid Laurier University Student's Union Services")
 ###Student Food Bank | [www.wlusu.com/food-bank/](http://www.wlusu.com/food-bank/)
 All students are eligible to use this service to ensure they’re eating healthy when overwhelmed, stressed or financially strained. Anonymously request a package online 24-7. All dietary restrictions accommodated.
 ###Foot Patrol |  519-751-PTRL (7875)
