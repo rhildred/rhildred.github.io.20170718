@@ -113,7 +113,7 @@ Students have access to support for all their health and counselling needs at th
 It is expected that the assigned readings have been read before class. You are responsible for the content of all of the assigned readings, even if we do not cover the content in class.
 
 Please note this is an outline and may be subject to change. Some topics may carry on to the following week and additional readings may be assigned. It is your responsibility to be aware of
-any changes and to be prepared for each class. Key information will be posted MyLearningSpace.
+any changes and to be prepared for each class. Key information will be posted on MyLearningSpace.
 
 |Week|Date|Topic|Readings|Lab|
 |---|---|---|---|---|
