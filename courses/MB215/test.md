@@ -10,14 +10,14 @@ Some text here
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vw2nTpLFof8" frameborder="0" allowfullscreen></iframe>
 
-![notes](notestart://)
+![notes](slidenotestart://)
 
 This is a note
 
 * a ul
 * ul 2
 
-![/notes](notesend://)
+![/notes](slidenoteend://)
 
 
 ![/slide1](slideend:://)
