@@ -14,6 +14,8 @@
 |||
 |**Class Times:**|Wednesday/Friday 2:30-3:50 pm|
 |**Location:**|Brantford Odeon OD200|
+|**Lab Instructor**|Cameron Kennedy|
+|**Email:**|kenn7900@mylaurier.ca|	
 |**Lab Times:**|Wednesday 5:30 - 6:50 pm|
 ||**or**|
 ||Wednesday 10:00 - 11:20 am|
