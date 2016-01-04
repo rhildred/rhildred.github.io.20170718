@@ -11,4 +11,22 @@
 <img src="https://farm4.staticflickr.com/3311/3476708671_bf2c5d860a_b_d.jpg" title="photo by Maria Ly" style="height: 500px;margin: 0 auto;display:block" />
 #Software development is a cooperative game, like rock-climbing
 
+![note](slidenotestart://)
+
+This is a course in software methodologies. If you look at the course outline like a computer programmer you would say that these methods are well understood.
+
+![/note](slidenoteend://)
+
 ![/slide1](slideend://)
+
+![slide2](slidestart://?class="step+slide"+data-x="-1000"+data-y="-100")
+
+#object oriented analysis and design, software development life cycles, models and methodologies, quality assurance and improvement, and the basics of tools used for application development such as requirement management tools, version control, and defect tracking.
+
+![note](slidenotestart://)
+
+like an engineering discipline. Except people developing software together are more complicated than that,
+
+![/note](slidenoteend://)
+
+![/slide2](slideend://)
