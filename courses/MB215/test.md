@@ -21,3 +21,11 @@ This is a note
 
 
 ![/slide1](slideend:://)
+![slide2](slidestart://?class="step+slide"+data-x="-1000"+data-y="-800")
+#This is also a test
+![notes](slidenotestart://)
+
+so there
+
+![/notes](slidenoteend://)
+![/slide2](slideend:://)
