@@ -1,4 +1,4 @@
-![slide1](slidestart://?name=test&type=text)
+![slide1](slidestart://class="step slide" data-x="-1000" data-y="-1500")
 
 #This is a test
 
