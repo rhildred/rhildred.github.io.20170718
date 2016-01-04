@@ -64,7 +64,7 @@ The mid-term examination will be held on Thursday, February 11th during lab time
 The mid-term examination will not be offered at any other time. If you miss the mid-term for health or bereavement reasons you must provide appropriate documentation as per the academic calendar. If appropriate documentation is provided, the weighting of the final examination will be increased to 55% in consideration of the missed mid-term. If the mid-term is missed for any other reason, a mark of 0 will be given.
 
 ##Final Examination
-The final exam will cover all of the material in the course. The final exam will be held during the final exam period, Apr 7 - Apr 23, 2016, and will be scheduled by the Registrar’s Office. You are expected to be available during the entire exam period. If you have more than one exam scheduled for the same time, or if you have three or more exams scheduled to start and end within a 24-hour period, the university will defer one of your exams to Slip Day. The university chooses which exam will be deferred. No other alternate arrangements will be made for exams. If you miss an exam for any reason, including weather, health issues, or a death in the family, you will be required to submit a petition to the Brantford Faculty Petitions Committee in order to write the exam at a later date. If your petition is successful, the exam will be written at some point during the two following semesters.
+The final exam will cover all of the material in the course. The final exam will be held during the final exam period, Apr 7 - Apr 23, 2016, and will be scheduled by the Registrar's Office. You are expected to be available during the entire exam period. If you have more than one exam scheduled for the same time, or if you have three or more exams scheduled to start and end within a 24-hour period, the university will defer one of your exams to Slip Day. The university chooses which exam will be deferred. No other alternate arrangements will be made for exams. If you miss an exam for any reason, including weather, health issues, or a death in the family, you will be required to submit a petition to the Brantford Faculty Petitions Committee in order to write the exam at a later date. If your petition is successful, the exam will be written at some point during the two following semesters.
 
 For complete university policy and procedure information regarding final examinations please see the Undergraduate Academic Calendar.
 
@@ -113,7 +113,7 @@ Students have access to support for all their health and counselling needs at th
 It is expected that the assigned readings have been read before class. You are responsible for the content of all of the assigned readings, even if we do not cover the content in class.
 
 Please note this is an outline and may be subject to change. Some topics may carry on to the following week and additional readings may be assigned. It is your responsibility to be aware of
-any changes and to be prepared for each class. Key information will be posted MyLearningSpace.
+any changes and to be prepared for each class. Key information will be posted on MyLearningSpace.
 
 |Week|Date|Topic|Readings|Lab|
 |---|---|---|---|---|
