@@ -21,6 +21,7 @@ This is a course in software methodologies. If you look at the course outline li
 
 ![slide2](slidestart://?class="step+slide"+data-x="-1000"+data-y="-100")
 
+#A software developer would say software methods consist of:
 * object oriented analysis and design, 
 * software development life cycles, 
 * models and methodologies, 
