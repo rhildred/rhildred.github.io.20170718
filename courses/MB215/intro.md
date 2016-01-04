@@ -30,8 +30,20 @@ This is a course in software methodologies. If you look at the course outline li
 
 ![note](slidenotestart://)
 
-like an engineering discipline. Except people developing software together are more complicated than that,
+like an engineering discipline. Except people developing software together are more complicated than that.
 
 ![/note](slidenoteend://)
 
 ![/slide2](slideend://)
+
+![slide3](slidestart://?class="step+slide"+data-x="-1000"+data-y="600")
+
+#Communication
+##People never communicate completely
+##Gaps also in receiving
+###Experts jump larger gaps with their experience
+###Novice can't jump as big a gap because they have no patterns to base the current communication on.
+
+![note](slidenotestart://)
+
+In object oriented design we have design patterns that novices can look for to aid in this communication.
