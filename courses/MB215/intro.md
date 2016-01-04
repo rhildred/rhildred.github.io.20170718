@@ -21,7 +21,11 @@ This is a course in software methodologies. If you look at the course outline li
 
 ![slide2](slidestart://?class="step+slide"+data-x="-1000"+data-y="-100")
 
-#object oriented analysis and design, software development life cycles, models and methodologies, quality assurance and improvement, and the basics of tools used for application development such as requirement management tools, version control, and defect tracking.
+* object oriented analysis and design, 
+* software development life cycles, 
+* models and methodologies, 
+* quality assurance and improvement, 
+* and the basics of tools used for application development
 
 ![note](slidenotestart://)
 
