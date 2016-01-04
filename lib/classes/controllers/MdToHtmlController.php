@@ -15,6 +15,11 @@ class MdToHtmlController extends AbstractController{
 <html>
 <head>
     <link rel="stylesheet" href="https://rhildred.github.io/css/external.css" />
+    <style>
+        #slide0{
+            display:none;
+        }
+    </style>
 </head>
 <body>
 EOT;
