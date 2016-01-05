@@ -41,10 +41,10 @@ You are expected to be in class, but I understand that situations, such as illne
 ##Evaluation
 |Item|due|percentage|
 |---|---|---|
-|Project 1 - Java Game|January 15|20%|
-|Project 2 - Java Web App|Feb 12|30%|
-|Midterm|Feb 26 in class|20%|
-|Final|To Be Scheduled|30%|
+|Project 1 - Java Game|January 15|15%|
+|Project 2 - Java Web App|Feb 12|25%|
+|Midterm|Feb 26 in class|25%|
+|Final|To Be Scheduled|35%|
 
 ##Mid-term Examination
 The mid-term examination will be held on Friday, February 26th during class time. It will cover all material up to software development models and methodologies (expected to be material covered by start of reading week).
