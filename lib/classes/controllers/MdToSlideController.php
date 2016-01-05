@@ -31,6 +31,9 @@ class MdToSlideController extends AbstractController{
         .notes{
             display:none;
         }
+        ul, ol{
+            list-style-type: circle;
+        }
     </style>
 </head>
 
