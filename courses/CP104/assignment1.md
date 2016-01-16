@@ -5,6 +5,9 @@ In a game, you want to decide if 2 balls on a flat surface are touching each oth
 ```
 distance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2) 
 ```
+
+![](https://rhildred.github.io/courses/CP104/pythagorean.svg)
+
 Once you have the distance, if the sum of the radius is >= to the distance the balls are touching. 
 
 1. Input the x, y and radius of 2 balls
