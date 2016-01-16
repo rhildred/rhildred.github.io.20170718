@@ -1,28 +1,23 @@
-<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
- <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
- <g>
-  <title>Layer 1</title>
-  <circle fill="#FF0000" stroke="#000000" stroke-width="5" cx="197" cy="130" r="61.29437" id="svg_1"/>
- </g>
- <g>
-  <title>Layer 2</title>
-  <circle fill="#ffff00" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="402" cy="312" r="74.41102" id="svg_4"/>
-  <line fill="none" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="194" y1="187" x2="196" y2="480" id="svg_5"/>
-  <line fill="none" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="401" y1="387" x2="402" y2="478" id="svg_6"/>
-  <line fill="none" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="194" y1="449" x2="234" y2="450" id="svg_7" stroke="#000000"/>
-  <line fill="none" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="355" y1="449" x2="403" y2="448" id="svg_8" stroke="#000000"/>
-  <text fill="#0000ff" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="294" y="456" id="svg_9" font-size="26" font-family="serif" text-anchor="middle" xml:space="preserve">(x2-x1)**2</text>
-  <line fill="none" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="259" y1="129" x2="637" y2="127" id="svg_10"/>
-  <line fill="none" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="478" y1="313" x2="637" y2="312" id="svg_11"/>
-  <text fill="#0000ff" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="581" y="224" id="svg_12" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve">(y2-y1)**2</text>
-  <line fill="none" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="596" y1="130" x2="599" y2="190" id="svg_18"/>
-  <line fill="none" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="601" y1="311" x2="602" y2="235" id="svg_19"/>
-  <text fill="#0000ff" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="597" y="444" id="svg_12" font-size="42" font-family="serif" text-anchor="middle" xml:space="preserve">+</text>
- </g>
- <g>
-  <title>Layer 3</title>
-  <line fill="none" stroke="#00f" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="11" y1="427" x2="35" y2="464" id="svg_22"/>
-  <line fill="none" stroke="#00f" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="32" y1="461" x2="132" y2="25" id="svg_25"/>
-  <line fill="none" stroke="#00f" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="132" y1="27" x2="616" y2="24" id="svg_26"/>
- </g>
-</svg>
+#Assignment 1
+
+In a game, you want to decide if 2 balls on a flat surface are touching each other. If the center of the balls are at x1, y1 and x2, y2, the distance between the centers of the balls will be found from the Pythagorean theorem :
+
+```
+distance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2) 
+```
+
+![](https://rhildred.github.io/courses/CP104/pythagorean.svg)
+
+Once you have the distance, if the sum of the radius is >= to the distance the balls are touching. 
+
+1. Input the x, y and radius of 2 balls
+2. Output the x, y and radius as they were input
+1. Output the distance between the center of the balls
+2. Output whether the balls are touching or not.
+
+###Marking
+1 mark will be awarded for inputing and outputing, x, y and radius of 2 balls.
+
+2 marks will be awarded for outputing the distance between the balls correctly.
+
+2 marks will be awarded for correctly deciding and outputing whether the balls are touching.
