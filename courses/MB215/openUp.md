@@ -42,7 +42,7 @@ and design.
 
 ![/slide1](slideend:://)
 
-![slide2](slidestart://?class="step+slide"+data-x="-1000"+data-y="0")
+![slide2](slidestart://?class="step+slide"+data-x="-1000"+data-y="-100")
 
 #Preliminary Investigation
 
@@ -66,7 +66,7 @@ recommendations.
 
 ![/slide2](slideend:://)
 
-![slide3](slidestart://?class="step+slide"+data-x="-1000"+data-y="700")
+![slide3](slidestart://?class="step+slide"+data-x="-1000"+data-y="600")
 
 #Systems Analysis
 
@@ -90,7 +90,7 @@ recommendations.
 
 ![/slide3](slideend:://)
 
-![slide4](slidestart://?class="step+slide"+data-x="-1000"+data-y="1400")
+![slide4](slidestart://?class="step+slide"+data-x="-1000"+data-y="1300")
 
 #Systems Design
 
@@ -111,7 +111,7 @@ recommendations.
 
 ![/slide4](slideend:://)
 
-![slide5](slidestart://?class="step+slide"+data-x="-1000"+data-y="2100")
+![slide5](slidestart://?class="step+slide"+data-x="-1000"+data-y="2000")
 
 #Systems Development
 
@@ -128,7 +128,7 @@ recommendations.
 
 ![/slide5](slideend:://)
 
-![slide6](slidestart://?class="step+slide"+data-x="-1000"+data-y="2800")
+![slide6](slidestart://?class="step+slide"+data-x="-1000"+data-y="2700")
 
 #Systems Implementation
 
@@ -161,7 +161,7 @@ recommendations.
 
 ![/slide6](slideend:://)
 
-![slide7](slidestart://?class="step+slide"+data-x="-1000"+data-y="3500")
+![slide7](slidestart://?class="step+slide"+data-x="-1000"+data-y="3400")
 
 #Systems Maintenance
 
