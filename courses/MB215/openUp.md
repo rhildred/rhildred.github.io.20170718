@@ -181,7 +181,7 @@ products, services, customers, government regulations, and other requirements.
 After some time, maintenance costs will accelerate as attempts continue to
 keep the system responsive to user needs. 
 
-At some point, these maintenancecosts become excessive, indicating that it may be time to start the entire SDLC
+At some point, these maintenance costs become excessive, indicating that it may be time to start the entire SDLC
 again.
 
 ![/notes](slidenoteend://)
