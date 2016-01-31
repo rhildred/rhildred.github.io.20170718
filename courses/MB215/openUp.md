@@ -195,13 +195,14 @@ again.
 
 ![notes](slidenotestart://)
 
- The five steps in the waterfall programming process are as follows:
- 1. Clarify/define the problem ... include needed output, input, processing
+The five steps in the waterfall programming process are as follows:
+
+1. Clarify/define the problem ... include needed output, input, processing
 requirements.
- 2. Design a solution ... use modeling tools to chart the program.
- 3. Code the program ... use a programming language’s syntax, or rules, to
+2. Design a solution ... use modeling tools to chart the program.
+3. Code the program ... use a programming language’s syntax, or rules, to
 write the program.
- 4. Test the program ... get rid of any logic errors, or "bugs," in the program
+4. Test the program ... get rid of any logic errors, or "bugs," in the program
 ("debug" it).
  5. Document and maintain the program include written instructions for
 users, explanation of the program, and operating instructions. 
@@ -244,6 +245,7 @@ using a hierarchy chart.
 2. Design details using pseudocode
 and/or flowcharts, preferably
 involving control structures.
+
 ![/notes](slidenoteend://)
 
 ![/slide10](slideend:://)
