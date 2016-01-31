@@ -191,7 +191,7 @@ again.
 
 #Waterfall Method
 
-<img src="Waterfall_model.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:1em auto" />
+<img src="https://rhildred.github.io/courses/MB215/Waterfall_model.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:1em auto" />
 
 ![notes](slidenotestart://)
 
@@ -214,7 +214,7 @@ users, explanation of the program, and operating instructions.
 
 #Clarify Problem
 
-<img src="Waterfall_model1.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:1em auto" />
+<img src="https://rhildred.github.io/courses/MB215/Waterfall_model1.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:1em auto" />
 
 ![notes](slidenotestart://)
 
@@ -234,7 +234,7 @@ users, explanation of the program, and operating instructions.
 
 #Design Solution
 
-<img src="Waterfall_model2.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:1em auto" />
+<img src="https://rhildred.github.io/courses/MB215/Waterfall_model2.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:1em auto" />
 
 ![notes](slidenotestart://)
 
@@ -252,7 +252,7 @@ involving control structures.
 
 #Code Program
 
-<img src="Waterfall_model3.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:1em auto" />
+<img src="https://rhildred.github.io/courses/MB215/Waterfall_model3.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:1em auto" />
 
 ![notes](slidenotestart://)
 
@@ -278,7 +278,7 @@ following the syntax carefully.
 
 #Test Program
 
-<img src="Waterfall_model4.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:1em auto" />
+<img src="https://rhildred.github.io/courses/MB215/Waterfall_model4.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:1em auto" />
 
 ![notes](slidenotestart://)
 
@@ -314,7 +314,7 @@ have anticipated.
 
 #Document/ Maintain
 
-<img src="Waterfall_model5.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:1em auto" />
+<img src="https://rhildred.github.io/courses/MB215/Waterfall_model5.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:1em auto" />
 
 ![notes](slidenotestart://)
 
