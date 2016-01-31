@@ -204,7 +204,7 @@ requirements.
 write the program.
 4. Test the program ... get rid of any logic errors, or "bugs," in the program
 ("debug" it).
- 5. Document and maintain the program include written instructions for
+5. Document and maintain the program include written instructions for
 users, explanation of the program, and operating instructions. 
 
 ![/notes](slidenoteend://)
