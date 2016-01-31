@@ -9,7 +9,7 @@
       <tspan x="-117.54" y="-5" font-family="Arial-BoldMT" font-size="18" fill="#000000">1. Preliminary</tspan>
       <tspan x="-117.54" y="16" font-family="Arial-BoldMT" font-size="18" fill="#000000">Investigation</tspan>
     </text>
-    <path d="M149.5,151.5 C229.9,151.5 291.4,175.5 291.4,207 C291.4,238.5 229.9,262.5 149.5,262.5 C69.1,262.5 7.7,238.5 7.7,207 C7.7,175.5 69.1,151.5 149.5,151.5 z" fill="#D4FEFF"/>
+    <path d="M149.5,151.5 C229.9,151.5 291.4,175.5 291.4,207 C291.4,238.5 229.9,262.5 149.5,262.5 C69.1,262.5 7.7,238.5 7.7,207 C7.7,175.5 69.1,151.5 149.5,151.5 z" fill="#44FEFF"/>
     <path d="M149.5,151.5 C229.9,151.5 291.4,175.5 291.4,207 C291.4,238.5 229.9,262.5 149.5,262.5 C69.1,262.5 7.7,238.5 7.7,207 C7.7,175.5 69.1,151.5 149.5,151.5 z" fill-opacity="0" stroke="#000000" stroke-width="2.745" stroke-linecap="square"/>
     <text transform="matrix(1, 0, 0, 1, 128.845, 197)">
       <tspan x="-104.545" y="5.5" font-family="Arial-BoldMT" font-size="18" fill="#000000">6. Systems Maintenance</tspan>
