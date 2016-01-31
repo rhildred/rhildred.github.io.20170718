@@ -100,8 +100,7 @@ recommendations.
 
 1. Do a preliminary design, using
  CASE tools, prototyping tools,
- and project management soft-
- ware, among others.
+ and project management software, among others.
 2. Do a detail design, defining
  requirements for output, input,
  storage, and processing and
@@ -152,7 +151,7 @@ recommendations.
     back to the old one. The difficulty with this method is the expense of paying
     for the equipment and people to keep two systems going at the same time.
     * Phased implementation: This means that parts of the new system are
-    phased in separately—either at different times (parallel) or all at once in
+    phased in separately ... either at different times (parallel) or all at once in
     groups (direct).
     * Pilot implementation: This means that the entire system is tried out,
     but only by some users. Once the reliability has been proved, the system 
@@ -173,8 +172,8 @@ recommendations.
 **Phase 6**, systems maintenance, adjusts and improves the system by having
 system audits and periodic evaluations and by making changes based on
 new conditions. Even with the conversion accomplished
-and the users trained, the system won’t just run itself. There is a sixth—and
-continuous—phase in which the information system must be monitored to
+and the users trained, the system won't just run itself. There is a sixth and
+continuous phase in which the information system must be monitored to
 ensure that it is successful. Maintenance includes not only keeping the machinery
 running but also updating and upgrading the system to keep pace with new
 products, services, customers, government regulations, and other requirements.

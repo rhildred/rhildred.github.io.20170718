@@ -24,7 +24,8 @@ class MdToHtmlController extends AbstractController{
 <body>
 EOT;
 		$sHtml = \Michelf\MarkdownExtra::defaultTransform(file_get_contents($sPath));
-        $sHtml = preg_replace('|<img src="slide(.+?)nd(.+?)>|', "</div>", $sHtml);
+        $sHtml = preg_replace('|<img src="slideend(.+?)>|', "<hr /></div>", $sHtml);
+        $sHtml = preg_replace('|<img src="slidenoteend(.+?)>|', "</div>", $sHtml);
         $sHtml = preg_replace_callback(
             '|<p><img src="slidestart://\?(.+?)alt(.+?)></p>|',
             function ($matches) {
