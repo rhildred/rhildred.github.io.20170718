@@ -1,6 +1,6 @@
 ![slide0](slidestart://?class="step+slide"+data-x="-1000"+data-y="-1500")
 
-![System Development Lifecycle](https://rhildred.github.io/courses.MB215/sdlc.svg "System Development Lifecycle")
+![System Development Lifecycle](https://rhildred.github.io/courses/MB215/sdlc.svg "System Development Lifecycle")
 
 #System Development Lifecycle and the Open Unified Process
 
@@ -16,7 +16,7 @@ How can we work together as a team? Excellent question! The Open Unified Process
 
 ![slide1](slidestart://?class="step+slide"+data-x="-1000"+data-y="-800")
 
-![System Development Lifecycle](https://rhildred.github.io/courses.MB215/sdlc.svg "System Development Lifecycle")
+![System Development Lifecycle](https://rhildred.github.io/courses/MB215/sdlc.svg "System Development Lifecycle")
 
 #We covered the Systems Development Life Cycle in MB115
 ![notes](slidenotestart://)
