@@ -42,8 +42,8 @@ You are expected to be in class, but I understand that situations, such as illne
 |Item|due|percentage|
 |---|---|---|
 |Project 1 - Java Game|January 29|15%|
-|Project 2 - Java Web App|Feb 12|25%|
 |Midterm|Feb 24 in class|25%|
+|Project 2 - Java Web App|March 25|25%|
 |Final|To Be Scheduled|35%|
 
 ##Mid-term Examination
@@ -108,21 +108,21 @@ The objective of this course is to familiarize students with software applicatio
 |Week|Topic|Reference|
 |---|---|---|
 |January 4|Introduction to objects with java Greenfoot Game engine|[Greenfoot.org](http://www.greenfoot.org/), [paper on greenfoot's object model](https://www.cs.kent.ac.uk/pubs/2010/3070/content.pdf), [original (or early) Greenfoot paper](https://kar.kent.ac.uk/14059/1/greenfoot.pdf), [Software Development As a Cooperative game](http://alistair.cockburn.us/Cooperative+game+manifesto+for+software+development)|
-|January 11|Deployment with Droidfoot and Android studio|[Droidfoot Manual](http://www.programmierkurs-java.de/droidfoot/download/manual-2.0.pdf), Instructors notes and demo|
+|January 11, January 18, January 25|Deployment with Droidfoot and Android studio|[Droidfoot Manual](http://www.programmierkurs-java.de/droidfoot/download/manual-2.0.pdf), Instructors notes and demo|
 
 ##software development life cycles, 
 |Week|Topic|Reference|
 |---|---|---|
-|January 18|Software development lifecycles|Using Information Technology: A Practical Introduction to Computers and Communication, 11th Edition Complete, Brian K. Williams and Stacey C. Sawyer, 2015 McGraw-Hill. - Chapter 10| 
+|February 1|Software development lifecycles|Using Information Technology: A Practical Introduction to Computers and Communication, 11th Edition Complete, Brian K. Williams and Stacey C. Sawyer, 2015 McGraw-Hill. - Chapter 10| 
 
 ## software development models and methodologies 
 |Week|Topic|Reference|
 |---|---|---|
-|January 18th|Open Unified Process|[Intro to OpenUp](https://eclipse.org/epf/general/OpenUP.pdf), [CDC Atlanta Templates](http://www2.cdc.gov/cdcup/library/templates/)|
-|Jan 25|Agile and Test Driven Development|[Agile Manifesto](http://www.agilemanifesto.org/), [Eric Ries on the difference between agile and waterfall](https://www.youtube.com/watch?v=mnEsrZ__qbU), [Kent Beck - Test Driven Development by example](http://www.amazon.ca/Test-Driven-Development-By-Example/dp/0321146530)
-|Feb 1|Unit testing and the Spark Micro-framework|[Tutorial](https://sparktutorials.github.io/2015/07/30/spark-testing-unit.html)|
-|Feb 8|Getting Started with Specification By Example|Adzic - Chapter 1-4|
+|February 1|Open Unified Process|[Intro to OpenUp](https://eclipse.org/epf/general/OpenUP.pdf), [CDC Atlanta Templates](http://www2.cdc.gov/cdcup/library/templates/)|
+|February 1|Agile and Test Driven Development|[Agile Manifesto](http://www.agilemanifesto.org/), [Eric Ries on the difference between agile and waterfall](https://www.youtube.com/watch?v=mnEsrZ__qbU), [Kent Beck - Test Driven Development by example](http://www.amazon.ca/Test-Driven-Development-By-Example/dp/0321146530)
+|Feb 8|Unit testing and the Spark Micro-framework|[Tutorial](https://sparktutorials.github.io/2015/07/30/spark-testing-unit.html)|
 |Feb 15|**Reading Week**||
+|Feb 22|Getting Started with Specification By Example|Adzic - Chapter 1-4|
 
 ##quality assurance and improvement
 |Week|Topic|Reference|
