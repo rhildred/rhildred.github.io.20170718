@@ -19,6 +19,14 @@ class MdToHtmlController extends AbstractController{
         #slide0{
             display:none;
         }
+        hr {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: .2em;
+            margin-right: .2em;
+            border: 0;
+            border-top: 1px solid #666;
+        }
     </style>
 </head>
 <body>
