@@ -186,3 +186,143 @@ again.
 ![/notes](slidenoteend://)
 
 ![/slide7](slideend:://)
+
+![slide8](slidestart://?class="step+slide"+data-x="-1000"+data-y="4100")
+
+#Waterfall Method
+
+<img src="Waterfall_model.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:1em auto" />
+
+![notes](slidenotestart://)
+
+ The five steps in the waterfall programming process are as follows:
+ 1. Clarify/define the problem ... include needed output, input, processing
+requirements.
+ 2. Design a solution ... use modeling tools to chart the program.
+ 3. Code the program ... use a programming language’s syntax, or rules, to
+write the program.
+ 4. Test the program ... get rid of any logic errors, or "bugs," in the program
+("debug" it).
+ 5. Document and maintain the program include written instructions for
+users, explanation of the program, and operating instructions. 
+
+![/notes](slidenoteend://)
+
+![/slide8](slideend:://)
+
+![slide9](slidestart://?class="step+slide"+data-x="-1000"+data-y="4800")
+
+#Clarify Problem
+
+<img src="Waterfall_model1.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:1em auto" />
+
+![notes](slidenotestart://)
+
+1. Clarify objectives and users.
+2. Clarify desired outputs.
+3. Clarify desired inputs.
+4. Clarify desired processing.
+5. Double-check feasibility of
+ implementing the program.
+6. Document the analysis.
+
+![/notes](slidenoteend://)
+
+![/slide9](slideend:://)
+
+![slide10](slidestart://?class="step+slide"+data-x="-1000"+data-y="5500")
+
+#Design Solution
+
+<img src="Waterfall_model2.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:1em auto" />
+
+![notes](slidenotestart://)
+
+1. Determine program logic through
+top-down approach and modularization,
+using a hierarchy chart.
+2. Design details using pseudocode
+and/or flowcharts, preferably
+involving control structures.
+![/notes](slidenoteend://)
+
+![/slide10](slideend:://)
+
+![slide11](slidestart://?class="step+slide"+data-x="-1000"+data-y="6200")
+
+#Code Program
+
+<img src="Waterfall_model3.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:1em auto" />
+
+![notes](slidenotestart://)
+
+The third step in programming
+is to translate
+the logic of the program
+worked out from pseudocode
+or flowcharts into a
+high level programming
+language, following its
+grammatical rules.
+
+1. Select the appropriate high level
+programming language.
+2. Code the program in that language,
+following the syntax carefully.
+
+![/notes](slidenoteend://)
+
+![/slide11](slideend:://)
+
+![slide12](slidestart://?class="step+slide"+data-x="-1000"+data-y="6900")
+
+#Test Program
+
+<img src="Waterfall_model4.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:1em auto" />
+
+![notes](slidenotestart://)
+
+1. **Perform Desk checking** Desk checking is simply reading through, or
+checking, the program to make sure that it’s free of errors and that the
+logic works. In other words, desk checking is like proofreading. This step
+should be taken before the program is actually run on a computer.
+2. **Debug the Program** Once the program has been desk-checked, further
+errors, or “bugs,” will doubtless surface. To debug means to detect, locate,
+and remove all errors in a computer program. Mistakes may be syntax
+errors or logic errors. Syntax errors are caused by typographical errors
+and incorrect use of the programming language. Logic errors are caused
+by incorrect use of control structures. Programs called diagnostics exist
+to check program syntax and display syntax error messages. Diagnostic programs
+thus help identify and solve problems.
+Sometimes debugging is partially done in the third step, program coding,
+using the "buddy system." In this system, two people sit side by side; while one
+person (the "driver") codes, the other person (the "navigator") checks the code,
+corrects it, and offers suggestions for improvement. 2
+3. **Run Real World Data** After desk-checking and debugging, the program
+may run fine—in the laboratory. However, it needs to be tested with
+real data; this is called beta testing. Indeed, it is even advisable to test the
+program with bad data ... data that is faulty, incomplete, or in overwhelming
+quantities ... to see if you can make the system crash. Many users, after all,
+may be far careless than programmers
+have anticipated. 
+
+![/notes](slidenoteend://)
+
+![/slide12](slideend:://)
+
+![slide13](slidestart://?class="step+slide"+data-x="-1000"+data-y="7600")
+
+#Document/ Maintain
+
+<img src="Waterfall_model5.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:1em auto" />
+
+![notes](slidenotestart://)
+
+1. Write user documentation.
+2. Write operator documentation.
+3. Write programmer documentation.
+4. Maintain the program.
+
+![/notes](slidenoteend://)
+
+![/slide13](slideend:://)
