@@ -16,9 +16,9 @@ How can we work together as a team? Excellent question! The Open Unified Process
 
 ![slide1](slidestart://?class="step+slide"+data-x="-1000"+data-y="-800")
 
-<img src="https://rhildred.github.io/courses/MB215/sdlc.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:0 auto 2em" />
-
 #We covered the Systems Development Life Cycle in MB115
+
+<img src="https://rhildred.github.io/courses/MB215/sdlc.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:0 auto 2em" />
 
 ![notes](slidenotestart://)
 
@@ -44,9 +44,9 @@ and design.
 
 ![slide2](slidestart://?class="step+slide"+data-x="-1000"+data-y="0")
 
-<img src="https://rhildred.github.io/courses/MB215/sdlcStep1.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:0 auto 2em" />
-
 #Preliminary Analysis
+
+<img src="https://rhildred.github.io/courses/MB215/sdlcStep1.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:0 auto 2em" />
 
 ![notes](slidenotestart://)
 
@@ -68,9 +68,9 @@ recommendations.
 
 ![slide3](slidestart://?class="step+slide"+data-x="-1000"+data-y="700")
 
-<img src="https://rhildred.github.io/courses/MB215/sdlcStep2.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:0 auto 2em" />
-
 #Systems Analysis
+
+<img src="https://rhildred.github.io/courses/MB215/sdlcStep2.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:0 auto 2em" />
 
 ![notes](slidenotestart://)
 
@@ -92,9 +92,9 @@ recommendations.
 
 ![slide4](slidestart://?class="step+slide"+data-x="-1000"+data-y="1400")
 
-<img src="https://rhildred.github.io/courses/MB215/sdlcStep3.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:0 auto 2em" />
-
 #Systems Design
+
+<img src="https://rhildred.github.io/courses/MB215/sdlcStep3.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:0 auto 2em" />
 
 ![notes](slidenotestart://)
 
@@ -113,9 +113,9 @@ recommendations.
 
 ![slide5](slidestart://?class="step+slide"+data-x="-1000"+data-y="2100")
 
-<img src="https://rhildred.github.io/courses/MB215/sdlcStep4.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:0 auto 2em" />
-
 #Systems Development
+
+<img src="https://rhildred.github.io/courses/MB215/sdlcStep4.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:0 auto 2em" />
 
 ![notes](slidenotestart://)
 
@@ -130,9 +130,9 @@ recommendations.
 
 ![slide6](slidestart://?class="step+slide"+data-x="-1000"+data-y="2800")
 
-<img src="https://rhildred.github.io/courses/MB215/sdlcStep5.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:0 auto 2em" />
-
 #Systems Implementation
+
+<img src="https://rhildred.github.io/courses/MB215/sdlcStep5.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:0 auto 2em" />
 
 ![notes](slidenotestart://)
 
@@ -163,9 +163,9 @@ recommendations.
 
 ![slide7](slidestart://?class="step+slide"+data-x="-1000"+data-y="3500")
 
-<img src="https://rhildred.github.io/courses/MB215/sdlcStep6.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:0 auto 2em" />
-
 #Systems Maintenance
+
+<img src="https://rhildred.github.io/courses/MB215/sdlcStep6.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:0 auto 2em" />
 
 ![notes](slidenotestart://)
 
