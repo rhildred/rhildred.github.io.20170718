@@ -455,7 +455,7 @@ It's not over till all parties involved agree that it's over. This is an importa
 
 #Most Companies Have Many Projects
 
-<img src="BCG-Matrix.svg" alt="The BCG matrix is used for portfolio management" style="display:block;margin:0 auto;height:500px"/>
+<img src="https://rhildred.github.io/courses/MB215/BCG-Matrix.svg" alt="The BCG matrix is used for portfolio management" style="display:block;margin:0 auto;height:500px"/>
 
 ![notes](slidenotestart://)
 
