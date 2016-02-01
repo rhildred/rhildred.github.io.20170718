@@ -328,3 +328,32 @@ have anticipated.
 ![/notes](slidenoteend://)
 
 ![/slide13](slideend:://)
+
+![slide14](slidestart://?class="step+slide"+data-x="-1000"+data-y="8300")
+
+#(Open) Unified Process
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Openup-basic_lifecycle.jpg" alt="Unified processes have 4 phases" style="display:block;margin:1em auto"/>
+
+![notes](slidenotestart://)
+
+The open unified project comes from the influence of the agile manifesto (we will talk more about that Wednesday) and the Rational Unified Process
+
+The Rational Unified Process recognizes that:
+
+* Project failure is caused by a combination of several symptoms, though each project fails in a unique way. The outcome of their study was a system of software best practices they named the Rational Unified Process. 
+
+* The Process was designed with the same techniques the team used to design software; it has an underlying object-oriented model, using Unified Modeling Language (UML). 
+
+Unified Processes have 4 phases:
+
+* Inception phase
+* Elaboration phase
+* Construction phase
+* Transition phase
+
+*From* http://www.utdallas.edu/~kcooper/6362/material/Related%20Standards/Not%20Architecture%20Specific/Process%20meta-models/difference-unified-processes.ppt retrieved Jan. 31, 2016
+
+![/notes](slidenoteend://)
+
+![/slide14](slideend:://)
