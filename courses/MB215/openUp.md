@@ -265,7 +265,21 @@ involving control structures.
 
 ![/slide10](slideend:://)
 
-![slide11](slidestart://?class="step+slide"+data-x="-1000"+data-y="6200")
+![slide10.5](slidestart://?class="step+slide"+data-x="-1000"+data-y="6200")
+
+#Structured Design
+
+<img src="https://rhildred.github.io/courses/MB115/shoeTieflowchart.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:1em auto" />
+
+![notes](slidenotestart://)
+
+When we used the Waterfall model at NCR, it was previous to object design, as we experienced with greenfoot.
+
+![/notes](slidenoteend://)
+
+![/slide10.5](slideend:://)
+
+![slide11](slidestart://?class="step+slide"+data-x="-1000"+data-y="6900")
 
 #Code Program
 
@@ -291,7 +305,7 @@ following the syntax carefully.
 
 ![/slide11](slideend:://)
 
-![slide12](slidestart://?class="step+slide"+data-x="-1000"+data-y="6900")
+![slide12](slidestart://?class="step+slide"+data-x="-1000"+data-y="7600")
 
 #Test Program
 
@@ -327,7 +341,7 @@ have anticipated.
 
 ![/slide12](slideend:://)
 
-![slide13](slidestart://?class="step+slide"+data-x="-1000"+data-y="7600")
+![slide13](slidestart://?class="step+slide"+data-x="-1000"+data-y="8300")
 
 #Document/ Maintain
 
@@ -344,7 +358,7 @@ have anticipated.
 
 ![/slide13](slideend:://)
 
-![slide14](slidestart://?class="step+slide"+data-x="-1000"+data-y="8300")
+![slide14](slidestart://?class="step+slide"+data-x="-1000"+data-y="9000")
 
 #(Open) Unified Process
 
@@ -369,6 +383,84 @@ Unified Processes have 4 phases:
 
 *From* http://www.utdallas.edu/~kcooper/6362/material/Related%20Standards/Not%20Architecture%20Specific/Process%20meta-models/difference-unified-processes.ppt retrieved Jan. 31, 2016
 
+We call the unified processes stage gate models, as each phase has a gate before passing on to the next.
+
 ![/notes](slidenoteend://)
 
 ![/slide14](slideend:://)
+
+![slide15](slidestart://?class="step+slide"+data-x="-1000"+data-y="9700")
+
+#Object Domain Model
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/58/A2_4_Semantic_Data_Models.svg" alt="Semantic Data Models" style="display:block;margin:1em auto"/>
+
+![notes](slidenotestart://)
+
+Like in Greenfoot, we use objects to describe the system. The objects abstract things like rows and columns in databases into things that we are modeling in the real world.
+
+![/notes](slidenoteend://)
+
+![/slide15](slideend:://)
+
+![slide16](slidestart://?class="step+slide"+data-x="-1000"+data-y="10400")
+
+<img src="https://rhildred.github.io/courses/MB215/CDC_UP_Business_Needs_Statement_Checklist.svg" alt="Business needs" style="display:block;margin:0 auto;height:700px"/>
+
+![notes](slidenotestart://)
+
+Although each company generally defines the stagegate documents that they require, the Center for disease control in Atlanta defines some checklists and templates for the various phasegates. This particular one is for the inception phase.
+
+![/notes](slidenoteend://)
+
+![/slide16](slideend:://)
+
+![slide17](slidestart://?class="step+slide"+data-x="-1000"+data-y="11100")
+
+<img src="https://rhildred.github.io/courses/MB215/EPLC_Logical_Data_Model_Checklist.svg" alt="Logical Data Model" style="display:block;margin:0 auto;height:700px"/>
+
+![notes](slidenotestart://)
+
+An important reason for project failure and death marches is missed requirements. This checklist is aimed at determining if all of the business data requirements have been captured in the domain model.
+
+![/notes](slidenoteend://)
+
+![/slide17](slideend:://)
+
+![slide18](slidestart://?class="step+slide"+data-x="-1000"+data-y="11800")
+
+<img src="https://rhildred.github.io/courses/MB215/EPLC_SLA_MOU_Checklist.svg" alt="Service Level Agreement" style="display:block;margin:0 auto;height:700px"/>
+
+![notes](slidenotestart://)
+
+At the end of implementation, resources are often pirated for other projects. This stagegate document captures the plan for support in the transition phase.
+
+![/notes](slidenoteend://)
+
+![/slide18](slideend:://)
+
+![slide19](slidestart://?class="step+slide"+data-x="-1000"+data-y="12500")
+
+<img src="https://rhildred.github.io/courses/MB215/CDC_UP_Project_Close-Out_Checklist.svg" alt="project close out" style="display:block;margin:0 auto;height:700px"/>
+
+![notes](slidenotestart://)
+
+It's not over till all parties involved agree that it's over. This is an important checklist that I have used to bring closure to a project, more than once.
+
+![/notes](slidenoteend://)
+
+![/slide19](slideend:://)
+
+![slide20](slidestart://?class="step+slide"+data-x="-1000"+data-y="13200")
+
+#Most Companies Have Many Projects
+
+<img src="BCG-Matrix.svg" alt="The BCG matrix is used for portfolio management" style="display:block;margin:0 auto;height:500px"/>
+
+![notes](slidenotestart://)
+
+A phasegate approach helps them to know which ones are in good shape. Even when we talk about Agile on Wednesday, the phasegate approach is still used at a management level.
+
+![/notes](slidenoteend://)
+
+![/slide20](slideend:://)
