@@ -417,7 +417,7 @@ Although each company generally defines the stagegate documents that they requir
 
 ![slide17](slidestart://?class="step+slide"+data-x="-1000"+data-y="11100")
 
-<img src="https://rhildred.github.io/courses/MB215/EPLC_Logical_Data_Model_Checklist.svg" alt="Logical Data Model" style="display:block;margin:0 auto;height:650px"/>
+<img src="https://rhildred.github.io/courses/MB215/EPLC_Logical_Data_Model_Checklist.svg" alt="Logical Data Model" style="display:block;width:700px"/>
 
 ![notes](slidenotestart://)
 
