@@ -1,4 +1,4 @@
-![slide0](slidestart://?class="step+slide"+data-x="-1000"+data-y="-1500")
+![slide0](slidestart://?class="step+slide"+data-x="-1000"+data-y="-2200")
 
 <img src="https://rhildred.github.io/courses/MB215/sdlc.svg" title="System Development Lifecycle" alt="System Development Lifecycle" style="height:500px;display:block;margin:0 auto 1em" />
 
@@ -13,6 +13,21 @@ How can we work together as a team? Excellent question! The Open Unified Process
 ![/notes](slidenoteend://)
 
 ![/slide0](slideend:://)
+
+![slide.5](slidestart://?class="step+slide"+data-x="-1000"+data-y="-1500")
+
+#A hurdle rate is the "line in the sand" that helps companies decide whether to pursue projects.
+
+<img src="https://rhildred.github.io/courses/MB215/hurdles.svg" title="Hurdle Rate" alt="hurdle rate" style="height:500px;display:block;margin:0 auto 1em" />
+
+
+![notes](slidenotestart://)
+
+Traditionally software is a no brainer for creating shareholder value. Except projects fail sometimes (often actually) and destroy shareholder value. Software methods are an attempt to reduce the probability of failure.
+
+![/notes](slidenoteend://)
+
+![/slide.5](slideend:://)
 
 ![slide1](slidestart://?class="step+slide"+data-x="-1000"+data-y="-800")
 
@@ -341,7 +356,7 @@ The open unified project comes from the influence of the agile manifesto (we wil
 
 The Rational Unified Process recognizes that:
 
-* Project failure is caused by a combination of several symptoms, though each project fails in a unique way. The outcome of their study was a system of software best practices they named the Rational Unified Process. 
+* Project failure is caused by a combination of several symptoms, though each project fails in a unique way. The outcome of their study was a system of software best practices they named the Rational Unified Process. 
 
 * The Process was designed with the same techniques the team used to design software; it has an underlying object-oriented model, using Unified Modeling Language (UML). 
 
