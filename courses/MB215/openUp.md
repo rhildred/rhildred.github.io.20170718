@@ -405,7 +405,7 @@ Like in Greenfoot, we use objects to describe the system. The objects abstract t
 
 ![slide16](slidestart://?class="step+slide"+data-x="-1000"+data-y="10400")
 
-<img src="https://rhildred.github.io/courses/MB215/CDC_UP_Business_Needs_Statement_Checklist.svg" alt="Business needs" style="display:block;margin:0 auto;height:700px"/>
+<img src="https://rhildred.github.io/courses/MB215/CDC_UP_Business_Needs_Statement_Checklist.svg" alt="Business needs" style="display:block;margin:0 auto;height:650px"/>
 
 ![notes](slidenotestart://)
 
@@ -417,7 +417,7 @@ Although each company generally defines the stagegate documents that they requir
 
 ![slide17](slidestart://?class="step+slide"+data-x="-1000"+data-y="11100")
 
-<img src="https://rhildred.github.io/courses/MB215/EPLC_Logical_Data_Model_Checklist.svg" alt="Logical Data Model" style="display:block;margin:0 auto;height:700px"/>
+<img src="https://rhildred.github.io/courses/MB215/EPLC_Logical_Data_Model_Checklist.svg" alt="Logical Data Model" style="display:block;margin:0 auto;height:650px"/>
 
 ![notes](slidenotestart://)
 
@@ -429,7 +429,7 @@ An important reason for project failure and death marches is missed requirements
 
 ![slide18](slidestart://?class="step+slide"+data-x="-1000"+data-y="11800")
 
-<img src="https://rhildred.github.io/courses/MB215/EPLC_SLA_MOU_Checklist.svg" alt="Service Level Agreement" style="display:block;margin:0 auto;height:700px"/>
+<img src="https://rhildred.github.io/courses/MB215/EPLC_SLA_MOU_Checklist.svg" alt="Service Level Agreement" style="display:block;margin:0 auto;height:650px"/>
 
 ![notes](slidenotestart://)
 
@@ -441,7 +441,7 @@ At the end of implementation, resources are often pirated for other projects. Th
 
 ![slide19](slidestart://?class="step+slide"+data-x="-1000"+data-y="12500")
 
-<img src="https://rhildred.github.io/courses/MB215/CDC_UP_Project_Close-Out_Checklist.svg" alt="project close out" style="display:block;margin:0 auto;height:700px"/>
+<img src="https://rhildred.github.io/courses/MB215/CDC_UP_Project_Close-Out_Checklist.svg" alt="project close out" style="display:block;margin:0 auto;height:650px"/>
 
 ![notes](slidenotestart://)
 
@@ -455,7 +455,7 @@ It's not over till all parties involved agree that it's over. This is an importa
 
 #Most Companies Have Many Projects
 
-<img src="https://rhildred.github.io/courses/MB215/BCG-Matrix.svg" alt="The BCG matrix is used for portfolio management" style="display:block;margin:0 auto;height:500px"/>
+<img src="https://rhildred.github.io/courses/MB215/BCG-Matrix.svg" alt="The BCG matrix is used for portfolio management" style="display:block;margin:1em auto;height:500px"/>
 
 ![notes](slidenotestart://)
 
