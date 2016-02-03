@@ -22,7 +22,12 @@ Agile is development doing whatever it wants. - my former leader
 
 ![notes](slidenotestart://)
 
-OK .... He had me at, "I'm a programmer at facebook." This guy also signed the agile manifesto, and invented test driven development.
+OK .... He had me at, "I'm a programmer at facebook." This guy:
+
+1. Pioneered software design patterns, a way for less experienced people to understand and talk about the code of others.
+2. Signed the [agile manifesto](http://www.agilemanifesto.org/), a way of developing software that has become popular.
+3. Invented [extreme programming](https://en.wikipedia.org/wiki/Extreme_programming), a way for teams to work better together on software projects of various size.
+4. Invented [test driven development](https://en.wikipedia.org/wiki/Test-driven_development), a very popular way of doing development currently.
 
 ![/notes](slidenoteend://)
 
@@ -36,7 +41,10 @@ OK .... He had me at, "I'm a programmer at facebook." This guy also signed the a
 
 ![notes](slidenotestart://)
 
-My industry has a real quality problem. And this guy is also a big Kent Beck fan.
+My industry has a real quality problem. And this guy is also a big Kent Beck fan. He actually says (and I agree) that the ["waterfall method"](https://en.wikipedia.org/wiki/Waterfall_model) that we discussed last time is appropriate for some situations. He also talks a lot about waste, especially the waste of "shelfware." Software that is written but never used. When we are starting to write software, both the problem and the solution are not while understood. Eric Ries, (and Steven Blank) adds the build, measure learn cycle to the idea of creating software, following the scientific method.
+1. build something to test a hypothesis
+2. measure the results
+3. learn from those results what your next experience should be
 
 ![/notes](slidenoteend://)
 
@@ -50,10 +58,73 @@ My industry has a real quality problem. And this guy is also a big Kent Beck fan
 
 ![notes](slidenotestart://)
 
-The great software innovator's ideas in 2010. There is also newer, but longer material.
+The great software innovator's ideas in 2010. Especially strong because he builds on the agile manifesto in his slide deck. There is also newer, but longer material, that leads me to believe he is still thinking along these lines. Facebook, as well is a champion of his ideas.
 
 The point towards the end about the agile guys moving on to the next thing, and them bringing in real sotware engineers towards the end is really strong. That very much happened to me at NCR.
+
+Beck makes 2 really strong points:
+
+1) different situations create pull for different techniques by asking developers to learn the answers to different questions.
+
+**1) Will people use this?**
+**2) Will people pay for this?**
+
+* Building software to answer this question involves just hacking something up. We have the luxury of no users so this can be a pure experiment.
+
+**3) Can more people use this?**
+
+* Building software to answer this question requires tests to make sure that we don't break anything for the people that are already using this.
+
+**4) Can another 10 times as many people use this?**
+
+* Building software to answer this requires software engineering and processes of the type that were discussed in the previous lecture.
+
+** 5) How long can we keep this going, and make money from it?**
+
+* Technology adoption happens on a normal distribution to a large extent:
+
+![technology adoption](https://rhildred.github.io/courses/MB215/Normal_distribution.svg "technology adoption")
+
+* As we sell, the limiting factor to customer adoption becomes the customers that have already purchased. Good problem to have!
+* Things look great while we are climbing the new customer curve and we are successfully learning the answer to our other questions. 
+* The final question is, when new sales start dropping off, how can I reduce the cost of goods sold so that I still make money.
+* One solution is to just abandon the product at the top of the market and not do any maintenance, but that can hurt a company's reputation and make it more difficult to sell other products to the same customers.
+* Another solution is outsourcing, or offshoring but there is a high communications overhead to doing this and achieving good results.
+
+I don't think that Beck's work has really addressed, this problem, nor has our industry as a whole. Beck just points out that it is a much different question than questions 1 - 4.
+
+2) making small increments, creates flow
+
+Some software developers are terrible procrastinators. One of the strongest ways of getting an overwhelming task started is to remember that an elephant can only be eaten "one bite at a time."
+
+![one bite at a time](https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Elefante_S%C3%A3o_Paulo_Sepia.jpg/320px-Elefante_S%C3%A3o_Paulo_Sepia.jpg "one bite at a time")
+
+That to me is a big strength of Kent's test driven development idea. It seems much less daunting to me to write a test of whether my code works than to write the code. Then after I have written the test the code itself seems less of a mountain to climb.
+
+In Beck's words, 2 deliveries creates more value than 1 delivery. Beck goes on to tell the story of a Norwegian consultant who builds "tight software" that no one can find any fault with. 
+
+Beck asks the question, "What value is the code if no one uses it?"
+
+The consultant says, "0$"
+
+Beck, "so $0 /year of effort. During that year what was the value of that code?"
+
+"Generally non-working code is also of 0 value." says the consultant.
+
+Beck, "So the faster I discover the true value of what I am working on, the faster I can work on something that has more value." 
 
 ![/notes](slidenoteend://)
 
 ![/slide3](slideend:://)
+
+![slide0](slidestart://?class="step+slide"+data-x="-1000"+data-y="-2200")
+
+#Will this be on the midterm?
+
+![notes](slidenotestart://)
+
+These ideas are central to the course. Beck is the quintessential, software methods person, I have updated my notes to catch the essence of what I want you to take away from this. Beck also makes a very strong business point at the start, when he talks about scratching his goats.  He says that out of the hundreds of good ideas that he has had, 4 of them scratched a real itch. He also speaks of Eric's idea lean startup occurring, right when the economy went sour being one of those real itch scratching idea. He also says, "You won't find it unless you start scratching." 
+
+![/notes](slidenoteend://)
+
+![/slide0](slideend:://)
