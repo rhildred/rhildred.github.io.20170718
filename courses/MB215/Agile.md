@@ -28,7 +28,7 @@ OK .... He had me at, "I'm a programmer at facebook." This guy also signed the a
 
 ![/slide1](slideend:://)
 
-![slide2](slidestart://?class="step+slide"+data-x="-1000"+data-y="-700")
+![slide2](slidestart://?class="step+slide"+data-x="-1000"+data-y="-800")
 
 #Software has to get better
 
@@ -42,7 +42,7 @@ My industry has a real quality problem. And this guy is also a big Kent Beck fan
 
 ![/slide2](slideend:://)
 
-![slide3](slidestart://?class="step+slide"+data-x="-1000"+data-y="0")
+![slide3](slidestart://?class="step+slide"+data-x="-1000"+data-y="-100")
 
 #Kent Beck himself gets the last word
 
