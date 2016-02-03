@@ -18,7 +18,7 @@ Agile is development doing whatever it wants. - my former leader
 
 #Geek Comedy
 
-<iframe width="700" height="500" src="https://www.youtube.com/embed/7uvkVczjR80" frameborder="0" allowfullscreen style="display:block;margin 1em auto"></iframe>
+<iframe width="850" height="650" src="https://www.youtube.com/embed/7uvkVczjR80" frameborder="0" allowfullscreen style="display:block;margin: 1em auto"></iframe>
 
 ![notes](slidenotestart://)
 
@@ -32,7 +32,7 @@ OK .... He had me at, "I'm a programmer at facebook." This guy also signed the a
 
 #Software has to get better
 
-<iframe width="800" height="600" src="https://www.youtube.com/embed/mnEsrZ__qbU" frameborder="0" allowfullscreen style="display:block;margin 1em auto"></iframe>
+<iframe width="850" height="650" src="https://www.youtube.com/embed/mnEsrZ__qbU" frameborder="0" allowfullscreen style="display:block;margin: 1em auto"></iframe>
 
 ![notes](slidenotestart://)
 
@@ -46,7 +46,7 @@ My industry has a real quality problem. And this guy is also a big Kent Beck fan
 
 #Kent Beck himself gets the last word
 
-<iframe width="800" height="600" src="https://www.youtube.com/embed/d4qldY0g_dI" frameborder="0" allowfullscreen style="display:block;margin 1em auto"></iframe>
+<iframe width="850" height="650" src="https://www.youtube.com/embed/d4qldY0g_dI" frameborder="0" allowfullscreen style="display:block;margin: 1em auto"></iframe>
 
 ![notes](slidenotestart://)
 
