@@ -65,7 +65,7 @@ The point towards the end about the agile guys moving on to the next thing, and 
 
 Beck makes 2 really strong points:
 
-1) different situations create pull for different techniques by asking developers to learn the answers to different questions.
+###1) different situations create pull for different techniques by asking developers to learn the answers to different questions.
 
 **1) Will people use this?**
 
@@ -95,7 +95,7 @@ Beck makes 2 really strong points:
 
 I don't think that Beck's work has really addressed, this problem, nor has our industry as a whole. Beck just points out that it is a much different question than questions 1 - 4.
 
-2) making small increments, creates flow
+###2) making small increments, creates flow
 
 Some software developers are terrible procrastinators. One of the strongest ways of getting an overwhelming task started is to remember that an elephant can only be eaten "one bite at a time."
 
