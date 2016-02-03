@@ -81,7 +81,7 @@ Beck makes 2 really strong points:
 
 * Building software to answer this requires software engineering and processes of the type that were discussed in the previous lecture.
 
-** 5) How long can we keep this going, and make money from it?**
+**5) How long can we keep this going, and make money from it?**
 
 * Technology adoption happens on a normal distribution to a large extent:
 
