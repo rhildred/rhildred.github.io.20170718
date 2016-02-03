@@ -119,7 +119,7 @@ Beck, "So the faster I discover the true value of what I am working on, the fast
 
 ![/slide3](slideend:://)
 
-![slide0](slidestart://?class="step+slide"+data-x="-1000"+data-y="-2200")
+![slide4](slidestart://?class="step+slide"+data-x="-1000"+data-y="-2200")
 
 #Will this be on the midterm?
 
@@ -129,4 +129,4 @@ These ideas are central to the course. Beck is the quintessential, software meth
 
 ![/notes](slidenoteend://)
 
-![/slide0](slideend:://)
+![/slide4](slideend:://)
