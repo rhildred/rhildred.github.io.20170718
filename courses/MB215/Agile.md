@@ -68,6 +68,7 @@ Beck makes 2 really strong points:
 1) different situations create pull for different techniques by asking developers to learn the answers to different questions.
 
 **1) Will people use this?**
+
 **2) Will people pay for this?**
 
 * Building software to answer this question involves just hacking something up. We have the luxury of no users so this can be a pure experiment.
