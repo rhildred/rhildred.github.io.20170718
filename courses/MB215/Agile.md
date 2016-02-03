@@ -1,6 +1,6 @@
 ![slide0](slidestart://?class="step+slide"+data-x="-1000"+data-y="-2200")
 
-<img src="http://www.nenutech.com/wp-content/uploads/2012/12/dilbert-xp02.gif" title="Extreme Programming" alt="Extreme Programming" />
+<img src="http://www.nenutech.com/wp-content/uploads/2012/12/dilbert-xp02.gif" title="Extreme Programming" alt="Extreme Programming" style="display:block;margin 2em auto 2em"/>
 
 #Agile and Test Driven Development
 
@@ -18,7 +18,7 @@ Agile is development doing whatever it wants. - my former leader
 
 #Geek Comedy
 
-<iframe width="700" height="500" src="https://www.youtube.com/embed/7uvkVczjR80" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="600" src="https://www.youtube.com/embed/7uvkVczjR80" frameborder="0" allowfullscreen style="display:block;margin 1em auto"></iframe>
 
 ![notes](slidenotestart://)
 
@@ -28,11 +28,11 @@ OK .... He had me at, "I'm a programmer at facebook." This guy also signed the a
 
 ![/slide1](slideend:://)
 
-![slide2](slidestart://?class="step+slide"+data-x="-1000"+data-y="-1500")
+![slide2](slidestart://?class="step+slide"+data-x="-1000"+data-y="-700")
 
 #Software has to get better
 
-<iframe width="700" height="500" src="https://www.youtube.com/embed/mnEsrZ__qbU" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="600" src="https://www.youtube.com/embed/mnEsrZ__qbU" frameborder="0" allowfullscreen style="display:block;margin 1em auto"></iframe>
 
 ![notes](slidenotestart://)
 
@@ -42,11 +42,11 @@ My industry has a real quality problem. And this guy is also a big Kent Beck fan
 
 ![/slide2](slideend:://)
 
-![slide2](slidestart://?class="step+slide"+data-x="-1000"+data-y="-1500")
+![slide2](slidestart://?class="step+slide"+data-x="-1000"+data-y="0")
 
 #Kent Beck himself gets the last word
 
-<iframe width="700" height="500" src="https://www.youtube.com/embed/d4qldY0g_dI" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="600" src="https://www.youtube.com/embed/d4qldY0g_dI" frameborder="0" allowfullscreen style="display:block;margin 1em auto"></iframe>
 
 ![notes](slidenotestart://)
 
