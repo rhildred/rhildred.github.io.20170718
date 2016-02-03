@@ -1,6 +1,6 @@
 ![slide0](slidestart://?class="step+slide"+data-x="-1000"+data-y="-2200")
 
-<img src="http://www.nenutech.com/wp-content/uploads/2012/12/dilbert-xp02.gif" title="Extreme Programming" alt="Extreme Programming" style="display:block;margin 2em auto 2em"/>
+<img src="http://www.nenutech.com/wp-content/uploads/2012/12/dilbert-xp02.gif" title="Extreme Programming" alt="Extreme Programming" style="display:block;margin: 2em auto 2em"/>
 
 #Agile and Test Driven Development
 
@@ -18,7 +18,7 @@ Agile is development doing whatever it wants. - my former leader
 
 #Geek Comedy
 
-<iframe width="800" height="600" src="https://www.youtube.com/embed/7uvkVczjR80" frameborder="0" allowfullscreen style="display:block;margin 1em auto"></iframe>
+<iframe width="700" height="500" src="https://www.youtube.com/embed/7uvkVczjR80" frameborder="0" allowfullscreen style="display:block;margin 1em auto"></iframe>
 
 ![notes](slidenotestart://)
 
@@ -42,7 +42,7 @@ My industry has a real quality problem. And this guy is also a big Kent Beck fan
 
 ![/slide2](slideend:://)
 
-![slide2](slidestart://?class="step+slide"+data-x="-1000"+data-y="0")
+![slide3](slidestart://?class="step+slide"+data-x="-1000"+data-y="0")
 
 #Kent Beck himself gets the last word
 
@@ -56,4 +56,4 @@ The point towards the end about the agile guys moving on to the next thing, and 
 
 ![/notes](slidenoteend://)
 
-![/slide2](slideend:://)
+![/slide3](slideend:://)
