@@ -42,6 +42,7 @@ OK .... He had me at, "I'm a programmer at facebook." This guy:
 ![notes](slidenotestart://)
 
 My industry has a real quality problem. And this guy is also a big Kent Beck fan. He actually says (and I agree) that the ["waterfall method"](https://en.wikipedia.org/wiki/Waterfall_model) that we discussed last time is appropriate for some situations. He also talks a lot about waste, especially the waste of "shelfware." Software that is written but never used. When we are starting to write software, both the problem and the solution are not while understood. Eric Ries, (and Steven Blank) adds the build, measure learn cycle to the idea of creating software, following the scientific method.
+
 1. build something to test a hypothesis
 2. measure the results
 3. learn from those results what your next experience should be
