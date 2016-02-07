@@ -9,7 +9,7 @@ It is, in my opinion inappropriate to do a big design up front for agile softwar
 
 ### Sprint n - (Construction n 20% x 3)
 
-1. The stories for that iteration captured at the start of the sprint. The capture should also show the backlog. You can use a chrome extension like [fireshot](http://getfireshot.com/) to capture the backlog, stories for that iteration and stories completed in previous iterations to a pdf that can be uploaded to the dropbox for that iteration.
+1. The stories planned for that iteration captured at the start of the sprint. The capture should also show the backlog. You can use a chrome extension like [fireshot](http://getfireshot.com/) to capture the backlog, stories for that iteration and stories completed in previous iterations to a pdf that can be uploaded to the dropbox for that iteration.
 2. A demo of the working software that you did for that sprint.
 3. A 1-1.5 page retrospective saying what worked well, and what didn't work so well in the previous sprint.
 
