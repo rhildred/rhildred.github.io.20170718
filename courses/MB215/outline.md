@@ -120,7 +120,7 @@ The objective of this course is to familiarize students with software applicatio
 |---|---|---|
 |February 1|Open Unified Process|[Intro to OpenUp](https://eclipse.org/epf/general/OpenUP.pdf), [CDC Atlanta Templates](http://www2.cdc.gov/cdcup/library/templates/)|
 |February 1|Agile and Test Driven Development|[Agile Manifesto](http://www.agilemanifesto.org/), [Eric Ries on the difference between agile and waterfall](https://www.youtube.com/watch?v=mnEsrZ__qbU), [Kent Beck - Test Driven Development by example](http://www.amazon.ca/Test-Driven-Development-By-Example/dp/0321146530)
-|Feb 8|Intro to the Spark Micro-framework|notes on mylearningspace|
+|Feb 8|Intro to the Spark Micro-framework|[spark java](http://sparkjava.com/), notes on mylearningspace|
 |Feb 8|Unit testing and the Spark Micro-framework|[Tutorial](https://sparktutorials.github.io/2015/07/30/spark-testing-unit.html)|
 |Feb 15|**Reading Week**||
 |Feb 22|Getting Started with Specification By Example|Adzic - Chapter 1-4|
