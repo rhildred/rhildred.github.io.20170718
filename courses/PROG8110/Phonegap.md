@@ -1,7 +1,7 @@
 Phonegap Build
 =============
 
-[![Phonegap, from MSDN](images/hh771462.HowToCreateHTML5AppsWindowsPhoneGap-2.png "Phonegap, from MSDN")
+[![Phonegap, from MSDN](https://rhildred.github.io/images/hh771462.HowToCreateHTML5AppsWindowsPhoneGap-2.png "Phonegap, from MSDN")
 ](https://msdn.microsoft.com/en-us/hh771462.aspx)
 
 Phonegap build is an amazing way to make apps for smartphones!!!!! With cordova/phonegap, the underlying bridge between native device code and html5/javascript, the same codebase can be used on BB10, Android, IOS and Windows Phone. There is one small gotcha that I discovered later, but a [basic app](https://github.com/rhildred/hellophonegapbuild) looks like this:
