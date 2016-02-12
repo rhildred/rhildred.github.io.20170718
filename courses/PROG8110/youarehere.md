@@ -3,7 +3,7 @@ You are Here
 
 The second place team in the CAD capstones a couple of years ago made a google maps app that was based loosely on GRT routes and waypoints. They used jQuery mobile for their UI and produced something that looked really good. They also used localStorage and a WEB SQL database. I also had a student do a Christmas tree finder app using Google Maps. Google Maps are great fun. You may remember from last term, how we used Google maps with require.js.
 
-![map from project](courses/PROG8110/googleMap.png "map from project")
+![map from project](https://rhildred.github.io/courses/PROG8110/googleMap.png "map from project")
 
 ```
 
