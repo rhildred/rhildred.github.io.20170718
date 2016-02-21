@@ -61,8 +61,8 @@ My industry has a real quality problem. And this guy is also a big Kent Beck fan
 
 Eric Ries and I are big on Systematic Problem Solving, a process of learning by asking and answering questions. In the illustration, the baby asks and answers the question, "Is this good to eat?" According to Ries Business Technology management asks 2 fundamental questions:
 
-1) Does this solve a problem that somebody has, and is willing to pay to have solved?
-2) Will this scale?
+1. Does this solve a problem that somebody has, and is willing to pay to have solved?
+2. Will this scale?
 
 In the Kent Beck presentation that follows, Kent elaborates on these questions and says that different software methods are required when building software to answer different questions.
 
