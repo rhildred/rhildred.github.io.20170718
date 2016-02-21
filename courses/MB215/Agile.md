@@ -55,7 +55,7 @@ My industry has a real quality problem. And this guy is also a big Kent Beck fan
 
 #Learning through Systematic Problem Solving
 
-<img src="https://rhildred.github.io/courses/CP102D/EveryBaby.png" style="display:block;margin: 1em auto;height:550px" />
+<img src="https://rhildred.github.io/courses/CP102D/scientificmethod__92804.1405401363.1280.1280.jpg" style="display:block;margin: 1em auto;height:550px" />
 
 ![notes](slidenotestart://)
 
