@@ -1,4 +1,4 @@
-![slide0](slidestart://?class="step+slide"+data-x="-1000"+data-y="-2200")
+![slide0](slidestart://?class="step+slide"+data-x="-1000"+data-y="-2900")
 
 <img src="http://www.nenutech.com/wp-content/uploads/2012/12/dilbert-xp02.gif" title="Extreme Programming" alt="Extreme Programming" style="display:block;margin: 2em auto 2em"/>
 
@@ -14,7 +14,7 @@ Agile is development doing whatever it wants. - my former leader
 
 ![/slide0](slideend:://)
 
-![slide1](slidestart://?class="step+slide"+data-x="-1000"+data-y="-1500")
+![slide1](slidestart://?class="step+slide"+data-x="-1000"+data-y="-2200")
 
 #Geek Comedy
 
@@ -33,7 +33,7 @@ OK .... He had me at, "I'm a programmer at facebook." This guy:
 
 ![/slide1](slideend:://)
 
-![slide2](slidestart://?class="step+slide"+data-x="-1000"+data-y="-800")
+![slide2](slidestart://?class="step+slide"+data-x="-1000"+data-y="-1500")
 
 #Software has to get better
 
@@ -50,6 +50,25 @@ My industry has a real quality problem. And this guy is also a big Kent Beck fan
 ![/notes](slidenoteend://)
 
 ![/slide2](slideend:://)
+
+![slide2.5](slidestart://?class="step+slide"+data-x="-1000"+data-y="-800")
+
+#Learning through Systematic Problem Solving
+
+<img src="https://rhildred.github.io/courses/CP102D/EveryBaby.png" style="display:block;margin: 1em auto;height:550px" />
+
+![notes](slidenotestart://)
+
+Eric Ries and I are big on Systematic Problem Solving, a process of learning by asking and answering questions. In the illustration, the baby asks and answers the question, "Is this good to eat?" According to Ries Business Technology management asks 2 fundamental questions:
+
+1) Does this solve a problem that somebody has, and is willing to pay to have solved?
+2) Will this scale?
+
+In the Kent Beck presentation that follows, Kent elaborates on these questions and says that different software methods are required when building software to answer different questions.
+
+![/notes](slidenoteend://)
+
+![/slide2.5](slideend:://)
 
 ![slide3](slidestart://?class="step+slide"+data-x="-1000"+data-y="-100")
 
@@ -71,7 +90,7 @@ Beck makes 2 really strong points:
 
 **2) Will people pay for this?**
 
-* Building software to answer this question involves just hacking something up. We have the luxury of no users so this can be a pure experiment.
+* Building software to answer these questions involves just hacking something up. We have the luxury of no users so this can be a pure experiment. That is we don't have to think about whether our experiment affects existing users, when there aren't any.
 
 **3) Can more people use this?**
 
