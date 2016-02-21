@@ -77,3 +77,5 @@ comes in. Impress.js is a framework that places html in the context of a present
 ```
 
 You make a presentation, by starting with the [sample presentation](https://rhildred.github.io/impress.js) and changing those `class="slide"` divs to contain your content. You can also use zooming in and out and rotation to show things on an infinite canvas.
+
+I have been using impress.js for my own new presentations.
