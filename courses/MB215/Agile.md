@@ -114,9 +114,9 @@ Beck makes 2 really strong points:
 
 **5) How long can we keep this going, and make money from it?**
 
-* Technology adoption happens on a normal distribution to a large extent:
+* The **Technology Adoption Life Cycle** happens on a normal distribution to a large extent:
 
-![technology adoption](https://rhildred.github.io/courses/MB215/Normal_distribution.svg "technology adoption")
+![technology adoption](https://upload.wikimedia.org/wikipedia/en/4/45/DiffusionOfInnovation.png "technology adoption")
 
 * As we sell, the limiting factor to customer adoption becomes the customers that have already purchased. Good problem to have!
 * Things look great while we are climbing the new customer curve and we are successfully learning the answer to our other questions. 
