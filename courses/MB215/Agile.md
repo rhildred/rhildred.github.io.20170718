@@ -78,7 +78,19 @@ In the Kent Beck presentation that follows, Kent elaborates on these questions a
 
 ![notes](slidenotestart://)
 
-The great software innovator's ideas in 2010. Especially strong because he builds on the agile manifesto in his slide deck. There is also newer, but longer material, that leads me to believe he is still thinking along these lines. Facebook, as well is a champion of his ideas.
+The great software innovator's ideas in 2010. Especially strong because he builds on the agile manifesto values in his slide deck:
+
+**Individuals and interactions** over processes and tools
+
+**Working software** over comprehensive documentation
+
+**Customer collaboration** over contract negotiation
+
+**Responding to change** over following a plan
+
+Kent Beck, and Alistair Cockburn were among the original signers of the Agile Manifesto.
+
+There is also newer, but longer material, that leads me to believe he is still thinking along these lines. Facebook, as well is a champion of his ideas.
 
 The point towards the end about the agile guys moving on to the next thing, and them bringing in real sotware engineers towards the end is really strong. That very much happened to me at NCR.
 
@@ -120,7 +132,18 @@ Some software developers are terrible procrastinators. One of the strongest ways
 
 ![one bite at a time](https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Elefante_S%C3%A3o_Paulo_Sepia.jpg/320px-Elefante_S%C3%A3o_Paulo_Sepia.jpg "one bite at a time")
 
-That to me is a big strength of Kent's test driven development idea. It seems much less daunting to me to write a test of whether my code works than to write the code. Then after I have written the test the code itself seems less of a mountain to climb.
+It seems much **less daunting to me to write a test of whether my code works than to write the code**. Then after I have written the test the code itself seems less of a mountain to climb, starting a flow towards the goal state.
+
+Flow, to me, is a big strength of Kent's test driven development idea. **Developers can keep developing confident that they haven't broken previously working code.**
+
+1. Add a test
+2. Run all tests and see if the new one fails
+3. Write just enough code to make the test pass, **not wasting time building things you won't need**
+4. Run tests and make sure that the new one passes, as well as all of the previous
+5. Refactor code
+6. Repeat
+
+Finally the tests become **reliable documentation of what the code actually does.** Static documentation becomes out of date. Tests, so long as they pass, describe the way the system really works. 
 
 In Beck's words, 2 deliveries creates more value than 1 delivery. Beck goes on to tell the story of a Norwegian consultant who builds "tight software" that no one can find any fault with. 
 
