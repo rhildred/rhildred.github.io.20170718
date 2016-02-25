@@ -49,7 +49,7 @@ The grades outlined below are the only grades available for this course. There w
 |Item|Percentage|Date|
 |---|---|---|
 |Assignment 1|5%|**Friday, Jan. 22nd**|
-|Assignment 2|5%|**Friday, Feb. 26th**|
+|Assignment 2|5%|**Friday, Mar. 4th**|
 |Mid-term Examination|25%|**Thursday, February 11th (in lab)**|
 |Assignment 3|15%|**Friday, Mar. 11**|
 |Assignment 4|15%|**Friday, Apr. 1**|
