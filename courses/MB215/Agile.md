@@ -102,7 +102,7 @@ Beck makes 2 really strong points:
 
 **2) Will people pay for this?**
 
-* Building software to answer these questions involves just hacking something up. We have the luxury of no users so this can be a pure experiment. That is we don't have to think about whether our experiment affects existing users, when there aren't any.
+* Building software to answer these questions involves just hacking something up ... a **minimum viable product**. We have the luxury of no users so this can be a pure experiment. That is we don't have to think about whether our experiment affects existing users, when there aren't any.
 
 **3) Can more people use this?**
 
