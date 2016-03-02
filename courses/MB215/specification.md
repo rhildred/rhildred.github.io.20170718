@@ -202,7 +202,7 @@ Picture: from the book "Specification by Example" - Gojko Adzic 2011
 
 #automating validation without changing specifications
 
-<img src="https://rhildred.github.io/courses/MB215/automating.png" title="refining the specification" alt="refining the specification" style="height:500px;display:block;margin:1em auto" />
+<img src="https://rhildred.github.io/courses/MB215/automating.png" title="refining the specification" alt="refining the specification" style="width:700px;display:block;margin:1em auto" />
 
 ![notes](slidenotestart://)
 
