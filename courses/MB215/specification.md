@@ -19,7 +19,7 @@ How can we work together as a team? Excellent question and one that we are still
 
 #My ride in a parcel truck
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/54/UPS_truck_-804051.jpg" title="UPS Truck" alt="UPS Truck" style="height:500px;display:block;margin:0 auto 1em" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/54/UPS_truck_-804051.jpg" title="UPS Truck" alt="UPS Truck" style="height:500px;display:block;margin:1em auto" />
 
 ![notes](slidenotestart://)
 
@@ -43,7 +43,7 @@ Picture: http://commons.wikimedia.org/wiki/File:UPS_truck_-804051.jpg
 
 #A few examples are a dangerous thing
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Notags.svg" title="Counter Examples" alt="Counter Examples" style="height:500px;display:block;margin:0 auto 1em" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Notags.svg" title="Counter Examples" alt="Counter Examples" style="height:500px;display:block;margin:1em auto" />
 
 ![notes](slidenotestart://)
 
@@ -61,7 +61,7 @@ Image: http://commons.wikimedia.org/wiki/File:Notags.svg
 
 #A living document connects action with consequence
 
-<img src="https://rhildred.github.io/courses/MB215/LivingDocument.png" title="Living Document" alt="Living Document" style="height:500px;display:block;margin:0 auto 1em" />
+<img src="https://rhildred.github.io/courses/MB215/LivingDocument.png" title="Living Document" alt="Living Document" style="height:500px;display:block;margin:1em auto" />
 
 ![notes](slidenotestart://)
 
@@ -76,3 +76,22 @@ Picture: from the book “Specification by Example” - Gojko Adzic 2011
 ![/notes](slidenoteend://)
 
 ![/slide3](slideend:://)
+
+![slide4](slidestart://?class="step+slide"+data-x="-1000"+data-y="600")
+
+#Gojko Adzic - software delivery consultant
+
+<iframe src="https://player.vimeo.com/video/54811925" width="700" height="550" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="display:block;margin:1em auto"></iframe>
+
+![notes](slidenotestart://)
+
+My direct deposit experience was the best thing that happened to me career wise. While prospecting for new systems integration startup business with the people that I had worked on projects with, every single one of them mentioned how much fun the teamwork that we experienced on those projects was. Easy for me to say, I only saw people that I enjoyed working with. Well I did, but the inverse was also true. I saw people from each project that I worked on in that phase of my career. I can also explain some of this teamwork and flow with the idea of specification by example itself.
+
+To help me explain here is Gojko Adzic, the author of a book with the title “Specification by Example:” 1:34 video
+
+Photo: from vimeo video http://vimeo.com/54811925
+
+![/notes](slidenoteend://)
+
+![/slide4](slideend:://)
+
