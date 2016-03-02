@@ -279,7 +279,7 @@ Photo: http://www.flickr.com/photos/92768755@N05/8496674827/in/photolist-dWPFpz-
 
 ![notes](slidenotestart://)
 
-Many times one individual gets to where all 3 sombreros. When that is the case, one gains a new understanding. When there are different individuals in different sombreros then it is really important to have a disciplinary approach where the 3 can work as one.
+Many times one individual gets to wear all 3 sombreros. When that is the case, one gains a new understanding. When there are different individuals in different sombreros then it is really important to have a disciplinary approach where the 3 can work as one.
 
 Picture: from the book "Specification by Example" - Gojko Adzic 2011
 
