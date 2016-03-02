@@ -1,6 +1,6 @@
 ![slide0](slidestart://?class="step+slide"+data-x="-1000"+data-y="-2200")
 
-<img src="https://rhildred.github.io/courses/MB215/Adzic.png" title="Specification by example" alt="Specification by example" style="height:300px;display:block;margin:0 auto 1em" />
+<img src="https://rhildred.github.io/courses/MB215/Adzic.png" title="Specification by example" alt="Specification by example" style="height:300px;display:block;margin:3em auto 1em" />
 
 #Specification By Example
 ## ... before it was cool
@@ -95,3 +95,52 @@ Photo: from vimeo video http://vimeo.com/54811925
 
 ![/slide4](slideend:://)
 
+![slide5](slidestart://?class="step+slide"+data-x="-1000"+data-y="1300")
+
+#Pattern language of Specification by Example
+
+<img src="https://rhildred.github.io/courses/MB215/patternLanguage.png" title="A pattern language" alt="A pattern language" style="height:300px;display:block;margin:1em auto" />
+
+![notes](slidenotestart://)
+
+Adzic’s pattern language of specification by example consists of these ladders on this snake and ladderish diagram.
+
+* Deriving scope from goals
+* Illustrating using Examples
+* Specifying collaboratively
+* Refining the Specification
+* Automating Validation without changing specification
+* Validating Frequently
+* Evolving a documentation system
+
+Beck, from the agile lecture, also made a contribution to pattern language. A pattern language is a way for people that share the language to speak of an abstract concept. The rest of this talk will be going through this diagram with a simple example.
+Picture from “Specification By Example” Gojko Adzic 2011
+
+![/notes](slidenoteend://)
+
+![/slide5](slideend:://)
+
+![slide6](slidestart://?class="step+slide"+data-x="-1000"+data-y="1900")
+
+#Pattern language of Specification by Example
+
+<img src="https://rhildred.github.io/courses/MB215/patternLanguage.png" title="A pattern language" alt="A pattern language" style="height:300px;display:block;margin:1em auto" />
+
+![notes](slidenotestart://)
+
+Adzic’s pattern language of specification by example consists of these ladders on this snake and ladderish diagram.
+
+* Deriving scope from goals
+* Illustrating using Examples
+* Specifying collaboratively
+* Refining the Specification
+* Automating Validation without changing specification
+* Validating Frequently
+* Evolving a documentation system
+
+Kent Beck, from the agile lecture, also made a contribution to pattern language. A pattern language is a way for people that share the language to speak of an abstract concept. The rest of this talk will be going through this diagram with a simple example.
+Picture from “Specification By Example” Gojko Adzic 2011
+
+![/notes](slidenoteend://)
+
+![/slide6](slideend:://)
