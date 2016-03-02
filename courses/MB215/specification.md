@@ -14,6 +14,7 @@ How can we work together as a team? Excellent question and one that we are still
 ![/notes](slidenoteend://)
 
 ![/slide0](slideend:://)
+
 ![slide1](slidestart://?class="step+slide"+data-x="-1000"+data-y="-1500")
 
 #My ride in a parcel truck
@@ -37,6 +38,7 @@ Picture: http://commons.wikimedia.org/wiki/File:UPS_truck_-804051.jpg
 ![/notes](slidenoteend://)
 
 ![/slide1](slideend:://)
+
 ![slide2](slidestart://?class="step+slide"+data-x="-1000"+data-y="-800")
 
 #A few examples are a dangerous thing
