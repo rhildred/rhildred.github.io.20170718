@@ -120,7 +120,7 @@ Picture from “Specification By Example” Gojko Adzic 2011
 
 ![/slide5](slideend:://)
 
-![slide6](slidestart://?class="step+slide"+data-x="-1000"+data-y="1900")
+![slide6](slidestart://?class="step+slide"+data-x="-1000"+data-y="2000")
 
 #A simple example that we can all relate to
 
@@ -133,3 +133,67 @@ My life has changed quite a bit since the days when I worked on projects. The la
 ![/notes](slidenoteend://)
 
 ![/slide6](slideend:://)
+
+![slide7](slidestart://?class="step+slide"+data-x="-1000"+data-y="2700")
+
+#deriving scope from goals
+
+<img src="https://rhildred.github.io/courses/MB215/scopeFromGoals.png" title="scope from goals" alt="scope from goals   " style="width:700px;display:block;margin:1em auto" />
+
+![notes](slidenotestart://)
+
+My main goal is to have a site that looks like it was made by a competent web developer. 
+It needs to look nice on mobile devices.
+It needs to be social media-like
+Particularly I want students to be able to participate as effortlessly as possible
+
+Picture from “Specification By Example” Gojko Adzic 2011
+
+![/notes](slidenoteend://)
+
+![/slide7](slideend:://)
+
+![slide8](slidestart://?class="step+slide"+data-x="-1000"+data-y="3400")
+
+#illustrating using examples
+
+<img src="https://rhildred.github.io/courses/MB215/usingExamples.png" title="using examples" alt="using examples" style="height:500px;display:block;margin:1em auto" />
+
+![notes](slidenotestart://)
+
+I want to put a lecture like this along with my notes on the site in a format that someone that missed the lecture can get something from
+
+I want to be able to post notes for doing things, primarily on the cloud here so that people having problems or doing something on the cloud can be drawn to my faculty site, and hopefully hire Conestoga to do corporate training (which I love) in the areas of my interests – for example I got mvc razor syntax working on appharbour with mysql and here is how
+
+I want a student to be able to make constructive comments on any paragraph in any of my aforementioned postings- my experience of apphrabor was different when I did this so I did this to overcome it
+
+I want students to be able to post solutions that they have found – Go-Daddy is way better than Appharbour because of this experience that I had with them
+
+I want students to be able to elaborate on things that they have found – I struggled with the user interface of eclipse so I took these screen shots and made red circles on them to remind myself how to stop my tomcat instance …
+
+Picture: from the book “Specification by Example” - Gojko Adzic 2011
+
+![/notes](slidenoteend://)
+
+![/slide8](slideend:://)
+
+![slide9](slidestart://?class="step+slide"+data-x="-1000"+data-y="4100")
+
+#refining the specification
+
+<img src="https://rhildred.github.io/courses/MB215/refiningSpecification.png" title="refining the specification" alt="refining the specification" style="width:700px;display:block;margin:1em auto" />
+
+![notes](slidenotestart://)
+
+How will I benefit by students being able to share their stories?
+
+Are there any examples that are secondary examples, or totally contained in other examples?
+
+How do I organize the examples into a living document like the distribution matrix, that I can show to other faculty to help them understand how to do something similar for themselves …
+
+Picture: from the book “Specification by Example” - Gojko Adzic 2011
+
+
+![/notes](slidenoteend://)
+
+![/slide9](slideend:://)
