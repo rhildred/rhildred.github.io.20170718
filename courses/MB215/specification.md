@@ -163,13 +163,13 @@ Picture from "Specification By Example" Gojko Adzic 2011
 
 I want to put a lecture like this along with my notes on the site in a format that someone that missed the lecture can get something from
 
-I want to be able to post notes for doing things, primarily on the cloud here so that people having problems or doing something on the cloud can be drawn to my faculty site, and hopefully hire Conestoga to do corporate training (which I love) in the areas of my interests – for example I got mvc razor syntax working on appharbour with mysql and here is how
+I want to be able to post notes for doing things, primarily on the cloud here so that people having problems or doing something on the cloud can be drawn to my faculty site, and hopefully hire Conestoga to do corporate training (which I love) in the areas of my interests - for example I got mvc razor syntax working on appharbour with mysql and here is how
 
 I want a student to be able to make constructive comments on any paragraph in any of my aforementioned postings- my experience of apphrabor was different when I did this so I did this to overcome it
 
-I want students to be able to post solutions that they have found – Go-Daddy is way better than Appharbour because of this experience that I had with them
+I want students to be able to post solutions that they have found - Go-Daddy is way better than Appharbour because of this experience that I had with them
 
-I want students to be able to elaborate on things that they have found – I struggled with the user interface of eclipse so I took these screen shots and made red circles on them to remind myself how to stop my tomcat instance …
+I want students to be able to elaborate on things that they have found - I struggled with the user interface of eclipse so I took these screen shots and made red circles on them to remind myself how to stop my tomcat instance …
 
 Picture: from the book "Specification by Example" - Gojko Adzic 2011
 
@@ -189,7 +189,7 @@ How will I benefit by students being able to share their stories?
 
 Are there any examples that are secondary examples, or totally contained in other examples?
 
-How do I organize the examples into a living document like the distribution matrix, that I can show to other faculty to help them understand how to do something similar for themselves …
+How do I organize the examples into a living document like the distribution matrix, that I can show to other faculty to help them understand how to do something similar for themselves ...
 
 Picture: from the book "Specification by Example" - Gojko Adzic 2011
 
