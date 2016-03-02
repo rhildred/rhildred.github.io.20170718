@@ -25,11 +25,11 @@ How can we work together as a team? Excellent question and one that we are still
 
 A few years ago I put on brown shorts and went on a ride in a parcel delivery truck. It may seem to make not much sense for a software development team leader to be riding around in the natural light with the wind blowing through the open door of a Gruman van and the highway whizzing by. In the context of team learning and specification by example however it makes some of the most sense of almost anything that I have done in my almost 20 year software career. 
 
-The sense of what I was doing was gathering examples of what a system for depositing money directly into shipper’s accounts for deliveries to companies they didn’t know could mean to the stakeholders in the project.  One of my first stops was a guitar shop. I am a guitar nut so I was interested already. The owner of the small shop was interested too, because one of his customer’s guitars was being returned to him with a new neck. His shop was too small to have it’s own technician, so he had sent the work out to another small businessman that was a guitar technician. After quickly checking the guitar he writes a cheque for the guitar technician, hands it to the driver and the driver and I are on our way.  I learn that the cheque on delivery system allows small businesses to work together each having a relationship with the delivery company but not with each other. I also learn that the relationship that the small businesses have is also with the driver who considers them his customers.
+The sense of what I was doing was gathering examples of what a system for depositing money directly into shipper's accounts for deliveries to companies they didn't know could mean to the stakeholders in the project.  One of my first stops was a guitar shop. I am a guitar nut so I was interested already. The owner of the small shop was interested too, because one of his customer's guitars was being returned to him with a new neck. His shop was too small to have it's own technician, so he had sent the work out to another small businessman that was a guitar technician. After quickly checking the guitar he writes a cheque for the guitar technician, hands it to the driver and the driver and I are on our way.  I learn that the cheque on delivery system allows small businesses to work together each having a relationship with the delivery company but not with each other. I also learn that the relationship that the small businesses have is also with the driver who considers them his customers.
 
-The next stop is at a boat shop, also an interest of mine and I learn some more things for my team. The boat shop has a couple of packages from the same shipper. Some molding, and a new windshield for a boat that they are working on. The boat shop pays for both packages with the same cheque, and I learn why we need to be able to match a cheque for deposit into a shipper’s account to multiple packages from that shipper. The driver also explains to me how an exception condition is created when packages from 2 similarly named companies arrive on the same day, and the consignee writes one cheque for what was actually 2 shippers.
+The next stop is at a boat shop, also an interest of mine and I learn some more things for my team. The boat shop has a couple of packages from the same shipper. Some molding, and a new windshield for a boat that they are working on. The boat shop pays for both packages with the same cheque, and I learn why we need to be able to match a cheque for deposit into a shipper's account to multiple packages from that shipper. The driver also explains to me how an exception condition is created when packages from 2 similarly named companies arrive on the same day, and the consignee writes one cheque for what was actually 2 shippers.
 
-On to a kind of run down print-shop. There the proprietor was expecting some supplies and had some money orders ready to pay for them. 5 * $100 money orders for $410 worth of supplies. I learned that the delivery company handles such overpayments by passing the overpayment on to the shipper and allowing the shipper to deduct the overpayment from the consignee’s next order. I also learned that I need to be able to match multiple payments to the same delivery, and that the total may not match. I also learned later that if the overage (or underage) is past a certain limit that a person needs to deal with the transaction to try to determine the consignee’s intent.
+On to a kind of run down print-shop. There the proprietor was expecting some supplies and had some money orders ready to pay for them. 5 * $100 money orders for $410 worth of supplies. I learned that the delivery company handles such overpayments by passing the overpayment on to the shipper and allowing the shipper to deduct the overpayment from the consignee's next order. I also learned that I need to be able to match multiple payments to the same delivery, and that the total may not match. I also learned later that if the overage (or underage) is past a certain limit that a person needs to deal with the transaction to try to determine the consignee's intent.
 
 All the time I was on the road I was aware of the people that the driver dealt with smiling at him and I. This might have been due to the strength of the relationship that the driver had with his customer. Of course it crossed my mind that it also might have had something to do with the fact that the shorts I borrowed (the whole uniform actually) was much too big for me and the pants were held up with a package strap. 
 
@@ -47,9 +47,9 @@ Picture: http://commons.wikimedia.org/wiki/File:UPS_truck_-804051.jpg
 
 ![notes](slidenotestart://)
 
-When I got back to the UPS office there was a workshop in progress with the rest of the architecture team, and some anti-patterns were being discussed. The anti-patterns, it would turn out, were equally important to the project, and a naïve selection of key examples that ignored the anti-patterns could have led us down the seriously wrong path. When I walked in, one of the participants (there were actually representatives from my company and the delivery company’s bank there as well) was telling us how his big belly was actually his bottom that had been kicked so hard it was now on front because of a previous failed implementation. One of the problems with that implementation was tags, a piece of the shipping label that was torn off and included with the cheque to match it with the delivery. A problem with the tags was that they wouldn’t tear off cleanly and would literally gum up the works when the delivery company tried to get them to the shippers. Someone agreed that this was an example of a problem so bad that they would be still up in the wee hours of the morning processing payments while the next day’s were coming in. They had to work weekends, because they couldn’t do 24 hours of payments in 24 hours.
+When I got back to the UPS office there was a workshop in progress with the rest of the architecture team, and some anti-patterns were being discussed. The anti-patterns, it would turn out, were equally important to the project, and a naïve selection of key examples that ignored the anti-patterns could have led us down the seriously wrong path. When I walked in, one of the participants (there were actually representatives from my company and the delivery company's bank there as well) was telling us how his big belly was actually his bottom that had been kicked so hard it was now on front because of a previous failed implementation. One of the problems with that implementation was tags, a piece of the shipping label that was torn off and included with the cheque to match it with the delivery. A problem with the tags was that they wouldn't tear off cleanly and would literally gum up the works when the delivery company tried to get them to the shippers. Someone agreed that this was an example of a problem so bad that they would be still up in the wee hours of the morning processing payments while the next day's were coming in. They had to work weekends, because they couldn't do 24 hours of payments in 24 hours.
 
-They also talked at the workshop about using flatbed scanners to input the cheques and tags as being an example of what didn’t work. One of the defining moments of the project for me was a few weeks later when I was standing in front of one of our high speed scanners with the architects of the system, looking at the output of our process, cheques for shippers neatly sorted in like pockets ready to go to a "statement" sort where they could be stuffed into an envelope for an individual shipper to deposit them or deposited by the bank on the shipper’s behalf. Looking at this from a learning perspective both the inefficient anti pattern of using flatbed scanners and considering the output of the new system connected the possible results with the decisions that we were making when designing the new system.
+They also talked at the workshop about using flatbed scanners to input the cheques and tags as being an example of what didn't work. One of the defining moments of the project for me was a few weeks later when I was standing in front of one of our high speed scanners with the architects of the system, looking at the output of our process, cheques for shippers neatly sorted in like pockets ready to go to a "statement" sort where they could be stuffed into an envelope for an individual shipper to deposit them or deposited by the bank on the shipper's behalf. Looking at this from a learning perspective both the inefficient anti pattern of using flatbed scanners and considering the output of the new system connected the possible results with the decisions that we were making when designing the new system.
 
 Image: http://commons.wikimedia.org/wiki/File:Notags.svg
 
@@ -67,9 +67,9 @@ Image: http://commons.wikimedia.org/wiki/File:Notags.svg
 
 What we were producing, while standing around the transport was a document that we called the "disposition matrix." While the rumors that I actually had the "disposition matrix" tattooed on my forearm are untrue the whole team, architects, testers, developers and operations included lived and breathed the disposition matrix, when we were delivering the project.  The disposition matrix lived on for the more than 10 years that the project was in production, through major tech refreshes, my year long sojourn in India and new operations and support people.
 
-A living document like this connects the actions of the entire system with it’s consequences. It tells us when we have an exception to the process that we haven’t considered, when we have an exception that was considered that is no longer being handled correctly, and the examples contained within it form the basis for training new people. For instance the example of an overpayment (with the money orders) was a disposition 25 (as much as I can remember). It resulted in a letter being sent to the shipper advising them of the overpayment with an image of the money orders in question.
+A living document like this connects the actions of the entire system with it's consequences. It tells us when we have an exception to the process that we haven't considered, when we have an exception that was considered that is no longer being handled correctly, and the examples contained within it form the basis for training new people. For instance the example of an overpayment (with the money orders) was a disposition 25 (as much as I can remember). It resulted in a letter being sent to the shipper advising them of the overpayment with an image of the money orders in question.
 
-As an interesting side effect these letters and the delivery company’s customer service reps being able to access payment information online lead to an unintended double digit decline in fraud consequence.  
+As an interesting side effect these letters and the delivery company's customer service reps being able to access payment information online lead to an unintended double digit decline in fraud consequence.  
 
 Picture: from the book "Specification by Example" - Gojko Adzic 2011
 
@@ -103,7 +103,7 @@ Photo: from vimeo video http://vimeo.com/54811925
 
 ![notes](slidenotestart://)
 
-Adzic’s pattern language of specification by example consists of these ladders on this snake and ladderish diagram.
+Adzic's pattern language of specification by example consists of these ladders on this snake and ladderish diagram.
 
 * Deriving scope from goals
 * Illustrating using Examples
@@ -128,7 +128,7 @@ Picture from "Specification By Example" Gojko Adzic 2011
 
 ![notes](slidenotestart://)
 
-My life has changed quite a bit since the days when I worked on projects. The last big system that I worked on was as a curriculum developer and trainer of trainers. It was a system for clearing payments for the Reserve Bank of India. The teamwork was still fun, and the project is still being used years later as far as I know, but I never went to visit any of those people when I was prospecting for customers. I left my job as a product manager, by then at the same company that I developed the systems for to start my own company for my MBA project in Wilfrid Laurier’s Innovation and Entrepreneurship program. To keep from burning through too much money I took computer teaching contracts at Conestoga College. Now in my third summer I am getting around to doing my faculty page. I want to work on my page together using specification by example.
+My life has changed quite a bit since the days when I worked on projects. The last big system that I worked on was as a curriculum developer and trainer of trainers. It was a system for clearing payments for the Reserve Bank of India. The teamwork was still fun, and the project is still being used years later as far as I know, but I never went to visit any of those people when I was prospecting for customers. I left my job as a product manager, by then at the same company that I developed the systems for to start my own company for my MBA project in Wilfrid Laurier's Innovation and Entrepreneurship program. To keep from burning through too much money I took computer teaching contracts at Conestoga College. Now in my third summer I am getting around to doing my faculty page. I want to work on my page together using specification by example.
 
 ![/notes](slidenoteend://)
 
@@ -206,7 +206,7 @@ Picture: from the book "Specification by Example" - Gojko Adzic 2011
 
 ![notes](slidenotestart://)
 
-You can test the assumptions that you make about users, using analytics, surveys …. It’s not really today’s topic, but the point that Gojko and I are trying to make with this is that things like Google analytics are ongoing, and down the road when someone new is trying to understand what you did, the ongoing analytics say more about your system, then your notes or comments in the code, because they are about the working system as much as about how it was originally conceived.
+You can test the assumptions that you make about users, using analytics, surveys …. It's not really today's topic, but the point that Gojko and I are trying to make with this is that things like Google analytics are ongoing, and down the road when someone new is trying to understand what you did, the ongoing analytics say more about your system, then your notes or comments in the code, because they are about the working system as much as about how it was originally conceived.
 
 Likewise, unit tests also miss something about the system. For instance if I do test driven development, Monday's topic, I would have a test to see if a user can enter a comment. That doesn't tell me nearly as much about the ongoing use of the system as analytics about how much the comment feature is used in real life.
 
@@ -244,7 +244,7 @@ Picture: from the book "Specification by Example" - Gojko Adzic 2011
 
 ![notes](slidenotestart://)
 
-The book starts with some cautionary tales. I also am going to show you a counter example. The most important lesson to be learned here is don’t jump right in to solutions. Understand the problem that you are trying to solve first.
+The book starts with some cautionary tales. I also am going to show you a counter example. The most important lesson to be learned here is don't jump right in to solutions. Understand the problem that you are trying to solve first.
 
 
 Picture: http://commons.wikimedia.org/wiki/File:Lightbulb_icon_vectorized.svg
@@ -262,7 +262,7 @@ Picture: http://commons.wikimedia.org/wiki/File:Lightbulb_icon_vectorized.svg
 
 ![notes](slidenotestart://)
 
-Gojko himself thinks that he has learned a few things. In particular he used to advocate “challenging” the need for things. I have heard developers say “let it fight it’s way in.” Instead Gojko now advocates the fighter airplane approach where you probe more deeply about what the goals are for something.
+Gojko himself thinks that he has learned a few things. In particular he used to advocate "challenging" the need for things. I have heard developers say "let it fight it's way in." Instead Gojko now advocates the fighter airplane approach where you probe more deeply about what the goals are for something.
 
 Photo: http://www.flickr.com/photos/92768755@N05/8496674827/in/photolist-dWPFpz-6nLsf2-dqTBTT
 
@@ -281,7 +281,7 @@ Photo: http://www.flickr.com/photos/92768755@N05/8496674827/in/photolist-dWPFpz-
 
 Many times one individual gets to where all 3 sombreros. When that is the case, one gains a new understanding. When there are different individuals in different sombreros then it is really important to have a disciplinary approach where the 3 can work as one.
 
-Picture: from the book “Specification by Example” - Gojko Adzic 2011
+Picture: from the book "Specification by Example" - Gojko Adzic 2011
 
 
 
