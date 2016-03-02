@@ -99,7 +99,7 @@ Photo: from vimeo video http://vimeo.com/54811925
 
 #Pattern language of Specification by Example
 
-<img src="https://rhildred.github.io/courses/MB215/patternLanguage.png" title="A pattern language" alt="A pattern language" style="height:300px;display:block;margin:1em auto" />
+<img src="https://rhildred.github.io/courses/MB215/patternLanguage.png" title="A pattern language" alt="A pattern language" style="height:500px;display:block;margin:1em auto" />
 
 ![notes](slidenotestart://)
 
@@ -122,24 +122,13 @@ Picture from “Specification By Example” Gojko Adzic 2011
 
 ![slide6](slidestart://?class="step+slide"+data-x="-1000"+data-y="1900")
 
-#Pattern language of Specification by Example
+#A simple example that we can all relate to
 
-<img src="https://rhildred.github.io/courses/MB215/patternLanguage.png" title="A pattern language" alt="A pattern language" style="height:300px;display:block;margin:1em auto" />
+<img src="https://rhildred.github.io/courses/MB215/facultyPage.png" title="A pattern language" alt="A pattern language" style="height:500px;display:block;margin:1em auto" />
 
 ![notes](slidenotestart://)
 
-Adzic’s pattern language of specification by example consists of these ladders on this snake and ladderish diagram.
-
-* Deriving scope from goals
-* Illustrating using Examples
-* Specifying collaboratively
-* Refining the Specification
-* Automating Validation without changing specification
-* Validating Frequently
-* Evolving a documentation system
-
-Kent Beck, from the agile lecture, also made a contribution to pattern language. A pattern language is a way for people that share the language to speak of an abstract concept. The rest of this talk will be going through this diagram with a simple example.
-Picture from “Specification By Example” Gojko Adzic 2011
+My life has changed quite a bit since the days when I worked on projects. The last big system that I worked on was as a curriculum developer and trainer of trainers. It was a system for clearing payments for the Reserve Bank of India. The teamwork was still fun, and the project is still being used years later as far as I know, but I never went to visit any of those people when I was prospecting for customers. I left my job as a product manager, by then at the same company that I developed the systems for to start my own company for my MBA project in Wilfrid Laurier’s Innovation and Entrepreneurship program. To keep from burning through too much money I took computer teaching contracts at Conestoga College. Now in my third summer I am getting around to doing my faculty page. I want to work on my page together using specification by example.
 
 ![/notes](slidenoteend://)
 
