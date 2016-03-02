@@ -1,7 +1,7 @@
 Phonegap Build
 =============
 
-[![Phonegap, from MSDN](images/hh771462.HowToCreateHTML5AppsWindowsPhoneGap-2.png "Phonegap, from MSDN")
+[![Phonegap, from MSDN](https://rhildred.github.io/images/hh771462.HowToCreateHTML5AppsWindowsPhoneGap-2.png "Phonegap, from MSDN")
 ](https://msdn.microsoft.com/en-us/hh771462.aspx)
 
 Phonegap build is an amazing way to make apps for smartphones!!!!! With cordova/phonegap, the underlying bridge between native device code and html5/javascript, the same codebase can be used on BB10, Android, IOS and Windows Phone. There is one small gotcha that I discovered later, but a [basic app](https://github.com/rhildred/hellophonegapbuild) looks like this:
@@ -137,4 +137,6 @@ Finally a config.xml is used to version the app, provide the location of file as
 
 ```
 
-One can test this "app" in the chrome browser using the [ripple emulator beta](https://chrome.google.com/webstore/search/ripple%20emulator%20beta?hl=en-US) from the chrome store. Finally you can get your app in an android IOS or Windows phone device using phonegap build service from adobe. Phonegap build, doesn't support BB10 anymore, but phonegap/cordova itself does. Your codebase can be built and put on a bb10 device using Blackberry HTML5 Webworks.
+One can test this "app" in the chrome browser using the [ripple emulator beta](https://chrome.google.com/webstore/search/ripple%20emulator%20beta?hl=en-US) from the chrome store. It is important when using the ripple emulator to make sure that the platform is set to `Apache Cordova/Phonegap` and that the version is set to 2.0.0.
+
+Finally you can get your app in an android IOS or Windows phone device using phonegap build service from adobe. Phonegap build, doesn't support BB10 anymore, but phonegap/cordova itself does. Your codebase can be built and put on a bb10 device using Blackberry HTML5 Webworks, or by loading an apk from somewhere. BB10 also supports apk files from the Amazon Store, or your development environment.

@@ -47,7 +47,7 @@ You are expected to be in class, but I understand that situations, such as illne
 |Final|To Be Scheduled|35%|
 
 ##Mid-term Examination
-The mid-term examination will be held on Friday, February 26th during class time. It will cover all material up to software development models and methodologies (expected to be material covered by start of reading week).
+The mid-term examination will be held on Wednesday, February 24th during class time. It will cover all material up to software development models and methodologies (expected to be material covered by start of reading week).
 
 The mid-term examination will not be offered at any other time. If you miss the mid-term for health or bereavement reasons you must provide appropriate documentation as per the academic calendar. If appropriate documentation is provided, the weighting of the final examination will be increased to 55% in consideration of the missed mid-term. If the mid-term is missed for any other reason, a mark of 0 will be given.
 
@@ -120,14 +120,15 @@ The objective of this course is to familiarize students with software applicatio
 |---|---|---|
 |February 1|Open Unified Process|[Intro to OpenUp](https://eclipse.org/epf/general/OpenUP.pdf), [CDC Atlanta Templates](http://www2.cdc.gov/cdcup/library/templates/)|
 |February 1|Agile and Test Driven Development|[Agile Manifesto](http://www.agilemanifesto.org/), [Eric Ries on the difference between agile and waterfall](https://www.youtube.com/watch?v=mnEsrZ__qbU), [Kent Beck - Test Driven Development by example](http://www.amazon.ca/Test-Driven-Development-By-Example/dp/0321146530)
+|Feb 8|Intro to the Spark Micro-framework|[spark java](http://sparkjava.com/), notes on mylearningspace|
 |Feb 8|Unit testing and the Spark Micro-framework|[Tutorial](https://sparktutorials.github.io/2015/07/30/spark-testing-unit.html)|
 |Feb 15|**Reading Week**||
-|Feb 22|Getting Started with Specification By Example|Adzic - Chapter 1-4|
+|Feb 22|Getting Started with Specification By Example ... Review for Midterm|Adzic - Chapter 1-4|
 
 ##quality assurance and improvement
 |Week|Topic|Reference|
 |---|---|---|
-|Feb 22|**Midterm**|Material up to reading week|
+|Feb 24|**Midterm**|Material up to reading week|
 |Feb 29|Specifying Collaboratively|Adzic - Chapters 5-6|
 |March 7|Illustrating Using Examples|Adzic Chapters 7-8|
 

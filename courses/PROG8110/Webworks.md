@@ -5,17 +5,17 @@ We spent some time trying to get this to work in our lab environment and were th
 
 Once downloaded and installed you are presented with this:
 
-![command prompt running node.js](courses/PROG8110/webworkscommand.png)
+![command prompt running node.js](https://rhildred.github.io/courses/PROG8110/webworkscommand.png)
 
 If you have installed on a portable device or without adding a menu item you can run `BB10 WebWorks SDK 2.2.0.15/webworks-ui/bin/start-ui` to start the web app.
 
 You saw something like this before when you ran node.js. Webworks runs on top of node.js on your machine. The actual application is a web application that looks like this.
 
-![webworks app screen](courses/PROG8110/webworksscreen.png)
+![webworks app screen](https://rhildred.github.io/courses/PROG8110/webworksscreen.png)
 
 The screens in the web app are fairly straightforward. You follow the certificates menu item to set up your system:
 
-![webworks app screen](courses/PROG8110/certificates.png)
+![webworks app screen](https://rhildred.github.io/courses/PROG8110/certificates.png)
 
 To actually make an app, you add a project and copy in the www folder from your phonegap build project. The project settings contribute to a config.xml in the root folder of your project, leaving the config.xml in your www folder untouched. As well as the project settings, you will also want to edit the plugins for your project, which again live outside of the www folder so your phonegap build code remains unchanged. 
 

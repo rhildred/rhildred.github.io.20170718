@@ -169,7 +169,7 @@ recommendations.
     phased in separately ... either at different times (parallel) or all at once in
     groups (direct).
     * Pilot implementation: This means that the entire system is tried out,
-    but only by some users. Once the reliability has been proved, the system 
+    but only by some users. Once the reliability has been proved, the system can be introduced to more users until it is progressively "rolled out" to the entire population.
 2. Train the users.
 
 ![/notes](slidenoteend://)
