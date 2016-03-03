@@ -51,7 +51,7 @@ play again?
 
 ##Marking
 
-* Up to 85% will be awarded for generating and printing 4 integer digits, composed of the digits 1-9 with no digits repeating using an array.
-* Up to another 2% will be awarded for inputing a player's guess and displaying it as an array of 4 integers
-* Up to another 6% will be awarded for displaying the number of bulls and cows correctly
+* Up to 75% will be awarded for generating and printing 4 integer digits, composed of the digits 1-9 with no digits repeating using an array.
+* Up to another 10% will be awarded for inputing a player's guess and displaying it as an array of 4 integers
+* Up to another 10% will be awarded for displaying the number of bulls and cows correctly
 * Up to 100% will be awarded for finishing the game, and displaying the number of guesses and recording the lowest number of guesses in a file
