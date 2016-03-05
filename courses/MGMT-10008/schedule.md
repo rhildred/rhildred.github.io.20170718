@@ -2,7 +2,7 @@
 
 There is no midterm or final exam in this course. Instead there are 2 tests 6 group assignments and 5 individual assignments. The following is a week by week schedule of the course:
 
-|Week/Date Starting|Resources|Deliverable|
+|Week/Date Starting|Topic|Deliverable|
 |---|---|---|
 |1/January 11|Introduction||
 |2/January 18|Scope Management|**Gantt Chart** (individual - 5%, due 11:59 pm Jan. 22), **Project Charter** (group - 10%, due 11:59 pm Jan. 22)|
