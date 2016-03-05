@@ -1,5 +1,6 @@
+HTML is the foundation of the thing that we now know as the world wide web. How would you describe the web if you went back in time to before it existed. I want to show you this video of the inventor of the world wide web Tim Berners Lee doing just that and also going on to describe the next great collaboration for learning:
 
-Today in class, I took up the 2nd scripting lab. The idea of this lab was to create a presentation using impress.js and html. In discussion with those that attended class today, we decided that part of the reason that some people struggled with this lab was missing background knowledge on html.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OM6XIICm_qo" frameborder="0" allowfullscreen></iframe>
 
 #HTML ...
 was invented by Tim Berners-Lee for physicists to collaborate on research. Of course it took off beyond his wildest dreams to be the foundation of what we know as the world-wide web. Let's take, for example [an article on cats from wikipedia](https://wikipedia.org/wiki/cat). In that article we see that cats are from the [phylum chordata](https://wikipedia.org/wiki/chordate). If you don't know what that is, just click on the link and, "bam," you find out. If I was Tim Berners-Lee I would be thrilled to see how all of the knowledge in wikipedia is connected in a web that can be followed and followed. Followed so much that research can take way to long as we get distracted by peripherally related and interesting information.
