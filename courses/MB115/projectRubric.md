@@ -15,7 +15,7 @@ I would like you to take over one of these presentations and make it yours. You 
 |Bibliography|up to 5 marks|
 |Introductory Slide|up to 5 marks|
 |Concluding Slide|up to 5 marks|
-|Relating content to business and technology|up to 5 marks|
+|Relating content to your course of study|up to 5 marks|
 |Overall appearance and presentation|up to 5 marks|
 
 You will be given the lab time next week to work on your project. If your lab is on Monday, your presentation will be Tuesday. If your lab is on Wednesday, your presentation will be Thursday.
