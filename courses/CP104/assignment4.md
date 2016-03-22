@@ -3,15 +3,24 @@
 (based on "starting out with python" by Gaddis)
  
 In this assignment you will create a simple trivia game for two players. The program will work like this:
-• Starting with player 1, each player gets a turn at answering 5 trivia questions. (There should be a total of 10 questions.) When a question is displayed, 4 possible answers are also displayed. Only one of the answers is correct, and if the player selects the correct answer, he or she earns a point.
-• After answers have been selected for all the questions, the program displays the number of points earned by each player and declares the player with the highest number of points the winner.
+
+* Starting with player 1, each player gets a turn at answering 5 trivia questions. (There should be a total of 10 questions.) When a question is displayed, 4 possible answers are also displayed. Only one of the answers is correct, and if the player selects the correct answer, he or she earns a point.
+
+* After answers have been selected for all the questions, the program displays the number of points earned by each player and declares the player with the highest number of points the winner.
+
 To create this program, write a Question class to hold the data for a trivia question. The Question class should have attributes for the following data:
-• A trivia question
-• Possible answer a
-• Possible answer b
-• Possible answer c
-• Possible answer d
-• The number of the correct answer (a, b, c, or d)
+
+* A trivia question
+
+* Possible answer a
+
+* Possible answer b
+
+* Possible answer c
+
+* Possible answer d
+
+* The number of the correct answer (a, b, c, or d)
 The Question class also should have an appropriate __init__ method, accessors, and mutators.
 The program should have a list or a dictionary containing 10 Question objects, one for each trivia question. Make up your own trivia questions on the subject or subjects of your choice for the objects.
 
