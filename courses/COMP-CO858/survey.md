@@ -9,5 +9,5 @@ one you think is more important for a child to have.
 
 This survey was found to be a [predictor for support of Trump here](http://www.vox.com/2016/3/1/11127424/trump-authoritarianism) It also reminded me of [Gary Svboda](http://adventusresearch.com/), a guy that helped me with my new businesss idea. I wrote [this survey](https://rhildred.github.io/courses/COMP-CO858/ExerbusSurvey+-+GS+Comments+-+Feb+9+11.docx) about my idea and Gary reviewed it.
 
-In true Rich research fashion, I looked at Gary's work and found [this survey on customer satisfaction](https://rhildred.github.io/courses/COMP-CO858/satisfaction+and+mobile+bahrtien.pdf
+In true Rich research fashion, I looked at Gary's work and found [this survey on customer satisfaction](https://rhildred.github.io/courses/COMP-CO858/satisfaction%20and%20mobile%20bahrtien.pdf
 ) with telecommunications.
