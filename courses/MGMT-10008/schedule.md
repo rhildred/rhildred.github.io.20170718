@@ -15,6 +15,6 @@ There is no midterm or final exam in this course. Instead there are 2 tests 6 gr
 |8/March 7|Custom Fields & Resources|**Baseline assignment** (group 5%, due 11:59 pm March 11)|
 |9/March 14|Work Duration & Quality|**Custom Fields** (group 5%, due 11:59 pm March 18)|
 |10/March 21|Leveling|**Work Units Duration** (group 5%, due 11:59 pm March 25)|
-|11/March 28|Risk Management|**Risk Management** (individual 10%, due 11:59 pm April 1st), **Leveling** (group 5%, due 11:59 pm April 1)|
-|12/April 4|HR|**Final Project** (individual 10%, due 11:59 pm April 8th)|
+|11/March 28|Risk Management|**Risk Management** (individual 10%, due 11:59 pm April 1st)|
+|12/April 4|HR|**Final Project** (individual 10%, due 11:59 pm April 8th), **Leveling** (group 5%, due 11:59 pm April 8th)|
 |13/April 11th|Business Models|**Test 2** (individual 10% in class April 12)|
