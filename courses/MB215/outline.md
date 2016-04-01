@@ -43,7 +43,7 @@ You are expected to be in class, but I understand that situations, such as illne
 |---|---|---|
 |Project 1 - Java Game|January 29|15%|
 |Midterm|Feb 24 in class|25%|
-|Project 2 - Java Web App|March 25|25%|
+|Project 2 - Java Web App|April 1st|25%|
 |Final|To Be Scheduled|35%|
 
 ##Mid-term Examination
