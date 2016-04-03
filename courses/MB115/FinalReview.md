@@ -72,6 +72,8 @@ Data is fed into a data warehouse through the following steps, also known as ext
 
 ![Porter's Value Chain](https://rhildred.github.io/courses/MB115/Michael_Porter's_Value_Chain.svg "Porter's Value Chain")
 
+This picture is taken from Michael Porter's Value chain, with headings to match your text.
+
 ###Most organizations have 5 or more departments within which information must flow, horizontally:
 * Research and development
 * Production (operations)
