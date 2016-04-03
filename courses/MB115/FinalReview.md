@@ -38,6 +38,8 @@ A key field (primary key) is a special field (or fields) in a record that holds 
 * Coordinates all related activities and needs for an organization’s database
 * Generally highly specialized and well paid
 
+Note* Image http://vccsystem.eu/wp-content/uploads/2014/04/Administrator-baz-danych_small.jpg
+
 ### Ensures the database’s:
 * Recoverability
 * Integrity
@@ -54,4 +56,35 @@ A key field (primary key) is a special field (or fields) in a record that holds 
 * Allows users to ask questions in colloquial language
 * Use OLAP (online analytical processing) software to provide answers to complex database queries
 
-Note* image msdn
+Note* image https://msdn.microsoft.com/dynimg/IC136050.jpeg
+
+Data mining is the computer-assisted process of sifting through and analyzing vast amounts of data to extract hidden patterns and meaning and to discover new knowledge.
+
+Data is fed into a data warehouse through the following steps, also known as extract, transform and load (ETL):
+
+* Identify and connect to data sources
+* Perform data fusion and data cleansing
+* Obtain both data and metadata (data about the data)
+* Transport data and metadata to the data warehouse
+* Data warehouse is a special database of cleaned-up data and metadata.
+
+## An Information System Is
+
+![Porter's Value Chain](https://rhildred.github.io/courses/Michael_Porter's_Value_Chain.svg "Porter's Value Chain")
+
+###Most organizations have 5 or more departments within which information must flow, horizontally:
+* Research and development
+* Production (operations)
+* Marketing and sales
+* Accounting and finance
+* Human resources (personnel)
+* Information systems (IS)
+
+An information system is a combination of people, hardware, software, communication devices, and databases that processes data and information for a specific purpose.
+
+What are the qualities of good information?
+* Correct and verifiable
+* Complete yet concise
+* Cost effective
+* Current
+* Accessible
