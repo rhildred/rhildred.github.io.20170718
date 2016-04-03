@@ -17,4 +17,31 @@ A key field (primary key) is a special field (or fields) in a record that holds 
 * Primary keys must be unique make records distinguishable from one another.
 * Foreign keys appear in other tables and usually refer to primary keys in particular tables; they are used to relate one table to another (to cross-reference data).
 
+## 3 Principal Database Components
 
+![database components](https://rhildred.github.io/courses/MB115/DatabaseComponents.svg "database components")
+
+### Data Dictionary
+* Repository that stores the data definitions and descriptions of the structure of the data and the database
+
+### DBMS Utilities
+* Programs that allow you to maintain the database by creating, editing, deleting data, records, and files
+* Also include automated backup and recovery
+
+### Report Generator
+* Program for producing on-screen or printed readable documents from all or part of a database
+
+## Database Administrator (DBA)
+
+!["DBA"](https://rhildred.github.io/courses/MB115/Administrator-baz-danych_small.jpg "DBA")
+
+* Coordinates all related activities and needs for an organization’s database
+* Generally highly specialized and well paid
+
+### Ensures the database’s:
+* Recoverability
+* Integrity
+* Security
+* Availability
+* Reliability
+* Performance
