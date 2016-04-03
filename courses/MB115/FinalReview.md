@@ -53,3 +53,5 @@ A key field (primary key) is a special field (or fields) in a record that holds 
 * Models data as facts, dimensions, or numerical answers for use in the interactive analysis of large amounts of data for decision-making purposes
 * Allows users to ask questions in colloquial language
 * Use OLAP (online analytical processing) software to provide answers to complex database queries
+
+Note* image msdn
