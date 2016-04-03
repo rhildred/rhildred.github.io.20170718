@@ -48,7 +48,7 @@ A key field (primary key) is a special field (or fields) in a record that holds 
 
 ## Multi Dimensional Database
 
-![Multi Dimensional Database](courses/MB115/multidimensionalDatabase.png "Multi Dimensional Database")
+![Multi Dimensional Database](https://rhildred.github.io/courses/MB115/multidimensionalDatabase.jpeg "Multi Dimensional Database")
 
 * Models data as facts, dimensions, or numerical answers for use in the interactive analysis of large amounts of data for decision-making purposes
 * Allows users to ask questions in colloquial language
