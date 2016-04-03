@@ -40,7 +40,7 @@ A key field (primary key) is a special field (or fields) in a record that holds 
 
 Note* Image http://vccsystem.eu/wp-content/uploads/2014/04/Administrator-baz-danych_small.jpg
 
-### Ensures the database’s:
+### Ensures the database's:
 * Recoverability
 * Integrity
 * Security
@@ -85,6 +85,7 @@ This picture is taken from Michael Porter's Value chain, with headings to match 
 An information system is a combination of people, hardware, software, communication devices, and databases that processes data and information for a specific purpose.
 
 What are the qualities of good information?
+
 * Correct and verifiable
 * Complete yet concise
 * Cost effective
@@ -123,7 +124,7 @@ Picture from http://static5.businessinsider.com/image/52713e67ecad04535c96e32e/l
 
 Security is a system of safeguards for protecting information technology against disasters, system failures, and unauthorized access that can result in damage or loss.
 
-### Computer security’s five components:
+### Computer security's five components:
 * Deterrents to computer crime
 * Identification and access
 * Encryption
