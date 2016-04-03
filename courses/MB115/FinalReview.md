@@ -2,7 +2,7 @@
 # Challenges of the Digital Age
 # System Analysis and Programming
 
-This material was all covered after the midterm. The emphasis is on enterprise systems for all 3 of these topics.
+This material was all covered after the midterm. The emphasis is on enterprise systems for all 3 of these topics. These notes are largely taken from the text: Using Information Technology by Williams and Sawyer.
 
 ## Relational Database
 
@@ -70,7 +70,7 @@ Data is fed into a data warehouse through the following steps, also known as ext
 
 ## An Information System Is
 
-![Porter's Value Chain](https://rhildred.github.io/courses/Michael_Porter's_Value_Chain.svg "Porter's Value Chain")
+![Porter's Value Chain](https://rhildred.github.io/courses/MB115/Michael_Porter's_Value_Chain.svg "Porter's Value Chain")
 
 ###Most organizations have 5 or more departments within which information must flow, horizontally:
 * Research and development
