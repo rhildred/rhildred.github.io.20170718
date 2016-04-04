@@ -11,7 +11,7 @@ When we started [Programming: Web Design and Development](PROG8020), I mentioned
 |6-7|angular bootstrap UI, **25% midterm** on Friday February 26th at 10:30 am in class|[tbd]|
 |8-9|test driven development with angular and jasmine,  **20% individual assignment due midnight March 4th**|[w3 schools angular](http://www.w3schools.com/angular/),[my github repository](https://github.com/rhildred/jasmineangulartdd)|
 |10-11|android studio/sdk|Smashing Mobile Web Development|
-|12-15|final project **30% Team project due April 22**|resources are up to you!|
+|12-15|final project **30% Team project due April 15 midnight**|resources are up to you!|
 |exam week| **25% final** as scheduled|
 
 The assignment and final project are of your choice. For the assignment, my main goal is to see everyone in class get something on their phone. For the final project, I am looking for something that reaches off of the device to some sort of webservice for information. This *does not* need to be a webservice of your own construction.
