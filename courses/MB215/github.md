@@ -24,4 +24,21 @@ According to Beck it depends on the "question" that the software is designed to 
 
 **5) How long can we keep this going, and make money from it?**
 
-Common to all of these approaches is the need to do version control. More and more at the center of version control is git.
+## Git was written ~11 years ago by Linus Torvalds
+
+[Linus Torvalds](https://www.linux.com/sites/lcom/files/joomla/images/stories/714/Linus-Torvalds-LinuxCon-Europe-2014.jpg "Linus Torvalds")
+
+Common to all software methods is the need to do version control. More and more at the center of version control is git. [Linus Torvalds wrote git](https://www.linux.com/news/featured-blogs/185-jennifer-cloer/821541-10-years-of-git-an-interview-with-git-creator-linus-torvalds) to help with the maintenance of the Linux kernal. I was trying to find some sort of link between git and the success of Linux, but Linux was already pretty successful before git.
+
+## [https://github.com/rhildred/coop-postings](https://github.com/rhildred/coop-postings)
+
+When we did our first Android game project, we didn't use revision control. The second project was as much to show you git and version control as it was to be a java project. In the project we went through the following steps:
+
+1. I wrote a starting point and shared it via github.
+1. One person on each of your teams **fork**ed the starting point.
+1. That person added the rest of the team to the fork of the project as collaborators.
+1. Each person on the team **clone**d the code in to Android Studio and their own development environments, some on OSX some on Windows. Almost all common platforms are supported by git.
+1. Some time went by and I got some more background code going on [https://github.com/rhildred/coop-postings](https://github.com/rhildred/coop-postings)
+1. One person on each of your teams created a **pull request** to update your teams github from mine.
+1. You did a git **pull** in Android Studio to update the code in your local environment.
+1. You made some changes to the page.phtml file **commit**ed and **push**ed the code back to your github.
