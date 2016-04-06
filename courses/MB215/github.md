@@ -1,6 +1,6 @@
 # ... how do we work together on this
 
-![git version control](https:///rhildred.github.io/courses/MB215/github.svg "git version control")
+![git version control](https://rhildred.github.io/courses/MB215/github.svg "git version control")
 
 On one of the first classes, someone asked, "How do we work together on this?" As we have progressed through the materials you will have seen that the answer is, "it depends." According to Cockburn it depends on the criticality and number of people involved in the project.
 
@@ -31,6 +31,8 @@ According to Beck it depends on the "question" that the software is designed to 
 Common to all software methods is the need to do version control. More and more at the center of version control is git. [Linus Torvalds wrote git](https://www.linux.com/news/featured-blogs/185-jennifer-cloer/821541-10-years-of-git-an-interview-with-git-creator-linus-torvalds) to help with the maintenance of the Linux kernal. I was trying to find some sort of link between git and the success of Linux, but Linux was already pretty successful before git.
 
 ## [https://github.com/rhildred/coop-postings](https://github.com/rhildred/coop-postings)
+
+![git version control](https://rhildred.github.io/courses/MB215/github.svg "git version control")
 
 When we did our first Android game project, we didn't use revision control. The second project was as much to show you git and version control as it was to be a java project. In the project we went through the following steps:
 
