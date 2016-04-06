@@ -26,7 +26,7 @@ According to Beck it depends on the "question" that the software is designed to 
 
 ## Git was written ~11 years ago by Linus Torvalds
 
-[Linus Torvalds](https://www.linux.com/sites/lcom/files/joomla/images/stories/714/Linus-Torvalds-LinuxCon-Europe-2014.jpg "Linus Torvalds")
+![Linus Torvalds](https://www.linux.com/sites/lcom/files/joomla/images/stories/714/Linus-Torvalds-LinuxCon-Europe-2014.jpg "Linus Torvalds")
 
 Common to all software methods is the need to do version control. More and more at the center of version control is git. [Linus Torvalds wrote git](https://www.linux.com/news/featured-blogs/185-jennifer-cloer/821541-10-years-of-git-an-interview-with-git-creator-linus-torvalds) to help with the maintenance of the Linux kernal. I was trying to find some sort of link between git and the success of Linux, but Linux was already pretty successful before git.
 
