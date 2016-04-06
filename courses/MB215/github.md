@@ -1,4 +1,4 @@
-# Version Control
+# ... how do we work together on this
 
 ![git version control](https:///rhildred.github.io/courses/MB215/github.svg "git version control")
 
