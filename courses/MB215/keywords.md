@@ -38,6 +38,7 @@ One of your classmates asked me, "Can you provide a list of terms I should study
 23. Bug Advocacy
 25. Non-reproducible failure
 26. Bug severity vs priority
+27. Triage
 
 If you are familiar with all of these terms, then you should have an understanding of the major issues of software methodology.
 
