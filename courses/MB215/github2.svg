@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="55cm" height="11cm" viewBox="60 7 1092 204" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="142" y="95.5037" width="91.825" height="81.0221"/>
+    <ellipse style="fill: #ffffff" cx="187.913" cy="176.526" rx="45.9125" ry="13.5037"/>
+    <ellipse style="fill: #ffffff" cx="187.913" cy="95.5037" rx="45.9125" ry="13.5037"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="187.913" cy="95.5037" rx="45.9125" ry="13.5037"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 233.825 95.5037 L 233.825,176.526 C 233.825,183.984 213.269,190.029 187.913,190.029 C 162.556,190.029 142,183.984 142,176.526 L 142,95.5037"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="187.913" y="203.029">
+      <tspan x="187.913" y="203.029">Remote (github.com/user/coop-postings.git)</tspan>
+    </text>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="196.015" y="136.015">
+    <tspan x="196.015" y="136.015"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="423.613" y="98.0037" width="91.825" height="81.0221"/>
+    <ellipse style="fill: #ffffff" cx="469.525" cy="179.026" rx="45.9125" ry="13.5037"/>
+    <ellipse style="fill: #ffffff" cx="469.525" cy="98.0037" rx="45.9125" ry="13.5037"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="469.525" cy="98.0037" rx="45.9125" ry="13.5037"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 515.438 98.0037 L 515.438,179.026 C 515.438,186.484 494.882,192.529 469.525,192.529 C 444.168,192.529 423.613,186.484 423.613,179.026 L 423.613,98.0037"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="469.525" y="205.529">
+      <tspan x="469.525" y="205.529">Repository (/users/user/coop-postings/.git)</tspan>
+    </text>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="477.627" y="138.515">
+    <tspan x="477.627" y="138.515"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="727.513" y="140.556" width="49.0313" height="43.2629"/>
+    <ellipse style="fill: #ffffff" cx="752.028" cy="183.819" rx="24.5156" ry="7.21048"/>
+    <ellipse style="fill: #ffffff" cx="752.028" cy="140.556" rx="24.5156" ry="7.21048"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="752.028" cy="140.556" rx="24.5156" ry="7.21048"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 776.544 140.556 L 776.544,183.819 C 776.544,187.801 765.568,191.029 752.028,191.029 C 738.489,191.029 727.513,187.801 727.513,183.819 L 727.513,140.556"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="752.028" y="204.029">
+      <tspan x="752.028" y="204.029">index</tspan>
+    </text>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="756.354" y="162.187">
+    <tspan x="756.354" y="162.187"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="992.938" y="91.0037" width="91.825" height="81.0221"/>
+    <ellipse style="fill: #ffffff" cx="1038.85" cy="172.026" rx="45.9125" ry="13.5037"/>
+    <ellipse style="fill: #ffffff" cx="1038.85" cy="91.0037" rx="45.9125" ry="13.5037"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="1038.85" cy="91.0037" rx="45.9125" ry="13.5037"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1084.76 91.0037 L 1084.76,172.026 C 1084.76,179.484 1064.21,185.529 1038.85,185.529 C 1013.49,185.529 992.938,179.484 992.938,172.026 L 992.938,91.0037"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1038.85" y="198.529">
+      <tspan x="1038.85" y="198.529">workspace (/users/user/coop-postings)</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 983.101,99.2982 A 865.527,865.527 0 0 0 234.737,115.172"/>
+    <polygon style="fill: #000000" points="989.918,102.424 978.742,102.72 983.124,99.2484 982.976,93.6602 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="989.918,102.424 978.742,102.72 983.124,99.2484 982.976,93.6602 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="612" y="21">
+    <tspan x="612" y="21">pull</tspan>
+  </text>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 413.246,113.317 A 306.607,306.607 0 0 0 234.82,119.629"/>
+    <polygon style="fill: #000000" points="420.469,115.326 409.453,117.237 413.286,113.168 412.33,107.66 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="420.469,115.326 409.453,117.237 413.286,113.168 412.33,107.66 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="338" y="101">
+    <tspan x="338" y="101">clone</tspan>
+  </text>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 243.818,160.327 A 263.615,263.615 0 0 0 422.876,164.265"/>
+    <polygon style="fill: #000000" points="236.862,157.536 248.023,156.886 243.753,160.494 244.078,166.075 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="236.862,157.536 248.023,156.886 243.753,160.494 244.078,166.075 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="337" y="164">
+    <tspan x="337" y="164"></tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="328" y="171">
+    <tspan x="328" y="171">push</tspan>
+  </text>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 982.57,110.643 A 790.022,790.022 0 0 0 516.436,124.139"/>
+    <polygon style="fill: #000000" points="989.788,112.679 978.789,114.688 982.586,110.585 981.581,105.086 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="989.788,112.679 978.789,114.688 982.586,110.585 981.581,105.086 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="762" y="73">
+    <tspan x="762" y="73">checkout</tspan>
+  </text>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 525.991,148.448 A 981.413,981.413 0 0 0 726.643,163.469"/>
+    <polygon style="fill: #000000" points="518.614,147.099 529.37,144.049 525.982,148.496 527.508,153.874 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="518.614,147.099 529.37,144.049 525.982,148.496 527.508,153.874 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="621" y="179">
+    <tspan x="621" y="179">commit</tspan>
+  </text>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 786.537,174.869 A 273.866,273.866 0 0 0 991.952,165.224"/>
+    <polygon style="fill: #000000" points="779.497,172.296 790.632,171.289 786.48,175.032 786.983,180.6 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="779.497,172.296 790.632,171.289 786.48,175.032 786.983,180.6 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="853" y="185">
+    <tspan x="853" y="185">add</tspan>
+  </text>
+</svg>
