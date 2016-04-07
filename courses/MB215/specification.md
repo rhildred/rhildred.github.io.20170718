@@ -206,7 +206,7 @@ Picture: from the book "Specification by Example" - Gojko Adzic 2011
 
 ![notes](slidenotestart://)
 
-You can test the assumptions that you make about users, using analytics, surveys …. It's not really today's topic, but the point that Gojko and I are trying to make with this is that things like Google analytics are ongoing, and down the road when someone new is trying to understand what you did, the ongoing analytics say more about your system, then your notes or comments in the code, because they are about the working system as much as about how it was originally conceived.
+You can test the assumptions that you make about users, using analytics, surveys .... It's not really today's topic, but the point that Gojko and I are trying to make with this is that things like Google analytics are ongoing, and down the road when someone new is trying to understand what you did, the ongoing analytics say more about your system, then your notes or comments in the code, because they are about the working system as much as about how it was originally conceived.
 
 Likewise, unit tests also miss something about the system. For instance if I do test driven development, Monday's topic, I would have a test to see if a user can enter a comment. That doesn't tell me nearly as much about the ongoing use of the system as analytics about how much the comment feature is used in real life.
 
