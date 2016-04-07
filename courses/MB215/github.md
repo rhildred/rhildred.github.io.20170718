@@ -2,9 +2,13 @@
 
 ![git version control](https://rhildred.github.io/courses/MB215/github.svg "git version control")
 
-On one of the first classes, someone asked, "How do we work together on this?" As we have progressed through the materials you will have seen that the answer is, "it depends." According to Cockburn it depends on the criticality and number of people involved in the project.
+On one of the first classes, someone asked, "How do we work together on this?" As we have progressed through the materials you will have seen that the answer is, "it depends." 
+
+##According to Cockburn it depends
 
 ![different methodologies](http://alistair.cockburn.us/get/2357 "different methodologies")
+
+on the criticality and number of people involved in the project.
 
 According to Beck it depends on the "question" that the software is designed to answer:
 
