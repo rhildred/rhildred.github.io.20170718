@@ -73,5 +73,22 @@ Next we got a working copy of the code on to our computers. In our case we used 
 
 One of the great things about Git, is that even after you fork from someone else's work for instance copying and changing the code to use at your own high school, you are still not cut off from changes that the original author made. You can even help the original author by fixing his bugs, and sending them a request to pull your fixes back into their environment. In github we create a pull request by comparing commits across forks. Then we can merge the pull request back in to our code.
 
-## A git pull, updates your cloned code
+## pull, edit, commit and push your changes
 
+![](https://rhildred.github.io/courses/MB215/github2.svg)
+
+Perhaps this seems like a lot of messing around to make some simple changes, but remember that git was designed for the whole world to collaborate on the linux kernel. Now that you have cloned a copy on to your local environment, you can make changes, secure that others won't unknowingly erase them. You do this by:
+
+1. editing a file perhaps page.phtml in your favorite editor, perhaps Android Studio.
+2. testing your changes in your local environment.
+3. if you make any additional files, you add them to the index that git uses to manage the files in the repository.
+4. finally when you are happy that all of the files are added you can `commit` to your personal local repository and `push` to your team's remote repository.
+5. your teammates do a pull to get your changes from the remote team repository on to their personal local repositories.
+
+## Next Steps
+
+![Yes we code](https://octodex.github.com/images/baracktocat.jpg "Yes we code")
+
+*image from https://www.openaustraliafoundation.org.au/2013/12/31/easier-collaboration-for-openaustralia-foundation-projects/*
+
+While software methods change depending on the situation, all team development depends on some type of version control system. Git and github have been responsible for a huge growth in collaboration by distributing power among the various people collaborating on the code.
