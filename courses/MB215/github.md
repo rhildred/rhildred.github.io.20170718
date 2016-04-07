@@ -49,4 +49,25 @@ When we did our first Android game project, we didn't use revision control. The 
 
 ![forking](https://amscotti.github.io/advanced-github-workshop/images/pull_2.png "forking a repository")
 
-Linus Torvald's, the inventor of git, has been a [bit critical of github](https://github.com/torvalds/linux/pull/17#issuecomment-5654674), particularly the commit comments that people make with github and as well the quality of the pull requests. What Linus does agree with is the [ease with which a new project can be started](https://www.linux.com/news/featured-blogs/185-jennifer-cloer/821541-10-years-of-git-an-interview-with-git-creator-linus-torvalds) 
+Linus Torvald's, the inventor of git, has been a [bit critical of github](https://github.com/torvalds/linux/pull/17#issuecomment-5654674), particularly the commit comments that people make with github and as well the quality of the pull requests. What Linus does agree with is the [ease with which a new project can be started](https://www.linux.com/news/featured-blogs/185-jennifer-cloer/821541-10-years-of-git-an-interview-with-git-creator-linus-torvalds). In our case you `forked` a project that I started. You made a copy of my code that was under your team's control. Now, if I decide to delete that repository, and you decide to proceed to finish the coop-postings for your high school you are protected and the captains of your own ships.
+
+It is also easy to create your own repository from scratch in github, ridiculously easy. Github also has the feature that it is a web server, so you can easily create a portfolio or project page and let github host it for free. There is an example [here](https://pku7.github.io/) and [here](https://babcockwebsolutions.com/) of portfolio sites from past students. Look how quick they are in your browser!
+
+## Clone into your sandbox environment
+
+![git clone](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Clone_troopers_march.jpg/1024px-Clone_troopers_march.jpg "git clone")
+
+*picture By Michael Neel from Knoxville, TN, USA (Star Wars) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons*
+
+Next we got a working copy of the code on to our computers. In our case we used android studio to do this. Once we have working copies of the code in our development environment we can make improvements to the code. We made fairly simple improvements to our code, taking fields from the database and adding them to the display page.phtml. In the meantime I was also making some changes in my development environment, adding functionality in other places than the place that you were making changes, and publishing it on my github. All working together on the project, we needed to combine our changes to get the best of both worlds.
+
+## Pull requests, allow us to combine our changes
+
+![pull request](https://upload.wikimedia.org/wikipedia/commons/8/87/Octicons-git-pull-request.svg "pull request")
+
+*picture By GitHub (https://github.com/github/octicons) [MIT (http://opensource.org/licenses/mit-license.php) or OFL (http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web)], via Wikimedia Commons*
+
+One of the great things about Git, is that even after you fork from someone else's work for instance copying and changing the code to use at your own high school, you are still not cut off from changes that the original author made. You can even help the original author by fixing his bugs, and sending them a request to pull your fixes back into their environment. In github we create a pull request by comparing commits across forks. Then we can merge the pull request back in to our code.
+
+## A git pull, updates your cloned code
+
