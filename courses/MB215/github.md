@@ -44,3 +44,9 @@ When we did our first Android game project, we didn't use revision control. The 
 1. One person on each of your teams created a **pull request** to update your teams github from mine.
 1. You did a git **pull** in Android Studio to update the code in your local environment.
 1. You made some changes to the page.phtml file **commit**ed and **push**ed the code back to your github.
+
+## Start by creating a new repository or by forking someone else's
+
+![forking](https://amscotti.github.io/advanced-github-workshop/images/pull_2.png "forking a repository")
+
+Linus Torvald's, the inventor of git, has been a [bit critical of github](https://github.com/torvalds/linux/pull/17#issuecomment-5654674), particularly the commit comments that people make with github and as well the quality of the pull requests. What Linus does agree with is the [ease with which a new project can be started](https://www.linux.com/news/featured-blogs/185-jennifer-cloer/821541-10-years-of-git-an-interview-with-git-creator-linus-torvalds) 
