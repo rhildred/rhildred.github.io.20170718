@@ -15,6 +15,9 @@ class MailerController extends AbstractController{
         // Identify the sender, recipient, mail subject, and body
         $oCreds = json_decode(file_get_contents('../data/creds/sendgrid.json'));
         $sender    = $oCreds->from;
+        if(isset($oUser->sender)){
+            $sender = $oUser->sender;
+        }
         $recipient = $oUser->recipient;
         $subject   = $request->parameters["subject"];
         $sReplyTo = $request->parameters["email"];
@@ -80,20 +83,21 @@ class MailerController extends AbstractController{
         $sId = $_SESSION["currentuser"]->id;
         $sName = $_SESSION["currentuser"]->name;
         $sEmail = $_SESSION["currentuser"]->email;
+        $sSender = $request->parameters['sender'];
         $sRecipient = $request->parameters['recipient'];
         $sSuccess = $request->parameters['success'];
         $sFailure = $request->parameters['failure'];
         $sGuid = substr(sha1(mt_rand() . microtime()), mt_rand(0,35), 25);;
         try{
-            $nRows = Database::open()->prepare("INSERT INTO accounts(id, name, email, recipient, success, failure, guid, created) VALUES(?,?,?,?,?,?,?, CURDATE())")
-			->execute(array($sId, $sName, $sEmail, $sRecipient, $sSuccess, $sFailure, $sGuid));
+            $nRows = Database::open()->prepare("INSERT INTO accounts(id, name, email, sender, recipient, success, failure, guid, created) VALUES(?,?,?,?,?,?,?,?, CURDATE())")
+			->execute(array($sId, $sName, $sEmail, $sSender, $sRecipient, $sSuccess, $sFailure, $sGuid));
         }catch(Exception $e){
             $sth = Database::open()->prepare("SELECT guid FROM accounts WHERE id = ?");
             $sth->execute(array($sId));
             $oAccount = $sth->fetch(PDO::FETCH_OBJ);
             $sGuid = $oAccount->guid;
-            $nRows = Database::open()->prepare("UPDATE accounts set recipient = ?, success = ?, failure = ? WHERE id = ?")
-			->execute(array($sRecipient, $sSuccess, $sFailure, $sId));
+            $nRows = Database::open()->prepare("UPDATE accounts set sender = ?, recipient = ?, success = ?, failure = ? WHERE id = ?")
+			->execute(array($sSender, $sRecipient, $sSuccess, $sFailure, $sId));
 
         }
         $rc = new stdClass();
