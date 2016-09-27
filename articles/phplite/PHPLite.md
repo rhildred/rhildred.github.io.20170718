@@ -28,6 +28,7 @@ To finish up the installation you will need to launch brackets as administrator.
 Extensions are added to Brackets by going to the `File/Extension Manager ...` menu item. You will need to search for the following extensions:
 
 1. Brackets Git
+
 ![change the custom terminal command](https://res.cloudinary.com/salesucation-com-inc/image/upload/v1474985381/GitSettings_auyrjz.png)
 1. Indentator
 1. PHP Debugger
@@ -129,7 +130,8 @@ If you type in `php -S localhost:8000` you will be running a web server listenin
 1. If you have not done so already, log in to github and navigate to `https://github.com/rhildred/wordpress-heroku`, click on the `fork` icon and get a copy of the project in your own account.
 2. In your own account get the clone url:
 ![Get the Git Clone Url](https://res.cloudinary.com/salesucation-com-inc/image/upload/v1474989197/CloneWordpress-Heroku_xyfqxp.png)
-3. Back in brackets click clone, and paste the url. You should see code coming on to your machine.
+3. Back in brackets you will create a folder and subfolder for your sandbox
+4. Click clone, and paste the url. You should see code coming on to your machine.
 4. When the code is there, click the black square with the `>` sign.
 5. Type in `php -S localhost:8000`
 6. Follow [this link](http://localhost:8000) to land on the language selection of the wordpress installation screen.
