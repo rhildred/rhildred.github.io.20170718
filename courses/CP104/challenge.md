@@ -9,7 +9,7 @@ A number of you have come to me, asking the form that this would take. This is m
 
 You will make a python chatbot for a messaging platform. There is a [recent example here.](https://medium.com/ddouble/how-i-came-to-love-an-annoying-millennial-bots-are-people-too-3d25fc2a14d8#.wn9rlqd76)
 
-Should you choose to accept this challenge you will make a chatbot in python and publish it on a free heroku account. You will publish to heroku via github, and I will require links to both your github and the site on heroku to give you a mark for the course.
+Should you choose to accept this challenge you will make a Kik or other messaging chatbot in python and publish it on a free heroku account. You will publish to heroku via github, and I will require links to both your github and the identity of your bot on heroku to give you a mark for the course.
 
 The asignment is in lieu of all other evaluation for this course.
 
