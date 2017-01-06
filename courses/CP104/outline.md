@@ -48,18 +48,18 @@ The grades outlined below are the only grades available for this course. There w
 
 |Item|Percentage|Date|
 |---|---|---|
-|Assignment 1|5%|**Friday, Jan. 22nd**|
-|Assignment 2|5%|**Friday, Mar. 4th**|
-|Mid-term Examination|25%|**Thursday, February 11th (in lab)**|
-|Assignment 3|15%|**Friday, Mar. 11**|
-|Assignment 4|15%|**Friday, Apr. 1**|
+|Assignment 1|5%|**Friday, Jan. 20th**|
+|Mid-term Examination|25%|**Thursday, February 9th (in lab)**|
+|Assignment 2|5%|**Friday, Feb. 17th**|
+|Assignment 3|15%|**Friday, Mar. 10th**|
+|Assignment 4|15%|**Friday, Mar. 31st**|
 |Final Examination (comprehensive)|35%|
 
 ##Assignments
-A series of individual assignments will be provided to students at the beginning of the labs on January 14th, 28th, Feb. 25th, and March 17th, and you will be assigned marks for the completion of these assignments as noted above. The format of the assignments will be a python program that you will submit to mylearningspace, when complete. You are welcome to consult with fellow students on your assignments, but what is handed in will be checked to make sure that it is your individual work.
+A series of individual assignments will be provided to students at the beginning of the labs on January 12th,  Feb. 8th, March 2nd and March 17th, and you will be assigned marks for the completion of these assignments as noted above. The format of the assignments will be a python program that you will submit to mylearningspace, when complete. You are welcome to consult with fellow students on your assignments, but what is handed in will be checked to make sure that it is your individual work.
 
 ##Mid-term Examination
-The mid-term examination will be held on Thursday, February 11th during lab time. It will cover chapters 1 through 5 of the textbook, and all lecture and lab material up to, and including, Friday, February, 5th. The midterm will consist of a programming problem, that you will submit an individual solution to on mylearningspace dropbox.
+The mid-term examination will be held on Thursday, February 9th during lab time. It will cover chapters 1 through 5 of the textbook, and all lecture and lab material up to, and including, January, 31st. The midterm will consist of a programming problem, that you will submit an individual solution to on mylearningspace dropbox.
 
 The mid-term examination will not be offered at any other time. If you miss the mid-term for health or bereavement reasons you must provide appropriate documentation as per the academic calendar. If appropriate documentation is provided, the weighting of the final examination will be increased to 55% in consideration of the missed mid-term. If the mid-term is missed for any other reason, a mark of 0 will be given.
 
@@ -117,15 +117,15 @@ any changes and to be prepared for each class. Key information will be posted on
 
 |Week|Date|Topic|Readings|Lab|
 |---|---|---|---|---|
-|1|Jan. 4|Introductions; Course Outline; Introduction to Computers and Programming|Ch 1|No Lab|
-|2|Jan. 11|Input, Processing, and Output|Ch 2|Lab 1 - Introduction, Python Formatted Output|
-|3|Jan. 18|Decision Structures|Ch 3|Lab 2 - Problem Solving, Decision Structures|
-|4|Jan. 25|Repetition|Ch 4|Lab 3 - Repetition|
-|5|Feb. 1|Functions|Ch 5|Lab 4 - Functions|
-|6|Feb. 11|Review for Midterm|Ch 1-5|**Midterm**|
+|1|Jan. 3|Introductions; Course Outline; Introduction to Computers and Programming|Ch 1|No Lab|
+|2|Jan. 10|Input, Processing, and Output|Ch 2|Lab 1 - Introduction, Python Formatted Output|
+|3|Jan. 17|Decision Structures|Ch 3|Lab 2 - Problem Solving, Decision Structures|
+|4|Jan. 24|Repetition|Ch 4|Lab 3 - Repetition|
+|5|Jan. 31|Functions|Ch 5|Lab 4 - Functions|
+|6|Feb. 7|Review for Midterm|Ch 1-5|**Midterm**|
+|7|Feb. 14|Files and Exceptions|Ch 6|Lab 5 - Files and Exceptions|
 |**Reading Week**|
-|7|Feb. 22|Files and Exceptions|Ch 6|Lab 5 - Files and Exceptions|
-|8|Feb. 29|Lists and Tuples|Ch 7|Lab 6 - Lists|
+|8|Feb. 28|Lists and Tuples|Ch 7|Lab 6 - Lists|
 |9|Mar. 7|More About Strings|Ch 8|Lab 7 - Strings|
 |10|Mar. 14|Dictionaries and Sets|Ch 9|Lab 8 - Dictionaries|
 |11|Mar. 21|Classes and Inheritance|Ch 10(except for part about modules and pickling), 11 (except for isinstance)|Lab 9 - Object Oriented Programming|
