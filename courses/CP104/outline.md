@@ -3,7 +3,7 @@
 
 ![Laurier Brantford](https://legacy.wlu.ca/images/news_images/4817/4817_logo_SMALL.jpg "Laurier Brantford")
 
-#CP 104 - BR: Intro To Programming - Winter 2016
+#CP 104 - BR: Intro To Programming - Winter 2017
 
 |&nbsp;|&nbsp;|
 |---|---|---|
