@@ -26,7 +26,7 @@ The program should have a list or a dictionary containing 10 Question objects, o
 
 ##Marking
 
-* Up to 65% will be awarded for displaying prompts for 2 players to answer 5 questions each.
+* Up to 40% will be awarded for displaying prompts for 2 players to answer 5 questions each.
 
 ```
 
@@ -145,3 +145,9 @@ good game player 1's score was 2 player 2's score was 1
 ```
 
 * up to 5 additional marks will be awarded for making the questions and answers interesting 
+
+The total to this point is 75%. According to a paper by Dr. Scott Nicholson, an improvement on this game is to get each player to answer each question. An additional 5% will be awarded for accepting each player's name, prompting them by name, adding a point to their score for each correct answer and deducting for each incorrect answer. 
+
+It would be even more engaging if players could "wager" based on how confident they are in their answers. They start out with 20 points and can choose the number of points they will chance on a particular question. The penalty for guessing incorrectly would be to loose the "wagered" points. The reward for choosing correctly could be the points from the players with incorrect answers. Another possible reward would be to add an element of playing against the computer by letting the computer make a random choice and "wager" and also crediting correct answers with a share of the computer's mistakes.
+
+Up to 100% will be awarded as the mark for this asignment for trying to engage players using some strategy like "wagering" or of your own invention.
