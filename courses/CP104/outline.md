@@ -74,7 +74,7 @@ The course has a MyLearningSpace area. It will be used for posting the course ou
 **Do not email me through MyLearningSpace.** Emails sent through MyLearningSpace do not go to the recipient's Laurier email account, and I cannot guarantee that I will check MyLearningSpace regularly.
 
 ##Contacting the Instructor
-The best option for contacting me is to drop by my office or to set up an appointment, between 4:00 pm and 5:00 pm Wednesdays and Fridays. I am always happy to meet with you if you have questions or concerns.
+The best option for contacting me is to drop by my student contact space or to set up an appointment, between 4:30 pm and 5:30 pm Thursdays. I am always happy to meet with you if you have questions or concerns.
 
 Do not expect responses to email on the weekends or after 5:00 pm during the week. If you have questions about assignments or the exam, you need to be organized enough that you can ask them during regular business hours.
 
