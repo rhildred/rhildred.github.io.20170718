@@ -1,23 +1,39 @@
 #Assignment 1
 
-In a game, you want to decide if 2 balls on a flat surface are touching each other. If the center of the balls are at x1, y1 and x2, y2, the distance between the centers of the balls will be found from the Pythagorean theorem :
-
+Choose your own adventure game. Copy the below into a .py file and run it. 
 ```
-distance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2) 
+print( "You enter a dark room with two doors.  Do you go through door #1 or door #2?")
+
+door = input("> ")
+
+if door == "1":
+    print ("There's a giant bear here eating a cheese cake.  What do you do?")
+    print ("1. Take the cake.")
+    print ("2. Scream at the bear.")
+
+    bear = input("> ")
+
+    if bear == "1":
+        print ("The bear eats your face off.  Good job!")
+    elif bear == "2":
+        print ("The bear eats your legs off.  Good job!")
+    else:
+        print( "Well, done " + bear + " is probably better.  Bear runs away.")
+
+elif door == "2":
+    print ("You stare into the endless abyss at Cthulhu's retina.")
+    print ("1. Blueberries.")
+    print ("2. Yellow jacket clothespins.")
+    print ("3. Understanding revolvers yelling melodies.")
+
+    insanity = input("> ")
+
+    if insanity == "1" or insanity == "2":
+        print ("Your body survives powered by a mind of jello.  Good job!")
+    else:
+        print ("The insanity rots your eyes into a pool of muck.  Good job!")
+
+else:
+    print ("You stumble around and fall on a knife and die.  Good job!")
 ```
-
-![](https://rhildred.github.io/courses/CP104/pythagorean.svg)
-
-Once you have the distance, if the sum of the radius is >= to the distance the balls are touching. 
-
-1. Input the x, y and radius of 2 balls
-2. Output the x, y and radius as they were input
-1. Output the distance between the center of the balls
-2. Output whether the balls are touching or not.
-
-###Marking
-1 mark will be awarded for inputing and outputing, x, y and radius of 2 balls.
-
-2 marks will be awarded for outputing the distance between the balls correctly.
-
-2 marks will be awarded for correctly deciding and outputing whether the balls are touching.
+This is an over-simplified choose your own adventure game in Python. Your assignment is to make this into your own adventure. 10 marks for a game that has more than 10 selections and works. This game has 3. A mark will be deducted for each selection below 10.
