@@ -1,22 +1,22 @@
 
 
 
-![Laurier Brantford](http://www.chooselaurierbrantford.ca/images/news_images/4817/4817_logo_SMALL.jpg "Laurier Brantford")
+![Laurier Brantford](https://legacy.wlu.ca/images/news_images/4817/4817_logo_SMALL.jpg "Laurier Brantford")
 
 #CP 104 - BR: Intro To Programming - Winter 2016
 
 |&nbsp;|&nbsp;|
 |---|---|---|
 |**Instructor:**|Rich Hildred |
-|**Office:**|SCJ 311 |
+|**Student Contact Space:**|RCE-211 |
 |**Phone:**|519-594-0900|
 |**Email:**|rhildred@wlu.ca|
 |||
-|**Class Time:**|Monday 7:00 - 9:50 pm|
-|**Location:**|Brantford Odeon OD205|
-|**Lab Time:**|Thursday 5:30 - 7:50 pm|
+|**Class Time:**|Tuesday 7:00 - 9:50 pm|
+|**Location:**|Brantford Odeon OD210|
+|**Lab Time:**|Thursday 7:00 - 9:20 pm|
 |**Lab Location:**|Brantford Odeon OD210|
-|**Office Hours:**|Wednesday/Friday 4-5:00 pm|
+|**Student Contact Hour:**|Thursdays 4:30-5:30 pm|
 
 ##Services for Students with Disabilities
 Students with disabilities or special needs are advised to contact Laurier's Special Needs Office for information regarding its services and resources. Students are encouraged to review the Calendar for information regarding all services available on campus.
@@ -33,7 +33,7 @@ Basic components of a computer, introduction to programming languages, Python pr
 
 ##Class Format
 
-The course is a combination of lecture and lab time. Lectures will be held on Monday evenings in Brantford Odeon OD205. Labs will be held on Thursday evenings in Brantford Odeon OD210 starting on Thursday January 14.
+The course is a combination of lecture and lab time. Lectures will be held on Tuesday evenings in Brantford Odeon OD210. Labs will be held on Thursday evenings in Brantford Odeon OD210 starting on Thursday January 12.
 
 ##Attendance Expectations
 
