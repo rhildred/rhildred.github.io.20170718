@@ -10,20 +10,19 @@ There is no midterm or final exam for this course. Instead deliverables are base
 
 |Week/Date Starting|Topic|Deliverables|
 |----|---|---
-|1/January 11|IT Management Introduction|**Situation 1** (individual 2.5%, due January 15)|
-|2/January 18|Management and Managing|**Situation 2** (individual 2.5%, due January 22)|
-|3/January 25|CIO|**Situation 3** (individual 2.5%, due January 29)|
-|4/February 1|Management Types||
-|5/February 8|IT Management Planning|**Situation 4** (individual 2.5%, due February 12)|
-|6/February 15|End User Computing|**Virtual lab 1** (group 10%, due February 19)|
-|7/February 22|The Modern Company||
-|Reading Week|||
-|8/March 7|Software Metrics 1|**Blended Quiz 1 - Review up to midterm** (individual 10%, due March 11) **Virtual lab 2** (group 5%, due March 11)|
-|9/March 14|Software Metrics 2 and Function Points||
-|10/March 21|Surveys and Metrics|**Survey Report and Graph** (group 15%, due March 25)|
-|11/March 28|Panel Discussions|**Panel Discussion** (group 15%, last panel discussion to be scheduled in lab time, by 2pm on March 31)|
-|12/April 4|ERP Software and Business|**Situation 5 (ERP)** (group 5%, due April 8th), **Survey Presentation** (group 15%, last survey presentation to be scheduled in lab time, by  2 pm April 7th)|
-|13/April 11th|Quality|**Blended Quiz 2** (individual 10%, due April 15), **Metric Modeler** (individual 4%, due April 15), **Metric Modeler Presentation** (group 16%, last metric modeler presentation to be scheduled in lab time, by 2pm on April 14)|
-|14/April 18th|Software Costing||
+|1/January 9|IT Management Introduction|**Situation 1** (individual 2.5%, due January 15, 11:59)|
+|2/January 16|Management and Managing|**Situation 2** (individual 2.5%, due January 22, 11:59)|
+|3/January 23|CIO|**Situation 3** (individual 2.5%, due January 29. 11:59)|
+|4/January 30|Management Types||
+|5/February 6|IT Management Planning|**Situation 4** (individual 2.5%, due February 12, 11:59)|
+|6/February 13|End User Computing|**Virtual lab 1** (group 10%, due February 19, 11:59)|
+|7/February 20|The Modern Company||
+|Reading Week February 27 - March 3|||
+|8/March 6|Software Metrics 1|**Blended Quiz 1 - Review up to reading week** (individual 10%, due March 12, 11:59) **Virtual lab 2** (group 5%, due March 12, 11:59)|
+|9/March 13|Software Metrics 2 and Function Points||
+|10/March 20|Surveys and Metrics|**Survey Report and Graph** (group 15%, due March 26, 11:59)|
+|11/March 27|Panel Discussions|**Panel Discussion** (group 15%, last panel discussion to be scheduled in lab time, by 3:30pm on March 31)|
+|12/April 3|ERP Software and Business|**Situation 5 (ERP)** (group 5%, due April 9th, 11:59), **Survey Presentation** (group 15%, last survey presentation to be scheduled in lab time, by  3:30 pm April 7th)|
+|13/April 10th|Quality|**Blended Quiz 2** (individual 10%, due April 16, 11:59), **Metric Modeler** (individual 4%, due April 16, 11:59), **Metric Modeler Presentation** (group 16%, last metric modeler presentation to be scheduled in lab time, by 3:30pm on April 14)|
+|14/April 17th|Software Costing||
 
-*Note Due times are 11:59 pm on the day specified.
