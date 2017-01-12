@@ -17,11 +17,11 @@ There is no midterm or final exam in this course. Instead there are 2 tests 6 gr
 |4/January 30|Schedule and Tasks||
 |5/February 6|Time Management|**Change Control** (group - 10%, due 11:59 pm Feb 12)|
 |6/February 13|WBS and PMBOK|**Time Management** (individual - 10%, due 11:59 pm Feb. 19)|
-|7/February 20|Cost Management|**Time Management Quiz** (individual 10% in class Feb 23)|
+|7/February 20|Cost Management|**Time Management Quiz** (individual 10% in 2nd class week of Feb 20)|
 |Reading week|||
-|8/March 6|Custom Fields & Resources|**Baseline assignment** (group 5%, due 11:59 pm March 11)|
-|9/March 13|Work Duration & Quality|**Custom Fields** (group 5%, due 11:59 pm March 18)|
-|10/March 20|Leveling|**Work Units Duration** (group 5%, due 11:59 pm March 25)|
-|11/March 27|Risk Management|**Risk Management** (individual 10%, due 11:59 pm April 1st)|
-|12/April 3|HR|**Leveling** (group 5%, due 11:59 pm April 8th)|
-|13/April 10th|Business Models|**Final Project** (individual 10%, due 11:59 pm April 15th), **Test 2** (individual 10% in class April 12)|
+|8/March 6|Custom Fields & Resources|**Baseline assignment** (group 5%, due 11:59 pm March 12)|
+|9/March 13|Work Duration & Quality|**Custom Fields** (group 5%, due 11:59 pm March 19)|
+|10/March 20|Leveling|**Work Units Duration** (group 5%, due 11:59 pm March 26)|
+|11/March 27|Risk Management|**Risk Management** (individual 10%, due 11:59 pm April 2nd)|
+|12/April 3|HR|**Leveling** (group 5%, due 11:59 pm April 9th)|
+|13/April 10th|Business Models|**Final Project** (individual 10%, due 11:59 pm April 16th), **Test 2** (individual 10% in second class week of April 10)|
