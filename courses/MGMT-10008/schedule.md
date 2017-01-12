@@ -1,5 +1,12 @@
 #MGMT-10008 schedule
 
+|&nbsp;|&nbsp;|
+|---|---|---|
+|**Instructor:**|[Rich Hildred](https://rhildred.github.io/calendar.html) |
+|**Student Contact Space:**|Q Wing |
+|**Phone:**|519-594-0900|
+|**Email:**|richard.hildred@mohawkcollege.ca|
+
 There is no midterm or final exam in this course. Instead there are 2 tests 6 group assignments and 5 individual assignments. The following is a week by week schedule of the course:
 
 |Week/Date Starting|Topic|Deliverable|
