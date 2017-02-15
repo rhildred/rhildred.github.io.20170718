@@ -50,7 +50,7 @@ The grades outlined below are the only grades available for this course. There w
 |---|---|---|
 |Assignment 1|5%|**Friday, Jan. 20th**|
 |Mid-term Examination|25%|**Thursday, February 9th (in lab)**|
-|Assignment 2|5%|**Friday, Feb. 17th**|
+|Assignment 2|5%|**Sunday, Feb. 19th**|
 |Assignment 3|15%|**Friday, Mar. 10th**|
 |Assignment 4|15%|**Friday, Mar. 31st**|
 |Final Examination (comprehensive)|35%|
