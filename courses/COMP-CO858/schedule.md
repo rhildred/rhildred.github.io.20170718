@@ -16,8 +16,8 @@ There is no midterm or final exam for this course. Instead deliverables are base
 |4/January 30|Management Types||
 |5/February 6|IT Management Planning|**Situation 4** (individual 2.5%, due February 12, 11:59)|
 |6-7/Feb. 13, Feb. 20|Panel Discussions during lab time|**Panel Discussion** (group 15%, last panel discussion to be scheduled in lab time, by 3:30pm on Feb. 24)|
-|6/February 13|End User Computing||
-|7/February 20|The Modern Company||
+|6/February 13|End User Computing|**Virtual Lab1** (group 10%, due February 17, 11:59)|
+|7/February 20|The Modern Company|**Situation 5** (group 5%, due February 26, 11:59)|
 |Reading Week February 27 - March 3|||
 |8/March 6|Software Metrics 1|**Blended Quiz 1 - Review up to reading week** (individual 10%, due March 15, 11:59) **Virtual lab 2** (group 5%, due March 15, 11:59)|
 |9/March 13|Software Metrics 2 and Function Points||
