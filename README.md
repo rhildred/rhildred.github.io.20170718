@@ -1,4 +1,4 @@
-PHP templates + API with SEO friendly URI
+PHP templates and API with SEO friendly URI
 ==========================================
 
 In my html classes I introduced the DRY principle. The first time I did this with server side includes. 
