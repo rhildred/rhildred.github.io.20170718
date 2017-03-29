@@ -23,6 +23,6 @@ There is no midterm or final exam for this course. Instead deliverables are base
 |9/March 13|Software Metrics 2 and Function Points||
 |10/March 20|Surveys and Metrics|**Survey Report and Graph** (group 15%, due March 28, 11:59)|
 |12/April 3|ERP Software and Business|**Survey Presentation** (group 15%, last survey presentation to be scheduled in lab time, by  3:30 pm April 7th)|
-|13/April 10th|Quality|**Blended Quiz 2** (individual 10%, due April 18, 11:59), **Metric Modeler** (individual 4%, due April 18, 11:59), **Metric Modeler Presentation** (group 16%, last metric modeler presentation to be scheduled in lab time, by 3:30pm on April 14)|
-|14/April 17th|Software Costing||
+|13/April 10th|Quality|**Blended Quiz 2** (individual 10%, in class April 12), **Metric Modeler** (individual 4%, due April 14, 11:59), **Metric Modeler Presentation** (group 16%, to be scheduled on April 5, 6, 7, and 13)|
+|April 10th|Software Costing|**Software Costing Assignment** (group 5% due April 12, 11:59)|
 
