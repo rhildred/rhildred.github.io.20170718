@@ -1,4 +1,4 @@
-![Laurier Brantford](http://www.chooselaurierbrantford.ca/images/news_images/4817/4817_logo_SMALL.jpg "Laurier Brantford")
+![Laurier Brantford](https://legacy.wlu.ca/images/news_images/4817/4817_logo_SMALL.jpg "Laurier Brantford")
 
 #MB 215 - BR: Software Development - Winter 2016
 
