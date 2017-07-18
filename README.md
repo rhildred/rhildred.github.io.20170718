@@ -1,5 +1,5 @@
 Homepage on rhildred.github.io
-===================================
+=================================
 
 In my html classes I introduced the DRY principle. The first time I did this with server side includes. 
 The second time with underscore style templates that rendered a layout and body server side with node.js. 
